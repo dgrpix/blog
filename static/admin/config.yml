@@ -3,6 +3,7 @@ backend:
   repo: dgrpix/blog
   branch: main
   base_url: https://api.netlify.com
+  site_domain: legendary-rabanadas-ccebee.netlify.app
 
 media_folder: static/images
 public_folder: /images
