@@ -1,0 +1,13 @@
+.home-info {
+    padding: 12px 0;
+}
+
+.home-info .entry-content {
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.first-entry {
+    margin: 12px 0;
+    min-height: unset;
+}
