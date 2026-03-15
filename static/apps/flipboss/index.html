@@ -71,6 +71,12 @@ button {
 button:hover { opacity: 0.85; }
 button:disabled { opacity: 0.4; cursor: default; }
 button.secondary { background: var(--surface2); border: 1px solid var(--border); }
+button.winner-btn {
+  background: var(--surface2);
+  border: 2px solid var(--accent);
+  margin-right: 10px;
+}
+button.winner-btn:hover { background: var(--accent); }
 .player-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -85,7 +91,7 @@ button.secondary { background: var(--surface2); border: 1px solid var(--border);
 .teams-table td { border: 1px solid var(--border); padding: 6px 10px; font-size: 13px; }
 .teams-table .captain-cell { font-weight: bold; background: var(--surface2); }
 .floater { font-style: italic; color: var(--text-muted); font-size: 12px; margin-top: 6px; }
-.card-row { display: flex; align-items: flex-start; gap: 16px; margin: 12px 0; }
+.card-row { display: flex; align-items: flex-start; gap: 16px; margin: 10px 0; }
 .card-img { width: 72px; height: 96px; outline-offset: -3px; display: block; }
 .outline-white  { outline: 3px outset white;  }
 .outline-gold   { outline: 3px outset gold;   }
@@ -94,7 +100,7 @@ button.secondary { background: var(--surface2); border: 1px solid var(--border);
 .outline-black  { outline: 3px outset black;   }
 .outline-blue   { outline: 3px outset blue;    }
 .card-meta { font-size: 13px; }
-.card-player { font-size: 18px; font-weight: bold; margin-bottom: 6px; }
+.card-player { font-size: 18px; font-weight: bold; margin: 14px 0 6px; }
 .spite-own    { color: gold; }
 .spite-other  { color: #ff8888; }
 .special-label { color: #aaa; }
@@ -106,7 +112,7 @@ button.secondary { background: var(--surface2); border: 1px solid var(--border);
   cursor: pointer;
   border-radius: 4px;
   font-size: 16px;
-  margin: 12px 0;
+  margin: 8px 0;
   width: 100%;
 }
 .reveal-btn:hover { border-color: var(--accent); }
@@ -117,6 +123,12 @@ button.secondary { background: var(--surface2); border: 1px solid var(--border);
   margin: 20px 0 8px;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--border);
+}
+.winner-announce {
+  font-size: 16px;
+  font-weight: bold;
+  color: gold;
+  margin: 14px 0 6px;
 }
 .copy-ok { color: #44cc44; font-size: 13px; margin-left: 12px; }
 .hidden { display: none; }
@@ -129,14 +141,13 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 
 <div class="progress">
   <span id="prog-setup" class="active">Setup</span> &rarr;
-  <span id="prog-teams">Teams</span> &rarr;
+  <span id="prog-teams">Teams &amp; Flip</span> &rarr;
   <span id="prog-draw">Draw</span> &rarr;
   <span id="prog-closing">Closing</span>
 </div>
 
 <!-- STEP 1: SETUP -->
 <div id="step-setup">
-
   <details>
     <summary>&#9998; Edit Player List</summary>
     <div id="player-grid" class="player-grid"></div>
@@ -167,18 +178,52 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 
   <div class="field-label">Intro — context before teams are revealed</div>
   <textarea id="intro-comment" placeholder="Optional intro commentary..."></textarea>
-
   <button onclick="dealTeams()">&#127922; Deal Teams</button>
 </div>
 
-<!-- STEP 2: TEAMS -->
+<!-- STEP 2: TEAMS + CAPTAIN FLIP -->
 <div id="step-teams" class="hidden">
   <h2>The Teams</h2>
   <div id="teams-display"></div>
   <hr>
-  <div class="field-label">Commentary before the draw starts</div>
-  <textarea id="teams-comment" placeholder="Optional commentary..."></textarea>
-  <button onclick="startDraw()">&#9654; Start the Draw</button>
+
+  <div class="section-header">&#9889; Captain Flip</div>
+
+  <!-- Captain 1 -->
+  <div id="cap0-section">
+    <div class="card-player" id="cap0-name"></div>
+    <div id="cap0-card-area"></div>
+    <div id="cap0-comment-section" class="hidden">
+      <div class="field-label">Commentary</div>
+      <textarea id="cap0-comment" placeholder="Optional..."></textarea>
+    </div>
+  </div>
+
+  <!-- Captain 2 (shown after captain 1 reveals) -->
+  <div id="cap1-section" class="hidden">
+    <div class="card-player" id="cap1-name"></div>
+    <div id="cap1-card-area"></div>
+    <div id="cap1-comment-section" class="hidden">
+      <div class="field-label">Commentary</div>
+      <textarea id="cap1-comment" placeholder="Optional..."></textarea>
+    </div>
+  </div>
+
+  <!-- Winner selection (shown after both reveal) -->
+  <div id="winner-section" class="hidden">
+    <div class="field-label" style="margin-top:16px;">Who wins the flip?</div>
+    <button class="winner-btn" id="winner-btn-0" onclick="chooseWinner(0)"></button>
+    <button class="winner-btn" id="winner-btn-1" onclick="chooseWinner(1)"></button>
+  </div>
+
+  <!-- Commentary + start draw (shown after winner chosen) -->
+  <div id="start-draw-section" class="hidden">
+    <div class="winner-announce" id="winner-announce"></div>
+    <hr>
+    <div class="field-label">Commentary before the draw starts</div>
+    <textarea id="teams-comment" placeholder="Optional commentary..."></textarea>
+    <button onclick="startDraw()">&#9654; Start the Draw</button>
+  </div>
 </div>
 
 <!-- STEP 3: DRAW -->
@@ -208,23 +253,29 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 // ─────────────────────────────────────────────────────────────
 // DATA
 // ─────────────────────────────────────────────────────────────
-let donkeys    = [];   // [{name, active}]
-let spitecards = {};   // card notation -> player name
-let specials   = {};   // card notation -> label (bastardo etc)
-let cardmap    = {};   // card notation -> filename
+let donkeys    = [];
+let spitecards = {};
+let specials   = {};
+let cardmap    = {};
 
 // ─────────────────────────────────────────────────────────────
-// APP STATE
+// STATE
 // ─────────────────────────────────────────────────────────────
 let state = {
-  captains:      [],
-  teamOdd:       [],
-  teamEven:      [],
-  oddDonkey:     null,
-  drawSequence:  [],   // [{name, card, section}]
-  drawIndex:     0,
-  cardComments:  [],
-  revealed:      false,
+  captains:        [],
+  teamOdd:         [],
+  teamEven:        [],
+  oddDonkey:       null,
+  captainCards:    [],
+  oddCards:        [],
+  evenCards:       [],
+  captainRevealed: [false, false],
+  captainComments: ['', ''],
+  winnerIdx:       null,   // 0 = captain[0]/odd won, 1 = captain[1]/even won
+  drawSequence:    [],
+  drawIndex:       0,
+  cardComments:    [],
+  revealed:        false,
 };
 
 // ─────────────────────────────────────────────────────────────
@@ -305,7 +356,7 @@ function applySpitecards() {
 }
 
 // ─────────────────────────────────────────────────────────────
-// RANDOMIZATION (crypto Fisher-Yates)
+// RANDOMIZATION
 // ─────────────────────────────────────────────────────────────
 function randInt(max) {
   const a = new Uint32Array(1);
@@ -327,7 +378,7 @@ function dealCards(n) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// DEAL TEAMS  (mirrors original PHP logic)
+// DEAL TEAMS
 // ─────────────────────────────────────────────────────────────
 function dealTeams() {
   const active = donkeys.filter(d => d.active === 'yes').map(d => d.name);
@@ -352,20 +403,15 @@ function dealTeams() {
     else             state.teamEven.push(name);
   }
 
-  const captainCards = dealCards(2);
-  const oddCards     = dealCards(state.teamOdd.length);
-  const evenCards    = dealCards(state.teamEven.length);
-
-  state.drawSequence = [
-    ...state.captains.map((name, i) => ({ name, card: captainCards[i], section: 'captain' })),
-    ...state.teamOdd.map( (name, i) => ({ name, card: oddCards[i],     section: 'odd'     })),
-    ...state.teamEven.map((name, i) => ({ name, card: evenCards[i],    section: 'even'    })),
-  ];
-  state.drawIndex    = 0;
-  state.cardComments = new Array(state.drawSequence.length).fill('');
-  state.revealed     = false;
+  state.captainCards    = dealCards(2);
+  state.oddCards        = dealCards(state.teamOdd.length);
+  state.evenCards       = dealCards(state.teamEven.length);
+  state.captainRevealed = [false, false];
+  state.captainComments = ['', ''];
+  state.winnerIdx       = null;
 
   renderTeams();
+  initCaptainFlip();
   showStep('teams');
 }
 
@@ -379,7 +425,7 @@ function renderTeams() {
 
   let html = '<table class="teams-table">';
   html += `<tr><td class="captain-cell">Team ${captains[0]}</td>`;
-  oddMembers.forEach(n => { html += `<td>${n}</td>`; });
+  oddMembers.forEach(n  => { html += `<td>${n}</td>`; });
   html += '</tr>';
   html += `<tr><td class="captain-cell">Team ${captains[1]}</td>`;
   evenMembers.forEach(n => { html += `<td>${n}</td>`; });
@@ -388,6 +434,81 @@ function renderTeams() {
     html += `<div class="floater">&hellip;and our floater is: <b>${oddDonkey}</b></div>`;
   }
   document.getElementById('teams-display').innerHTML = html;
+}
+
+// ─────────────────────────────────────────────────────────────
+// CAPTAIN FLIP
+// ─────────────────────────────────────────────────────────────
+function initCaptainFlip() {
+  // Set up captain 0
+  document.getElementById('cap0-name').textContent = state.captains[0];
+  document.getElementById('cap0-card-area').innerHTML =
+    `<button class="reveal-btn" onclick="revealCaptain(0)">&#127136; Reveal Card</button>`;
+  document.getElementById('cap0-comment-section').classList.add('hidden');
+
+  // Set up captain 1 (hidden until cap0 reveals)
+  document.getElementById('cap1-name').textContent = state.captains[1];
+  document.getElementById('cap1-card-area').innerHTML =
+    `<button class="reveal-btn" onclick="revealCaptain(1)">&#127136; Reveal Card</button>`;
+  document.getElementById('cap1-comment-section').classList.add('hidden');
+  document.getElementById('cap1-section').classList.add('hidden');
+
+  // Hide winner + start sections
+  document.getElementById('winner-section').classList.add('hidden');
+  document.getElementById('start-draw-section').classList.add('hidden');
+
+  // Wire up winner buttons
+  document.getElementById('winner-btn-0').textContent = `Team ${state.captains[0]} wins`;
+  document.getElementById('winner-btn-1').textContent = `Team ${state.captains[1]} wins`;
+}
+
+function revealCaptain(idx) {
+  state.captainRevealed[idx] = true;
+
+  const card    = state.captainCards[idx];
+  const name    = state.captains[idx];
+  const { outlineClass, metaHtml } = cardStyle(card, name);
+  const imgUrl  = `https://www.random.org/playing-cards/${cardmap[card]}`;
+
+  document.getElementById(`cap${idx}-card-area`).innerHTML = `
+    <div class="card-row">
+      <img src="${imgUrl}" class="card-img ${outlineClass}" alt="${card}">
+      <div class="card-meta">${metaHtml}</div>
+    </div>`;
+
+  document.getElementById(`cap${idx}-comment-section`).classList.remove('hidden');
+  document.getElementById(`cap${idx}-comment`).oninput = e => {
+    state.captainComments[idx] = e.target.value;
+  };
+
+  if (idx === 0) {
+    // Show captain 1 now
+    document.getElementById('cap1-section').classList.remove('hidden');
+  }
+
+  if (state.captainRevealed[0] && state.captainRevealed[1]) {
+    document.getElementById('winner-section').classList.remove('hidden');
+  }
+}
+
+function chooseWinner(idx) {
+  state.winnerIdx = idx;
+  const winnerName = state.captains[idx];
+  const team       = idx === 0 ? state.teamOdd : state.teamEven;
+  const cards      = idx === 0 ? state.oddCards : state.evenCards;
+
+  // Build draw sequence: winning team members excluding the captain
+  state.drawSequence = team
+    .map((name, i) => ({ name, card: cards[i] }))
+    .filter(entry => entry.name !== winnerName);
+
+  state.drawIndex    = 0;
+  state.cardComments = new Array(state.drawSequence.length).fill('');
+  state.revealed     = false;
+
+  document.getElementById('winner-section').classList.add('hidden');
+  document.getElementById('winner-announce').textContent = `&#127881; Team ${winnerName} wins the flip!`;
+  document.getElementById('start-draw-section').classList.remove('hidden');
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -403,25 +524,12 @@ function renderCurrentCard() {
   const { drawSequence, drawIndex } = state;
   const total   = drawSequence.length;
   const current = drawSequence[drawIndex];
-  const prev    = drawSequence[drawIndex - 1];
 
-  // Section header — show when section changes
-  const sectionEl = document.getElementById('draw-section-header');
-  if (drawIndex === 0 || current.section !== prev.section) {
-    const labels = {
-      captain: '&#9889; Captain Flip',
-      odd:     `&#9827; Team ${state.captains[0]}`,
-      even:    `&#9827; Team ${state.captains[1]}`,
-    };
-    sectionEl.innerHTML = `<div class="section-header">${labels[current.section]}</div>`;
-  } else {
-    sectionEl.innerHTML = '';
-  }
-
+  document.getElementById('draw-section-header').innerHTML =
+    `<div class="section-header">&#9827; Team ${state.captains[state.winnerIdx]}</div>`;
   document.getElementById('draw-counter').textContent = `Card ${drawIndex + 1} of ${total}`;
   document.getElementById('draw-player').textContent  = current.name;
 
-  // Card area
   if (!state.revealed) {
     document.getElementById('draw-card-area').innerHTML =
       `<button class="reveal-btn" onclick="revealCard()">&#127136; Reveal Card</button>`;
@@ -429,12 +537,11 @@ function renderCurrentCard() {
     renderRevealedCard(current);
   }
 
-  // Commentary
   const ta = document.getElementById('draw-comment');
-  ta.value  = state.cardComments[drawIndex] || '';
+  ta.value   = state.cardComments[drawIndex] || '';
   ta.oninput = () => { state.cardComments[drawIndex] = ta.value; };
 
-  document.getElementById('next-btn').textContent =
+  document.getElementById('next-btn').innerHTML =
     drawIndex === total - 1 ? 'Finish Draw &#10003;' : 'Next Card &rarr;';
 }
 
@@ -450,20 +557,18 @@ function renderRevealedCard(entry) {
     document.getElementById('draw-card-area').innerHTML = `<p>Unknown card: ${card}</p>`;
     return;
   }
-  const imgUrl = `https://www.random.org/playing-cards/${filename}`;
   const { outlineClass, metaHtml } = cardStyle(card, name);
-
   document.getElementById('draw-card-area').innerHTML = `
     <div class="card-row">
-      <img src="${imgUrl}" class="card-img ${outlineClass}" alt="${card}">
+      <img src="https://www.random.org/playing-cards/${filename}" class="card-img ${outlineClass}" alt="${card}">
       <div class="card-meta">${metaHtml}</div>
     </div>`;
 }
 
 function cardStyle(card, name) {
-  if (specials[card] === 'bastardo')      return { outlineClass: 'outline-black', metaHtml: `<span class="special-label">&#9679; bastardo</span>`       };
+  if (specials[card] === 'bastardo')      return { outlineClass: 'outline-black', metaHtml: `<span class="special-label">&#9679; bastardo</span>` };
   if (specials[card] === 'faux-bastardo') return { outlineClass: 'outline-green', metaHtml: `<span class="special-label" style="color:#44cc44">&#9679; faux-bastardo</span>` };
-  if (specials[card] === 'degenerado')    return { outlineClass: 'outline-blue',  metaHtml: `<span class="special-label" style="color:#88aaff">&#9679; degenerado</span>`    };
+  if (specials[card] === 'degenerado')    return { outlineClass: 'outline-blue',  metaHtml: `<span class="special-label" style="color:#88aaff">&#9679; degenerado</span>` };
   if (spitecards[card]) {
     if (spitecards[card] === name) return { outlineClass: 'outline-gold', metaHtml: `<span class="spite-own">&#11088; ${name}'s spite card!</span>` };
     return { outlineClass: 'outline-red', metaHtml: `<span class="spite-other">&#10071; This is ${spitecards[card]}'s card</span>` };
@@ -484,7 +589,7 @@ function nextCard() {
 }
 
 // ─────────────────────────────────────────────────────────────
-// EMAIL GENERATION
+// EMAIL
 // ─────────────────────────────────────────────────────────────
 async function generateEmail() {
   const btn = document.getElementById('copy-btn');
@@ -500,15 +605,14 @@ async function generateEmail() {
   try {
     await navigator.clipboard.write([
       new ClipboardItem({
-        'text/html':  new Blob([html],              { type: 'text/html'  }),
-        'text/plain': new Blob([html.replace(/<[^>]+>/g,'')], { type: 'text/plain' }),
+        'text/html':  new Blob([html], { type: 'text/html' }),
+        'text/plain': new Blob([html.replace(/<[^>]+>/g, '')], { type: 'text/plain' }),
       })
     ]);
     const ok = document.getElementById('copy-ok');
     ok.classList.remove('hidden');
     setTimeout(() => ok.classList.add('hidden'), 3000);
   } catch(e) {
-    // fallback
     const ta = Object.assign(document.createElement('textarea'), { value: html });
     Object.assign(ta.style, { position: 'fixed', opacity: '0' });
     document.body.appendChild(ta);
@@ -525,14 +629,15 @@ async function generateEmail() {
 function buildEmailHTML(intro, teamsComment, closing) {
   const s  = 'font-family:Arial,Helvetica,sans-serif;font-size:11px;';
   const td = 'border:1px solid black;padding:4px;';
-  const { captains, teamOdd, teamEven, oddDonkey, drawSequence, cardComments } = state;
+  const { captains, teamOdd, teamEven, oddDonkey, winnerIdx,
+          captainCards, captainComments, drawSequence, cardComments } = state;
 
   const oddMembers  = teamOdd.filter(n  => n !== captains[0] && n !== oddDonkey);
   const evenMembers = teamEven.filter(n => n !== captains[1] && n !== oddDonkey);
 
   let html = `<div style="${s}">`;
 
-  if (intro)       html += `<p>${nl2br(intro)}</p><br>`;
+  if (intro) html += `<p>${nl2br(intro)}</p><br>`;
 
   // Teams table
   html += `<table style="border-collapse:collapse;${s}">`;
@@ -542,38 +647,38 @@ function buildEmailHTML(intro, teamsComment, closing) {
   html += `<tr><td style="${td}"><b>Team ${captains[1]}</b></td>`;
   evenMembers.forEach(n => { html += `<td style="${td}">${n}</td>`; });
   html += '</tr>';
-  if (oddDonkey)   html += `<tr><td colspan="10" style="${td}"><i>&hellip;and our floater is: ${oddDonkey}</i></td></tr>`;
+  if (oddDonkey) html += `<tr><td colspan="10" style="${td}"><i>&hellip;floater: ${oddDonkey}</i></td></tr>`;
   html += '</table><br>';
+
+  // Captain flip
+  html += `<p><b>&#9889; Captain Flip</b></p>`;
+  captains.forEach((name, i) => {
+    const card     = captainCards[i];
+    const filename = cardmap[card];
+    const comment  = captainComments[i] || '';
+    let outlineStyle = captainOutlineStyle(card, name);
+    let annotation   = captainAnnotation(card, name);
+    html += `<br><span style="${s}"><b>${name}</b>${annotation}</span>`;
+    html += `<br><img style="${outlineStyle}" width="72" height="96" src="https://www.random.org/playing-cards/${filename}">`;
+    if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
+    html += '<br>';
+  });
+
+  // Winner announcement
+  html += `<br><p><b>&#127881; Team ${captains[winnerIdx]} wins the flip!</b></p><br>`;
 
   if (teamsComment) html += `<p>${nl2br(teamsComment)}</p><br>`;
 
   // Draw
-  let lastSection = '';
-  drawSequence.forEach(({ name, card, section }, i) => {
+  html += `<p><b>&#9827; Team ${captains[winnerIdx]}</b></p>`;
+  drawSequence.forEach(({ name, card }, i) => {
     const filename = cardmap[card];
     if (!filename) return;
-    const imgUrl  = `https://www.random.org/playing-cards/${filename}`;
-    const comment = cardComments[i] || '';
-
-    if (section !== lastSection) {
-      const labels = { captain: '&#9889; Captain Flip', odd: `Team ${captains[0]}`, even: `Team ${captains[1]}` };
-      html += `<br><p><b>${labels[section]}</b></p>`;
-      lastSection = section;
-    }
-
-    let outlineStyle = 'outline:3px outset white;outline-offset:-3px;';
-    let annotation   = '';
-
-    if (specials[card] === 'bastardo')      { outlineStyle = 'outline:3px outset black;outline-offset:-3px;'; annotation = ' <i>(bastardo)</i>'; }
-    else if (specials[card] === 'faux-bastardo') { outlineStyle = 'outline:3px outset green;outline-offset:-3px;'; annotation = ' <i>(faux-bastardo)</i>'; }
-    else if (specials[card] === 'degenerado')    { outlineStyle = 'outline:3px outset blue;outline-offset:-3px;';  annotation = ' <i>(degenerado)</i>'; }
-    else if (spitecards[card]) {
-      if (spitecards[card] === name) { outlineStyle = 'outline:3px outset gold;outline-offset:-3px;'; annotation = ' &#11088;'; }
-      else                           { outlineStyle = 'outline:3px outset red;outline-offset:-3px;';  annotation = ` <i>(${spitecards[card]}'s card)</i>`; }
-    }
-
+    const comment      = cardComments[i] || '';
+    let outlineStyle   = captainOutlineStyle(card, name);
+    let annotation     = captainAnnotation(card, name);
     html += `<br><span style="${s}">${name}${annotation}</span>`;
-    html += `<br><img style="${outlineStyle}" width="72" height="96" src="${imgUrl}">`;
+    html += `<br><img style="${outlineStyle}" width="72" height="96" src="https://www.random.org/playing-cards/${filename}">`;
     if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
     html += '<br>';
   });
@@ -581,6 +686,28 @@ function buildEmailHTML(intro, teamsComment, closing) {
   if (closing) html += `<br><p>${nl2br(closing)}</p>`;
   html += '</div>';
   return html;
+}
+
+function captainOutlineStyle(card, name) {
+  if (specials[card] === 'bastardo')      return 'outline:3px outset black;outline-offset:-3px;';
+  if (specials[card] === 'faux-bastardo') return 'outline:3px outset green;outline-offset:-3px;';
+  if (specials[card] === 'degenerado')    return 'outline:3px outset blue;outline-offset:-3px;';
+  if (spitecards[card]) {
+    if (spitecards[card] === name) return 'outline:3px outset gold;outline-offset:-3px;';
+    return 'outline:3px outset red;outline-offset:-3px;';
+  }
+  return 'outline:3px outset white;outline-offset:-3px;';
+}
+
+function captainAnnotation(card, name) {
+  if (specials[card] === 'bastardo')      return ' <i>(bastardo)</i>';
+  if (specials[card] === 'faux-bastardo') return ' <i>(faux-bastardo)</i>';
+  if (specials[card] === 'degenerado')    return ' <i>(degenerado)</i>';
+  if (spitecards[card]) {
+    if (spitecards[card] === name) return ' &#11088;';
+    return ` <i>(${spitecards[card]}'s card)</i>`;
+  }
+  return '';
 }
 
 function nl2br(s) { return s.replace(/\n/g, '<br>'); }
@@ -601,8 +728,12 @@ function showStep(name) {
 // ─────────────────────────────────────────────────────────────
 function resetApp() {
   if (!confirm('Start over? Commentary and results will be cleared.')) return;
-  state = { captains: [], teamOdd: [], teamEven: [], oddDonkey: null,
-            drawSequence: [], drawIndex: 0, cardComments: [], revealed: false };
+  state = {
+    captains: [], teamOdd: [], teamEven: [], oddDonkey: null,
+    captainCards: [], oddCards: [], evenCards: [],
+    captainRevealed: [false, false], captainComments: ['', ''],
+    winnerIdx: null, drawSequence: [], drawIndex: 0, cardComments: [], revealed: false,
+  };
   ['intro-comment', 'teams-comment', 'draw-comment', 'closing-comment'].forEach(id => {
     document.getElementById(id).value = '';
   });
