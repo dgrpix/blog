@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: dgrpix/blog
+  branch: main
+  base_url: https://legendary-rabanadas-ccebee.netlify.app
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: posts
+    label: Posts
+    folder: content/posts
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, format: "2006-01-02", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - { label: Summary, name: summary, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Cover Image, name: cover.image, widget: image, required: false }
+      - { label: Body, name: body, widget: markdown }
