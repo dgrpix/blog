@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#0a0f1e">
+    <title>Anthem of the Seas — Cruise Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="cruise-header">
+        <div class="header-inner">
+            <div class="header-main">
+                <span class="ship-icon" aria-hidden="true">🚢</span>
+                <div class="header-text">
+                    <h1 class="ship-name">Anthem of the Seas</h1>
+                    <p class="header-subtitle">Royal Caribbean &middot; Sydney &harr; New Zealand</p>
+                </div>
+                <button class="refresh-btn" id="refreshBtn" aria-label="Refresh weather data" title="Refresh weather data">
+                    <span class="refresh-icon" id="refreshIcon">&#x21BB;</span>
+                </button>
+            </div>
+            <div class="header-meta">
+                <span class="dates-pill">&#x1F5D3; March 22 &ndash; April 3, 2026 &middot; 12 Nights</span>
+                <span class="updated-text" id="updatedText">Loading&hellip;</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div id="loadingState" class="loading-state">
+            <div class="wave-spinner" aria-hidden="true">
+                <div></div><div></div><div></div><div></div><div></div>
+            </div>
+            <p class="loading-title">Fetching Forecasts</p>
+            <p id="loadingProgress" class="loading-sub">Connecting to weather service&hellip;</p>
+        </div>
+
+        <div id="errorState" class="error-state hidden">
+            <div class="error-icon">&#x26A0;&#xFE0F;</div>
+            <p class="error-title">Couldn&rsquo;t Load Weather</p>
+            <p class="error-sub">Check your internet connection and try again.</p>
+            <button class="retry-btn" onclick="loadWeather()">Try Again</button>
+        </div>
+
+        <div id="itinerary" class="itinerary hidden" role="list" aria-label="Cruise itinerary weather cards">
+            <!-- Day cards injected by JavaScript -->
+        </div>
+    </main>
+
+    <footer class="cruise-footer">
+        <p>Weather data by <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer">Open-Meteo</a> &mdash; free &amp; open-source weather API &middot; Positions are approximate for sea days</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
