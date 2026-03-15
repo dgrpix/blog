@@ -1,11 +1,12 @@
 baseURL = "https://dgrpix.com"
 languageCode = "en-us"
-title = "dgrpix"
+title = "nerdy thoughts from retirement"
 theme = "PaperMod"
 
 [params]
-  description = "Travel log"
-  author = "dgrpix"
+  description = "retired tech nerd's travels, photos, and other writing"
+  author = "doug"
+  defaultTheme = "dark"
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -13,13 +14,20 @@ theme = "PaperMod"
   ShowCodeCopyButtons = false
   ShowToc = false
 
+[params.cover]
+  responsiveImages = true
+
 [params.homeInfoParams]
-  Title = "dgrpix"
-  Content = "travel log"
+  Title = "welcome and apologies in advance"
+  Content = "just out here doing my best, mostly for myself"
 
 [[params.socialIcons]]
   name = "instagram"
   url = "https://www.instagram.com/dgrpix"
+
+[[params.socialIcons]]
+  name = "threads"
+  url = "https://www.threads.net/@dgrpix"
 
 [menu]
   [[menu.main]]
