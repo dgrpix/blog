@@ -19,5 +19,10 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Summary, name: summary, widget: string, required: false }
       - { label: Tags, name: tags, widget: list, required: false }
-      - { label: Cover Image, name: cover.image, widget: image, required: false }
+      - label: Cover Image
+        name: cover
+        widget: object
+        required: false
+        fields:
+          - { label: Image, name: image, widget: image, required: false }
       - { label: Body, name: body, widget: markdown }
