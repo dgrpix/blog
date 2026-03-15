@@ -1,0 +1,32 @@
+baseURL = "https://dgrpix.com"
+languageCode = "en-us"
+title = "dgrpix"
+theme = "PaperMod"
+
+[params]
+  description = "Travel log"
+  author = "dgrpix"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowToc = false
+
+[params.homeInfoParams]
+  Title = "dgrpix"
+  Content = "travel log"
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/dgrpix"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
