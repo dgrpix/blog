@@ -1,6 +1,6 @@
 ---
 title: My visit to Cabo
-date: 2006-01-02
+date: 2026-03-06
 draft: false
 summary: San Jose del Cabo
 tags:
