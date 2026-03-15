@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlipBoss</title>
+<style>
+:root {
+  --bg: #1a1a1a;
+  --surface: #2a2a2a;
+  --surface2: #333;
+  --border: #444;
+  --text: #e0e0e0;
+  --text-muted: #888;
+  --accent: #4a9eff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 { font-size: 24px; margin-bottom: 8px; }
+h2 { font-size: 16px; margin: 16px 0 10px; }
+.progress {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.progress .active { color: var(--accent); font-weight: bold; }
+details {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+summary { cursor: pointer; font-weight: bold; user-select: none; }
+summary:hover { color: var(--accent); }
+textarea, input[type="text"], input[type="email"] {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text);
+  padding: 8px 10px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+textarea { resize: vertical; min-height: 80px; }
+textarea:focus, input:focus { outline: 1px solid var(--accent); }
+.field-label { font-size: 11px; color: var(--text-muted); margin: 12px 0 4px; }
+.email-row { display: grid; grid-template-columns: 1fr 2fr; gap: 12px; margin-bottom: 4px; }
+button {
+  background: var(--accent);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+button:hover { opacity: 0.85; }
+button:disabled { opacity: 0.4; cursor: default; }
+button.secondary { background: var(--surface2); border: 1px solid var(--border); }
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 6px;
+  margin-top: 10px;
+}
+.player-grid label { display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 13px; }
+.add-player-row { display: flex; gap: 8px; margin-top: 10px; }
+.add-player-row input { width: auto; flex: 1; }
+.add-player-row button { margin-top: 0; padding: 8px 14px; }
+.teams-table { border-collapse: collapse; width: 100%; margin-bottom: 12px; }
+.teams-table td { border: 1px solid var(--border); padding: 6px 10px; font-size: 13px; }
+.teams-table .captain-cell { font-weight: bold; background: var(--surface2); }
+.floater { font-style: italic; color: var(--text-muted); font-size: 12px; margin-top: 6px; }
+.card-row { display: flex; align-items: flex-start; gap: 16px; margin: 12px 0; }
+.card-img { width: 72px; height: 96px; outline-offset: -3px; display: block; }
+.outline-white  { outline: 3px outset white;  }
+.outline-gold   { outline: 3px outset gold;   }
+.outline-red    { outline: 3px outset red;     }
+.outline-green  { outline: 3px outset green;   }
+.outline-black  { outline: 3px outset black;   }
+.outline-blue   { outline: 3px outset blue;    }
+.card-meta { font-size: 13px; }
+.card-player { font-size: 18px; font-weight: bold; margin-bottom: 6px; }
+.spite-own    { color: gold; }
+.spite-other  { color: #ff8888; }
+.special-label { color: #aaa; }
+.reveal-btn {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 12px 0;
+  width: 100%;
+}
+.reveal-btn:hover { border-color: var(--accent); }
+.draw-counter { font-size: 12px; color: var(--text-muted); margin-bottom: 6px; }
+.section-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.copy-ok { color: #44cc44; font-size: 13px; margin-left: 12px; }
+.hidden { display: none; }
+hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+</style>
+</head>
+<body>
+
+<h1>FlipBoss</h1>
+
+<div class="progress">
+  <span id="prog-setup" class="active">Setup</span> &rarr;
+  <span id="prog-teams">Teams</span> &rarr;
+  <span id="prog-draw">Draw</span> &rarr;
+  <span id="prog-closing">Closing</span>
+</div>
+
+<!-- STEP 1: SETUP -->
+<div id="step-setup">
+
+  <details>
+    <summary>&#9998; Edit Player List</summary>
+    <div id="player-grid" class="player-grid"></div>
+    <div class="add-player-row">
+      <input type="text" id="new-player" placeholder="Add player...">
+      <button onclick="addPlayer()">Add</button>
+    </div>
+  </details>
+
+  <details>
+    <summary>&#9827; Edit Spite Cards</summary>
+    <div class="field-label">card, name (blank for special-only cards), special label</div>
+    <textarea id="spitecards-editor" style="min-height:180px; font-family:monospace; font-size:12px;"></textarea>
+    <button class="secondary" onclick="applySpitecards()" style="padding:6px 14px; margin-top:6px;">Apply Changes</button>
+  </details>
+
+  <div class="field-label">Email Settings</div>
+  <div class="email-row">
+    <div>
+      <div class="field-label">To</div>
+      <input type="email" id="email-to" value="tibgd@googlegroups.com">
+    </div>
+    <div>
+      <div class="field-label">Subject</div>
+      <input type="text" id="email-subject" value="TIBGD Flip Results">
+    </div>
+  </div>
+
+  <div class="field-label">Intro — context before teams are revealed</div>
+  <textarea id="intro-comment" placeholder="Optional intro commentary..."></textarea>
+
+  <button onclick="dealTeams()">&#127922; Deal Teams</button>
+</div>
+
+<!-- STEP 2: TEAMS -->
+<div id="step-teams" class="hidden">
+  <h2>The Teams</h2>
+  <div id="teams-display"></div>
+  <hr>
+  <div class="field-label">Commentary before the draw starts</div>
+  <textarea id="teams-comment" placeholder="Optional commentary..."></textarea>
+  <button onclick="startDraw()">&#9654; Start the Draw</button>
+</div>
+
+<!-- STEP 3: DRAW -->
+<div id="step-draw" class="hidden">
+  <div id="draw-section-header"></div>
+  <div class="draw-counter" id="draw-counter"></div>
+  <div class="card-player" id="draw-player"></div>
+  <div id="draw-card-area"></div>
+  <div class="field-label">Commentary after this card</div>
+  <textarea id="draw-comment" placeholder="Optional..."></textarea>
+  <button onclick="nextCard()" id="next-btn">Next Card &rarr;</button>
+</div>
+
+<!-- STEP 4: CLOSING -->
+<div id="step-closing" class="hidden">
+  <h2>Closing</h2>
+  <div class="field-label">Results, final commentary, trash talk...</div>
+  <textarea id="closing-comment" placeholder="Closing commentary..."></textarea>
+  <br>
+  <button onclick="generateEmail()" id="copy-btn">&#128203; Copy Email to Clipboard</button>
+  <span id="copy-ok" class="copy-ok hidden">&#10003; Copied!</span>
+  <br>
+  <button class="secondary" onclick="resetApp()" style="margin-top:14px;">&#8635; Start Over</button>
+</div>
+
+<script>
+// ─────────────────────────────────────────────────────────────
+// DATA
+// ─────────────────────────────────────────────────────────────
+let donkeys    = [];   // [{name, active}]
+let spitecards = {};   // card notation -> player name
+let specials   = {};   // card notation -> label (bastardo etc)
+let cardmap    = {};   // card notation -> filename
+
+// ─────────────────────────────────────────────────────────────
+// APP STATE
+// ─────────────────────────────────────────────────────────────
+let state = {
+  captains:      [],
+  teamOdd:       [],
+  teamEven:      [],
+  oddDonkey:     null,
+  drawSequence:  [],   // [{name, card, section}]
+  drawIndex:     0,
+  cardComments:  [],
+  revealed:      false,
+};
+
+// ─────────────────────────────────────────────────────────────
+// CSV
+// ─────────────────────────────────────────────────────────────
+function parseCSV(text) {
+  const lines = text.trim().split('\n').filter(l => l.trim());
+  const headers = lines[0].split(',').map(h => h.trim());
+  return lines.slice(1).map(line => {
+    const values = line.split(',');
+    return Object.fromEntries(headers.map((h, i) => [h, (values[i] || '').trim()]));
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────────────────────
+async function init() {
+  const base = '/apps/flipboss/data/';
+  try {
+    const [dCSV, sCSV, cCSV] = await Promise.all([
+      fetch(base + 'donkeys.csv').then(r => r.text()),
+      fetch(base + 'spitecards.csv').then(r => r.text()),
+      fetch(base + 'cardmap.csv').then(r => r.text()),
+    ]);
+    donkeys = parseCSV(dCSV);
+    loadSpitecards(parseCSV(sCSV));
+    parseCSV(cCSV).forEach(r => { cardmap[r.card] = r.filename; });
+    renderPlayerGrid();
+    renderSpitecardsEditor();
+  } catch(e) {
+    alert('Failed to load data files: ' + e.message);
+  }
+}
+
+function loadSpitecards(rows) {
+  spitecards = {};
+  specials   = {};
+  rows.forEach(r => {
+    if (r.name)    spitecards[r.card] = r.name;
+    if (r.special) specials[r.card]   = r.special;
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// PLAYER LIST UI
+// ─────────────────────────────────────────────────────────────
+function renderPlayerGrid() {
+  document.getElementById('player-grid').innerHTML = donkeys.map((d, i) => `
+    <label>
+      <input type="checkbox" ${d.active === 'yes' ? 'checked' : ''}
+             onchange="donkeys[${i}].active = this.checked ? 'yes' : 'no'">
+      ${d.name}
+    </label>`).join('');
+}
+
+function addPlayer() {
+  const el = document.getElementById('new-player');
+  const name = el.value.trim();
+  if (!name) return;
+  donkeys.push({ name, active: 'yes' });
+  renderPlayerGrid();
+  el.value = '';
+}
+
+// ─────────────────────────────────────────────────────────────
+// SPITE CARDS EDITOR
+// ─────────────────────────────────────────────────────────────
+function renderSpitecardsEditor() {
+  const all = new Set([...Object.keys(spitecards), ...Object.keys(specials)]);
+  const rows = [...all].map(c => `${c},${spitecards[c] || ''},${specials[c] || ''}`);
+  document.getElementById('spitecards-editor').value = 'card,name,special\n' + rows.join('\n');
+}
+
+function applySpitecards() {
+  loadSpitecards(parseCSV(document.getElementById('spitecards-editor').value));
+  alert('Spite cards updated.');
+}
+
+// ─────────────────────────────────────────────────────────────
+// RANDOMIZATION (crypto Fisher-Yates)
+// ─────────────────────────────────────────────────────────────
+function randInt(max) {
+  const a = new Uint32Array(1);
+  crypto.getRandomValues(a);
+  return a[0] % max;
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = randInt(i + 1);
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function dealCards(n) {
+  return shuffle(Object.keys(cardmap).filter(c => c !== 'Joker')).slice(0, n);
+}
+
+// ─────────────────────────────────────────────────────────────
+// DEAL TEAMS  (mirrors original PHP logic)
+// ─────────────────────────────────────────────────────────────
+function dealTeams() {
+  const active = donkeys.filter(d => d.active === 'yes').map(d => d.name);
+  if (active.length < 4) { alert('Need at least 4 active players.'); return; }
+
+  const rand = shuffle(active);
+  state.captains  = [rand[0], rand[1]];
+  state.teamOdd   = [];
+  state.teamEven  = [];
+  state.oddDonkey = null;
+
+  const num = rand.length;
+  for (let i = num - 1; i >= 0; i--) {
+    const name = rand[i];
+    if (i > 0 && i + 1 === num && i % 2 === 0) {
+      state.oddDonkey = name;
+      state.teamOdd.push(name);
+      state.teamEven.push(name);
+      continue;
+    }
+    if (i % 2 === 0) state.teamOdd.push(name);
+    else             state.teamEven.push(name);
+  }
+
+  const captainCards = dealCards(2);
+  const oddCards     = dealCards(state.teamOdd.length);
+  const evenCards    = dealCards(state.teamEven.length);
+
+  state.drawSequence = [
+    ...state.captains.map((name, i) => ({ name, card: captainCards[i], section: 'captain' })),
+    ...state.teamOdd.map( (name, i) => ({ name, card: oddCards[i],     section: 'odd'     })),
+    ...state.teamEven.map((name, i) => ({ name, card: evenCards[i],    section: 'even'    })),
+  ];
+  state.drawIndex    = 0;
+  state.cardComments = new Array(state.drawSequence.length).fill('');
+  state.revealed     = false;
+
+  renderTeams();
+  showStep('teams');
+}
+
+// ─────────────────────────────────────────────────────────────
+// TEAMS DISPLAY
+// ─────────────────────────────────────────────────────────────
+function renderTeams() {
+  const { captains, teamOdd, teamEven, oddDonkey } = state;
+  const oddMembers  = teamOdd.filter(n  => n !== captains[0] && n !== oddDonkey);
+  const evenMembers = teamEven.filter(n => n !== captains[1] && n !== oddDonkey);
+
+  let html = '<table class="teams-table">';
+  html += `<tr><td class="captain-cell">Team ${captains[0]}</td>`;
+  oddMembers.forEach(n => { html += `<td>${n}</td>`; });
+  html += '</tr>';
+  html += `<tr><td class="captain-cell">Team ${captains[1]}</td>`;
+  evenMembers.forEach(n => { html += `<td>${n}</td>`; });
+  html += '</tr></table>';
+  if (oddDonkey) {
+    html += `<div class="floater">&hellip;and our floater is: <b>${oddDonkey}</b></div>`;
+  }
+  document.getElementById('teams-display').innerHTML = html;
+}
+
+// ─────────────────────────────────────────────────────────────
+// DRAW
+// ─────────────────────────────────────────────────────────────
+function startDraw() {
+  state.revealed = false;
+  showStep('draw');
+  renderCurrentCard();
+}
+
+function renderCurrentCard() {
+  const { drawSequence, drawIndex } = state;
+  const total   = drawSequence.length;
+  const current = drawSequence[drawIndex];
+  const prev    = drawSequence[drawIndex - 1];
+
+  // Section header — show when section changes
+  const sectionEl = document.getElementById('draw-section-header');
+  if (drawIndex === 0 || current.section !== prev.section) {
+    const labels = {
+      captain: '&#9889; Captain Flip',
+      odd:     `&#9827; Team ${state.captains[0]}`,
+      even:    `&#9827; Team ${state.captains[1]}`,
+    };
+    sectionEl.innerHTML = `<div class="section-header">${labels[current.section]}</div>`;
+  } else {
+    sectionEl.innerHTML = '';
+  }
+
+  document.getElementById('draw-counter').textContent = `Card ${drawIndex + 1} of ${total}`;
+  document.getElementById('draw-player').textContent  = current.name;
+
+  // Card area
+  if (!state.revealed) {
+    document.getElementById('draw-card-area').innerHTML =
+      `<button class="reveal-btn" onclick="revealCard()">&#127136; Reveal Card</button>`;
+  } else {
+    renderRevealedCard(current);
+  }
+
+  // Commentary
+  const ta = document.getElementById('draw-comment');
+  ta.value  = state.cardComments[drawIndex] || '';
+  ta.oninput = () => { state.cardComments[drawIndex] = ta.value; };
+
+  document.getElementById('next-btn').textContent =
+    drawIndex === total - 1 ? 'Finish Draw &#10003;' : 'Next Card &rarr;';
+}
+
+function revealCard() {
+  state.revealed = true;
+  renderRevealedCard(state.drawSequence[state.drawIndex]);
+}
+
+function renderRevealedCard(entry) {
+  const { card, name } = entry;
+  const filename = cardmap[card];
+  if (!filename) {
+    document.getElementById('draw-card-area').innerHTML = `<p>Unknown card: ${card}</p>`;
+    return;
+  }
+  const imgUrl = `https://www.random.org/playing-cards/${filename}`;
+  const { outlineClass, metaHtml } = cardStyle(card, name);
+
+  document.getElementById('draw-card-area').innerHTML = `
+    <div class="card-row">
+      <img src="${imgUrl}" class="card-img ${outlineClass}" alt="${card}">
+      <div class="card-meta">${metaHtml}</div>
+    </div>`;
+}
+
+function cardStyle(card, name) {
+  if (specials[card] === 'bastardo')      return { outlineClass: 'outline-black', metaHtml: `<span class="special-label">&#9679; bastardo</span>`       };
+  if (specials[card] === 'faux-bastardo') return { outlineClass: 'outline-green', metaHtml: `<span class="special-label" style="color:#44cc44">&#9679; faux-bastardo</span>` };
+  if (specials[card] === 'degenerado')    return { outlineClass: 'outline-blue',  metaHtml: `<span class="special-label" style="color:#88aaff">&#9679; degenerado</span>`    };
+  if (spitecards[card]) {
+    if (spitecards[card] === name) return { outlineClass: 'outline-gold', metaHtml: `<span class="spite-own">&#11088; ${name}'s spite card!</span>` };
+    return { outlineClass: 'outline-red', metaHtml: `<span class="spite-other">&#10071; This is ${spitecards[card]}'s card</span>` };
+  }
+  return { outlineClass: 'outline-white', metaHtml: `<span style="color:var(--text-muted)">${card}</span>` };
+}
+
+function nextCard() {
+  if (!state.revealed) { alert('Reveal the card first!'); return; }
+  state.cardComments[state.drawIndex] = document.getElementById('draw-comment').value;
+  state.drawIndex++;
+  state.revealed = false;
+  if (state.drawIndex >= state.drawSequence.length) {
+    showStep('closing');
+  } else {
+    renderCurrentCard();
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// EMAIL GENERATION
+// ─────────────────────────────────────────────────────────────
+async function generateEmail() {
+  const btn = document.getElementById('copy-btn');
+  btn.textContent = '&#8987; Building...';
+  btn.disabled = true;
+
+  const html = buildEmailHTML(
+    document.getElementById('intro-comment').value,
+    document.getElementById('teams-comment').value,
+    document.getElementById('closing-comment').value,
+  );
+
+  try {
+    await navigator.clipboard.write([
+      new ClipboardItem({
+        'text/html':  new Blob([html],              { type: 'text/html'  }),
+        'text/plain': new Blob([html.replace(/<[^>]+>/g,'')], { type: 'text/plain' }),
+      })
+    ]);
+    const ok = document.getElementById('copy-ok');
+    ok.classList.remove('hidden');
+    setTimeout(() => ok.classList.add('hidden'), 3000);
+  } catch(e) {
+    // fallback
+    const ta = Object.assign(document.createElement('textarea'), { value: html });
+    Object.assign(ta.style, { position: 'fixed', opacity: '0' });
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    alert('Copied (fallback). Paste into Gmail compose.');
+  }
+
+  btn.textContent = '&#128203; Copy Email to Clipboard';
+  btn.disabled = false;
+}
+
+function buildEmailHTML(intro, teamsComment, closing) {
+  const s  = 'font-family:Arial,Helvetica,sans-serif;font-size:11px;';
+  const td = 'border:1px solid black;padding:4px;';
+  const { captains, teamOdd, teamEven, oddDonkey, drawSequence, cardComments } = state;
+
+  const oddMembers  = teamOdd.filter(n  => n !== captains[0] && n !== oddDonkey);
+  const evenMembers = teamEven.filter(n => n !== captains[1] && n !== oddDonkey);
+
+  let html = `<div style="${s}">`;
+
+  if (intro)       html += `<p>${nl2br(intro)}</p><br>`;
+
+  // Teams table
+  html += `<table style="border-collapse:collapse;${s}">`;
+  html += `<tr><td style="${td}"><b>Team ${captains[0]}</b></td>`;
+  oddMembers.forEach(n  => { html += `<td style="${td}">${n}</td>`; });
+  html += '</tr>';
+  html += `<tr><td style="${td}"><b>Team ${captains[1]}</b></td>`;
+  evenMembers.forEach(n => { html += `<td style="${td}">${n}</td>`; });
+  html += '</tr>';
+  if (oddDonkey)   html += `<tr><td colspan="10" style="${td}"><i>&hellip;and our floater is: ${oddDonkey}</i></td></tr>`;
+  html += '</table><br>';
+
+  if (teamsComment) html += `<p>${nl2br(teamsComment)}</p><br>`;
+
+  // Draw
+  let lastSection = '';
+  drawSequence.forEach(({ name, card, section }, i) => {
+    const filename = cardmap[card];
+    if (!filename) return;
+    const imgUrl  = `https://www.random.org/playing-cards/${filename}`;
+    const comment = cardComments[i] || '';
+
+    if (section !== lastSection) {
+      const labels = { captain: '&#9889; Captain Flip', odd: `Team ${captains[0]}`, even: `Team ${captains[1]}` };
+      html += `<br><p><b>${labels[section]}</b></p>`;
+      lastSection = section;
+    }
+
+    let outlineStyle = 'outline:3px outset white;outline-offset:-3px;';
+    let annotation   = '';
+
+    if (specials[card] === 'bastardo')      { outlineStyle = 'outline:3px outset black;outline-offset:-3px;'; annotation = ' <i>(bastardo)</i>'; }
+    else if (specials[card] === 'faux-bastardo') { outlineStyle = 'outline:3px outset green;outline-offset:-3px;'; annotation = ' <i>(faux-bastardo)</i>'; }
+    else if (specials[card] === 'degenerado')    { outlineStyle = 'outline:3px outset blue;outline-offset:-3px;';  annotation = ' <i>(degenerado)</i>'; }
+    else if (spitecards[card]) {
+      if (spitecards[card] === name) { outlineStyle = 'outline:3px outset gold;outline-offset:-3px;'; annotation = ' &#11088;'; }
+      else                           { outlineStyle = 'outline:3px outset red;outline-offset:-3px;';  annotation = ` <i>(${spitecards[card]}'s card)</i>`; }
+    }
+
+    html += `<br><span style="${s}">${name}${annotation}</span>`;
+    html += `<br><img style="${outlineStyle}" width="72" height="96" src="${imgUrl}">`;
+    if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
+    html += '<br>';
+  });
+
+  if (closing) html += `<br><p>${nl2br(closing)}</p>`;
+  html += '</div>';
+  return html;
+}
+
+function nl2br(s) { return s.replace(/\n/g, '<br>'); }
+
+// ─────────────────────────────────────────────────────────────
+// STEP MANAGEMENT
+// ─────────────────────────────────────────────────────────────
+function showStep(name) {
+  ['setup', 'teams', 'draw', 'closing'].forEach(s => {
+    document.getElementById('step-' + s).classList.toggle('hidden', s !== name);
+    const p = document.getElementById('prog-' + s);
+    if (p) p.classList.toggle('active', s === name);
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// RESET
+// ─────────────────────────────────────────────────────────────
+function resetApp() {
+  if (!confirm('Start over? Commentary and results will be cleared.')) return;
+  state = { captains: [], teamOdd: [], teamEven: [], oddDonkey: null,
+            drawSequence: [], drawIndex: 0, cardComments: [], revealed: false };
+  ['intro-comment', 'teams-comment', 'draw-comment', 'closing-comment'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  showStep('setup');
+}
+
+// ─────────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>
