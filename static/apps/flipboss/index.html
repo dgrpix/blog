@@ -172,7 +172,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 </head>
 <body>
 
-<h1>FlipBoss</h1>
+<h1>FlipBoss <span id="version-display" style="font-size:11px;color:var(--text-muted);font-weight:normal;"></span></h1>
 
 <div class="progress">
   <span id="prog-setup" class="active">Setup</span> &rarr;
@@ -285,6 +285,8 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 </div>
 
 <script>
+const VERSION = 'v0.0001';
+
 // ─────────────────────────────────────────────────────────────
 // DATA
 // ─────────────────────────────────────────────────────────────
@@ -810,6 +812,7 @@ function resetApp() {
 }
 
 // ─────────────────────────────────────────────────────────────
+document.getElementById('version-display').textContent = VERSION;
 init();
 </script>
 </body>
