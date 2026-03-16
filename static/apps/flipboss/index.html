@@ -736,7 +736,8 @@ function resetApp() {
     captainRevealed: [false, false], captainComments: ['', ''],
     winnerIdx: null, drawSequence: [], drawIndex: 0, cardComments: [], revealed: false,
   };
-  ['intro-comment', 'teams-comment', 'draw-comment', 'closing-comment'].forEach(id => {
+  ['intro-comment', 'teams-comment', 'draw-comment', 'closing-comment',
+   'cap0-comment', 'cap1-comment'].forEach(id => {
     document.getElementById(id).value = '';
   });
   showStep('setup');
