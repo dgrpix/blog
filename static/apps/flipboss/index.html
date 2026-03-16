@@ -106,6 +106,7 @@ button.winner-btn:hover { background: var(--accent); }
 .card-box-green { background: rgba( 50, 180,  50, 0.35); border-color: #32b432; }
 .card-box-black { background: rgba( 20,  20,  20, 0.75); border-color: #888;    }
 .card-box-blue  { background: rgba( 50,  50, 220, 0.35); border-color: #3232dc; }
+.card-box img { display: block; }
 .card-meta { font-size: 13px; }
 .card-player { font-size: 18px; font-weight: bold; margin: 14px 0 6px; }
 .spite-own    { color: gold; }
@@ -274,9 +275,6 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 
       <div id="closing-section" class="hidden">
         <hr>
-        <div class="field-label">Closing — results, commentary, trash talk...</div>
-        <textarea id="closing-comment" placeholder="Closing commentary..."></textarea>
-        <br>
         <button onclick="generateEmail()" id="copy-btn">&#128203; Copy Email to Clipboard</button>
         <span id="copy-ok" class="copy-ok hidden">&#10003; Copied!</span>
         <br>
@@ -669,7 +667,6 @@ async function generateEmail() {
   const html = buildEmailHTML(
     document.getElementById('intro-comment').value,
     document.getElementById('teams-comment').value,
-    document.getElementById('closing-comment').value,
   );
 
   try {
@@ -696,7 +693,7 @@ async function generateEmail() {
   btn.disabled = false;
 }
 
-function buildEmailHTML(intro, teamsComment, closing) {
+function buildEmailHTML(intro, teamsComment) {
   const s  = 'font-family:Arial,Helvetica,sans-serif;font-size:11px;';
   const td = 'border:1px solid black;padding:4px;';
   const { captains, teamOdd, teamEven, oddDonkey, winnerIdx,
@@ -753,7 +750,6 @@ function buildEmailHTML(intro, teamsComment, closing) {
     html += '<br>';
   });
 
-  if (closing) html += `<br><p>${nl2br(closing)}</p>`;
   html += '</div>';
   return html;
 }
@@ -804,7 +800,7 @@ function resetApp() {
     captainRevealed: [false, false], captainComments: ['', ''],
     winnerIdx: null, drawSequence: [], drawIndex: 0, cardComments: [], revealed: false,
   };
-  ['intro-comment', 'teams-comment', 'draw-comment', 'closing-comment',
+  ['intro-comment', 'teams-comment', 'draw-comment',
    'cap0-comment', 'cap1-comment'].forEach(id => {
     document.getElementById(id).value = '';
   });
