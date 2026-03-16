@@ -133,6 +133,30 @@ button.winner-btn:hover { background: var(--accent); }
 .copy-ok { color: #44cc44; font-size: 13px; margin-left: 12px; }
 .hidden { display: none; }
 hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+.draw-layout { display: flex; gap: 16px; align-items: flex-start; }
+.draw-history {
+  width: 60px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.draw-main { flex: 1; min-width: 0; }
+.history-entry { text-align: center; }
+.history-entry .history-name {
+  font-size: 9px;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 2px;
+}
+.history-entry img { width: 36px; height: 48px; display: block; margin: 0 auto; }
+@media (max-width: 500px) {
+  .draw-layout { flex-direction: column; }
+  .draw-history { width: 100%; flex-direction: row; flex-wrap: wrap; gap: 4px; }
+  .history-entry { width: 40px; }
+}
 </style>
 </head>
 <body>
@@ -228,13 +252,18 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 
 <!-- STEP 3: DRAW -->
 <div id="step-draw" class="hidden">
-  <div id="draw-section-header"></div>
-  <div class="draw-counter" id="draw-counter"></div>
-  <div class="card-player" id="draw-player"></div>
-  <div id="draw-card-area"></div>
-  <div class="field-label">Commentary after this card</div>
-  <textarea id="draw-comment" placeholder="Optional..."></textarea>
-  <button onclick="nextCard()" id="next-btn">Next Card &rarr;</button>
+  <div class="draw-layout">
+    <div id="draw-history" class="draw-history"></div>
+    <div class="draw-main">
+      <div id="draw-section-header"></div>
+      <div class="draw-counter" id="draw-counter"></div>
+      <div class="card-player" id="draw-player"></div>
+      <div id="draw-card-area"></div>
+      <div class="field-label">Commentary after this card</div>
+      <textarea id="draw-comment" placeholder="Optional..."></textarea>
+      <button onclick="nextCard()" id="next-btn">Next Card &rarr;</button>
+    </div>
+  </div>
 </div>
 
 <!-- STEP 4: CLOSING -->
@@ -522,7 +551,23 @@ function startDraw() {
   renderCurrentCard();
 }
 
+function renderDrawHistory() {
+  const { drawSequence, drawIndex } = state;
+  const el = document.getElementById('draw-history');
+  if (drawIndex === 0) { el.innerHTML = ''; return; }
+  el.innerHTML = drawSequence.slice(0, drawIndex).map(({ name, card }) => {
+    const { outlineClass } = cardStyle(card, name);
+    const filename = cardmap[card];
+    return `<div class="history-entry">
+      <div class="history-name">${name}</div>
+      <img src="https://www.random.org/playing-cards/${filename}"
+           class="${outlineClass}" style="outline-offset:-2px;" alt="${card}">
+    </div>`;
+  }).join('');
+}
+
 function renderCurrentCard() {
+  renderDrawHistory();
   const { drawSequence, drawIndex } = state;
   const total   = drawSequence.length;
   const current = drawSequence[drawIndex];
