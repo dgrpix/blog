@@ -92,13 +92,20 @@ button.winner-btn:hover { background: var(--accent); }
 .teams-table .captain-cell { font-weight: bold; background: var(--surface2); }
 .floater { font-style: italic; color: var(--text-muted); font-size: 12px; margin-top: 6px; }
 .card-row { display: flex; align-items: flex-start; gap: 16px; margin: 10px 0; }
-.card-img { width: 72px; height: 96px; outline-offset: -3px; display: block; }
-.outline-white  { outline: 3px outset white;  }
-.outline-gold   { outline: 3px outset gold;   }
-.outline-red    { outline: 3px outset red;     }
-.outline-green  { outline: 3px outset green;   }
-.outline-black  { outline: 3px outset black;   }
-.outline-blue   { outline: 3px outset blue;    }
+.card-img { width: 72px; height: 96px; display: block; }
+.card-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  background: transparent;
+  padding: 4px;
+}
+.card-box-gold  { background: rgba(255, 215,   0, 0.35); border-color: gold;    }
+.card-box-red   { background: rgba(220,  50,  50, 0.35); border-color: #dc3232; }
+.card-box-green { background: rgba( 50, 180,  50, 0.35); border-color: #32b432; }
+.card-box-black { background: rgba( 20,  20,  20, 0.75); border-color: #888;    }
+.card-box-blue  { background: rgba( 50,  50, 220, 0.35); border-color: #3232dc; }
 .card-meta { font-size: 13px; }
 .card-player { font-size: 18px; font-weight: bold; margin: 14px 0 6px; }
 .spite-own    { color: gold; }
@@ -151,12 +158,13 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
   white-space: nowrap;
   margin-bottom: 2px;
 }
-.history-entry img { width: 54px; height: 72px; display: block; margin: 0 auto; }
-.draw-history { width: 80px; }
+.history-entry .card-box { padding: 2px; }
+.history-entry img { width: 54px; height: 72px; display: block; }
+.draw-history { width: 72px; }
 @media (max-width: 500px) {
   .draw-layout { flex-direction: column; }
   .draw-history { width: 100%; flex-direction: row; flex-wrap: wrap; gap: 4px; }
-  .history-entry { width: 40px; }
+  .history-entry { width: 44px; }
   .history-entry img { width: 36px; height: 48px; }
 }
 </style>
@@ -498,12 +506,14 @@ function revealCaptain(idx) {
 
   const card    = state.captainCards[idx];
   const name    = state.captains[idx];
-  const { outlineClass, metaHtml } = cardStyle(card, name);
+  const { boxClass, metaHtml } = cardStyle(card, name);
   const imgUrl  = `https://www.random.org/playing-cards/${cardmap[card]}`;
 
   document.getElementById(`cap${idx}-card-area`).innerHTML = `
     <div class="card-row">
-      <img src="${imgUrl}" class="card-img ${outlineClass}" alt="${card}">
+      <div class="card-box ${boxClass}">
+        <img src="${imgUrl}" class="card-img" alt="${card}">
+      </div>
       <div class="card-meta">${metaHtml}</div>
     </div>`;
 
@@ -556,12 +566,13 @@ function renderDrawHistory() {
   const el = document.getElementById('draw-history');
   if (drawIndex === 0) { el.innerHTML = ''; return; }
   el.innerHTML = drawSequence.slice(0, drawIndex).map(({ name, card }) => {
-    const { outlineClass } = cardStyle(card, name);
+    const { boxClass } = cardStyle(card, name);
     const filename = cardmap[card];
     return `<div class="history-entry">
       <div class="history-name">${name}</div>
-      <img src="https://www.random.org/playing-cards/${filename}"
-           class="${outlineClass}" style="outline-offset:-2px;" alt="${card}">
+      <div class="card-box ${boxClass}">
+        <img src="https://www.random.org/playing-cards/${filename}" alt="${card}">
+      </div>
     </div>`;
   }).join('');
 }
@@ -607,23 +618,25 @@ function renderRevealedCard(entry) {
     document.getElementById('draw-card-area').innerHTML = `<p>Unknown card: ${card}</p>`;
     return;
   }
-  const { outlineClass, metaHtml } = cardStyle(card, name);
+  const { boxClass, metaHtml } = cardStyle(card, name);
   document.getElementById('draw-card-area').innerHTML = `
     <div class="card-row">
-      <img src="https://www.random.org/playing-cards/${filename}" class="card-img ${outlineClass}" alt="${card}">
+      <div class="card-box ${boxClass}">
+        <img src="https://www.random.org/playing-cards/${filename}" class="card-img" alt="${card}">
+      </div>
       <div class="card-meta">${metaHtml}</div>
     </div>`;
 }
 
 function cardStyle(card, name) {
-  if (specials[card] === 'bastardo')      return { outlineClass: 'outline-black', metaHtml: `<span class="special-label">&#9679; bastardo</span>` };
-  if (specials[card] === 'faux-bastardo') return { outlineClass: 'outline-green', metaHtml: `<span class="special-label" style="color:#44cc44">&#9679; faux-bastardo</span>` };
-  if (specials[card] === 'degenerado')    return { outlineClass: 'outline-blue',  metaHtml: `<span class="special-label" style="color:#88aaff">&#9679; degenerado</span>` };
+  if (specials[card] === 'bastardo')      return { boxClass: 'card-box-black', metaHtml: `<span class="special-label">&#9679; bastardo</span>` };
+  if (specials[card] === 'faux-bastardo') return { boxClass: 'card-box-green', metaHtml: `<span class="special-label" style="color:#44cc44">&#9679; faux-bastardo</span>` };
+  if (specials[card] === 'degenerado')    return { boxClass: 'card-box-blue',  metaHtml: `<span class="special-label" style="color:#88aaff">&#9679; degenerado</span>` };
   if (spitecards[card]) {
-    if (spitecards[card] === name) return { outlineClass: 'outline-gold', metaHtml: `<span class="spite-own">&#11088; ${name}'s spite card!</span>` };
-    return { outlineClass: 'outline-red', metaHtml: `<span class="spite-other">&#10071; This is ${spitecards[card]}'s card</span>` };
+    if (spitecards[card] === name) return { boxClass: 'card-box-gold', metaHtml: `<span class="spite-own">&#11088; ${name}'s spite card!</span>` };
+    return { boxClass: 'card-box-red', metaHtml: `<span class="spite-other">&#10071; This is ${spitecards[card]}'s card</span>` };
   }
-  return { outlineClass: 'outline-white', metaHtml: `<span style="color:var(--text-muted)">${card}</span>` };
+  return { boxClass: '', metaHtml: `<span style="color:var(--text-muted)">${card}</span>` };
 }
 
 function nextCard() {
@@ -713,10 +726,10 @@ function buildEmailHTML(intro, teamsComment, closing) {
     const card     = captainCards[i];
     const filename = cardmap[card];
     const comment  = captainComments[i] || '';
-    let outlineStyle = captainOutlineStyle(card, name);
-    let annotation   = captainAnnotation(card, name);
+    let boxStyle   = emailCardBox(card, name);
+    let annotation = captainAnnotation(card, name);
     html += `<br><span style="${s}"><b>${name}</b>${annotation}</span>`;
-    html += `<br><img style="${outlineStyle}" width="72" height="96" src="https://www.random.org/playing-cards/${filename}">`;
+    html += `<br><span style="${boxStyle}"><img width="72" height="96" src="https://www.random.org/playing-cards/${filename}"></span>`;
     if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
     html += '<br>';
   });
@@ -732,10 +745,10 @@ function buildEmailHTML(intro, teamsComment, closing) {
     const filename = cardmap[card];
     if (!filename) return;
     const comment      = cardComments[i] || '';
-    let outlineStyle   = captainOutlineStyle(card, name);
-    let annotation     = captainAnnotation(card, name);
+    let boxStyle   = emailCardBox(card, name);
+    let annotation = captainAnnotation(card, name);
     html += `<br><span style="${s}">${name}${annotation}</span>`;
-    html += `<br><img style="${outlineStyle}" width="72" height="96" src="https://www.random.org/playing-cards/${filename}">`;
+    html += `<br><span style="${boxStyle}"><img width="72" height="96" src="https://www.random.org/playing-cards/${filename}"></span>`;
     if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
     html += '<br>';
   });
@@ -745,15 +758,15 @@ function buildEmailHTML(intro, teamsComment, closing) {
   return html;
 }
 
-function captainOutlineStyle(card, name) {
-  if (specials[card] === 'bastardo')      return 'outline:3px outset black;outline-offset:-3px;';
-  if (specials[card] === 'faux-bastardo') return 'outline:3px outset green;outline-offset:-3px;';
-  if (specials[card] === 'degenerado')    return 'outline:3px outset blue;outline-offset:-3px;';
+function emailCardBox(card, name) {
+  if (specials[card] === 'bastardo')      return 'display:inline-block;border:1px solid #888;background:rgba(20,20,20,0.75);padding:4px;';
+  if (specials[card] === 'faux-bastardo') return 'display:inline-block;border:1px solid #32b432;background:rgba(50,180,50,0.35);padding:4px;';
+  if (specials[card] === 'degenerado')    return 'display:inline-block;border:1px solid #3232dc;background:rgba(50,50,220,0.35);padding:4px;';
   if (spitecards[card]) {
-    if (spitecards[card] === name) return 'outline:3px outset gold;outline-offset:-3px;';
-    return 'outline:3px outset red;outline-offset:-3px;';
+    if (spitecards[card] === name) return 'display:inline-block;border:1px solid gold;background:rgba(255,215,0,0.35);padding:4px;';
+    return 'display:inline-block;border:1px solid #dc3232;background:rgba(220,50,50,0.35);padding:4px;';
   }
-  return 'outline:3px outset white;outline-offset:-3px;';
+  return 'display:inline-block;border:1px solid #ccc;background:transparent;padding:4px;';
 }
 
 function captainAnnotation(card, name) {
