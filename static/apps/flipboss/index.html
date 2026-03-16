@@ -168,8 +168,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 <div class="progress">
   <span id="prog-setup" class="active">Setup</span> &rarr;
   <span id="prog-teams">Teams &amp; Flip</span> &rarr;
-  <span id="prog-draw">Draw</span> &rarr;
-  <span id="prog-closing">Closing</span>
+  <span id="prog-draw">Draw &amp; Closing</span>
 </div>
 
 <!-- STEP 1: SETUP -->
@@ -252,7 +251,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
   </div>
 </div>
 
-<!-- STEP 3: DRAW -->
+<!-- STEP 3: DRAW + CLOSING -->
 <div id="step-draw" class="hidden">
   <div class="draw-layout">
     <div id="draw-history" class="draw-history"></div>
@@ -264,20 +263,19 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
       <div class="field-label">Commentary after this card</div>
       <textarea id="draw-comment" placeholder="Optional..."></textarea>
       <button onclick="nextCard()" id="next-btn">Next Card &rarr;</button>
+
+      <div id="closing-section" class="hidden">
+        <hr>
+        <div class="field-label">Closing — results, commentary, trash talk...</div>
+        <textarea id="closing-comment" placeholder="Closing commentary..."></textarea>
+        <br>
+        <button onclick="generateEmail()" id="copy-btn">&#128203; Copy Email to Clipboard</button>
+        <span id="copy-ok" class="copy-ok hidden">&#10003; Copied!</span>
+        <br>
+        <button class="secondary" onclick="resetApp()" style="margin-top:14px;">&#8635; Start Over</button>
+      </div>
     </div>
   </div>
-</div>
-
-<!-- STEP 4: CLOSING -->
-<div id="step-closing" class="hidden">
-  <h2>Closing</h2>
-  <div class="field-label">Results, final commentary, trash talk...</div>
-  <textarea id="closing-comment" placeholder="Closing commentary..."></textarea>
-  <br>
-  <button onclick="generateEmail()" id="copy-btn">&#128203; Copy Email to Clipboard</button>
-  <span id="copy-ok" class="copy-ok hidden">&#10003; Copied!</span>
-  <br>
-  <button class="secondary" onclick="resetApp()" style="margin-top:14px;">&#8635; Start Over</button>
 </div>
 
 <script>
@@ -634,7 +632,14 @@ function nextCard() {
   state.drawIndex++;
   state.revealed = false;
   if (state.drawIndex >= state.drawSequence.length) {
-    showStep('closing');
+    document.getElementById('draw-counter').textContent = '';
+    document.getElementById('draw-section-header').innerHTML = '';
+    document.getElementById('draw-player').textContent = '';
+    document.getElementById('draw-card-area').innerHTML = '';
+    document.getElementById('draw-comment').value = '';
+    document.getElementById('next-btn').classList.add('hidden');
+    document.getElementById('closing-section').classList.remove('hidden');
+    renderDrawHistory();
   } else {
     renderCurrentCard();
   }
@@ -768,7 +773,7 @@ function nl2br(s) { return s.replace(/\n/g, '<br>'); }
 // STEP MANAGEMENT
 // ─────────────────────────────────────────────────────────────
 function showStep(name) {
-  ['setup', 'teams', 'draw', 'closing'].forEach(s => {
+  ['setup', 'teams', 'draw'].forEach(s => {
     document.getElementById('step-' + s).classList.toggle('hidden', s !== name);
     const p = document.getElementById('prog-' + s);
     if (p) p.classList.toggle('active', s === name);
@@ -790,6 +795,8 @@ function resetApp() {
    'cap0-comment', 'cap1-comment'].forEach(id => {
     document.getElementById(id).value = '';
   });
+  document.getElementById('next-btn').classList.remove('hidden');
+  document.getElementById('closing-section').classList.add('hidden');
   showStep('setup');
 }
 
