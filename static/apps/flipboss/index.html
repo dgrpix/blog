@@ -403,9 +403,11 @@ function dealTeams() {
     else             state.teamEven.push(name);
   }
 
-  state.captainCards    = dealCards(2);
-  state.oddCards        = dealCards(state.teamOdd.length);
-  state.evenCards       = dealCards(state.teamEven.length);
+  const totalCards   = 2 + state.teamOdd.length + state.teamEven.length;
+  const allDealt     = dealCards(totalCards);
+  state.captainCards = allDealt.slice(0, 2);
+  state.oddCards     = allDealt.slice(2, 2 + state.teamOdd.length);
+  state.evenCards    = allDealt.slice(2 + state.teamOdd.length);
   state.captainRevealed = [false, false];
   state.captainComments = ['', ''];
   state.winnerIdx       = null;
@@ -507,7 +509,7 @@ function chooseWinner(idx) {
   state.revealed     = false;
 
   document.getElementById('winner-section').classList.add('hidden');
-  document.getElementById('winner-announce').textContent = `&#127881; Team ${winnerName} wins the flip!`;
+  document.getElementById('winner-announce').innerHTML = `&#127881; Team ${winnerName} wins the flip!`;
   document.getElementById('start-draw-section').classList.remove('hidden');
 }
 
@@ -593,7 +595,7 @@ function nextCard() {
 // ─────────────────────────────────────────────────────────────
 async function generateEmail() {
   const btn = document.getElementById('copy-btn');
-  btn.textContent = '&#8987; Building...';
+  btn.innerHTML = '&#8987; Building...';
   btn.disabled = true;
 
   const html = buildEmailHTML(
@@ -622,7 +624,7 @@ async function generateEmail() {
     alert('Copied (fallback). Paste into Gmail compose.');
   }
 
-  btn.textContent = '&#128203; Copy Email to Clipboard';
+  btn.innerHTML = '&#128203; Copy Email to Clipboard';
   btn.disabled = false;
 }
 
