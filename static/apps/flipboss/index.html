@@ -285,7 +285,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 </div>
 
 <script>
-const VERSION = 'v0.0001';
+const VERSION = 'v0.0002';
 
 // ─────────────────────────────────────────────────────────────
 // DATA
@@ -728,7 +728,7 @@ function buildEmailHTML(intro, teamsComment) {
     let boxStyle   = emailCardBox(card, name);
     let annotation = captainAnnotation(card, name);
     html += `<br><span style="${s}"><b>${name}</b>${annotation}</span>`;
-    html += `<br><span style="${boxStyle}"><img width="72" height="96" src="https://www.random.org/playing-cards/${filename}"></span>`;
+    html += `<br><span style="${boxStyle}"><img width="72" height="96" style="display:block;" src="https://www.random.org/playing-cards/${filename}"></span>`;
     if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
     html += '<br>';
   });
@@ -747,7 +747,7 @@ function buildEmailHTML(intro, teamsComment) {
     let boxStyle   = emailCardBox(card, name);
     let annotation = captainAnnotation(card, name);
     html += `<br><span style="${s}">${name}${annotation}</span>`;
-    html += `<br><span style="${boxStyle}"><img width="72" height="96" src="https://www.random.org/playing-cards/${filename}"></span>`;
+    html += `<br><span style="${boxStyle}"><img width="72" height="96" style="display:block;" src="https://www.random.org/playing-cards/${filename}"></span>`;
     if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
     html += '<br>';
   });
@@ -757,14 +757,15 @@ function buildEmailHTML(intro, teamsComment) {
 }
 
 function emailCardBox(card, name) {
-  if (specials[card] === 'bastardo')      return 'display:inline-block;border:1px solid #888;background:rgba(20,20,20,0.75);padding:4px;';
-  if (specials[card] === 'faux-bastardo') return 'display:inline-block;border:1px solid #32b432;background:rgba(50,180,50,0.35);padding:4px;';
-  if (specials[card] === 'degenerado')    return 'display:inline-block;border:1px solid #3232dc;background:rgba(50,50,220,0.35);padding:4px;';
+  const base = 'display:inline-block;vertical-align:top;padding:4px;';
+  if (specials[card] === 'bastardo')      return base + 'border:1px solid #888;background:rgba(20,20,20,0.75);';
+  if (specials[card] === 'faux-bastardo') return base + 'border:1px solid #32b432;background:rgba(50,180,50,0.35);';
+  if (specials[card] === 'degenerado')    return base + 'border:1px solid #3232dc;background:rgba(50,50,220,0.35);';
   if (spitecards[card]) {
-    if (spitecards[card] === name) return 'display:inline-block;border:1px solid gold;background:rgba(255,215,0,0.35);padding:4px;';
-    return 'display:inline-block;border:1px solid #dc3232;background:rgba(220,50,50,0.35);padding:4px;';
+    if (spitecards[card] === name) return base + 'border:1px solid gold;background:rgba(255,215,0,0.35);';
+    return base + 'border:1px solid #dc3232;background:rgba(220,50,50,0.35);';
   }
-  return 'display:inline-block;border:1px solid #ccc;background:transparent;padding:4px;';
+  return base + 'border:1px solid #ccc;background:transparent;';
 }
 
 function captainAnnotation(card, name) {
