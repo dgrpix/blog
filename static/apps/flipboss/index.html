@@ -590,8 +590,11 @@ function renderCurrentCard() {
   ta.value   = state.cardComments[drawIndex] || '';
   ta.oninput = () => { state.cardComments[drawIndex] = ta.value; };
 
+  const lastDonkey = drawSequence[total - 1].name;
   document.getElementById('next-btn').innerHTML =
-    drawIndex === total - 1 ? 'Finish Draw &#10003;' : 'Next Card &rarr;';
+    drawIndex === total - 1 ? 'Finish Draw &#10003;' :
+    drawIndex === total - 2 ? `${lastDonkey}'s Spite Draw` :
+    'Next Card &rarr;';
 }
 
 function revealCard() {
