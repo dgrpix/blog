@@ -285,7 +285,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 </div>
 
 <script>
-const VERSION = 'v0.0002';
+const VERSION = 'v0.0003';
 
 // ─────────────────────────────────────────────────────────────
 // DATA
@@ -727,8 +727,10 @@ function buildEmailHTML(intro, teamsComment) {
     const comment  = captainComments[i] || '';
     let boxStyle   = emailCardBox(card, name);
     let annotation = captainAnnotation(card, name);
+    let spiteLabel = emailSpiteLabel(card, name);
     html += `<br><span style="${s}"><b>${name}</b>${annotation}</span>`;
     html += `<br><span style="${boxStyle}"><img width="72" height="96" style="display:block;" src="https://www.random.org/playing-cards/${filename}"></span>`;
+    if (spiteLabel) html += `<br><span style="${s}">${spiteLabel}</span>`;
     if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
     html += '<br>';
   });
@@ -746,8 +748,10 @@ function buildEmailHTML(intro, teamsComment) {
     const comment      = cardComments[i] || '';
     let boxStyle   = emailCardBox(card, name);
     let annotation = captainAnnotation(card, name);
+    let spiteLabel = emailSpiteLabel(card, name);
     html += `<br><span style="${s}">${name}${annotation}</span>`;
     html += `<br><span style="${boxStyle}"><img width="72" height="96" style="display:block;" src="https://www.random.org/playing-cards/${filename}"></span>`;
+    if (spiteLabel) html += `<br><span style="${s}">${spiteLabel}</span>`;
     if (comment) html += `<br><span style="${s}">${nl2br(comment)}</span>`;
     html += '<br>';
   });
@@ -772,11 +776,13 @@ function captainAnnotation(card, name) {
   if (specials[card] === 'bastardo')      return ' <i>(bastardo)</i>';
   if (specials[card] === 'faux-bastardo') return ' <i>(faux-bastardo)</i>';
   if (specials[card] === 'degenerado')    return ' <i>(degenerado)</i>';
-  if (spitecards[card]) {
-    if (spitecards[card] === name) return ' &#11088;';
-    return ` <i>(${spitecards[card]}'s card)</i>`;
-  }
   return '';
+}
+
+function emailSpiteLabel(card, name) {
+  if (!spitecards[card]) return '';
+  if (spitecards[card] === name) return `<span style="color:gold;">&#11088; ${name}'s spite card!</span>`;
+  return `<span style="color:#dc3232;"><i>&#10071; ${spitecards[card]}'s card</i></span>`;
 }
 
 function nl2br(s) { return s.replace(/\n/g, '<br>'); }
