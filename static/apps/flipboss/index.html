@@ -56,7 +56,6 @@ textarea, input[type="text"], input[type="email"] {
 textarea { resize: vertical; min-height: 80px; }
 textarea:focus, input:focus { outline: 1px solid var(--accent); }
 .field-label { font-size: 11px; color: var(--text-muted); margin: 12px 0 4px; }
-.email-row { display: grid; grid-template-columns: 1fr 2fr; gap: 12px; margin-bottom: 4px; }
 button {
   background: var(--accent);
   border: none;
@@ -198,18 +197,6 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
     <button class="secondary" onclick="applySpitecards()" style="padding:6px 14px; margin-top:6px;">Apply Changes</button>
   </details>
 
-  <div class="field-label">Email Settings</div>
-  <div class="email-row">
-    <div>
-      <div class="field-label">To</div>
-      <input type="email" id="email-to" value="tibgd@googlegroups.com">
-    </div>
-    <div>
-      <div class="field-label">Subject</div>
-      <input type="text" id="email-subject" value="TIBGD Flip Results">
-    </div>
-  </div>
-
   <div class="field-label">Intro — context before teams are revealed</div>
   <textarea id="intro-comment" placeholder="Optional intro commentary..."></textarea>
   <button onclick="dealTeams()">&#127922; Deal Teams</button>
@@ -285,7 +272,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
 </div>
 
 <script>
-const VERSION = 'v0.0003';
+const VERSION = 'v0.0004';
 
 // ─────────────────────────────────────────────────────────────
 // DATA
