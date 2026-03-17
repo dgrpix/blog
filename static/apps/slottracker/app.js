@@ -869,4 +869,5 @@ function showSessionDetail({ sessionId }) {
 }
 
 document.title = `SlotTracker ${VERSION}`;
+document.getElementById('app-version').textContent = VERSION;
 navigate('home');
