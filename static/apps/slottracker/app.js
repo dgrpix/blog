@@ -1,9 +1,9 @@
-const VERSION = 'v0.0010';
+const VERSION = 'v0.0011';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
 const PB = {
-  get url()      { return localStorage.getItem('pb_url')      || 'http://crate:8090'; },
+  get url()      { return localStorage.getItem('pb_url')      || 'https://crate.myqnapcloud.com:9090'; },
   set url(v)     { localStorage.setItem('pb_url', v.replace(/\/$/, '')); },
   get email()    { return localStorage.getItem('pb_email')    || 'slottracker@dgrpix.net'; },
   set email(v)   { localStorage.setItem('pb_email', v); },
