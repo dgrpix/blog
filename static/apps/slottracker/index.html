@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>SlotTracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header id="header">
+    <button id="btn-back" class="icon-btn hidden" aria-label="Back">&#8592;</button>
+    <span id="page-title">SlotTracker</span>
+    <button id="btn-settings" class="icon-btn" aria-label="Settings">&#9881;</button>
+  </header>
+
+  <main id="main">
+
+    <!-- HOME -->
+    <div id="screen-home" class="screen">
+      <div id="conn-status" class="conn-status checking">Checking connection...</div>
+      <div id="sessions-list">
+        <div class="empty-state">No sessions yet.<br>Tap + to start your first session.</div>
+      </div>
+    </div>
+
+    <!-- NEW SESSION -->
+    <div id="screen-new-session" class="screen">
+
+      <div class="form-section">
+        <div class="section-label">Machine Photo</div>
+        <div id="photo-picker" class="photo-picker">
+          <span id="photo-placeholder">&#128247; Tap to photograph machine</span>
+          <img id="photo-preview" class="hidden" alt="Machine photo">
+        </div>
+        <input id="photo-input" type="file" accept="image/*" capture="environment" class="sr-only">
+      </div>
+
+      <div class="form-section">
+        <div class="section-label">Session Details</div>
+
+        <div class="field-label">Casino</div>
+        <input id="ns-casino" type="text" list="casino-list" placeholder="Casino name" autocomplete="off" autocorrect="off">
+        <datalist id="casino-list"></datalist>
+
+        <div class="field-label">Machine Name</div>
+        <input id="ns-machine" type="text" list="machine-list" placeholder="e.g. Buffalo Gold" autocorrect="off">
+        <datalist id="machine-list"></datalist>
+
+        <div class="field-label">Denomination</div>
+        <div id="denom-buttons" class="pill-group">
+          <button class="pill" data-value="0.01">1¢</button>
+          <button class="pill" data-value="0.02">2¢</button>
+          <button class="pill" data-value="0.05">5¢</button>
+          <button class="pill" data-value="0.10">10¢</button>
+          <button class="pill" data-value="0.25">25¢</button>
+          <button class="pill" data-value="0.50">50¢</button>
+          <button class="pill" data-value="1.00">$1</button>
+          <button class="pill" data-value="2.00">$2</button>
+          <button class="pill" data-value="5.00">$5</button>
+        </div>
+
+        <div class="field-label">Bet Per Spin ($)</div>
+        <input id="ns-bet" type="number" min="0.01" step="0.01" placeholder="e.g. 3.00" inputmode="decimal">
+
+        <div class="field-label">Starting Balance ($)</div>
+        <input id="ns-start-balance" type="number" min="0.01" step="0.01" placeholder="e.g. 100.00" inputmode="decimal">
+      </div>
+
+      <div id="ns-error" class="form-error hidden"></div>
+      <button id="btn-start-session" class="btn btn-primary">Start Session</button>
+
+    </div>
+
+    <!-- ACTIVE SESSION -->
+    <div id="screen-active-session" class="screen">
+
+      <!-- Panel 1: Main content (normal playing state) -->
+      <div id="as-main-content">
+
+        <div class="session-info-bar">
+          <div id="as-machine" class="as-machine"></div>
+          <div id="as-sub" class="as-sub"></div>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat-box">
+            <div class="stat-label">Elapsed</div>
+            <div class="stat-value" id="as-timer">0:00:00</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Bonuses</div>
+            <div class="stat-value" id="as-bonus-count">0</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Total Spins</div>
+            <div class="stat-value" id="as-total-spins">0</div>
+          </div>
+        </div>
+
+        <div class="session-stat-row">
+          <div class="session-stat">
+            <div class="stat-label">Start Balance</div>
+            <div id="as-start-balance-display" class="session-stat-val"></div>
+          </div>
+          <div class="session-stat">
+            <div class="stat-label">Denomination</div>
+            <div id="as-denom-display" class="session-stat-val"></div>
+          </div>
+          <div class="session-stat">
+            <div class="stat-label">Bet / Spin</div>
+            <div id="as-bet-display" class="session-stat-val"></div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="section-label">Segment <span id="as-segment-num">1</span> Spins</div>
+          <input id="as-spins" type="number" min="0" step="1" placeholder="Enter spins before tapping Bonus or End Session" inputmode="numeric">
+        </div>
+
+        <div class="form-section">
+          <div class="section-label">Current Balance ($)</div>
+          <input id="as-balance" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0.00">
+          <div id="as-balance-warning" class="balance-warning hidden"></div>
+        </div>
+
+        <div class="action-stack">
+          <button id="btn-bonus" class="btn btn-warning">BONUS!</button>
+          <button id="btn-end-session" class="btn btn-danger">End Session</button>
+        </div>
+
+      </div><!-- end #as-main-content -->
+
+      <!-- Panel 2: Bonus in progress -->
+      <div id="as-bonus-inprogress" class="hidden">
+
+        <div class="as-compact-header">
+          <span id="as-bip-machine" class="as-compact-machine"></span>
+          <span id="as-timer-bip" class="as-timer-compact">0:00:00</span>
+        </div>
+
+        <div class="bonus-started-info">
+          Bonus started at <strong id="as-bip-start-bal"></strong>
+        </div>
+
+        <button id="btn-bonus-done" class="btn btn-primary">Bonus Complete &#8594;</button>
+        <button id="btn-bonus-cancel" class="btn btn-secondary">Cancel (no bonus)</button>
+
+      </div><!-- end #as-bonus-inprogress -->
+
+      <!-- Panel 3: Bonus form -->
+      <div id="as-bonus-form" class="hidden">
+
+        <div class="as-compact-header">
+          <span id="as-bf-machine" class="as-compact-machine"></span>
+          <span id="as-timer-bf" class="as-timer-compact">0:00:00</span>
+        </div>
+
+        <div class="bonus-started-info">
+          Bonus started at <strong id="as-bf-start-bal"></strong>
+        </div>
+
+        <div class="section-label">Bonus Type</div>
+        <div class="radio-group">
+          <div class="radio-option">
+            <input type="radio" name="bonus-type" id="bt-free" value="free_games">
+            <label for="bt-free">Free Games</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" name="bonus-type" id="bt-hold" value="hold_and_spin">
+            <label for="bt-hold">Hold &amp; Spin</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" name="bonus-type" id="bt-other" value="other">
+            <label for="bt-other">Other</label>
+          </div>
+        </div>
+
+        <div class="field-label">Balance After Bonus ($)</div>
+        <input id="bc-end-balance" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0.00">
+
+        <div class="field-label">Attach Video (optional)</div>
+        <div id="bc-video-picker" class="video-picker">
+          <span id="bc-video-placeholder">&#127909; Tap to attach bonus video</span>
+          <span id="bc-video-name" class="hidden"></span>
+        </div>
+        <input id="bc-video-input" type="file" accept="video/*" class="sr-only">
+
+        <div id="bc-error" class="form-error hidden"></div>
+        <button id="btn-bc-save" class="btn btn-primary">Complete Bonus</button>
+        <button id="btn-bc-back" class="btn btn-secondary">&#8592; Back</button>
+
+      </div><!-- end #as-bonus-form -->
+
+      <!-- Panel 4: End session confirm -->
+      <div id="as-end-confirm" class="hidden">
+
+        <div class="as-compact-header">
+          <span id="as-ec-machine" class="as-compact-machine"></span>
+          <span id="as-timer-ec" class="as-timer-compact">0:00:00</span>
+        </div>
+
+        <div class="section-label">Session Summary</div>
+        <div id="ec-summary" class="es-summary"></div>
+
+        <div class="es-final-row">
+          <span class="stat-label">Final Balance</span>
+          <span id="ec-final-bal" class="es-final-val"></span>
+        </div>
+
+        <div id="ec-error" class="form-error hidden"></div>
+        <button id="btn-ec-confirm" class="btn btn-danger">Confirm End Session</button>
+        <button id="btn-ec-cancel" class="btn btn-secondary">Cancel</button>
+
+      </div><!-- end #as-end-confirm -->
+
+    </div><!-- end #screen-active-session -->
+
+    <!-- SESSION DETAIL (step 6) -->
+    <div id="screen-session-detail" class="screen"></div>
+
+    <!-- SETTINGS -->
+    <div id="screen-settings" class="screen">
+      <div class="form-section">
+        <div class="section-label">PocketBase Connection</div>
+        <div class="field-label">URL</div>
+        <input id="pb-url-input" type="url" spellcheck="false" autocorrect="off" autocapitalize="off">
+        <div class="field-label">Email</div>
+        <input id="pb-email-input" type="email" autocorrect="off" autocapitalize="off">
+        <div class="field-label">Password</div>
+        <input id="pb-password-input" type="password">
+        <button id="btn-test-conn" class="btn btn-secondary">Save &amp; Test Connection</button>
+        <div id="settings-conn-status" class="conn-status hidden"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <button id="fab" class="fab hidden" aria-label="New Session">+</button>
+
+</div><!-- end #app -->
+
+<script src="app.js"></script>
+</body>
+</html>
