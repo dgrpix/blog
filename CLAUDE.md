@@ -5,8 +5,8 @@ This file provides guidance to Claude Code when working with code in this reposi
 ## Build and Development Commands
 
 ```bash
-# Start local dev server (live reload)
-hugo server
+# Start local dev server (live reload) — always use port 1314
+hugo server -p 1314
 
 # Build for production
 hugo
@@ -18,7 +18,7 @@ The site builds to `public/`. Hugo Extended is required (uses SCSS via PaperMod 
 
 Always use `git pull --rebase`, never plain `git pull`. The CMS commits directly to main, so pulls are frequently needed before pushing. At the start of each session (or after any gap), run `git pull --rebase` before making changes — stash first if there are unstaged changes.
 
-At the start of each session, also kill any running Hugo servers and start a fresh one: `pkill hugo` then `hugo server`. Only one person uses this machine and only one project is active, so this is always safe.
+At the start of each session, also kill any running Hugo servers and start a fresh one: on Windows `taskkill /F /IM hugo.exe`, on Mac `pkill hugo`, then `hugo server -p 1314`. Always use port 1314 — port 1313 may be in use by another process. Only one person uses this machine and only one project is active, so this is always safe.
 
 All pushes to `main` are automatically deployed to production via GitHub Actions.
 

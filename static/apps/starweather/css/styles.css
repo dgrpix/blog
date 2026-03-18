@@ -1,0 +1,744 @@
+/* ============================================================
+   STAR OF THE SEAS — CRUISE WEATHER
+   iOS Weather-inspired design
+   ============================================================ */
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display',
+                 'Segoe UI', system-ui, sans-serif;
+    background: #06080f;
+    color: #ffffff;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.cruise-header {
+    background: rgba(6, 8, 15, 0.88);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    flex-shrink: 0;
+}
+
+.header-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 14px 20px 12px;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 9px;
+}
+
+.ship-icon {
+    font-size: 30px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 2px 10px rgba(56, 152, 255, 0.5));
+}
+
+.header-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.ship-name {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.6px;
+    color: #ffffff;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header-subtitle {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.refresh-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.2s ease, transform 0.2s ease;
+    -webkit-appearance: none;
+}
+
+.refresh-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.refresh-btn:active {
+    transform: scale(0.92);
+}
+
+.refresh-icon {
+    display: inline-block;
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+.refresh-btn.spinning .refresh-icon {
+    animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+.header-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.dates-pill {
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.updated-text {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.35);
+    white-space: nowrap;
+}
+
+/* ============================================================
+   LOADING STATE
+   ============================================================ */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.loading-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    gap: 16px;
+    padding: 40px 20px;
+}
+
+.wave-spinner {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    height: 44px;
+}
+
+.wave-spinner div {
+    width: 7px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #4fc3f7 0%, #0288d1 100%);
+    animation: wave 1.3s ease-in-out infinite;
+    height: 100%;
+    transform-origin: bottom;
+}
+
+.wave-spinner div:nth-child(1) { animation-delay: 0.0s; }
+.wave-spinner div:nth-child(2) { animation-delay: 0.1s; }
+.wave-spinner div:nth-child(3) { animation-delay: 0.2s; }
+.wave-spinner div:nth-child(4) { animation-delay: 0.3s; }
+.wave-spinner div:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes wave {
+    0%, 100% { transform: scaleY(0.25); opacity: 0.4; }
+    50%       { transform: scaleY(1);    opacity: 1; }
+}
+
+.loading-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.loading-sub {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: center;
+}
+
+/* ============================================================
+   ERROR STATE
+   ============================================================ */
+.error-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 30px;
+    gap: 12px;
+    text-align: center;
+}
+
+.error-icon  { font-size: 40px; }
+.error-title { font-size: 18px; font-weight: 600; }
+.error-sub   { font-size: 14px; color: rgba(255,255,255,0.5); }
+
+.retry-btn {
+    margin-top: 8px;
+    background: #0a84ff;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s ease;
+}
+
+.retry-btn:hover { background: #1a8fff; }
+
+/* ============================================================
+   ITINERARY GRID
+   ============================================================ */
+.itinerary {
+    padding: 20px 16px 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Mobile: single column */
+@media (max-width: 599px) {
+    .itinerary { padding: 14px 12px 20px; }
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 600px) {
+    .itinerary {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 900px) {
+    .itinerary {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+}
+
+/* Wide desktop: 4 columns */
+@media (min-width: 1280px) {
+    .itinerary {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+    }
+}
+
+/* ============================================================
+   DAY CARD
+   ============================================================ */
+.day-card {
+    border-radius: 22px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.45),
+        0 1px 4px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    animation: cardIn 0.5s ease both;
+    margin-bottom: 14px;
+}
+
+/* Remove margin-bottom when grid is active */
+@media (min-width: 600px) {
+    .day-card { margin-bottom: 0; }
+}
+
+@media (min-width: 480px) {
+    .day-card { min-height: 420px; }
+}
+
+.day-card:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 12px 40px rgba(0, 0, 0, 0.55),
+        0 4px 12px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.14);
+}
+
+@keyframes cardIn {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Staggered animation delays */
+.day-card:nth-child(1)  { animation-delay: 0.04s; }
+.day-card:nth-child(2)  { animation-delay: 0.08s; }
+.day-card:nth-child(3)  { animation-delay: 0.12s; }
+.day-card:nth-child(4)  { animation-delay: 0.16s; }
+.day-card:nth-child(5)  { animation-delay: 0.20s; }
+.day-card:nth-child(6)  { animation-delay: 0.24s; }
+.day-card:nth-child(7)  { animation-delay: 0.28s; }
+.day-card:nth-child(8)  { animation-delay: 0.32s; }
+.day-card:nth-child(9)  { animation-delay: 0.36s; }
+.day-card:nth-child(10) { animation-delay: 0.40s; }
+.day-card:nth-child(11) { animation-delay: 0.44s; }
+.day-card:nth-child(12) { animation-delay: 0.48s; }
+.day-card:nth-child(13) { animation-delay: 0.52s; }
+.day-card:nth-child(14) { animation-delay: 0.56s; }
+
+/* Today highlight */
+.day-card.is-today {
+    outline: 2.5px solid rgba(255, 214, 0, 0.7);
+    outline-offset: 0;
+}
+
+/* Card background gradient layer */
+.card-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+/* Subtle noise texture overlay for depth */
+.card-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    opacity: 0.25;
+    mix-blend-mode: overlay;
+}
+
+/* All card content sits above the gradient */
+.card-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 18px 18px 0;
+}
+
+/* ============================================================
+   CARD — TOP ROW (day number / type badge)
+   ============================================================ */
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.card-day-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.today-flag {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #ffd60a;
+    text-shadow: 0 0 12px rgba(255, 214, 10, 0.6);
+}
+
+.actual-flag {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: rgba(100, 220, 140, 0.85);
+    text-shadow: 0 0 10px rgba(100, 220, 140, 0.4);
+}
+
+.day-number-label {
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.day-date-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+/* Type badge: PORT / SEA / HOTEL */
+.type-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 11px 5px 9px;
+    border-radius: 20px;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.type-badge.port {
+    background: rgba(52, 199, 89, 0.22);
+    border: 1px solid rgba(52, 199, 89, 0.38);
+    color: #5de083;
+}
+
+.type-badge.sea {
+    background: rgba(90, 200, 250, 0.18);
+    border: 1px solid rgba(90, 200, 250, 0.32);
+    color: #5ac8fa;
+}
+
+.type-badge.hotel {
+    background: rgba(255, 149, 0, 0.20);
+    border: 1px solid rgba(255, 149, 0, 0.35);
+    color: #ffa83a;
+}
+
+/* ============================================================
+   CARD — LOCATION & PORT TIMES
+   ============================================================ */
+.location-name {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 3px;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.port-times {
+    font-size: 11.5px;
+    color: rgba(255, 255, 255, 0.62);
+    font-weight: 400;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.port-time-item {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.port-note {
+    color: rgba(255, 200, 100, 0.8);
+}
+
+.flight-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    padding: 2px 8px 2px 6px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    cursor: pointer;
+}
+
+.flight-badge:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* ============================================================
+   CARD — MAIN WEATHER DISPLAY
+   ============================================================ */
+.card-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 14px;
+}
+
+.weather-icon-temp {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.weather-emoji {
+    font-size: 62px;
+    line-height: 1;
+    filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.28));
+    user-select: none;
+}
+
+.temp-block {
+    text-align: right;
+}
+
+.temp-high {
+    font-size: 68px;
+    font-weight: 200;
+    letter-spacing: -4px;
+    line-height: 1;
+    color: #ffffff;
+    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.2);
+}
+
+.temp-unit {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    vertical-align: super;
+    line-height: 1;
+}
+
+.temp-low {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    margin-top: 3px;
+    letter-spacing: 0.1px;
+}
+
+.weather-condition {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: 400;
+    margin-bottom: 14px;
+    letter-spacing: 0.1px;
+}
+
+/* No weather available placeholder */
+.no-weather {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    margin: 8px 0 14px;
+}
+
+/* ============================================================
+   CARD — DETAIL CHIPS (wind / rain / UV)
+   ============================================================ */
+.detail-chips {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 2px;
+}
+
+.chip {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 12px;
+    padding: 9px 6px;
+    text-align: center;
+    min-width: 0;
+}
+
+.chip-icon {
+    font-size: 15px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.chip-value {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #ffffff;
+    display: block;
+    white-space: nowrap;
+}
+
+.chip-value small {
+    font-size: 9px;
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+.chip-label {
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    display: block;
+    margin-top: 1px;
+}
+
+/* UV color coding */
+.uv-low    { color: #4cd964; }
+.uv-med    { color: #ffcc00; }
+.uv-high   { color: #ff9500; }
+.uv-vhigh  { color: #ff3b30; }
+.uv-extreme { color: #bf5af2; }
+
+/* ============================================================
+   CARD — 3-DAY MINI FORECAST STRIP
+   ============================================================ */
+.mini-forecast {
+    margin: 0 -18px;
+    padding: 12px 18px 14px;
+    background: rgba(0, 0, 0, 0.22);
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+    display: flex;
+    gap: 0;
+}
+
+.fc-day {
+    flex: 1;
+    text-align: center;
+    padding: 0 4px;
+    border-right: 1px solid rgba(255, 255, 255, 0.07);
+    min-width: 0;
+}
+
+.fc-day:last-child {
+    border-right: none;
+}
+
+.fc-day-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 4px;
+    white-space: nowrap;
+}
+
+.fc-day.fc-today .fc-day-label {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.fc-icon {
+    font-size: 20px;
+    line-height: 1.1;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.fc-temps {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.fc-temps .fc-lo {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 400;
+    margin-left: 3px;
+}
+
+.fc-location {
+    font-size: 8.5px;
+    color: rgba(255, 255, 255, 0.38);
+    margin-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Pending forecast slot */
+.fc-pending {
+    font-size: 11px;
+    color: rgba(255,255,255,0.35);
+    padding: 6px 0;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.cruise-footer {
+    text-align: center;
+    padding: 18px 20px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.28);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    flex-shrink: 0;
+}
+
+.cruise-footer a {
+    color: rgba(255, 255, 255, 0.45);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.cruise-footer a:hover { color: rgba(255, 255, 255, 0.7); }
+
+/* ============================================================
+   UTILITY
+   ============================================================ */
+.hidden { display: none !important; }
+
+/* Responsive tweaks for very small screens */
+@media (max-width: 359px) {
+    .ship-name   { font-size: 17px; }
+    .temp-high   { font-size: 58px; }
+    .weather-emoji { font-size: 52px; }
+    .location-name { font-size: 18px; }
+}
