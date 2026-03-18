@@ -109,6 +109,10 @@ const weatherStore = {};
 
 /* ---- API FETCH -------------------------------------------- */
 async function fetchWeatherForStop(stop) {
+    if (stop.date < todayStr()) {
+        return fetchActualWeatherForStop(stop);
+    }
+
     const qs = new URLSearchParams({
         latitude:            stop.lat,
         longitude:           stop.lon,
@@ -143,7 +147,77 @@ async function fetchWeatherForStop(stop) {
         wind:    Math.round(data.daily.wind_speed_10m_max[idx]),
         windDir: data.daily.wind_direction_10m_dominant[idx],
         uv:      data.daily.uv_index_max[idx] != null
-                     ? Math.round(data.daily.uv_index_max[idx]) : null
+                     ? Math.round(data.daily.uv_index_max[idx]) : null,
+        isActual: false
+    };
+}
+
+async function fetchActualWeatherForStop(stop) {
+    const qs = new URLSearchParams({
+        latitude:           stop.lat,
+        longitude:          stop.lon,
+        start_date:         stop.date,
+        end_date:           stop.date,
+        daily: [
+            'weather_code',
+            'temperature_2m_max',
+            'temperature_2m_min',
+            'precipitation_sum',
+            'wind_direction_10m_dominant',
+            'uv_index_max'
+        ].join(','),
+        hourly: [
+            'temperature_2m',
+            'weather_code',
+            'wind_speed_10m'
+        ].join(','),
+        temperature_unit:   'fahrenheit',
+        wind_speed_unit:    'mph',
+        precipitation_unit: 'inch',
+        timezone:           'auto'
+    });
+
+    const res = await fetch(`https://archive-api.open-meteo.com/v1/archive?${qs}`);
+    if (!res.ok) return null; // archive lag — data not yet available
+
+    const data = await res.json();
+    if (!data.daily || !data.daily.time || data.daily.time.length === 0) return null;
+
+    // Average wind from all 24 hourly readings
+    const hourlyWind = data.hourly.wind_speed_10m;
+    const windAvg = Math.round(hourlyWind.reduce((a, b) => a + b, 0) / hourlyWind.length);
+
+    // Snapshots at 8 AM, 2 PM, 8 PM local time
+    const times      = data.hourly.time;
+    const hourlyTemp = data.hourly.temperature_2m;
+    const hourlyCode = data.hourly.weather_code;
+    const snapshots  = [
+        { hour: 8,  label: '8 AM'  },
+        { hour: 14, label: '2 PM'  },
+        { hour: 20, label: '8 PM'  }
+    ].map(({ hour, label }) => {
+        const target = `${stop.date}T${String(hour).padStart(2, '0')}:00`;
+        const idx    = times.indexOf(target);
+        return {
+            label,
+            temp:        idx !== -1 ? Math.round(hourlyTemp[idx]) : null,
+            weatherCode: idx !== -1 ? hourlyCode[idx]             : null
+        };
+    });
+
+    const precip = data.daily.precipitation_sum[0];
+
+    return {
+        weatherCode: data.daily.weather_code[0],
+        tempHi:      Math.round(data.daily.temperature_2m_max[0]),
+        tempLo:      Math.round(data.daily.temperature_2m_min[0]),
+        precipIn:    precip != null ? parseFloat(precip.toFixed(2)) : null,
+        wind:        windAvg,
+        windDir:     data.daily.wind_direction_10m_dominant[0],
+        uv:          data.daily.uv_index_max[0] != null
+                         ? Math.round(data.daily.uv_index_max[0]) : null,
+        isActual:    true,
+        snapshots
     };
 }
 
@@ -237,8 +311,14 @@ function buildCard(stop, idx, today) {
     /* --- Main temperature / condition --- */
     let mainHtml;
     if (weather) {
-        const uv = uvLabel(weather.uv);
-        const wdir = windDirLabel(weather.windDir);
+        const uv    = uvLabel(weather.uv);
+        const wdir  = windDirLabel(weather.windDir);
+        const windChipLabel = weather.isActual ? `Avg Wind ${wdir}` : `Wind ${wdir}`;
+        const precipChip    = weather.isActual
+            ? `<span class="chip-value">${weather.precipIn != null ? weather.precipIn : '—'}<small>${weather.precipIn != null ? ' in' : ''}</small></span>
+                    <span class="chip-label">Rainfall</span>`
+            : `<span class="chip-value">${weather.precip ?? '—'}<small>%</small></span>
+                    <span class="chip-label">Rain</span>`;
         mainHtml = `
             <div class="weather-icon-temp">
                 <div class="weather-emoji">${info.emoji}</div>
@@ -252,18 +332,18 @@ function buildCard(stop, idx, today) {
                 <div class="chip">
                     <span class="chip-icon">💨</span>
                     <span class="chip-value">${weather.wind}<small> mph</small></span>
-                    <span class="chip-label">Wind ${wdir}</span>
+                    <span class="chip-label">${windChipLabel}</span>
                 </div>
                 <div class="chip">
                     <span class="chip-icon">🌧️</span>
-                    <span class="chip-value">${weather.precip ?? '—'}<small>%</small></span>
-                    <span class="chip-label">Rain</span>
+                    ${precipChip}
                 </div>
+                ${!weather.isActual ? `
                 <div class="chip">
                     <span class="chip-icon">🕶️</span>
                     <span class="chip-value ${uv.cls}">${uv.text}</span>
                     <span class="chip-label">UV Index</span>
-                </div>
+                </div>` : ''}
             </div>`;
     } else {
         mainHtml = `
@@ -271,33 +351,51 @@ function buildCard(stop, idx, today) {
             <div class="no-weather">Forecast unavailable</div>`;
     }
 
-    /* --- 3-day mini forecast strip ---
-         Shows the day before, this cruise day, and the day after */
+    /* --- Bottom strip: actual snapshots (past) or 3-day forecast (future) --- */
     let miniFcHtml = '';
-    const fcSlots = [-1, 0, 1].map(offset => {
-        const s = ITINERARY[idx + offset];
-        if (!s) return null;
-        const w = weatherStore[s.date] || null;
-        const wi = w ? wmoInfo(w.weatherCode) : null;
-        return { stop: s, weather: w, info: wi, offset };
-    }).filter(Boolean);
-
-    if (fcSlots.length) {
-        const slots = fcSlots.map(({ stop: s, weather: w, info: wi, offset }) => {
-            const label = shortDayName(s.date);
-            const tempStr = w
-                ? `<span class="fc-temps"><b>${w.tempHi}°</b><span class="fc-lo">${w.tempLo}°</span></span>`
+    if (weather && weather.isActual && weather.snapshots) {
+        /* Past day: show 8 AM / 2 PM / 8 PM actuals */
+        const slots = weather.snapshots.map(({ label, temp, weatherCode: wc }) => {
+            const wi      = wc != null ? wmoInfo(wc) : null;
+            const icon    = wi ? wi.emoji : '—';
+            const tempStr = temp != null
+                ? `<span class="fc-temps"><b>${temp}°</b></span>`
                 : `<span class="fc-pending">—</span>`;
-            const icon = wi ? wi.emoji : '❓';
             return `
+                <div class="fc-day${label === '2 PM' ? ' fc-today' : ''}">
+                    <div class="fc-day-label">${label}</div>
+                    <div class="fc-icon">${icon}</div>
+                    ${tempStr}
+                </div>`;
+        }).join('');
+        miniFcHtml = `<div class="mini-forecast">${slots}</div>`;
+    } else {
+        /* Future/today: show day-before, this day, day-after */
+        const fcSlots = [-1, 0, 1].map(offset => {
+            const s = ITINERARY[idx + offset];
+            if (!s) return null;
+            const w = weatherStore[s.date] || null;
+            const wi = w ? wmoInfo(w.weatherCode) : null;
+            return { stop: s, weather: w, info: wi, offset };
+        }).filter(Boolean);
+
+        if (fcSlots.length) {
+            const slots = fcSlots.map(({ stop: s, weather: w, info: wi, offset }) => {
+                const label   = shortDayName(s.date);
+                const tempStr = w
+                    ? `<span class="fc-temps"><b>${w.tempHi}°</b><span class="fc-lo">${w.tempLo}°</span></span>`
+                    : `<span class="fc-pending">—</span>`;
+                const icon = wi ? wi.emoji : '❓';
+                return `
                 <div class="fc-day${offset === 0 ? ' fc-today' : ''}">
                     <div class="fc-day-label">${label}</div>
                     <div class="fc-icon">${icon}</div>
                     ${tempStr}
                     <div class="fc-location">${s.short}</div>
                 </div>`;
-        }).join('');
-        miniFcHtml = `<div class="mini-forecast">${slots}</div>`;
+            }).join('');
+            miniFcHtml = `<div class="mini-forecast">${slots}</div>`;
+        }
     }
 
     /* --- Assemble card --- */
@@ -312,6 +410,7 @@ function buildCard(stop, idx, today) {
             <div class="card-top">
                 <div class="card-day-info">
                     ${isToday ? '<div class="today-flag">▶ Today</div>' : ''}
+                    ${weather && weather.isActual ? '<div class="actual-flag">✓ Actual</div>' : ''}
                     <div class="day-number-label">Day ${stop.day}</div>
                     <div class="day-date-label">${shortDayName(stop.date)}, ${shortDate(stop.date)}</div>
                 </div>
