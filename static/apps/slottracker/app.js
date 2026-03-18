@@ -1,4 +1,4 @@
-const VERSION = 'v0.0020';
+const VERSION = 'v0.0021';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -1629,7 +1629,7 @@ async function showSessionDetail({ sessionId, visitId }) {
         const ytId = youtubeVideoId(link.dataset.url);
         if (ytId) {
           const iframe         = document.createElement('iframe');
-          iframe.src           = `https://www.youtube.com/embed/${ytId}?autoplay=1&playsinline=1`;
+          iframe.src           = `https://www.youtube.com/embed/${ytId}`;
           iframe.allow         = 'autoplay; encrypted-media; fullscreen';
           iframe.style.cssText = 'width:100%;aspect-ratio:16/9;border:none;border-radius:6px;margin-top:8px;display:block';
           container.appendChild(iframe);
