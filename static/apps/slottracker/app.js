@@ -1,4 +1,4 @@
-const VERSION = 'v0.0013';
+const VERSION = 'v0.0014';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -842,8 +842,11 @@ async function showEndConfirm() {
     summaryEl.innerHTML = '<div style="color:var(--text-muted);font-size:13px">Could not load segment data</div>';
   }
 
-  document.getElementById('btn-ec-confirm').onclick = () => saveEndSession(endBal);
-  document.getElementById('btn-ec-cancel').onclick  = () => showPanel('as-main-content');
+  const confirmBtn = document.getElementById('btn-ec-confirm');
+  confirmBtn.disabled    = false;
+  confirmBtn.textContent = 'Confirm End Session';
+  confirmBtn.onclick     = () => saveEndSession(endBal);
+  document.getElementById('btn-ec-cancel').onclick = () => showPanel('as-main-content');
 
   endConfirmLoading = false;
   showPanel('as-end-confirm');
