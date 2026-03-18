@@ -478,6 +478,48 @@ select { cursor: pointer; }
   color: #000;
 }
 
+/* ── Session detail video link ── */
+.sd-video-link {
+  font-size: 11px;
+  color: var(--accent);
+  cursor: pointer;
+  margin-top: 3px;
+  -webkit-tap-highlight-color: transparent;
+}
+.sd-video-link:active { opacity: 0.6; }
+
+/* ── Visit cards ── */
+.visit-financial {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.visit-fin-item { font-size: 13px; }
+.visit-fin-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  display: block;
+  margin-bottom: 1px;
+}
+
+/* ── Visit summary cash insertion row ── */
+.sum-cash-insert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  margin: 0 0 6px 0;
+  background: #2d2200;
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--warning);
+}
+
 /* ── Utility ── */
 .sr-only {
   position: absolute;

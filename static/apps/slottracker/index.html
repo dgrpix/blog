@@ -221,7 +221,57 @@
 
     </div><!-- end #screen-active-session -->
 
-    <!-- SESSION DETAIL (step 6) -->
+    <!-- START VISIT -->
+    <div id="screen-start-visit" class="screen">
+
+      <div class="form-section">
+        <div class="section-label">Visit Photo (optional)</div>
+        <div id="sv-photo-picker" class="photo-picker">
+          <span id="sv-photo-placeholder">&#128247; Tap to photograph casino</span>
+        </div>
+        <input id="sv-photo-input" type="file" accept="image/*" capture="environment" class="sr-only">
+      </div>
+
+      <div class="form-section">
+        <div class="section-label">Casino</div>
+        <input id="sv-casino" type="text" list="sv-casino-list" placeholder="Casino name" autocomplete="off" autocorrect="off">
+        <datalist id="sv-casino-list"></datalist>
+      </div>
+
+      <div id="sv-error" class="form-error hidden"></div>
+      <button id="btn-start-visit" class="btn btn-primary">Start Visit</button>
+
+    </div>
+
+    <!-- VISIT DETAIL -->
+    <div id="screen-visit-detail" class="screen">
+
+      <!-- Panel 1: sessions list -->
+      <div id="vd-main">
+        <div class="session-info-bar">
+          <div id="vd-casino" class="as-machine"></div>
+          <div id="vd-sub" class="as-sub"></div>
+        </div>
+        <div id="vd-sessions-list"></div>
+        <div style="margin-top:10px">
+          <div id="vd-main-error" class="form-error hidden"></div>
+          <div id="vd-end-status" class="hidden" style="text-align:center;padding:10px;color:var(--text-muted);font-size:13px"></div>
+          <button id="btn-end-visit" class="btn btn-danger">End Visit</button>
+        </div>
+      </div>
+
+      <!-- Panel 2: end-visit confirm -->
+      <div id="vd-end-confirm" class="hidden">
+        <div class="section-label" style="margin-bottom:16px">Visit Summary</div>
+        <div id="vd-summary" class="es-summary"></div>
+        <div id="vd-error" class="form-error hidden"></div>
+        <button id="btn-vd-confirm" class="btn btn-danger">Confirm End Visit</button>
+        <button id="btn-vd-cancel" class="btn btn-secondary">Cancel</button>
+      </div>
+
+    </div>
+
+    <!-- SESSION DETAIL -->
     <div id="screen-session-detail" class="screen"></div>
 
     <!-- SETTINGS -->
