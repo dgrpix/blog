@@ -1,4 +1,4 @@
-const VERSION = 'v0.0021';
+const VERSION = 'v0.0022';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -1464,15 +1464,6 @@ SCREENS['session-detail'] = {
   onEnter: showSessionDetail,
 };
 
-function youtubeVideoId(url) {
-  try {
-    const u = new URL(url);
-    if (u.hostname === 'youtu.be') return u.pathname.slice(1).split('?')[0];
-    if (u.hostname.includes('youtube.com')) return u.searchParams.get('v');
-  } catch {}
-  return null;
-}
-
 async function showSessionDetail({ sessionId, visitId }) {
   const screen = document.getElementById('screen-session-detail');
   screen.style.backgroundImage = '';
@@ -1626,18 +1617,7 @@ async function showSessionDetail({ sessionId, visitId }) {
       const container = document.getElementById(`sd-video-${link.dataset.bonusId}`);
 
       if (link.dataset.url) {
-        const ytId = youtubeVideoId(link.dataset.url);
-        if (ytId) {
-          const iframe         = document.createElement('iframe');
-          iframe.src           = `https://www.youtube.com/embed/${ytId}`;
-          iframe.allow         = 'autoplay; encrypted-media; fullscreen';
-          iframe.style.cssText = 'width:100%;aspect-ratio:16/9;border:none;border-radius:6px;margin-top:8px;display:block';
-          container.appendChild(iframe);
-        } else {
-          window.open(link.dataset.url, '_blank', 'noopener');
-        }
-        link.textContent        = 'video ▲';
-        link.style.pointerEvents = 'none';
+        window.open(link.dataset.url, '_blank', 'noopener');
         return;
       }
 
