@@ -1,4 +1,4 @@
-const VERSION = 'v0.0011';
+const VERSION = 'v0.0012';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -17,7 +17,7 @@ const PB = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ identity: this.email, password: this.password }),
-      signal: AbortSignal.timeout(5000),
+      signal: AbortSignal.timeout(15000),
     });
     if (!r.ok) throw new Error('Authentication failed — check email/password in Settings');
     const data = await r.json();
@@ -208,7 +208,7 @@ async function checkConnection(statusEl) {
     return;
   }
   try {
-    PB._token = null; // force fresh auth check
+    // Authenticate fresh (don't null _token first — avoids race when called unawaited)
     await PB.authenticate();
     statusEl.className = 'conn-status ok';
     statusEl.textContent = '● Connected & authenticated — ' + PB.url;
@@ -495,8 +495,10 @@ function updateTimers() {
 
 async function showActiveSession({ sessionId }) {
   clearInterval(sessionTimerInterval);
+  currentSession      = null;
   completedBonusSpins = 0;
   bonusCount          = 0;
+  segmentStartBalance = 0;
   bonusStartBalance   = null;
   bonusStartTime      = null;
   pendingVideoFile    = null;
@@ -573,6 +575,7 @@ function updateActiveSessionDisplay() {
 }
 
 function updateActionButtons() {
+  if (!currentSession) return;
   const hasSpins   = document.getElementById('as-spins').value.trim() !== '';
   const hasBalance = document.getElementById('as-balance').value.trim() !== '';
   const bonusBtn   = document.getElementById('btn-bonus');
