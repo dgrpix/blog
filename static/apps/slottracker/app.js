@@ -1,4 +1,4 @@
-const VERSION = 'v0.0012';
+const VERSION = 'v0.0013';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -13,16 +13,24 @@ const PB = {
   _token: null,
 
   async authenticate() {
-    const r = await fetch(`${this.url}/api/collections/users/auth-with-password`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ identity: this.email, password: this.password }),
-      signal: AbortSignal.timeout(15000),
-    });
-    if (!r.ok) throw new Error('Authentication failed — check email/password in Settings');
-    const data = await r.json();
-    this._token = data.token;
-    return this._token;
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 15000);
+    try {
+      const r = await fetch(`${this.url}/api/collections/users/auth-with-password`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ identity: this.email, password: this.password }),
+        signal: controller.signal,
+      });
+      clearTimeout(timer);
+      if (!r.ok) throw new Error('Authentication failed — check email/password in Settings');
+      const data = await r.json();
+      this._token = data.token;
+      return this._token;
+    } catch (e) {
+      clearTimeout(timer);
+      throw e;
+    }
   },
 
   async _authHeaders(json = false) {
@@ -33,18 +41,22 @@ const PB = {
   },
 
   async _fetch(url, opts = {}, retried = false) {
-    const freshOpts = { ...opts, signal: AbortSignal.timeout(15000) };
-    console.log('[PB] fetch', opts.method || 'GET', url);
-    const r = await fetch(url, freshOpts);
-    console.log('[PB] response', r.status, url);
-    if (r.status === 401 && !retried) {
-      this._token = null;
-      console.log('[PB] 401 — re-authenticating');
-      const token = await this.authenticate();
-      const retryOpts = { ...opts, headers: { ...opts.headers, 'Authorization': `Bearer ${token}` } };
-      return this._fetch(url, retryOpts, true);
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 15000);
+    try {
+      const r = await fetch(url, { ...opts, signal: controller.signal });
+      clearTimeout(timer);
+      if (r.status === 401 && !retried) {
+        this._token = null;
+        const token = await this.authenticate();
+        const retryOpts = { ...opts, headers: { ...opts.headers, 'Authorization': `Bearer ${token}` } };
+        return this._fetch(url, retryOpts, true);
+      }
+      return r;
+    } catch (e) {
+      clearTimeout(timer);
+      throw e;
     }
-    return r;
   },
 
   async health() {
@@ -503,6 +515,7 @@ async function showActiveSession({ sessionId }) {
   bonusStartTime      = null;
   pendingVideoFile    = null;
   bonusSegmentSpins   = 0;
+  endConfirmLoading   = false;
 
   try {
     currentSession = await PB.get('sessions', sessionId);
@@ -743,7 +756,11 @@ async function saveBonus() {
 
 // ── End Session: show confirm ─────────────────────────────────────────────────
 
+let endConfirmLoading = false;
+
 async function showEndConfirm() {
+  if (endConfirmLoading) return;
+  endConfirmLoading = true;
   const endBal         = parseFloat(document.getElementById('as-balance').value);
   const remainingSpins = parseInt(document.getElementById('as-spins').value) || 0;
 
@@ -828,6 +845,7 @@ async function showEndConfirm() {
   document.getElementById('btn-ec-confirm').onclick = () => saveEndSession(endBal);
   document.getElementById('btn-ec-cancel').onclick  = () => showPanel('as-main-content');
 
+  endConfirmLoading = false;
   showPanel('as-end-confirm');
 }
 
