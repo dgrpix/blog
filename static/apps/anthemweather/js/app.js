@@ -7,6 +7,7 @@
 
 /* ---- ITINERARY DATA ---------------------------------------- */
 const ITINERARY = [
+    { day: 0,  date: '2026-03-21', location: 'Sydney, Australia',              short: 'Sydney',        lat: -33.8688, lon: 151.2093, arrival: '7:25 AM',  departure: null,      type: 'port',  flight: 'QF12' },
     { day: 1,  date: '2026-03-22', location: 'Sydney, Australia',              short: 'Sydney',        lat: -33.8688, lon: 151.2093, arrival: null,       departure: '5:00 PM', type: 'port'   },
     { day: 2,  date: '2026-03-23', location: 'At Sea — Tasman Sea',            short: 'Tasman Sea',    lat: -33.00,   lon: 157.50,   arrival: null,       departure: null,      type: 'sea'    },
     { day: 3,  date: '2026-03-24', location: 'At Sea — Crossing to NZ',        short: 'Tasman Sea',    lat: -33.50,   lon: 165.00,   arrival: null,       departure: null,      type: 'sea'    },
@@ -19,7 +20,10 @@ const ITINERARY = [
     { day: 10, date: '2026-03-31', location: 'Fiordland Scenic Cruising',      short: 'Fiordland',     lat: -45.40,   lon: 167.00,   arrival: '11:00 AM', departure: '5:00 PM', type: 'scenic' },
     { day: 11, date: '2026-04-01', location: 'At Sea — Tasman Sea Return',     short: 'Tasman Sea',    lat: -43.50,   lon: 163.00,   arrival: null,       departure: null,      type: 'sea'    },
     { day: 12, date: '2026-04-02', location: 'At Sea — Approaching Sydney',    short: 'Tasman Sea',    lat: -38.50,   lon: 157.00,   arrival: null,       departure: null,      type: 'sea'    },
-    { day: 13, date: '2026-04-03', location: 'Sydney, Australia',              short: 'Sydney',        lat: -33.8688, lon: 151.2093, arrival: '6:30 AM',  departure: null,      type: 'port'   }
+    { day: 13, date: '2026-04-03', location: 'Sydney, Australia',              short: 'Sydney',        lat: -33.8688, lon: 151.2093, arrival: '6:30 AM',  departure: null,      type: 'port'   },
+    { day: 14, date: '2026-04-04', location: 'Sydney, Australia',              short: 'Sydney',        lat: -33.8688, lon: 151.2093, arrival: null,       departure: null,      type: 'port'   },
+    { day: 15, date: '2026-04-05', location: 'Sydney, Australia',              short: 'Sydney',        lat: -33.8688, lon: 151.2093, arrival: null,       departure: null,      type: 'port'   },
+    { day: 16, date: '2026-04-06', location: 'Sydney, Australia',              short: 'Sydney',        lat: -33.8688, lon: 151.2093, arrival: null,       departure: '5:25 PM', type: 'port',  flight: 'QF11' }
 ];
 
 /* ---- WMO WEATHER CODE MAP ---------------------------------- */
@@ -224,7 +228,10 @@ function buildCard(stop, idx, today) {
         const parts = [];
         if (stop.arrival)   parts.push(`<span class="port-time-item">🟢 Arrives ${stop.arrival}</span>`);
         if (stop.departure) parts.push(`<span class="port-time-item">🔴 Departs ${stop.departure}</span>`);
-        portTimesHtml = `<div class="port-times">${parts.join('')}</div>`;
+        const flightBadge = stop.flight
+            ? ` <a class="flight-badge" href="https://www.flightaware.com/live/flight/${stop.flight.replace('QF','QFA')}" target="_blank" rel="noopener noreferrer">✈ ${stop.flight}</a>`
+            : '';
+        portTimesHtml = `<div class="port-times">${parts.join('')}${flightBadge}</div>`;
     }
 
     /* --- Main temperature / condition --- */
@@ -265,9 +272,9 @@ function buildCard(stop, idx, today) {
     }
 
     /* --- 3-day mini forecast strip ---
-         Shows this cruise day + next 2 cruise days (from their own coords) */
+         Shows the day before, this cruise day, and the day after */
     let miniFcHtml = '';
-    const fcSlots = [0, 1, 2].map(offset => {
+    const fcSlots = [-1, 0, 1].map(offset => {
         const s = ITINERARY[idx + offset];
         if (!s) return null;
         const w = weatherStore[s.date] || null;
@@ -277,7 +284,7 @@ function buildCard(stop, idx, today) {
 
     if (fcSlots.length) {
         const slots = fcSlots.map(({ stop: s, weather: w, info: wi, offset }) => {
-            const label = offset === 0 ? 'Today' : (offset === 1 ? 'Tomorrow' : shortDayName(s.date));
+            const label = shortDayName(s.date);
             const tempStr = w
                 ? `<span class="fc-temps"><b>${w.tempHi}°</b><span class="fc-lo">${w.tempLo}°</span></span>`
                 : `<span class="fc-pending">—</span>`;

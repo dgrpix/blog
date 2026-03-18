@@ -474,6 +474,27 @@ body {
     gap: 3px;
 }
 
+.flight-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    padding: 2px 8px 2px 6px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    cursor: pointer;
+}
+
+.flight-badge:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
 /* ============================================================
    CARD — MAIN WEATHER DISPLAY
    ============================================================ */
