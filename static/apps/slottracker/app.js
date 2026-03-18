@@ -1,4 +1,4 @@
-const VERSION = 'v0.0022';
+const VERSION = 'v0.0023';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
