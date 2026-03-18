@@ -16,7 +16,7 @@ The site builds to `public/`. Hugo Extended is required (uses SCSS via PaperMod 
 
 ## Git
 
-Always use `git pull --rebase`, never plain `git pull`. The CMS commits directly to main, so pulls are frequently needed before pushing.
+Always use `git pull --rebase`, never plain `git pull`. The CMS commits directly to main, so pulls are frequently needed before pushing. At the start of each session (or after any gap), run `git pull --rebase` before making changes — stash first if there are unstaged changes.
 
 All pushes to `main` are automatically deployed to production via GitHub Actions.
 
