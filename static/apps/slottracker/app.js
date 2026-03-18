@@ -1,4 +1,4 @@
-const VERSION = 'v0.0019';
+const VERSION = 'v0.0020';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -1262,14 +1262,12 @@ function showBonusForm() {
   document.getElementById('bc-video-url').value = '';
   document.getElementById('bc-error').classList.add('hidden');
 
-  // Auto-fill iCloud link from clipboard if available
-  if (navigator.clipboard && navigator.clipboard.readText) {
-    navigator.clipboard.readText().then(text => {
-      if (text && text.trim().startsWith('https://share.icloud.com/')) {
-        document.getElementById('bc-video-url').value = text.trim();
-      }
-    }).catch(() => {});
-  }
+  document.getElementById('btn-paste-video-url').onclick = async () => {
+    try {
+      const text = await navigator.clipboard.readText();
+      if (text) document.getElementById('bc-video-url').value = text.trim();
+    } catch (e) {}
+  };
 
   document.getElementById('btn-bc-save').onclick = saveBonus;
   document.getElementById('btn-bc-back').onclick = () => showPanel('as-bonus-inprogress');
@@ -1466,6 +1464,15 @@ SCREENS['session-detail'] = {
   onEnter: showSessionDetail,
 };
 
+function youtubeVideoId(url) {
+  try {
+    const u = new URL(url);
+    if (u.hostname === 'youtu.be') return u.pathname.slice(1).split('?')[0];
+    if (u.hostname.includes('youtube.com')) return u.searchParams.get('v');
+  } catch {}
+  return null;
+}
+
 async function showSessionDetail({ sessionId, visitId }) {
   const screen = document.getElementById('screen-session-detail');
   screen.style.backgroundImage = '';
@@ -1573,7 +1580,7 @@ async function showSessionDetail({ sessionId, visitId }) {
           <span class="sum-seg-num">Seg ${i + 1} &middot; ${b.spins || 0} spins</span>
           <div style="text-align:right">
             <div class="sum-seg-type">${typeLabel[b.bonus_type] || b.bonus_type}</div>
-            ${b.bonus_video_url ? `<a class="sd-video-link" href="${b.bonus_video_url}" target="_blank" rel="noopener">video</a>` : b.bonus_video ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-filename="${b.bonus_video}">video</div>` : ''}
+            ${b.bonus_video_url ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-url="${b.bonus_video_url}">video</div>` : b.bonus_video ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-filename="${b.bonus_video}">video</div>` : ''}
           </div>
         </div>
         <div class="sum-bonus-win" style="color:${winColor}">${multStr}${winStr}</div>
@@ -1613,15 +1620,34 @@ async function showSessionDetail({ sessionId, visitId }) {
   html += `</div>`; // end .es-summary
   screen.innerHTML = html;
 
-  // Wire video links — fetch blob URL on tap, render player inside the segment
+  // Wire video links — YouTube embed inline; legacy file fetched as blob
   screen.querySelectorAll('.sd-video-link').forEach(link => {
     link.onclick = async () => {
+      const container = document.getElementById(`sd-video-${link.dataset.bonusId}`);
+
+      if (link.dataset.url) {
+        const ytId = youtubeVideoId(link.dataset.url);
+        if (ytId) {
+          const iframe         = document.createElement('iframe');
+          iframe.src           = `https://www.youtube.com/embed/${ytId}?autoplay=1&playsinline=1`;
+          iframe.allow         = 'autoplay; encrypted-media; fullscreen';
+          iframe.style.cssText = 'width:100%;aspect-ratio:16/9;border:none;border-radius:6px;margin-top:8px;display:block';
+          container.appendChild(iframe);
+        } else {
+          window.open(link.dataset.url, '_blank', 'noopener');
+        }
+        link.textContent        = 'video ▲';
+        link.style.pointerEvents = 'none';
+        return;
+      }
+
+      // Legacy file upload
       link.textContent        = 'loading…';
       link.style.pointerEvents = 'none';
       const blobUrl = await PB.fetchFileBlobUrl('bonuses', link.dataset.bonusId, link.dataset.filename);
       if (!blobUrl) {
-        link.textContent = 'error';
-        link.style.color = 'var(--danger)';
+        link.textContent        = 'error';
+        link.style.color        = 'var(--danger)';
         link.style.pointerEvents = '';
         return;
       }
@@ -1630,7 +1656,7 @@ async function showSessionDetail({ sessionId, visitId }) {
       video.controls      = true;
       video.autoplay      = true;
       video.style.cssText = 'width:100%;border-radius:6px;margin-top:8px;display:block';
-      document.getElementById(`sd-video-${link.dataset.bonusId}`).appendChild(video);
+      container.appendChild(video);
       link.textContent        = 'video ▲';
       link.style.pointerEvents = 'none';
     };

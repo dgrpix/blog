@@ -520,6 +520,30 @@ select { cursor: pointer; }
   color: var(--warning);
 }
 
+/* ── URL paste row ── */
+.url-paste-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.url-paste-row input {
+  flex: 1;
+  margin-bottom: 0;
+}
+.btn-paste {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-paste:active { background: var(--border); }
+
 /* ── Utility ── */
 .sr-only {
   position: absolute;
