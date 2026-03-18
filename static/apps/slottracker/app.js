@@ -1,4 +1,4 @@
-const VERSION = 'v0.0018';
+const VERSION = 'v0.0019';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -678,12 +678,17 @@ async function showVisitDetail({ visitId }) {
     return;
   }
 
-  document.getElementById('page-title').textContent = currentVisit.casino;
   document.getElementById('vd-casino').textContent  = currentVisit.casino;
 
   const startDate = new Date(currentVisit.start_time);
   const dateStr   = startDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
   const timeStr   = startDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  const yy  = String(startDate.getFullYear()).slice(2);
+  const mm  = String(startDate.getMonth() + 1).padStart(2, '0');
+  const dd  = String(startDate.getDate()).padStart(2, '0');
+  const hh  = String(startDate.getHours()).padStart(2, '0');
+  const min = String(startDate.getMinutes()).padStart(2, '0');
+  document.getElementById('page-title').textContent = `${currentVisit.casino} · ${yy}/${mm}/${dd} ${hh}:${min}`;
   document.getElementById('vd-sub').textContent = `${dateStr} · started ${timeStr}`;
 
   // Background photo
@@ -1076,7 +1081,6 @@ let bonusCount            = 0;
 let segmentStartBalance   = 0;
 let bonusStartBalance     = null;
 let bonusStartTime        = null;
-let pendingVideoFile      = null;
 let bonusSegmentSpins     = 0;
 
 // ── Panel switcher ────────────────────────────────────────────────────────────
@@ -1113,7 +1117,6 @@ async function showActiveSession({ sessionId, visitId }) {
   segmentStartBalance   = 0;
   bonusStartBalance     = null;
   bonusStartTime        = null;
-  pendingVideoFile      = null;
   bonusSegmentSpins     = 0;
   endConfirmLoading     = false;
 
@@ -1256,25 +1259,17 @@ function showBonusForm() {
   document.querySelectorAll('input[name="bonus-type"]').forEach(r => { r.checked = false; });
 
   document.getElementById('bc-end-balance').value = '';
-  document.getElementById('bc-video-input').value = '';
-  document.getElementById('bc-video-placeholder').classList.remove('hidden');
-  document.getElementById('bc-video-name').classList.add('hidden');
-  document.getElementById('bc-video-name').textContent = '';
+  document.getElementById('bc-video-url').value = '';
   document.getElementById('bc-error').classList.add('hidden');
-  pendingVideoFile = null;
 
-  const videoPicker = document.getElementById('bc-video-picker');
-  const videoInput  = document.getElementById('bc-video-input');
-  videoPicker.onclick = () => videoInput.click();
-  videoInput.onchange = () => {
-    const file = videoInput.files[0];
-    if (!file) return;
-    pendingVideoFile = file;
-    document.getElementById('bc-video-placeholder').classList.add('hidden');
-    const nameEl = document.getElementById('bc-video-name');
-    nameEl.textContent = '\uD83D\uDCF9 ' + file.name;
-    nameEl.classList.remove('hidden');
-  };
+  // Auto-fill iCloud link from clipboard if available
+  if (navigator.clipboard && navigator.clipboard.readText) {
+    navigator.clipboard.readText().then(text => {
+      if (text && text.trim().startsWith('https://share.icloud.com/')) {
+        document.getElementById('bc-video-url').value = text.trim();
+      }
+    }).catch(() => {});
+  }
 
   document.getElementById('btn-bc-save').onclick = saveBonus;
   document.getElementById('btn-bc-back').onclick = () => showPanel('as-bonus-inprogress');
@@ -1311,28 +1306,21 @@ async function saveBonus() {
   errorEl.classList.add('hidden');
 
   try {
+    const videoUrl = document.getElementById('bc-video-url').value.trim();
     const bonus = await PB.create('bonuses', {
-      session:       currentSession.id,
-      spins:         bonusSegmentSpins,
-      bonus_type:    typeInput.value,
-      start_balance: bonusStartBalance,
-      end_balance:   endBal,
-      bonus_time:    bonusStartTime.toISOString(),
+      session:         currentSession.id,
+      spins:           bonusSegmentSpins,
+      bonus_type:      typeInput.value,
+      start_balance:   bonusStartBalance,
+      end_balance:     endBal,
+      bonus_time:      bonusStartTime.toISOString(),
+      bonus_video_url: videoUrl || null,
     });
-
-    if (pendingVideoFile) {
-      try {
-        await PB.uploadFile('bonuses', bonus.id, 'bonus_video', pendingVideoFile);
-      } catch (e) {
-        console.warn('Video upload failed:', e);
-      }
-    }
 
     document.getElementById('as-balance').value = endBal;
     segmentStartBalance = endBal;
     bonusStartBalance   = null;
     bonusStartTime      = null;
-    pendingVideoFile    = null;
 
     showPanel('as-main-content');
     updateActionButtons();
@@ -1585,7 +1573,7 @@ async function showSessionDetail({ sessionId, visitId }) {
           <span class="sum-seg-num">Seg ${i + 1} &middot; ${b.spins || 0} spins</span>
           <div style="text-align:right">
             <div class="sum-seg-type">${typeLabel[b.bonus_type] || b.bonus_type}</div>
-            ${b.bonus_video ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-filename="${b.bonus_video}">video</div>` : ''}
+            ${b.bonus_video_url ? `<a class="sd-video-link" href="${b.bonus_video_url}" target="_blank" rel="noopener">video</a>` : b.bonus_video ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-filename="${b.bonus_video}">video</div>` : ''}
           </div>
         </div>
         <div class="sum-bonus-win" style="color:${winColor}">${multStr}${winStr}</div>

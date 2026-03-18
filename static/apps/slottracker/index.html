@@ -184,12 +184,8 @@
         <div class="field-label">Balance After Bonus ($)</div>
         <input id="bc-end-balance" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0.00">
 
-        <div class="field-label">Attach Video (optional)</div>
-        <div id="bc-video-picker" class="video-picker">
-          <span id="bc-video-placeholder">&#127909; Tap to attach bonus video</span>
-          <span id="bc-video-name" class="hidden"></span>
-        </div>
-        <input id="bc-video-input" type="file" accept="video/*" class="sr-only">
+        <div class="field-label">Bonus Video Link (optional)</div>
+        <input id="bc-video-url" type="url" placeholder="iCloud link — auto-fills from clipboard" autocorrect="off" autocapitalize="off" spellcheck="false">
 
         <div id="bc-error" class="form-error hidden"></div>
         <button id="btn-bc-save" class="btn btn-primary">Complete Bonus</button>
