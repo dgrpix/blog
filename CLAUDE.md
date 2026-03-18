@@ -81,6 +81,20 @@ Card notation uses two-character format: rank + suit (e.g. `As`, `Kh`, `Td`, `9c
 
 **Note:** `static/apps/flipboss.php` is the legacy PHP version, now superseded by the JS app. PHP on watermelon can be removed once the JS version is fully proven.
 
+### SlotTracker (`static/apps/slottracker/`)
+
+A personal slot machine session tracking PWA backed by PocketBase on a QNAP NAS.
+
+**Versioning:** Bump the `VERSION` constant at the top of `app.js` with every change. Format is `v0.XXXX` (zero-padded integer).
+
+**Backend:** PocketBase at `https://crate.myqnapcloud.com:9090` (QNAP Application Portal reverse proxy). Admin UI at `/_/`. App user: `slottracker@dgrpix.net`.
+
+**Tech:** Vanilla JS PWA, no build step, dark theme. Hash-based router, panel switcher (no modals). AbortController + setTimeout for all fetches (not AbortSignal.timeout — iOS compat). Protected files fetched with Bearer token → blob URL for display.
+
+**Collections:** `visits`, `sessions`, `bonuses` — all with `@request.auth.id != ""` on list/view/create/update; superuser-only delete.
+
+**Full details:** see memory file `project_slottracker.md`.
+
 ### Anthem Weather (`static/apps/anthemweather/`)
 
 Static weather app for a cruise itinerary. Self-contained HTML/CSS/JS.
