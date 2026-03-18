@@ -18,6 +18,8 @@ The site builds to `public/`. Hugo Extended is required (uses SCSS via PaperMod 
 
 Always use `git pull --rebase`, never plain `git pull`. The CMS commits directly to main, so pulls are frequently needed before pushing. At the start of each session (or after any gap), run `git pull --rebase` before making changes — stash first if there are unstaged changes.
 
+At the start of each session, also kill any running Hugo servers and start a fresh one: `taskkill /F /IM hugo.exe` then `hugo server`. Only one person uses this machine and only one project is active, so this is always safe.
+
 All pushes to `main` are automatically deployed to production via GitHub Actions.
 
 ## Deployment
