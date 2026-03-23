@@ -1,4 +1,4 @@
-const VERSION = 'v0.0023';
+const VERSION = 'v0.0027';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -244,6 +244,20 @@ async function checkConnection(statusEl) {
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
+
+// Immediately acknowledge a button tap; returns a restore fn to call on error
+function btnAck(btn) {
+  btn.disabled = true;
+  const origText = btn.textContent;
+  const origCls  = btn.className;
+  btn.textContent = '✓';
+  btn.className   = btn.className.replace(/btn-(primary|danger|warning|secondary)/g, '').trim() + ' btn-ack';
+  return () => {
+    btn.disabled    = false;
+    btn.textContent = origText;
+    btn.className   = origCls;
+  };
+}
 
 function formatDenom(d) {
   return d < 1 ? `${Math.round(d * 100)}¢` : `$${d}`;
@@ -718,6 +732,7 @@ async function showVisitDetail({ visitId }) {
     if (sessions.length === 0) {
       listEl.innerHTML = '<div class="empty-state" style="padding:30px 20px">No sessions yet.<br>Tap + to start a session.</div>';
     } else {
+      let visitRunning = 0;
       listEl.innerHTML = sessions.map(s => {
         const hasResult   = s.end_balance != null;
         const net         = hasResult ? s.end_balance - s.start_balance : null;
@@ -725,6 +740,12 @@ async function showVisitDetail({ visitId }) {
         const resultHtml  = !hasResult
           ? '<span style="color:var(--warning)">In Progress</span>'
           : `<span class="session-result ${resultClass}">${net >= 0 ? '+' : ''}${formatMoney(net)}</span>`;
+
+        if (hasResult) visitRunning += net;
+        const runningColor = visitRunning >= 0 ? 'var(--accent)' : 'var(--danger)';
+        const runningHtml  = hasResult
+          ? `<div class="session-running-total" style="color:${runningColor}">visit ${visitRunning >= 0 ? '+' : ''}${formatMoney(visitRunning)}</div>`
+          : '';
 
         const tStr = new Date(s.start_time).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
         let durStr = '';
@@ -739,6 +760,7 @@ async function showVisitDetail({ visitId }) {
               <span class="session-machine">${s.machine_name}</span>
               ${resultHtml}
             </div>
+            ${runningHtml}
             <div class="session-meta">
               <span>${tStr}</span>
               <span>${formatDenom(s.denom)}</span>
@@ -892,8 +914,7 @@ function buildVisitSummary(sessions, insertions) {
 async function confirmEndVisit() {
   const errorEl    = document.getElementById('vd-error');
   const confirmBtn = document.getElementById('btn-vd-confirm');
-  confirmBtn.disabled    = true;
-  confirmBtn.textContent = 'Saving…';
+  const restore    = btnAck(confirmBtn);
   errorEl.classList.add('hidden');
 
   try {
@@ -904,8 +925,7 @@ async function confirmEndVisit() {
   } catch (e) {
     errorEl.textContent = 'Save failed — check connection.';
     errorEl.classList.remove('hidden');
-    confirmBtn.disabled    = false;
-    confirmBtn.textContent = 'Confirm End Visit';
+    restore();
     console.error(e);
   }
 }
@@ -957,6 +977,20 @@ async function showNewSession({ visitId } = {}) {
   // Pre-fill casino from current visit
   if (visitId && currentVisit && currentVisit.id === visitId) {
     document.getElementById('ns-casino').value = currentVisit.casino;
+  }
+
+  // Pre-fill start balance from last ended session in this visit
+  if (visitId) {
+    try {
+      const result = await PB.list('sessions', {
+        filter:  `visit='${visitId}' && end_balance != null`,
+        sort:    '-start_time',
+        perPage: 1,
+      });
+      if (result.items.length > 0) {
+        document.getElementById('ns-start-balance').value = result.items[0].end_balance;
+      }
+    } catch { /* offline, leave blank */ }
   }
 
   // Populate datalists from past sessions
@@ -1259,15 +1293,7 @@ function showBonusForm() {
   document.querySelectorAll('input[name="bonus-type"]').forEach(r => { r.checked = false; });
 
   document.getElementById('bc-end-balance').value = '';
-  document.getElementById('bc-video-url').value = '';
   document.getElementById('bc-error').classList.add('hidden');
-
-  document.getElementById('btn-paste-video-url').onclick = async () => {
-    try {
-      const text = await navigator.clipboard.readText();
-      if (text) document.getElementById('bc-video-url').value = text.trim();
-    } catch (e) {}
-  };
 
   document.getElementById('btn-bc-save').onclick = saveBonus;
   document.getElementById('btn-bc-back').onclick = () => showPanel('as-bonus-inprogress');
@@ -1298,21 +1324,18 @@ async function saveBonus() {
     return;
   }
 
-  const btn = document.getElementById('btn-bc-save');
-  btn.disabled    = true;
-  btn.textContent = 'Saving…';
+  const btn     = document.getElementById('btn-bc-save');
+  const restore = btnAck(btn);
   errorEl.classList.add('hidden');
 
   try {
-    const videoUrl = document.getElementById('bc-video-url').value.trim();
     const bonus = await PB.create('bonuses', {
-      session:         currentSession.id,
-      spins:           bonusSegmentSpins,
-      bonus_type:      typeInput.value,
-      start_balance:   bonusStartBalance,
-      end_balance:     endBal,
-      bonus_time:      bonusStartTime.toISOString(),
-      bonus_video_url: videoUrl || null,
+      session:       currentSession.id,
+      spins:         bonusSegmentSpins,
+      bonus_type:    typeInput.value,
+      start_balance: bonusStartBalance,
+      end_balance:   endBal,
+      bonus_time:    bonusStartTime.toISOString(),
     });
 
     document.getElementById('as-balance').value = endBal;
@@ -1325,16 +1348,15 @@ async function saveBonus() {
   } catch (e) {
     errorEl.textContent = 'Save failed — check connection.';
     errorEl.classList.remove('hidden');
+    restore();
     console.error(e);
-  } finally {
-    btn.disabled    = false;
-    btn.textContent = 'Complete Bonus';
   }
 }
 
 // ── End Session: show confirm ─────────────────────────────────────────────────
 
 let endConfirmLoading = false;
+let endConfirmBonuses = [];
 
 async function showEndConfirm() {
   if (endConfirmLoading) return;
@@ -1355,6 +1377,7 @@ async function showEndConfirm() {
       perPage: 500,
     });
     const bonuses    = result.items || [];
+    endConfirmBonuses = bonuses;
     const typeLabel  = { free_games: 'Free Games', hold_and_spin: 'Hold & Spin', other: 'Other' };
     const sessionNet = endBal - currentSession.start_balance;
     const netColor   = n => n >= 0 ? 'var(--accent)' : 'var(--danger)';
@@ -1377,6 +1400,7 @@ async function showEndConfirm() {
       const winStr    = bonusWin   != null ? netFmt(bonusWin)     : 'in progress';
       const multStr   = multiplier ? `<small>(${multiplier}x)</small> ` : '';
 
+      const existingUrl = b.bonus_video_url || '';
       summaryEl.innerHTML += `
         <div class="sum-seg">
           <div class="sum-seg-header">
@@ -1385,6 +1409,7 @@ async function showEndConfirm() {
           </div>
           <div class="sum-bonus-win" style="color:${winColor}">${multStr}${winStr}</div>
           ${runningNet != null ? `<div class="sum-seg-running" style="color:${sessColor}">session ${netFmt(runningNet)}</div>` : ''}
+          <input id="ec-video-${b.id}" type="url" class="ec-video-url" placeholder="YouTube link (optional)" autocorrect="off" autocapitalize="off" spellcheck="false" value="${existingUrl}">
         </div>`;
     });
 
@@ -1430,8 +1455,7 @@ async function showEndConfirm() {
 async function saveEndSession(endBal) {
   const errorEl = document.getElementById('ec-error');
   const btn     = document.getElementById('btn-ec-confirm');
-  btn.disabled    = true;
-  btn.textContent = 'Saving…';
+  const restore = btnAck(btn);
   errorEl.classList.add('hidden');
 
   try {
@@ -1439,6 +1463,14 @@ async function saveEndSession(endBal) {
       end_balance: endBal,
       end_time:    new Date().toISOString(),
     });
+
+    // Save any video URLs entered in the summary
+    await Promise.all(endConfirmBonuses.map(b => {
+      const input = document.getElementById(`ec-video-${b.id}`);
+      const url   = input ? input.value.trim() : '';
+      if (url) return PB.update('bonuses', b.id, { bonus_video_url: url });
+    }).filter(Boolean));
+
     clearInterval(sessionTimerInterval);
     if (currentSessionVisitId) {
       navigate('visit-detail', { visitId: currentSessionVisitId });
@@ -1448,9 +1480,8 @@ async function saveEndSession(endBal) {
   } catch (e) {
     errorEl.textContent = 'Save failed — check connection.';
     errorEl.classList.remove('hidden');
+    restore();
     console.error(e);
-    btn.disabled    = false;
-    btn.textContent = 'Confirm End Session';
   }
 }
 
