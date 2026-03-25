@@ -1,4 +1,4 @@
-const VERSION = 'v0.0027';
+const VERSION = 'v0.0028';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -1293,9 +1293,14 @@ function showBonusForm() {
   document.querySelectorAll('input[name="bonus-type"]').forEach(r => { r.checked = false; });
 
   document.getElementById('bc-end-balance').value = '';
+  document.getElementById('bc-video-url').value   = '';
   document.getElementById('bc-error').classList.add('hidden');
 
-  document.getElementById('btn-bc-save').onclick = saveBonus;
+  const saveBtn       = document.getElementById('btn-bc-save');
+  saveBtn.disabled    = false;
+  saveBtn.textContent = 'Complete Bonus';
+  saveBtn.className   = 'btn btn-primary';
+  saveBtn.onclick     = saveBonus;
   document.getElementById('btn-bc-back').onclick = () => showPanel('as-bonus-inprogress');
 
   showPanel('as-bonus-form');
@@ -1329,13 +1334,15 @@ async function saveBonus() {
   errorEl.classList.add('hidden');
 
   try {
+    const videoUrl = document.getElementById('bc-video-url').value.trim();
     const bonus = await PB.create('bonuses', {
-      session:       currentSession.id,
-      spins:         bonusSegmentSpins,
-      bonus_type:    typeInput.value,
-      start_balance: bonusStartBalance,
-      end_balance:   endBal,
-      bonus_time:    bonusStartTime.toISOString(),
+      session:         currentSession.id,
+      spins:           bonusSegmentSpins,
+      bonus_type:      typeInput.value,
+      start_balance:   bonusStartBalance,
+      end_balance:     endBal,
+      bonus_time:      bonusStartTime.toISOString(),
+      bonus_video_url: videoUrl || null,
     });
 
     document.getElementById('as-balance').value = endBal;
@@ -1376,9 +1383,8 @@ async function showEndConfirm() {
       sort:    'bonus_time',
       perPage: 500,
     });
-    const bonuses    = result.items || [];
-    endConfirmBonuses = bonuses;
-    const typeLabel  = { free_games: 'Free Games', hold_and_spin: 'Hold & Spin', other: 'Other' };
+    const bonuses   = result.items || [];
+    const typeLabel = { free_games: 'Free Games', hold_and_spin: 'Hold & Spin', other: 'Other' };
     const sessionNet = endBal - currentSession.start_balance;
     const netColor   = n => n >= 0 ? 'var(--accent)' : 'var(--danger)';
     const netFmt     = n => (n >= 0 ? '+' : '') + formatMoney(n);
@@ -1400,7 +1406,6 @@ async function showEndConfirm() {
       const winStr    = bonusWin   != null ? netFmt(bonusWin)     : 'in progress';
       const multStr   = multiplier ? `<small>(${multiplier}x)</small> ` : '';
 
-      const existingUrl = b.bonus_video_url || '';
       summaryEl.innerHTML += `
         <div class="sum-seg">
           <div class="sum-seg-header">
@@ -1409,7 +1414,6 @@ async function showEndConfirm() {
           </div>
           <div class="sum-bonus-win" style="color:${winColor}">${multStr}${winStr}</div>
           ${runningNet != null ? `<div class="sum-seg-running" style="color:${sessColor}">session ${netFmt(runningNet)}</div>` : ''}
-          <input id="ec-video-${b.id}" type="url" class="ec-video-url" placeholder="YouTube link (optional)" autocorrect="off" autocapitalize="off" spellcheck="false" value="${existingUrl}">
         </div>`;
     });
 
@@ -1463,13 +1467,6 @@ async function saveEndSession(endBal) {
       end_balance: endBal,
       end_time:    new Date().toISOString(),
     });
-
-    // Save any video URLs entered in the summary
-    await Promise.all(endConfirmBonuses.map(b => {
-      const input = document.getElementById(`ec-video-${b.id}`);
-      const url   = input ? input.value.trim() : '';
-      if (url) return PB.update('bonuses', b.id, { bonus_video_url: url });
-    }).filter(Boolean));
 
     clearInterval(sessionTimerInterval);
     if (currentSessionVisitId) {
