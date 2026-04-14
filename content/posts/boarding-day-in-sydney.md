@@ -14,4 +14,4 @@ Yesterday we got to see our friends Suz and Graeme who took us to an amazing res
 
 Oh! Here’s our itinerary in weather forecast form:
 
-[https://dgrpix.com/apps/anthemweather](https://dgrpix.com/apps/anthemweather)
+[https://dgrpix.com/apps/tripweather/anthemweather/](https://dgrpix.com/apps/tripweather/anthemweather/)

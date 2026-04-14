@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#0a0f1e">
+    <title>TripWeather &mdash; Cruise Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="main-content">
+        <div class="index-header">
+            <span class="index-ship-icon" aria-hidden="true">🚢</span>
+            <h1 class="index-title">TripWeather</h1>
+            <p class="index-subtitle">Cruise weather, port by port</p>
+        </div>
+
+        <div class="trips-grid" id="tripsGrid">
+            <!-- Trip cards injected by JavaScript -->
+        </div>
+    </main>
+
+    <footer class="cruise-footer">
+        <p>Weather data by <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer">Open-Meteo</a> &mdash; free &amp; open-source weather API</p>
+    </footer>
+
+    <script>
+    'use strict';
+
+    const TRIPS = [
+        {
+            slug:      'anthemweather',
+            shipName:  'Anthem of the Seas',
+            subtitle:  'Royal Caribbean &middot; Sydney &harr; New Zealand',
+            dateRange: 'March 21 \u2013 April 6, 2026',
+            nights:    16,
+            firstDate: '2026-03-21',
+            lastDate:  '2026-04-06',
+            route:     'Sydney &rarr; Bay of Islands &rarr; Tauranga &rarr; Napier &rarr; Wellington &rarr; Christchurch &rarr; Dunedin &rarr; Fiordland &rarr; Sydney'
+        },
+        {
+            slug:      'starweather',
+            shipName:  'Star of the Seas',
+            subtitle:  'Royal Caribbean &middot; Eastern Caribbean',
+            dateRange: 'April 17 \u2013 30, 2026',
+            nights:    13,
+            firstDate: '2026-04-17',
+            lastDate:  '2026-04-30',
+            route:     'Tampa &rarr; Port Canaveral &rarr; CocoCay &rarr; St. Thomas &rarr; St. Maarten &rarr; Disney World'
+        }
+    ];
+
+    function todayStr() {
+        const n = new Date();
+        return `${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,'0')}-${String(n.getDate()).padStart(2,'0')}`;
+    }
+
+    function tripStatus(firstDate, lastDate) {
+        const today = todayStr();
+        if (today < firstDate) return { label: 'Upcoming', cls: 'upcoming' };
+        if (today > lastDate)  return { label: 'Past',     cls: 'past' };
+        return { label: 'Active \u2022 Sailing Now', cls: 'active' };
+    }
+
+    function renderTrips() {
+        const grid = document.getElementById('tripsGrid');
+        grid.innerHTML = TRIPS.map(trip => {
+            const status = tripStatus(trip.firstDate, trip.lastDate);
+            const btnLabel = status.cls === 'past' ? 'View Historical Weather \u2192' : 'View Forecast \u2192';
+            return `
+            <a class="trip-card" href="/apps/tripweather/${trip.slug}/">
+                <div class="trip-status-row">
+                    <span class="trip-status ${status.cls}">${status.label}</span>
+                    <span class="trip-nights">${trip.nights} Nights</span>
+                </div>
+                <div class="trip-ship-name">${trip.shipName}</div>
+                <div class="trip-subtitle">${trip.subtitle}</div>
+                <div class="trip-date-range">${trip.dateRange}</div>
+                <div class="trip-route">${trip.route}</div>
+                <span class="trip-view-btn">${btnLabel}</span>
+            </a>`;
+        }).join('');
+    }
+
+    renderTrips();
+    </script>
+</body>
+</html>

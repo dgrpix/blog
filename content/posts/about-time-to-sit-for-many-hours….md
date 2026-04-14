@@ -13,6 +13,6 @@ Sitting at the gate waiting to board this flight. I’m posting this from my pho
 
 If you would like to see where we are headed, I built another app that shows you where we will be for the next two weeks.
 
-[check it out here](https://dgrpix.com/apps/anthemweather)
+[check it out here](https://dgrpix.com/apps/tripweather/anthemweather/)
 
 I’ll try to update every day with text to go with the cover photo - more photos on my IG as well @dgrpix
