@@ -99,6 +99,30 @@ function uvLabel(uv) {
 /* ---- WEATHER DATA STORE ------------------------------------ */
 const weatherStore = {};
 
+/* ---- HISTORICAL WEATHER CACHE (localStorage) --------------- */
+const CACHE_PREFIX = 'tw_wx_';
+
+function weatherCacheKey(stop) {
+    return `${CACHE_PREFIX}${stop.lat}|${stop.lon}|${stop.date}`;
+}
+
+function getCachedWeather(stop) {
+    try {
+        const raw = localStorage.getItem(weatherCacheKey(stop));
+        return raw ? JSON.parse(raw) : null;
+    } catch (e) {
+        return null;
+    }
+}
+
+function setCachedWeather(stop, weather) {
+    try {
+        localStorage.setItem(weatherCacheKey(stop), JSON.stringify(weather));
+    } catch (e) {
+        /* ignore storage quota errors */
+    }
+}
+
 /* ---- API FETCH -------------------------------------------- */
 async function fetchWeatherForStop(stop) {
     if (stop.date < todayStr()) {
@@ -159,6 +183,9 @@ async function fetchWeatherForStop(stop) {
 }
 
 async function fetchActualWeatherForStop(stop) {
+    const cached = getCachedWeather(stop);
+    if (cached) return cached;
+
     const qs = new URLSearchParams({
         latitude:           stop.lat,
         longitude:          stop.lon,
@@ -211,7 +238,7 @@ async function fetchActualWeatherForStop(stop) {
 
     const precip = data.daily.precipitation_sum[0];
 
-    return {
+    const result = {
         weatherCode: data.daily.weather_code[0],
         tempHi:      Math.round(data.daily.temperature_2m_max[0]),
         tempLo:      Math.round(data.daily.temperature_2m_min[0]),
@@ -223,6 +250,8 @@ async function fetchActualWeatherForStop(stop) {
         isActual:    true,
         snapshots
     };
+    setCachedWeather(stop, result);
+    return result;
 }
 
 /* ---- LOAD ALL WEATHER ------------------------------------- */
