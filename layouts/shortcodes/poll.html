@@ -1,0 +1,15 @@
+{{- $id := .Get 0 -}}
+{{- $polls := .Page.Params.polls -}}
+{{- $poll := false -}}
+{{- range $polls -}}
+  {{- if eq .id $id -}}
+    {{- $poll = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if $poll -}}
+<div class="poll" data-poll-id="{{ $id }}" data-poll="{{ $poll | jsonify }}"></div>
+{{- else -}}
+<div class="poll-error" style="border:2px solid #c00;background:#fee;padding:1em;margin:1em 0;color:#c00;border-radius:4px;">
+<strong>Poll error:</strong> No poll with id <code>{{ $id }}</code> found in this post's <code>polls</code> frontmatter.
+</div>
+{{- end -}}

@@ -20,6 +20,20 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Summary, name: summary, widget: string, required: false }
       - { label: Tags, name: tags, widget: list, required: false }
+      - label: Polls
+        name: polls
+        widget: list
+        required: false
+        summary: "{{fields.question}}"
+        fields:
+          - { label: Poll ID, name: id, widget: string, hint: "Stable key (e.g. 'fav-port'). Don't change after publishing — votes are tied to it." }
+          - { label: Question, name: question, widget: string }
+          - label: Options
+            name: options
+            widget: list
+            fields:
+              - { label: Option ID, name: id, widget: string, hint: "Stable key (e.g. 'a', 'b', 'cozumel'). Don't change after publishing." }
+              - { label: Label, name: label, widget: string }
       - label: Cover Image
         name: cover
         widget: object
