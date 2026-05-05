@@ -186,12 +186,12 @@ PocketBase version is **0.36.7** as of 2026-05-05. Note the terminology shift in
 Default `users` auth collection holds the SlotTracker app user (`slottracker@dgrpix.net`). Three custom collections hold app data:
 
 - **`visits`** — `casino` (text, nonempty), `visit_photo` (file, image MIME), `start_time` (datetime), `end_time` (datetime)
-- **`sessions`** — `casino` (text, nonempty), `machine_name` (text, nonempty), `denom` (number, *starting* denom), `bet_per_spin` (number, *starting* bet), `peak_denom` (number, optional, highest denom played), `peak_bet_per_spin` (number, optional, largest wager-per-spin), `start_balance` (number), `end_balance` (number, optional), `start_time` (datetime), `end_time` (datetime, optional), `machine_photo` (file, image MIME, optional), `visit` (relation → visits, optional)
+- **`sessions`** — `casino` (text, nonempty), `machine_name` (text, nonempty), `denom` (number, *starting* denom), `bet_per_spin` (number, *starting* bet), `start_balance` (number), `end_balance` (number, optional), `start_time` (datetime), `end_time` (datetime, optional), `machine_photo` (file, image MIME, optional), `visit` (relation → visits, optional)
 - **`bonuses`** — `session` (relation → sessions, nonempty), `spins` (number, optional), `bonus_type` (select single: `free_games` / `hold_and_spin` / `other`), `start_balance` (number), `end_balance` (number, optional), `bonus_time` (datetime), `bonus_video_url` (URL/text, optional), `bonus_denom` (number, optional, denom when bonus hit), `bonus_bet_per_spin` (number, optional, bet when bonus hit)
 
 API rules on all three: `@request.auth.id != ""` for **list / view / create / update**. Delete is superuser-only by default.
 
-The `peak_*` fields on sessions and `bonus_denom` / `bonus_bet_per_spin` on bonuses were added 2026-05-05 to support a start-vs-peak denom/bet model. The app code in `app.js` does not yet write these — that's tracked as deferred work in the project memory file.
+The `bonus_denom` / `bonus_bet_per_spin` fields on bonuses were added 2026-05-05 to capture the wager that triggered each bonus, so the multiplier can be computed against the actual triggering bet rather than the session's starting bet. There is intentionally no session-level "peak" concept — bets vary mid-session and are only meaningful at bonus-hit time.
 
 #### Common failure modes & fixes
 

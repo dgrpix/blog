@@ -1,4 +1,4 @@
-const VERSION = 'v0.0030';
+const VERSION = 'v0.0032';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -145,8 +145,23 @@ const PB = {
 
 // ── Image compression ────────────────────────────────────────────────────────
 
+class UnsupportedImageFormatError extends Error {
+  constructor(msg = 'unsupported image format') { super(msg); this.name = 'UnsupportedImageFormatError'; }
+}
+
 function compressImage(file, maxDim = 1400, quality = 0.82) {
   return new Promise((resolve, reject) => {
+    // Pre-check: iOS sometimes hands us ProRAW DNG or HEIC from the library picker;
+    // browsers can't decode these. Reject early with a tagged error so callers can
+    // show a friendly message instead of waiting for img.onerror.
+    const type = (file.type || '').toLowerCase();
+    const name = (file.name || '').toLowerCase();
+    const looksUnsupported =
+      type.startsWith('image/heic') ||
+      type.includes('dng') ||
+      (!type && (name.endsWith('.dng') || name.endsWith('.heic')));
+    if (looksUnsupported) return reject(new UnsupportedImageFormatError());
+
     const img = new Image();
     const url = URL.createObjectURL(file);
     img.onload = () => {
@@ -164,7 +179,10 @@ function compressImage(file, maxDim = 1400, quality = 0.82) {
         resolve(new File([blob], file.name.replace(/\.\w+$/, '.jpg'), { type: 'image/jpeg' }));
       }, 'image/jpeg', quality);
     };
-    img.onerror = reject;
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      reject(new UnsupportedImageFormatError());
+    };
     img.src = url;
   });
 }
@@ -588,7 +606,20 @@ async function showStartVisit() {
   photoInput.onchange = async () => {
     const file = photoInput.files[0];
     if (!file) return;
-    const compressed = await compressImage(file);
+    const placeholder = document.getElementById('sv-photo-placeholder');
+    let compressed;
+    try {
+      compressed = await compressImage(file);
+    } catch (e) {
+      photoInput.value = '';
+      if (e instanceof UnsupportedImageFormatError) {
+        placeholder.textContent = '✗ Couldn’t read that photo format — please pick a JPEG';
+      } else {
+        placeholder.textContent = '✗ Couldn’t process that photo';
+      }
+      placeholder.style.color = 'var(--danger)';
+      return;
+    }
     selectedVisitPhotoFile = compressed;
     visitPhotoManual = true;
     const blobUrl = URL.createObjectURL(compressed);
@@ -596,8 +627,8 @@ async function showStartVisit() {
     svScreen.style.backgroundSize     = 'cover';
     svScreen.style.backgroundPosition = 'center';
     svScreen.style.backgroundRepeat   = 'no-repeat';
-    document.getElementById('sv-photo-placeholder').textContent = '✓ Photo attached';
-    document.getElementById('sv-photo-placeholder').style.color = 'var(--accent)';
+    placeholder.textContent = '✓ Photo attached';
+    placeholder.style.color = 'var(--accent)';
   };
 
   // Auto-load existing casino photo when a known casino is selected
@@ -943,7 +974,6 @@ let pendingPhotoFile     = null;
 let newSessionVisitId    = null;
 let sessionPhotoManual   = false;
 let bonusDenom           = null;
-let peakDenom            = null;
 
 async function showNewSession({ visitId } = {}) {
   newSessionVisitId = visitId || null;
@@ -1012,7 +1042,20 @@ async function showNewSession({ visitId } = {}) {
   photoInput.onchange = async () => {
     const file = photoInput.files[0];
     if (!file) return;
-    const compressed = await compressImage(file);
+    const placeholder = document.getElementById('photo-placeholder');
+    let compressed;
+    try {
+      compressed = await compressImage(file);
+    } catch (e) {
+      photoInput.value = '';
+      if (e instanceof UnsupportedImageFormatError) {
+        placeholder.textContent = '✗ Couldn’t read that photo format — please pick a JPEG';
+      } else {
+        placeholder.textContent = '✗ Couldn’t process that photo';
+      }
+      placeholder.style.color = 'var(--danger)';
+      return;
+    }
     pendingPhotoFile   = compressed;
     sessionPhotoManual = true;
     const blobUrl = URL.createObjectURL(compressed);
@@ -1020,8 +1063,8 @@ async function showNewSession({ visitId } = {}) {
     nsScreen.style.backgroundSize     = 'cover';
     nsScreen.style.backgroundPosition = 'center';
     nsScreen.style.backgroundRepeat   = 'no-repeat';
-    document.getElementById('photo-placeholder').textContent = '✓ Photo attached';
-    document.getElementById('photo-placeholder').style.color = 'var(--accent)';
+    placeholder.textContent = '✓ Photo attached';
+    placeholder.style.color = 'var(--accent)';
   };
 
   // Auto-load existing machine photo when a known machine is selected
@@ -1479,21 +1522,6 @@ async function showEndConfirm() {
     summaryEl.innerHTML = '<div style="color:var(--text-muted);font-size:13px">Could not load segment data</div>';
   }
 
-  // Peak inputs: pre-fill from observed max (session start ⊔ all bonuses' values)
-  const maxDenom = Math.max(currentSession.denom, ...bonuses.map(b => b.bonus_denom || 0));
-  const maxBet   = Math.max(currentSession.bet_per_spin, ...bonuses.map(b => b.bonus_bet_per_spin || 0));
-  peakDenom = maxDenom;
-  document.querySelectorAll('#ec-denom-buttons .pill').forEach(p => {
-    const isMax = parseFloat(p.dataset.value) === maxDenom;
-    p.classList.toggle('selected', isMax);
-    p.onclick = () => {
-      document.querySelectorAll('#ec-denom-buttons .pill').forEach(q => q.classList.remove('selected'));
-      p.classList.add('selected');
-      peakDenom = parseFloat(p.dataset.value);
-    };
-  });
-  document.getElementById('ec-bet').value = maxBet;
-
   const confirmBtn = document.getElementById('btn-ec-confirm');
   confirmBtn.disabled    = false;
   confirmBtn.textContent = 'Confirm End Session';
@@ -1512,14 +1540,10 @@ async function saveEndSession(endBal) {
   const restore = btnAck(btn);
   errorEl.classList.add('hidden');
 
-  const peakBet = parseFloat(document.getElementById('ec-bet').value);
-
   try {
     await PB.update('sessions', currentSession.id, {
-      end_balance:       endBal,
-      end_time:          new Date().toISOString(),
-      peak_denom:        peakDenom,
-      peak_bet_per_spin: peakBet || null,
+      end_balance: endBal,
+      end_time:    new Date().toISOString(),
     });
 
     clearInterval(sessionTimerInterval);
