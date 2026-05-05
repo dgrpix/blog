@@ -1,4 +1,4 @@
-const VERSION = 'v0.0032';
+const VERSION = 'v0.0034';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -565,6 +565,135 @@ function showSettings() {
     statusEl.classList.remove('hidden');
     await checkConnection(statusEl);
   };
+
+  document.getElementById('btn-pair-videos').onclick = () => navigate('pair-videos');
+}
+
+// ── Pair Videos ──────────────────────────────────────────────────────────────
+
+SCREENS['pair-videos'] = {
+  id: 'screen-pair-videos',
+  title: 'Pair Videos',
+  back: 'settings',
+  fab: false,
+  onEnter: showPairVideos,
+};
+
+async function showPairVideos() {
+  const statusEl = document.getElementById('pv-status');
+  const listEl   = document.getElementById('pv-list');
+
+  statusEl.className = 'conn-status checking';
+  statusEl.textContent = 'Loading bonuses…';
+  statusEl.classList.remove('hidden');
+  listEl.innerHTML = '';
+
+  let bonuses;
+  try {
+    const result = await PB.list('bonuses', {
+      filter:  `bonus_video = ""`,
+      sort:    '-bonus_time',
+      perPage: 500,
+      expand:  'session',
+    });
+    bonuses = result.items || [];
+  } catch (e) {
+    statusEl.className = 'conn-status error';
+    statusEl.textContent = 'Lookup failed — check connection.';
+    console.error(e);
+    return;
+  }
+
+  if (bonuses.length === 0) {
+    statusEl.className = 'conn-status ok';
+    statusEl.textContent = 'No bonuses are missing a video.';
+    return;
+  }
+
+  statusEl.classList.add('hidden');
+
+  listEl.innerHTML = bonuses.map(b => {
+    const session = b.expand?.session || {};
+    const casino  = session.casino       || '(unknown casino)';
+    const machine = session.machine_name || '(unknown machine)';
+    const bonusTimeStr = new Date(b.bonus_time).toLocaleString();
+    return `
+      <div class="pv-candidate" data-bonus-id="${b.id}" data-bonus-ms="${new Date(b.bonus_time).getTime()}">
+        <div class="pv-cand-line1">${casino} · ${machine}</div>
+        <div class="pv-cand-line2">${bonusTimeStr} · ${b.bonus_type.replace(/_/g, ' ')}</div>
+        <div class="pv-cand-actions">
+          <button class="btn btn-primary pv-cand-pick">Pair Video</button>
+          <input type="file" accept="video/*" class="sr-only pv-cand-file">
+        </div>
+        <div class="pv-cand-confirm hidden">
+          <div class="pv-cand-confirm-text"></div>
+          <button class="btn btn-primary pv-cand-confirm-btn">Confirm Pair</button>
+          <button class="btn btn-secondary pv-cand-pick-different">Pick Different</button>
+        </div>
+      </div>`;
+  }).join('');
+
+  listEl.querySelectorAll('.pv-candidate').forEach(wirePairCard);
+}
+
+function wirePairCard(card) {
+  const pickBtn       = card.querySelector('.pv-cand-pick');
+  const fileInput     = card.querySelector('.pv-cand-file');
+  const actionsEl     = card.querySelector('.pv-cand-actions');
+  const confirmEl     = card.querySelector('.pv-cand-confirm');
+  const confirmText   = card.querySelector('.pv-cand-confirm-text');
+  const confirmBtn    = card.querySelector('.pv-cand-confirm-btn');
+  const pickDiffBtn   = card.querySelector('.pv-cand-pick-different');
+  const bonusMs       = parseInt(card.dataset.bonusMs, 10);
+
+  let pickedFile = null;
+
+  pickBtn.onclick     = () => fileInput.click();
+  pickDiffBtn.onclick = () => fileInput.click();
+
+  fileInput.onchange = () => {
+    const file = fileInput.files[0];
+    if (!file) return;
+    pickedFile = file;
+    const fileMs = file.lastModified || Date.now();
+    const diffMs = fileMs - bonusMs;
+    confirmText.innerHTML = `Pair <strong>${file.name}</strong> (recorded ${new Date(fileMs).toLocaleString()}, ${formatDiff(diffMs)})?`;
+    actionsEl.classList.add('hidden');
+    confirmEl.classList.remove('hidden');
+  };
+
+  confirmBtn.onclick = async () => {
+    if (!pickedFile) return;
+    const restore = btnAck(confirmBtn);
+    confirmBtn.textContent = 'Uploading…';
+    pickDiffBtn.disabled = true;
+    try {
+      await PB.uploadFile('bonuses', card.dataset.bonusId, 'bonus_video', pickedFile);
+      confirmText.innerHTML = `✓ Paired with <strong>${pickedFile.name}</strong>`;
+      confirmBtn.classList.add('hidden');
+      pickDiffBtn.classList.add('hidden');
+      card.classList.add('pv-cand-done');
+    } catch (e) {
+      confirmBtn.textContent = 'Upload failed — retry';
+      confirmBtn.style.background = 'var(--danger)';
+      restore();
+      pickDiffBtn.disabled = false;
+      console.error(e);
+    }
+  };
+}
+
+function formatDiff(diffMs) {
+  const abs = Math.abs(diffMs);
+  const sign = diffMs >= 0 ? 'after bonus' : 'before bonus';
+  const sec = Math.round(abs / 1000);
+  if (sec < 60) return `${sec}s ${sign}`;
+  const min = Math.round(sec / 60);
+  if (min < 60) return `${min}m ${sign}`;
+  const hr = Math.round(min / 60);
+  if (hr < 48)  return `${hr}h ${sign}`;
+  const day = Math.round(hr / 24);
+  return `${day}d ${sign}`;
 }
 
 // ── Start Visit ──────────────────────────────────────────────────────────────
@@ -1349,7 +1478,6 @@ function showBonusForm() {
   document.querySelectorAll('input[name="bonus-type"]').forEach(r => { r.checked = false; });
 
   document.getElementById('bc-end-balance').value = '';
-  document.getElementById('bc-video-url').value   = '';
   document.getElementById('bc-error').classList.add('hidden');
 
   const saveBtn       = document.getElementById('btn-bc-save');
@@ -1397,7 +1525,6 @@ async function saveBonus() {
   }
 
   try {
-    const videoUrl = document.getElementById('bc-video-url').value.trim();
     const bonus = await PB.create('bonuses', {
       session:            currentSession.id,
       spins:              bonusSegmentSpins,
@@ -1405,7 +1532,6 @@ async function saveBonus() {
       start_balance:      bonusStartBalance,
       end_balance:        endBal,
       bonus_time:         bonusStartTime.toISOString(),
-      bonus_video_url:    videoUrl || null,
       bonus_denom:        bonusDenom,
       bonus_bet_per_spin: bonusBet,
     });
@@ -1677,7 +1803,7 @@ async function showSessionDetail({ sessionId, visitId }) {
           <span class="sum-seg-num">Seg ${i + 1} &middot; ${b.spins || 0} spins</span>
           <div style="text-align:right">
             <div class="sum-seg-type">${typeLabel[b.bonus_type] || b.bonus_type}</div>
-            ${b.bonus_video_url ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-url="${b.bonus_video_url}">video</div>` : b.bonus_video ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-filename="${b.bonus_video}">video</div>` : ''}
+            ${b.bonus_video ? `<div class="sd-video-link" data-bonus-id="${b.id}" data-filename="${b.bonus_video}">video</div>` : ''}
           </div>
         </div>
         <div class="sum-bonus-win" style="color:${winColor}">${multStr}${winStr}</div>
@@ -1717,17 +1843,11 @@ async function showSessionDetail({ sessionId, visitId }) {
   html += `</div>`; // end .es-summary
   screen.innerHTML = html;
 
-  // Wire video links — YouTube embed inline; legacy file fetched as blob
+  // Wire video links — fetch protected file as blob, play inline
   screen.querySelectorAll('.sd-video-link').forEach(link => {
     link.onclick = async () => {
       const container = document.getElementById(`sd-video-${link.dataset.bonusId}`);
 
-      if (link.dataset.url) {
-        window.open(link.dataset.url, '_blank', 'noopener');
-        return;
-      }
-
-      // Legacy file upload
       link.textContent        = 'loading…';
       link.style.pointerEvents = 'none';
       const blobUrl = await PB.fetchFileBlobUrl('bonuses', link.dataset.bonusId, link.dataset.filename);

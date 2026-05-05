@@ -187,7 +187,7 @@ Default `users` auth collection holds the SlotTracker app user (`slottracker@dgr
 
 - **`visits`** — `casino` (text, nonempty), `visit_photo` (file, image MIME), `start_time` (datetime), `end_time` (datetime)
 - **`sessions`** — `casino` (text, nonempty), `machine_name` (text, nonempty), `denom` (number, *starting* denom), `bet_per_spin` (number, *starting* bet), `start_balance` (number), `end_balance` (number, optional), `start_time` (datetime), `end_time` (datetime, optional), `machine_photo` (file, image MIME, optional), `visit` (relation → visits, optional)
-- **`bonuses`** — `session` (relation → sessions, nonempty), `spins` (number, optional), `bonus_type` (select single: `free_games` / `hold_and_spin` / `other`), `start_balance` (number), `end_balance` (number, optional), `bonus_time` (datetime), `bonus_video_url` (URL/text, optional), `bonus_denom` (number, optional, denom when bonus hit), `bonus_bet_per_spin` (number, optional, bet when bonus hit)
+- **`bonuses`** — `session` (relation → sessions, nonempty), `spins` (number, optional), `bonus_type` (select single: `free_games` / `hold_and_spin` / `other`), `start_balance` (number), `end_balance` (number, optional), `bonus_time` (datetime), `bonus_video` (file, single, `video/*` MIME, optional), `bonus_denom` (number, optional, denom when bonus hit), `bonus_bet_per_spin` (number, optional, bet when bonus hit)
 
 API rules on all three: `@request.auth.id != ""` for **list / view / create / update**. Delete is superuser-only by default.
 

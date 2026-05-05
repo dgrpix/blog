@@ -202,8 +202,9 @@
         <div class="field-label">Balance After Bonus ($)</div>
         <input id="bc-end-balance" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0.00">
 
-        <div class="field-label">Bonus Video Link (optional)</div>
-        <input id="bc-video-url" type="url" placeholder="YouTube link" autocorrect="off" autocapitalize="off" spellcheck="false">
+        <div class="bc-video-hint">
+          Recorded a video? Pair it later from <em>Settings → Pair Videos</em>.
+        </div>
 
         <div id="bc-error" class="form-error hidden"></div>
         <button id="btn-bc-save" class="btn btn-primary">Complete Bonus</button>
@@ -301,6 +302,18 @@
         <button id="btn-test-conn" class="btn btn-secondary">Save &amp; Test Connection</button>
         <div id="settings-conn-status" class="conn-status hidden"></div>
       </div>
+
+      <div class="form-section">
+        <div class="section-label">Tools</div>
+        <button id="btn-pair-videos" class="btn btn-secondary">Pair Videos &#8594;</button>
+      </div>
+    </div>
+
+    <!-- PAIR VIDEOS -->
+    <div id="screen-pair-videos" class="screen">
+      <div class="section-label">Bonuses Without a Video</div>
+      <div id="pv-status" class="hidden"></div>
+      <div id="pv-list"></div>
     </div>
 
   </main>

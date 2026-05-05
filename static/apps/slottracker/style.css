@@ -400,6 +400,29 @@ select { cursor: pointer; }
 }
 .ec-video-url { margin-top: 8px; width: 100%; box-sizing: border-box; font-size: 13px; }
 
+.bc-video-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 8px 0 4px;
+}
+
+.pv-candidate {
+  background: var(--surface2);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+.pv-candidate.pv-cand-done { opacity: 0.55; }
+.pv-cand-line1 { font-weight: 600; font-size: 14px; }
+.pv-cand-line2 { font-size: 12px; color: var(--text-muted); margin-top: 2px; text-transform: capitalize; }
+.pv-cand-actions { margin-top: 10px; }
+.pv-cand-pick   { width: 100%; }
+.pv-cand-confirm { margin-top: 10px; }
+.pv-cand-confirm-text { font-size: 13px; margin-bottom: 8px; }
+.pv-cand-confirm-btn { width: 100%; margin-bottom: 6px; }
+.pv-cand-pick-different { width: 100%; }
+
 .sum-net {
   display: flex;
   justify-content: space-between;
