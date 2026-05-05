@@ -385,6 +385,19 @@ select { cursor: pointer; }
 .sum-bonus-win  { font-size: 16px; font-weight: bold; margin-top: 4px; }
 .sum-bonus-win small { font-size: 12px; font-weight: normal; opacity: 0.8; }
 .sum-seg-running { font-size: 12px; margin-top: 2px; }
+
+.mult-val      { font-weight: 600; margin-right: 4px; }
+.mult-val.mult-bad   { color: var(--danger); }
+.mult-val.mult-okay  { color: var(--warning); }
+.mult-val.mult-good  { color: var(--accent); }
+.mult-val.mult-great { color: var(--accent); font-weight: 800; }
+
+.seg-upgraded {
+  font-size: 11px;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
 .ec-video-url { margin-top: 8px; width: 100%; box-sizing: border-box; font-size: 13px; }
 
 .sum-net {

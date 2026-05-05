@@ -113,7 +113,7 @@ PocketBase is reachable only over the Tailscale tailnet `siamese-egret.ts.net` (
 
 Both containers live in one Container Station "Application" called `slottracker`:
 
-- **`slottracker-pb`** — image `ghcr.io/muchobien/pocketbase:latest`. Listens on `:8090` inside the Docker network. Host port `8090` is also mapped (legacy; can be removed once nothing depends on the public path anymore).
+- **`slottracker-pb`** — image `ghcr.io/muchobien/pocketbase:latest`. Listens on `:8090` inside the Docker network. Not exposed on any host port — only the sidecar can reach it, via the Docker bridge.
 - **`ts-pocketbase`** — image `tailscale/tailscale:latest` in userspace networking mode (`TS_USERSPACE=true`, no `NET_ADMIN`/`/dev/net/tun` needed). Joins the tailnet as hostname `pocketbase` (so the URL is `pocketbase.siamese-egret.ts.net`). Reads its serve config from a JSON file mounted in.
 
 The host `crate` Tailscale node (the QNAP itself) is reserved for system-level access — SSH, future QTS UI Serve, etc. Per-service hostnames live in sidecars so future apps each get their own `*.siamese-egret.ts.net` URL without conflict.

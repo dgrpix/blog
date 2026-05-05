@@ -1,4 +1,4 @@
-const VERSION = 'v0.0029';
+const VERSION = 'v0.0030';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
@@ -942,6 +942,8 @@ let selectedDenom        = null;
 let pendingPhotoFile     = null;
 let newSessionVisitId    = null;
 let sessionPhotoManual   = false;
+let bonusDenom           = null;
+let peakDenom            = null;
 
 async function showNewSession({ visitId } = {}) {
   newSessionVisitId = visitId || null;
@@ -1260,6 +1262,19 @@ function startBonus() {
   document.getElementById('as-bip-start-bal').textContent = formatMoney(bonusStartBalance);
   document.getElementById('as-spins').value = '';
 
+  // Pre-fill bonus's denom + bet from session start values; user can override before continuing.
+  bonusDenom = currentSession.denom;
+  document.querySelectorAll('#bip-denom-buttons .pill').forEach(p => {
+    const isStart = parseFloat(p.dataset.value) === currentSession.denom;
+    p.classList.toggle('selected', isStart);
+    p.onclick = () => {
+      document.querySelectorAll('#bip-denom-buttons .pill').forEach(q => q.classList.remove('selected'));
+      p.classList.add('selected');
+      bonusDenom = parseFloat(p.dataset.value);
+    };
+  });
+  document.getElementById('bip-bet').value = currentSession.bet_per_spin;
+
   updateActiveSessionDisplay();
 
   document.getElementById('btn-bonus-done').onclick   = showBonusForm;
@@ -1331,16 +1346,25 @@ async function saveBonus() {
   const restore = btnAck(btn);
   errorEl.classList.add('hidden');
 
+  const bonusBet = parseFloat(document.getElementById('bip-bet').value);
+  if (!bonusBet || bonusBet <= 0) {
+    errorEl.textContent = 'Enter a valid bet per spin (go back to the previous screen).';
+    errorEl.classList.remove('hidden');
+    return;
+  }
+
   try {
     const videoUrl = document.getElementById('bc-video-url').value.trim();
     const bonus = await PB.create('bonuses', {
-      session:         currentSession.id,
-      spins:           bonusSegmentSpins,
-      bonus_type:      typeInput.value,
-      start_balance:   bonusStartBalance,
-      end_balance:     endBal,
-      bonus_time:      bonusStartTime.toISOString(),
-      bonus_video_url: videoUrl || null,
+      session:            currentSession.id,
+      spins:              bonusSegmentSpins,
+      bonus_type:         typeInput.value,
+      start_balance:      bonusStartBalance,
+      end_balance:        endBal,
+      bonus_time:         bonusStartTime.toISOString(),
+      bonus_video_url:    videoUrl || null,
+      bonus_denom:        bonusDenom,
+      bonus_bet_per_spin: bonusBet,
     });
 
     document.getElementById('as-balance').value = endBal;
@@ -1375,17 +1399,20 @@ async function showEndConfirm() {
 
   const summaryEl = document.getElementById('ec-summary');
   summaryEl.innerHTML = '';
+  let bonuses = [];
   try {
     const result  = await PB.list('bonuses', {
       filter:  `session='${currentSession.id}'`,
       sort:    'bonus_time',
       perPage: 500,
     });
-    const bonuses   = result.items || [];
-    const typeLabel = { free_games: 'Free Games', hold_and_spin: 'Hold & Spin', other: 'Other' };
+    bonuses          = result.items || [];
+    const typeLabel  = { free_games: 'Free Games', hold_and_spin: 'Hold & Spin', other: 'Other' };
     const sessionNet = endBal - currentSession.start_balance;
     const netColor   = n => n >= 0 ? 'var(--accent)' : 'var(--danger)';
     const netFmt     = n => (n >= 0 ? '+' : '') + formatMoney(n);
+    const startBet   = currentSession.bet_per_spin;
+    const startDenom = currentSession.denom;
 
     summaryEl.innerHTML = `
       <div class="sum-start">
@@ -1396,13 +1423,22 @@ async function showEndConfirm() {
     bonuses.forEach((b, i) => {
       const bonusWin   = b.end_balance != null ? b.end_balance - b.start_balance : null;
       const runningNet = b.end_balance != null ? b.end_balance - currentSession.start_balance : null;
-      const multiplier = bonusWin != null && bonusWin > 0 && currentSession.bet_per_spin > 0
-        ? Math.round(bonusWin / currentSession.bet_per_spin) : null;
+      const bonusBet   = b.bonus_bet_per_spin || startBet;
+      const multF      = bonusWin != null && bonusWin > 0 && bonusBet > 0 ? bonusWin / bonusBet : null;
+      const multClass  = multF == null ? '' :
+        multF < 10 ? 'mult-bad' :
+        multF < 30 ? 'mult-okay' :
+        multF < 50 ? 'mult-good' : 'mult-great';
 
       const winColor  = bonusWin   != null ? netColor(bonusWin)   : 'var(--text-muted)';
       const sessColor = runningNet != null ? netColor(runningNet) : 'var(--text-muted)';
       const winStr    = bonusWin   != null ? netFmt(bonusWin)     : 'in progress';
-      const multStr   = multiplier ? `<small>(${multiplier}x)</small> ` : '';
+      const multStr   = multF != null ? `<span class="mult-val ${multClass}">${Math.round(multF)}x</span> ` : '';
+
+      const sameBet      = b.bonus_bet_per_spin == null || b.bonus_bet_per_spin === startBet;
+      const sameDenom    = b.bonus_denom == null || b.bonus_denom === startDenom;
+      const upgradedHtml = (sameBet && sameDenom) ? '' :
+        `<div class="seg-upgraded">↑ upgraded to ${formatDenom(b.bonus_denom || startDenom)} · ${formatMoney(bonusBet)}/spin</div>`;
 
       summaryEl.innerHTML += `
         <div class="sum-seg">
@@ -1411,6 +1447,7 @@ async function showEndConfirm() {
             <span class="sum-seg-type">${typeLabel[b.bonus_type] || b.bonus_type}</span>
           </div>
           <div class="sum-bonus-win" style="color:${winColor}">${multStr}${winStr}</div>
+          ${upgradedHtml}
           ${runningNet != null ? `<div class="sum-seg-running" style="color:${sessColor}">session ${netFmt(runningNet)}</div>` : ''}
         </div>`;
     });
@@ -1442,6 +1479,21 @@ async function showEndConfirm() {
     summaryEl.innerHTML = '<div style="color:var(--text-muted);font-size:13px">Could not load segment data</div>';
   }
 
+  // Peak inputs: pre-fill from observed max (session start ⊔ all bonuses' values)
+  const maxDenom = Math.max(currentSession.denom, ...bonuses.map(b => b.bonus_denom || 0));
+  const maxBet   = Math.max(currentSession.bet_per_spin, ...bonuses.map(b => b.bonus_bet_per_spin || 0));
+  peakDenom = maxDenom;
+  document.querySelectorAll('#ec-denom-buttons .pill').forEach(p => {
+    const isMax = parseFloat(p.dataset.value) === maxDenom;
+    p.classList.toggle('selected', isMax);
+    p.onclick = () => {
+      document.querySelectorAll('#ec-denom-buttons .pill').forEach(q => q.classList.remove('selected'));
+      p.classList.add('selected');
+      peakDenom = parseFloat(p.dataset.value);
+    };
+  });
+  document.getElementById('ec-bet').value = maxBet;
+
   const confirmBtn = document.getElementById('btn-ec-confirm');
   confirmBtn.disabled    = false;
   confirmBtn.textContent = 'Confirm End Session';
@@ -1460,10 +1512,14 @@ async function saveEndSession(endBal) {
   const restore = btnAck(btn);
   errorEl.classList.add('hidden');
 
+  const peakBet = parseFloat(document.getElementById('ec-bet').value);
+
   try {
     await PB.update('sessions', currentSession.id, {
-      end_balance: endBal,
-      end_time:    new Date().toISOString(),
+      end_balance:       endBal,
+      end_time:          new Date().toISOString(),
+      peak_denom:        peakDenom,
+      peak_bet_per_spin: peakBet || null,
     });
 
     clearInterval(sessionTimerInterval);
