@@ -1,9 +1,9 @@
-const VERSION = 'v0.0028';
+const VERSION = 'v0.0029';
 
 // ── PocketBase client ────────────────────────────────────────────────────────
 
 const PB = {
-  get url()      { return localStorage.getItem('pb_url')      || 'https://crate.myqnapcloud.com:9090'; },
+  get url()      { return localStorage.getItem('pb_url')      || 'https://pocketbase.siamese-egret.ts.net'; },
   set url(v)     { localStorage.setItem('pb_url', v.replace(/\/$/, '')); },
   get email()    { return localStorage.getItem('pb_email')    || 'slottracker@dgrpix.net'; },
   set email(v)   { localStorage.setItem('pb_email', v); },
@@ -226,11 +226,9 @@ function navigate(name, params = {}) {
 async function checkConnection(statusEl) {
   statusEl.className = 'conn-status checking';
   statusEl.textContent = 'Checking connection…';
-  try {
-    await PB.health();
-  } catch {
+  if (!await PB.health()) {
     statusEl.className = 'conn-status error';
-    statusEl.textContent = '● Cannot reach PocketBase — connect to VPN';
+    statusEl.textContent = '● Cannot reach PocketBase — connect to Tailscale';
     return;
   }
   try {
