@@ -41,3 +41,27 @@ collections:
         fields:
           - { label: Image, name: image, widget: image, required: false }
       - { label: Body, name: body, widget: markdown }
+
+  - name: links
+    label: Link shortener
+    files:
+      - file: static/links/data.json
+        name: links
+        label: Links table
+        format: json
+        fields:
+          - { label: Schema version, name: version, widget: hidden, default: 1 }
+          - label: Links
+            name: links
+            widget: list
+            collapsed: false
+            summary: "{{fields.short}} → {{fields.target}}"
+            fields:
+              - label: Short
+                name: short
+                widget: string
+                pattern: ['^(?!(settings|new|admin|api|index|data|links)$)[A-Za-z0-9_-]{4,64}$', 'Must be 4-64 chars (A-Z, a-z, 0-9, _, -); reserved words rejected']
+              - label: Target URL
+                name: target
+                widget: string
+                pattern: ['^https?://\S+$', 'Must be a valid http:// or https:// URL']

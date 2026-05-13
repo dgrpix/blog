@@ -2,7 +2,7 @@
 // dgrpix.com link shortener
 declare(strict_types=1);
 
-const VERSION = 'v0.0001';
+const VERSION = 'v0.0002';
 
 // Constant-time-ish delay (2-6s) applied to every response so timing
 // doesn't leak whether a shortname exists. NOT a substitute for rate
@@ -45,7 +45,13 @@ if ($raw === false) {
 }
 
 $data = json_decode($raw, true);
-$target = $data['links'][$short] ?? null;
+$target = null;
+foreach (($data['links'] ?? []) as $entry) {
+    if (is_array($entry) && ($entry['short'] ?? null) === $short) {
+        $target = $entry['target'] ?? null;
+        break;
+    }
+}
 
 // Defense in depth: only redirect to http/https targets.
 if ($target !== null) {
