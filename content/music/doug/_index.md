@@ -3,7 +3,10 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 36 tracks
+## 37 tracks
+
+- **Joubert Singers — *Stand on the Word*** (1982)
+  [Apple Music](https://music.apple.com/us/album/stand-on-the-word-larry-levan-mix/289662261?i=289662310&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Joubert+Singers+Stand+on+the+Word)
 
 - **Trendformusic — *sidewalks and skeletons goth***
   [YouTube Music](https://music.youtube.com/search?q=Trendformusic+sidewalks+and+skeletons+goth)
