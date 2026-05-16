@@ -2,3 +2,29 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
+
+## 8 tracks
+
+- **Tatsuro Yamashita — *For You*** (1982)
+  [Apple Music](https://music.apple.com/us/album/theme-of-mirai-music-train-ep/1411704527?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+For+You)
+
+- **Tatsuro Yamashita — *Sparkle*** (1982)
+  [Apple Music](https://music.apple.com/us/album/nostalgia-of-island/1538790131?i=1538790137&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Sparkle)
+
+- **Tatsuro Yamashita — *Music Book*** (1982)
+  [Apple Music](https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Music+Book)
+
+- **Tatsuro Yamashita — *Morning Glory*** (1982)
+  [Apple Music](https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Morning+Glory)
+
+- **Tatsuro Yamashita — *Love Talkin'*** (1982)
+  [Apple Music](https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Love+Talkin%27)
+
+- **Parcels — *Tieduprightnow*** (2018)
+  [Apple Music](https://music.apple.com/us/album/tieduprightnow/1368544993?i=1368545238&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Parcels+Tieduprightnow)
+
+- **Winta — *It's A Sweet Day*** (2025)
+  [Apple Music](https://music.apple.com/us/album/its-a-sweet-day/1859332878?i=1859332880&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Winta+It%27s+A+Sweet+Day)
+
+- **BABYMONSTER — *CHOOM*** (2026)
+  [Apple Music](https://music.apple.com/us/album/choom/1895588322?i=6763988598&uo=4) · [YouTube Music](https://music.youtube.com/search?q=BABYMONSTER+CHOOM)
