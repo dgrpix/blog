@@ -206,3 +206,39 @@ The `bonus_denom` / `bonus_bet_per_spin` fields on bonuses were added 2026-05-05
 ### Anthem Weather (`static/apps/anthemweather/`)
 
 Static weather app for a cruise itinerary. Self-contained HTML/CSS/JS.
+
+### Link shortener (`static/links/`)
+
+Personal URL shortener. Public redirector at `dgrpix.com/links/<short>` → 302 to the target. Vanilla PHP, no JS, no separate database. Editor is Sveltia CMS at `/admin` — there is no separate settings page.
+
+**Versioning:** Bump the `VERSION` constant at the top of `index.php` with every change. Format is `v0.XXXX` (zero-padded integer).
+
+**Data file** (`static/links/data.json`) — array shape so Sveltia's list widget can edit it:
+
+```json
+{
+  "version": 1,
+  "links": [
+    { "short": "asc1", "target": "https://example.com/..." }
+  ]
+}
+```
+
+**Editing:** Sveltia CMS at `/admin` → **Link shortener** collection. Sveltia enforces regex `pattern` on `short` (4–64 chars `[A-Za-z0-9_-]`, reserved words rejected via negative lookahead) and on `target` (must start with `http(s)://`). Sveltia writes the JSON itself, so syntax errors are impossible. No GitHub web editor, no PAT prompt, no tailnet gate — same posture as the rest of `/admin`.
+
+**Apache requirement** — already configured in `/etc/apache2/sites-enabled/016-dgrpix.conf` on watermelon:
+
+```apache
+RewriteRule ^/links/([A-Za-z0-9_-]+)/?$  /links/index.php?s=$1  [L,QSA]
+<Files "data.json">
+    Require all denied
+</Files>
+```
+
+**Behavior:** Variable 2–6s `usleep` on every response path (hit, miss, malformed shortname, reserved word) so timing doesn't leak whether a short exists. 302 on hit. 404 on miss with the same delay. `http(s)://` scheme check on targets as defense in depth.
+
+**Reserved shortnames** — synced across three layers (Sveltia regex, PHP `$reserved` array, Apache rewrite character class). Current list: `settings, new, admin, api, index, data, links`. If you add to the reserved set, update all three.
+
+**Discovery prevention:** `static/robots.txt` disallows `/links/`.
+
+**Deferred list and full design rationale:** see memory file `project_linkshortener.md`.
