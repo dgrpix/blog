@@ -3,7 +3,13 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 65 tracks
+## 67 tracks
+
+- **CAVS — *Paititi*** (2026)
+  [Apple Music](https://music.apple.com/us/album/paititi/1872395357?i=1872395688&uo=4) · [YouTube Music](https://music.youtube.com/search?q=CAVS+Paititi)
+
+- **CAVS — *Sojourn***
+  [Apple Music](https://music.apple.com/us/album/sojourn/1872395357?uo=4) · [YouTube Music](https://music.youtube.com/search?q=CAVS+Sojourn)
 
 - **Minako Ito — *Kinou Kara no Eshaku*** (1982)
   [YouTube Music](https://music.youtube.com/search?q=Minako+Ito+Kinou+Kara+no+Eshaku)
