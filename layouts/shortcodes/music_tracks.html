@@ -1,0 +1,42 @@
+{{- $tracks := .Page.Params.tracks -}}
+{{- $serviceDisplay := dict
+    "apple_music" "Apple Music"
+    "youtube_music" "YouTube Music"
+    "spotify" "Spotify"
+    "tidal" "TIDAL"
+    "qobuz" "Qobuz"
+-}}
+{{- $serviceIcon := dict
+    "apple_music" "/icons/apple-music.svg"
+    "youtube_music" "/icons/youtube-music.svg"
+-}}
+{{- if not $tracks -}}
+<p>No tracks identified yet.</p>
+{{- else -}}
+<h2 id="track-count">{{ len $tracks }} track{{ if ne (len $tracks) 1 }}s{{ end }}</h2>
+<ul class="music-tracks">
+  {{- range $tracks }}
+  <li class="music-track">
+    {{- with .completed_at }}
+    <div class="music-track-date">{{ . }}</div>
+    {{- end }}
+    <div class="music-track-title"><strong>{{ .artist }} &mdash; <em>{{ .title }}</em></strong>{{ with .year }} ({{ . }}){{ end }}</div>
+    {{- with .links }}
+    <div class="music-track-links">
+      {{- range . -}}
+        {{- $display := index $serviceDisplay .service | default (humanize .service) -}}
+        {{- $iconPath := index $serviceIcon .service -}}
+        <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ $display }}" title="{{ $display }}">
+          {{- if $iconPath -}}
+            <img src="{{ $iconPath }}" alt="{{ $display }}" width="20" height="20">
+          {{- else -}}
+            {{ $display }}
+          {{- end -}}
+        </a>
+      {{- end }}
+    </div>
+    {{- end }}
+  </li>
+  {{- end }}
+</ul>
+{{- end -}}

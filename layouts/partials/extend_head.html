@@ -2,3 +2,6 @@
 <link rel="stylesheet" href="{{ "/dgrpoll.css" | relURL }}">
 <script src="{{ "/dgrpoll.js" | relURL }}" defer></script>
 {{ end }}
+{{ if .Params.tracks }}
+<link rel="stylesheet" href="{{ "/music-tracks.css" | relURL }}">
+{{ end }}

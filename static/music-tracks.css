@@ -1,0 +1,30 @@
+.music-track {
+  margin-bottom: 1em;
+}
+
+.music-track-date {
+  font-size: 0.78em;
+  opacity: 0.6;
+  margin-bottom: 0.15em;
+}
+
+.music-track-title {
+  margin-bottom: 0.3em;
+}
+
+.music-track-links {
+  margin-top: 0.25em;
+}
+
+.music-track-links a {
+  display: inline-block;
+  margin-right: 0.4em;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+.music-track-links img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
