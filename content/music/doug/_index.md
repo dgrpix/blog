@@ -3,7 +3,22 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 55 tracks
+## 60 tracks
+
+- **Spooki, Vylem, Domi Jones — *Let It Go***
+  [YouTube Music](https://music.youtube.com/search?q=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go)
+
+- **MGR Mike — *Fountains***
+  [Apple Music](https://music.apple.com/us/album/fountains/1871498420?i=1871498422&uo=4) · [YouTube Music](https://music.youtube.com/search?q=MGR+Mike+Fountains)
+
+- **Walt J — *Liquid Love*** (2026)
+  [Apple Music](https://music.apple.com/us/album/liquid-love-extended/1876005273?i=1876005456&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Walt+J+Liquid+Love)
+
+- **Milton Shadow — *On You***
+  [Apple Music](https://music.apple.com/us/album/on-you/1873350790?i=1873350791&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Milton+Shadow+On+You)
+
+- **Kotti Affair — *Why Don't You Love Me***
+  [Apple Music](https://music.apple.com/us/album/why-dont-you-love-me/1861995970?i=1861995971&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Kotti+Affair+Why+Don%27t+You+Love+Me)
 
 - **Nancy Wilson — *Something Wonderful*** (1960)
   [Apple Music](https://music.apple.com/us/album/something-wonderful-remastered/716140167?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nancy+Wilson+Something+Wonderful)
