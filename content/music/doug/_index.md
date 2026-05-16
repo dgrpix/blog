@@ -3,7 +3,10 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 16 tracks
+## 17 tracks
+
+- **Sunlightsquare — *Super People*** (2015)
+  [Apple Music](https://music.apple.com/us/album/super-people/1012308818?i=1012308819&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Sunlightsquare+Super+People)
 
 - **Smoke & Sonata — *The Night Forgives, But Never Forgets*** (2025)
   [Apple Music](https://music.apple.com/us/album/the-night-forgives-but-never-forgets/1855958962?i=1855958970&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Smoke+%26+Sonata+The+Night+Forgives%2C+But+Never+Forgets)
