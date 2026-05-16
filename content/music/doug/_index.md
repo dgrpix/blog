@@ -2,6 +2,21 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRS9KNGJ112HPG1MPM59ZHVQ"
+    status: "completed"
+    source_url: "https://www.tiktok.com/t/ZP8pmeb9j/"
+    title: "Motion Less V2 — NIKOLAI NITE"
+    completed_at: "May 16, 2026 · 2:03 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRS9KNGJ112HPG1MPM59ZHVQ.jpg"
+    items:
+      - artist: "NIKOLAI NITE"
+        title: "Motion Less V2"
+        year: 2026
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/motion-less-v2/1890985701?i=1890985702&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=NIKOLAI+NITE+Motion+Less+V2"
   - id: "01KRS9GCBF580E3SBMF6G6YJMK"
     status: "completed"
     source_url: "https://www.tiktok.com/t/ZP8pa3kRx/"
