@@ -2,6 +2,29 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRSJCGWD511QKPACBYFC8P8F"
+    status: "completed"
+    source_url: "https://youtube.com/watch?v=oBUA10JjoNQ&si=0fjMIOYBz5mllN94"
+    title: "As the Clock Rewinds — Mid September"
+    completed_at: "May 16, 2026 · 4:37 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRSJCGWD511QKPACBYFC8P8F.jpg"
+    items:
+      - artist: "Mid September"
+        title: "As the Clock Rewinds"
+        year: 2024
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/as-the-clock-rewinds/1768068587?i=1768068982&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mid+September+As+the+Clock+Rewinds"
+      - artist: "Mid September"
+        title: "Perpetuation"
+        year: 2024
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/perpetuation/1768068587?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mid+September+Perpetuation"
   - id: "01KRSBK482JERPHYHP1J554059"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DSJB950EgwD/?igsh=NjZiM2M3MzIxNA=="
