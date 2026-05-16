@@ -3,7 +3,10 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 34 tracks
+## 35 tracks
+
+- **Justine Skye — *Collide (sped up)***
+  [Apple Music](https://music.apple.com/us/album/collide-feat-tyga/1615681225?i=1615681226&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Justine+Skye+Collide+%28sped+up%29)
 
 - **Michael Jackson — *Beat It*** (2008)
   [Apple Music](https://music.apple.com/us/album/beat-it/269572838?i=269573341&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Michael+Jackson+Beat+It)
