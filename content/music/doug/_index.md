@@ -3,7 +3,13 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 52 tracks
+## 53 tracks
+
+- **Nu Genea — *Praja Magia*** (2022)
+  [Apple Music](https://music.apple.com/us/album/praja-magia/1628693795?i=1628694192&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nu+Genea+Praja+Magia)
+
+- **Nu Genea — *Bar Mediterraneo***
+  [Apple Music](https://music.apple.com/us/album/bar-mediterraneo/1628693795?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nu+Genea+Bar+Mediterraneo)
 
 - **Jamiroquai — *Music of the Mind***
   [Apple Music](https://music.apple.com/us/album/music-of-the-mind/181572851?i=181573452&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Jamiroquai+Music+of+the+Mind)
@@ -94,9 +100,6 @@ description: "Tracks and albums identified from short videos."
 
 - **Hermanos Gutiérrez — *El Bueno Y El Malo*** (2022)
   [Apple Music](https://music.apple.com/us/album/el-bueno-y-el-malo/1632317760?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo)
-
-- **Nu Genea — *Bar Mediterraneo*** (2021)
-  [Apple Music](https://music.apple.com/us/album/bar-mediterraneo/1628693795?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nu+Genea+Bar+Mediterraneo)
 
 - **Arc De Soleil — *Arc De Soleil***
   [Apple Music](https://music.apple.com/us/album/sunchaser-single/1780311281?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Arc+De+Soleil+Arc+De+Soleil)
