@@ -2,6 +2,35 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRSBK482JERPHYHP1J554059"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DSJB950EgwD/?igsh=NjZiM2M3MzIxNA=="
+    title: "Groovy Year Music Picks"
+    completed_at: "May 16, 2026 · 2:38 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRSBK482JERPHYHP1J554059.jpg"
+    items:
+      - artist: "Joe P"
+        title: "Glass House - Stripped"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/glass-house-stripped/1817638510?i=1817638512&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Joe+P+Glass+House+-+Stripped"
+      - artist: "Amadeezy"
+        title: "Bass Boss"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/bass-boss/1560349229?i=1560349230&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Amadeezy+Bass+Boss"
+      - artist: "Chet Faker"
+        title: "It Could Be Nice"
+        year: 2023
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/it-could-be-nice/1636785891?i=1636785892&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Chet+Faker+It+Could+Be+Nice"
   - id: "01KRSBFGB0QBG4WDKK2XQJM6DN"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWjrMRpDel8/?igsh=NjZiM2M3MzIxNA=="
