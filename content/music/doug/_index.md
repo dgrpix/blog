@@ -3,7 +3,43 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 41 tracks
+## 52 tracks
+
+- **Jamiroquai — *Music of the Mind***
+  [Apple Music](https://music.apple.com/us/album/music-of-the-mind/181572851?i=181573452&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Jamiroquai+Music+of+the+Mind)
+
+- **Jamiroquai — *Emergency On Planet Earth*** (1993)
+  [Apple Music](https://music.apple.com/us/album/emergency-on-planet-earth/181572851?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Jamiroquai+Emergency+On+Planet+Earth)
+
+- **Makoto Matsushita — *First Light***
+  [Apple Music](https://music.apple.com/us/album/first-light-2018-remaster/1447532396?i=1447532398&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Makoto+Matsushita+First+Light)
+
+- **Masaki Matsubara — *Tequila Toast***
+  [Apple Music](https://music.apple.com/us/album/tequila-toast/294774467?i=294774527&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masaki+Matsubara+Tequila+Toast)
+
+- **Masaki Matsubara — *Painted Woman***
+  [Apple Music](https://music.apple.com/us/album/painted-woman/294774467?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masaki+Matsubara+Painted+Woman)
+
+- **Nujabes — *World's End Rhapsody***
+  [Apple Music](https://music.apple.com/us/album/worlds-end-rhapsody/1078914477?i=1078915005&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nujabes+World%27s+End+Rhapsody)
+
+- **Nujabes — *Modal Soul***
+  [YouTube Music](https://music.youtube.com/search?q=Nujabes+Modal+Soul)
+
+- **Naomi Akimoto — *Bewitched***
+  [Apple Music](https://music.apple.com/us/album/bewitched-are-you-leaving-soon/1304258524?i=1304259942&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Naomi+Akimoto+Bewitched)
+
+- **Masayoshi Takanaka — *Brasilian Skies***
+  [Apple Music](https://music.apple.com/us/album/brasilian-skies/1444076539?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masayoshi+Takanaka+Brasilian+Skies)
+
+- **Masayoshi Takanaka — *All of Me***
+  [Apple Music](https://music.apple.com/us/album/all-of-me/1442920123?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masayoshi+Takanaka+All+of+Me)
+
+- **Masayoshi Takanaka — *Sayahellen***
+  [Apple Music](https://music.apple.com/us/album/seychelles/1443091653?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masayoshi+Takanaka+Sayahellen)
+
+- **Anri — *Remember Summer Days*** (1983)
+  [Apple Music](https://music.apple.com/us/album/remember-summer-days-bonus-track/283306771?i=283306782&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Anri+Remember+Summer+Days)
 
 - **Mac DeMarco — *2*** (2012)
   [Apple Music](https://music.apple.com/us/album/2/561048714?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Mac+DeMarco+2)
@@ -52,9 +88,6 @@ description: "Tracks and albums identified from short videos."
 
 - **Michiru Kojima — *Best Friend***
   [Apple Music](https://music.apple.com/us/album/best-friend/1718499060?i=1718499065&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Michiru+Kojima+Best+Friend)
-
-- **ANRI — *Remember Summer Days***
-  [Apple Music](https://music.apple.com/us/album/remember-summer-days/1699358106?i=1699358107&uo=4) · [YouTube Music](https://music.youtube.com/search?q=ANRI+Remember+Summer+Days)
 
 - **Men I Trust — *Oncle Jazz***
   [Apple Music](https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Men+I+Trust+Oncle+Jazz)
