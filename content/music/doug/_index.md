@@ -3,7 +3,16 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 17 tracks
+## 20 tracks
+
+- **Savanna — *Never Let You Go***
+  [Apple Music](https://music.apple.com/us/album/never-let-you-go-onur-engin-edit/445626095?i=445626208&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Savanna+Never+Let+You+Go)
+
+- **Stylus — *We All Need One Another*** (2018)
+  [Apple Music](https://music.apple.com/us/album/we-all-need-one-another/969339635?i=969339661&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Stylus+We+All+Need+One+Another)
+
+- **Sunbear — *I Heard the Voice of Music Say*** (1977)
+  [Apple Music](https://music.apple.com/us/album/i-heard-the-voice-of-music-say/301950012?i=301950104&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Sunbear+I+Heard+the+Voice+of+Music+Say)
 
 - **Sunlightsquare — *Super People*** (2015)
   [Apple Music](https://music.apple.com/us/album/super-people/1012308818?i=1012308819&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Sunlightsquare+Super+People)
