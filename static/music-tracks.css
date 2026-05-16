@@ -1,30 +1,56 @@
+.music-tracks {
+  list-style: none;
+  padding-left: 0;
+}
+
 .music-track {
-  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em 0;
+}
+
+.music-track + .music-track {
+  border-top: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.music-track-text {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .music-track-date {
-  font-size: 0.78em;
+  font-size: 0.75em;
   opacity: 0.6;
   margin-bottom: 0.15em;
 }
 
 .music-track-title {
-  margin-bottom: 0.3em;
+  line-height: 1.35;
 }
 
 .music-track-links {
-  margin-top: 0.25em;
+  flex: 0 0 auto;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: flex-end;
+  width: 60px;
 }
 
 .music-track-links a {
-  display: inline-block;
-  margin-right: 0.4em;
-  vertical-align: middle;
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
   line-height: 0;
 }
 
-.music-track-links img {
+.music-track-links svg {
+  width: 100%;
+  height: 100%;
   display: block;
-  width: 20px;
-  height: 20px;
+}
+
+.music-track-link-text {
+  font-size: 0.85em;
 }
