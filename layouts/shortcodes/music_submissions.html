@@ -1,0 +1,65 @@
+{{- $subs := .Page.Params.submissions -}}
+{{- $serviceDisplay := dict
+    "apple_music" "Apple Music"
+    "youtube_music" "YouTube Music"
+    "spotify" "Spotify"
+    "tidal" "TIDAL"
+    "qobuz" "Qobuz"
+-}}
+{{- $appleSvg := safeHTML `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><linearGradient id="amg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fb2862"/><stop offset="1" stop-color="#fa2d48"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#amg)"/><path fill="#fff" d="M68 24c0-1.5-1-2.4-2.5-2.1L40 27c-1.7.4-2.5 1.6-2.5 3v33c0 .9-.6 1.6-1.5 1.8l-3 .6c-5.5 1-9 4-9 8.6s4 7.7 9.5 6.6 9-4.7 9-10V44.5c0-1.4.7-2.5 2-2.8L62 38.5c1.5-.3 2-.1 2 1.4v17c0 .9-.6 1.6-1.5 1.8l-3 .6c-5.5 1-9 4-9 8.6s4 7.7 9.5 6.6 9-4.7 9-10V24z"/></svg>` -}}
+{{- $ytSvg := safeHTML `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle cx="50" cy="50" r="48" fill="#ff0033"/><circle cx="50" cy="50" r="32" fill="none" stroke="#fff" stroke-width="4"/><polygon points="42,35 68,50 42,65" fill="#fff"/></svg>` -}}
+{{- $serviceIcon := dict
+    "apple_music" $appleSvg
+    "youtube_music" $ytSvg
+-}}
+{{- if not $subs -}}
+<p>No submissions yet.</p>
+{{- else -}}
+<ul class="music-submissions">
+  {{- range $sub := $subs }}
+  <li class="music-submission{{ if not $sub.items }} music-submission-empty{{ end }}">
+    <a class="music-submission-thumb{{ if not $sub.thumbnail }} music-submission-thumb-placeholder{{ end }}" href="{{ $sub.source_url }}" target="_blank" rel="noopener" aria-label="Open source video">
+      {{- with $sub.thumbnail }}
+      <img src="{{ . }}" alt="" loading="lazy">
+      {{- else }}
+      <span class="music-submission-thumb-icon" aria-hidden="true">link</span>
+      {{- end }}
+    </a>
+    <div class="music-submission-body">
+      <div class="music-submission-meta">
+        {{- with $sub.completed_at }}<span class="music-submission-date">{{ . }}</span>{{ end }}
+        {{- with $sub.title }} <span class="music-submission-title">{{ . }}</span>{{ end }}
+      </div>
+      {{- if $sub.items }}
+      <ul class="music-tracks">
+        {{- range $sub.items }}
+        <li class="music-track">
+          <div class="music-track-text">
+            <div class="music-track-title"><strong>{{ .artist }} &mdash; <em>{{ .title }}</em></strong>{{ with .year }} ({{ . }}){{ end }}</div>
+          </div>
+          {{- with .links }}
+          <div class="music-track-links">
+            {{- range . -}}
+              {{- $display := index $serviceDisplay .service | default (humanize .service) -}}
+              {{- $icon := index $serviceIcon .service -}}
+              <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ $display }}" title="{{ $display }}">
+                {{- if $icon -}}
+                  {{ $icon }}
+                {{- else -}}
+                  <span class="music-track-link-text">{{ $display }}</span>
+                {{- end -}}
+              </a>
+            {{- end }}
+          </div>
+          {{- end }}
+        </li>
+        {{- end }}
+      </ul>
+      {{- else }}
+      <p class="music-submission-empty-note">(no music identified)</p>
+      {{- end }}
+    </div>
+  </li>
+  {{- end }}
+</ul>
+{{- end -}}

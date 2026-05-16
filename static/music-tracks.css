@@ -57,3 +57,93 @@
 .music-track-link-text {
   font-size: 0.85em;
 }
+
+/* --- Submissions (per-source-video grouping) --- */
+
+.music-submissions {
+  list-style: none;
+  padding-left: 0;
+}
+
+.music-submission {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 1em 0;
+}
+
+.music-submission + .music-submission {
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.music-submission-thumb {
+  flex: 0 0 120px;
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  border-bottom: none;
+  box-shadow: none;
+  background: rgba(128, 128, 128, 0.08);
+}
+
+.music-submission-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.music-submission-thumb-placeholder {
+  aspect-ratio: 9 / 16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85em;
+  opacity: 0.55;
+}
+
+.music-submission-thumb-icon {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.music-submission-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.music-submission-meta {
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.music-submission-date {
+  white-space: nowrap;
+}
+
+.music-submission-title {
+  font-style: italic;
+}
+
+.music-submission-empty-note {
+  opacity: 0.55;
+  font-style: italic;
+  margin: 0.25em 0 0 0;
+}
+
+/* Inside a submission, suppress the inter-track dividers — the submission
+   divider above already provides the grouping cue, and dividers inside a
+   group look noisy. */
+.music-submission .music-track + .music-track {
+  border-top: none;
+}
+
+.music-submission .music-tracks {
+  margin: 0;
+}
+
+.music-submission .music-track {
+  padding: 0.25em 0;
+}
