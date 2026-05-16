@@ -1,207 +1,584 @@
 ---
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
+tracks:
+  - artist: "Max Sinál, KingCrowney, Liv East"
+    title: "Intentions"
+    completed_at: "May 16, 2026 · 12:27 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/intentions/1811653868?i=1811653869&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Max+Sin%C3%A1l%2C+KingCrowney%2C+Liv+East+Intentions"
+  - artist: "FÉLINÉ"
+    title: "bisou"
+    year: 2025
+    completed_at: "May 16, 2026 · 12:27 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/bisou/1815153918?i=1815153921&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=F%C3%89LIN%C3%89+bisou"
+  - artist: "Gabriel"
+    title: "Energy"
+    year: 2026
+    completed_at: "May 16, 2026 · 12:27 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/energy/1852761182?i=1852761183&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Gabriel+Energy"
+  - artist: "Baylee Lefton"
+    title: "you like jazz?"
+    completed_at: "May 16, 2026 · 12:27 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Baylee+Lefton+you+like+jazz%3F"
+  - artist: "CAVS"
+    title: "Paititi"
+    year: 2026
+    completed_at: "May 16, 2026 · 12:19 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/paititi/1872395357?i=1872395688&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=CAVS+Paititi"
+  - artist: "CAVS"
+    title: "Sojourn"
+    completed_at: "May 16, 2026 · 12:19 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/sojourn/1872395357?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=CAVS+Sojourn"
+  - artist: "Minako Ito"
+    title: "Kinou Kara no Eshaku"
+    year: 1982
+    completed_at: "May 16, 2026 · 12:18 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Minako+Ito+Kinou+Kara+no+Eshaku"
+  - artist: "Makiko Imai"
+    title: "Stormy Night"
+    year: 1988
+    completed_at: "May 16, 2026 · 12:18 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Makiko+Imai+Stormy+Night"
+  - artist: "Satomi Sawa"
+    title: "Mirai Shoujo"
+    year: 1986
+    completed_at: "May 16, 2026 · 12:18 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Satomi+Sawa+Mirai+Shoujo"
+  - artist: "Rika Tatsumi"
+    title: "Tokimeki Towairaito"
+    year: 1985
+    completed_at: "May 16, 2026 · 12:18 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Rika+Tatsumi+Tokimeki+Towairaito"
+  - artist: "Ruiko Kurahashi"
+    title: "Sérénade"
+    completed_at: "May 16, 2026 · 12:18 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/serenade/720316359?i=720316461&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Ruiko+Kurahashi+S%C3%A9r%C3%A9nade"
+  - artist: "Spooki, Vylem, Domi Jones"
+    title: "Let It Go"
+    completed_at: "May 16, 2026 · 12:04 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go"
+  - artist: "MGR Mike"
+    title: "Fountains"
+    completed_at: "May 16, 2026 · 12:04 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/fountains/1871498420?i=1871498422&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=MGR+Mike+Fountains"
+  - artist: "Walt J"
+    title: "Liquid Love"
+    year: 2026
+    completed_at: "May 16, 2026 · 12:04 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/liquid-love-extended/1876005273?i=1876005456&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Walt+J+Liquid+Love"
+  - artist: "Milton Shadow"
+    title: "On You"
+    completed_at: "May 16, 2026 · 12:04 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/on-you/1873350790?i=1873350791&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Milton+Shadow+On+You"
+  - artist: "Kotti Affair"
+    title: "Why Don't You Love Me"
+    completed_at: "May 16, 2026 · 12:04 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/why-dont-you-love-me/1861995970?i=1861995971&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Kotti+Affair+Why+Don%27t+You+Love+Me"
+  - artist: "Nancy Wilson"
+    title: "Something Wonderful"
+    year: 1960
+    completed_at: "May 16, 2026 · 11:54 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/something-wonderful-remastered/716140167?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Nancy+Wilson+Something+Wonderful"
+  - artist: "Blossom Dearie"
+    title: "Blossom Dearie"
+    year: 1957
+    completed_at: "May 16, 2026 · 11:54 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/blossom-dearie/1443275613?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Blossom+Dearie+Blossom+Dearie"
+  - artist: "Nu Genea"
+    title: "Praja Magia"
+    year: 2022
+    completed_at: "May 16, 2026 · 11:53 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/praja-magia/1628693795?i=1628694192&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Nu+Genea+Praja+Magia"
+  - artist: "Nu Genea"
+    title: "Bar Mediterraneo"
+    completed_at: "May 16, 2026 · 11:53 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/bar-mediterraneo/1628693795?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Nu+Genea+Bar+Mediterraneo"
+  - artist: "Jamiroquai"
+    title: "Music of the Mind"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/music-of-the-mind/181572851?i=181573452&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Jamiroquai+Music+of+the+Mind"
+  - artist: "Jamiroquai"
+    title: "Emergency On Planet Earth"
+    year: 1993
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/emergency-on-planet-earth/181572851?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Jamiroquai+Emergency+On+Planet+Earth"
+  - artist: "Makoto Matsushita"
+    title: "First Light"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/first-light-2018-remaster/1447532396?i=1447532398&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Makoto+Matsushita+First+Light"
+  - artist: "Masaki Matsubara"
+    title: "Tequila Toast"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/tequila-toast/294774467?i=294774527&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Masaki+Matsubara+Tequila+Toast"
+  - artist: "Masaki Matsubara"
+    title: "Painted Woman"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/painted-woman/294774467?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Masaki+Matsubara+Painted+Woman"
+  - artist: "Nujabes"
+    title: "World's End Rhapsody"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/worlds-end-rhapsody/1078914477?i=1078915005&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Nujabes+World%27s+End+Rhapsody"
+  - artist: "Nujabes"
+    title: "Modal Soul"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Nujabes+Modal+Soul"
+  - artist: "Naomi Akimoto"
+    title: "Bewitched"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/bewitched-are-you-leaving-soon/1304258524?i=1304259942&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Naomi+Akimoto+Bewitched"
+  - artist: "Masayoshi Takanaka"
+    title: "Brasilian Skies"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/brasilian-skies/1444076539?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+Brasilian+Skies"
+  - artist: "Masayoshi Takanaka"
+    title: "All of Me"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/all-of-me/1442920123?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+All+of+Me"
+  - artist: "Masayoshi Takanaka"
+    title: "Sayahellen"
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/seychelles/1443091653?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+Sayahellen"
+  - artist: "Anri"
+    title: "Remember Summer Days"
+    year: 1983
+    completed_at: "May 16, 2026 · 11:52 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/remember-summer-days-bonus-track/283306771?i=283306782&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Anri+Remember+Summer+Days"
+  - artist: "Mac DeMarco"
+    title: "2"
+    year: 2012
+    completed_at: "May 16, 2026 · 11:50 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/2/561048714?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Mac+DeMarco+2"
+  - artist: "Haruomi Hosono & Shigeru Suzuki"
+    title: "Pacific"
+    completed_at: "May 16, 2026 · 11:50 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
+  - artist: "Gustavo Cerati"
+    title: "+ Bien"
+    completed_at: "May 16, 2026 · 11:50 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/crimen-single/1281724574?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Gustavo+Cerati+%2B+Bien"
+  - artist: "Duan Wasi"
+    title: "Licious"
+    completed_at: "May 16, 2026 · 11:50 AM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/licious/1657533225?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Duan+Wasi+Licious"
+  - artist: "Joubert Singers"
+    title: "Stand on the Word"
+    year: 1982
+    completed_at: "May 15, 2026 · 8:35 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/stand-on-the-word-larry-levan-mix/289662261?i=289662310&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Joubert+Singers+Stand+on+the+Word"
+  - artist: "Trendformusic"
+    title: "sidewalks and skeletons goth"
+    completed_at: "May 15, 2026 · 7:03 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Trendformusic+sidewalks+and+skeletons+goth"
+  - artist: "Justine Skye"
+    title: "Collide (sped up)"
+    completed_at: "May 15, 2026 · 7:01 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/collide-feat-tyga/1615681225?i=1615681226&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Justine+Skye+Collide+%28sped+up%29"
+  - artist: "Michael Jackson"
+    title: "Beat It"
+    year: 2008
+    completed_at: "May 15, 2026 · 6:51 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/beat-it/269572838?i=269573341&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Michael+Jackson+Beat+It"
+  - artist: "Earth N Days"
+    title: "On The Ground"
+    completed_at: "May 15, 2026 · 6:44 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/on-the-ground/1892652993?i=1892652995&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Earth+N+Days+On+The+Ground"
+  - artist: "Definite Grooves"
+    title: "Don't Do Disco"
+    completed_at: "May 15, 2026 · 6:44 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/dont-do-disco/1890014160?i=1890014166&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Definite+Grooves+Don%27t+Do+Disco"
+  - artist: "Boogietraxx & Dynamique"
+    title: "The Games You Play"
+    completed_at: "May 15, 2026 · 6:44 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/the-games-you-play/1891478686?i=1891478700&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Boogietraxx+%26+Dynamique+The+Games+You+Play"
+  - artist: "Purple Disco Machine"
+    title: "Disco Cherry"
+    year: 2026
+    completed_at: "May 15, 2026 · 6:44 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/disco-cherry/1890195880?i=1890195881&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Purple+Disco+Machine+Disco+Cherry"
+  - artist: "Zsak"
+    title: "I Like Deep"
+    completed_at: "May 15, 2026 · 6:44 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/i-like-deep/1895605507?i=6764031076&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Zsak+I+Like+Deep"
+  - artist: "Junko Ohashi"
+    title: "テレフォン・ナンバー (電話号碼)"
+    completed_at: "May 15, 2026 · 6:42 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29"
+  - artist: "JADOES"
+    title: "Stardust Night"
+    completed_at: "May 15, 2026 · 6:42 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/stardust-night/1527208045?i=1527208047&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=JADOES+Stardust+Night"
+  - artist: "Michiru Kojima"
+    title: "Best Friend"
+    completed_at: "May 15, 2026 · 6:42 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/best-friend/1718499060?i=1718499065&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Michiru+Kojima+Best+Friend"
+  - artist: "Men I Trust"
+    title: "Oncle Jazz"
+    completed_at: "May 15, 2026 · 6:41 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Men+I+Trust+Oncle+Jazz"
+  - artist: "Hermanos Gutiérrez"
+    title: "El Bueno Y El Malo"
+    year: 2022
+    completed_at: "May 15, 2026 · 6:41 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/el-bueno-y-el-malo/1632317760?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo"
+  - artist: "Arc De Soleil"
+    title: "Arc De Soleil"
+    completed_at: "May 15, 2026 · 6:41 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/sunchaser-single/1780311281?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Arc+De+Soleil+Arc+De+Soleil"
+  - artist: "Savanna"
+    title: "Never Let You Go"
+    completed_at: "May 15, 2026 · 6:39 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/never-let-you-go-onur-engin-edit/445626095?i=445626208&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Savanna+Never+Let+You+Go"
+  - artist: "Stylus"
+    title: "We All Need One Another"
+    year: 2018
+    completed_at: "May 15, 2026 · 6:39 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/we-all-need-one-another/969339635?i=969339661&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Stylus+We+All+Need+One+Another"
+  - artist: "Sunbear"
+    title: "I Heard the Voice of Music Say"
+    year: 1977
+    completed_at: "May 15, 2026 · 6:39 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/i-heard-the-voice-of-music-say/301950012?i=301950104&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Sunbear+I+Heard+the+Voice+of+Music+Say"
+  - artist: "Sunlightsquare"
+    title: "Super People"
+    year: 2015
+    completed_at: "May 15, 2026 · 6:36 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/super-people/1012308818?i=1012308819&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Sunlightsquare+Super+People"
+  - artist: "Smoke & Sonata"
+    title: "The Night Forgives, But Never Forgets"
+    year: 2025
+    completed_at: "May 15, 2026 · 6:35 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/the-night-forgives-but-never-forgets/1855958962?i=1855958970&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Smoke+%26+Sonata+The+Night+Forgives%2C+But+Never+Forgets"
+  - artist: "Johnny Hammond"
+    title: "Gears"
+    completed_at: "May 15, 2026 · 6:35 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/gears/1535122521?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Johnny+Hammond+Gears"
+  - artist: "Hank Mobley"
+    title: "Soul Station"
+    completed_at: "May 15, 2026 · 6:35 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/soul-station/1459439349?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Hank+Mobley+Soul+Station"
+  - artist: "Weather Report"
+    title: "Heavy Weather"
+    completed_at: "May 15, 2026 · 6:35 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/heavy-weather/170409940?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Weather+Report+Heavy+Weather"
+  - artist: "Casiopea"
+    title: "Casiopea"
+    completed_at: "May 15, 2026 · 6:35 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Casiopea+Casiopea"
+  - artist: "Butcher Brown"
+    title: "Letters from the Atlantic"
+    completed_at: "May 15, 2026 · 6:35 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Butcher+Brown+Letters+from+the+Atlantic"
+  - artist: "The Ted, Sam Donovan"
+    title: "Big Don"
+    year: 2025
+    completed_at: "May 15, 2026 · 6:32 PM PDT"
+    links:
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=The+Ted%2C+Sam+Donovan+Big+Don"
+  - artist: "Justin Timberlake"
+    title: "The 20/20 Experience"
+    completed_at: "May 15, 2026 · 6:32 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/suit-tie-featuring-ja%C3%BF-z-radio-edit-single/598779346?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Justin+Timberlake+The+20%2F20+Experience"
+  - artist: "Tatsuro Yamashita"
+    title: "For You"
+    year: 1982
+    completed_at: "May 15, 2026 · 5:48 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/theme-of-mirai-music-train-ep/1411704527?uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+For+You"
+  - artist: "Tatsuro Yamashita"
+    title: "Sparkle"
+    year: 1982
+    completed_at: "May 15, 2026 · 5:48 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/nostalgia-of-island/1538790131?i=1538790137&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+Sparkle"
+  - artist: "Tatsuro Yamashita"
+    title: "Music Book"
+    year: 1982
+    completed_at: "May 15, 2026 · 5:48 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+Music+Book"
+  - artist: "Tatsuro Yamashita"
+    title: "Morning Glory"
+    year: 1982
+    completed_at: "May 15, 2026 · 5:48 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+Morning+Glory"
+  - artist: "Tatsuro Yamashita"
+    title: "Love Talkin'"
+    year: 1982
+    completed_at: "May 15, 2026 · 5:48 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+Love+Talkin%27"
+  - artist: "Parcels"
+    title: "Tieduprightnow"
+    year: 2018
+    completed_at: "May 15, 2026 · 5:51 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/tieduprightnow/1368544993?i=1368545238&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Parcels+Tieduprightnow"
+  - artist: "Winta"
+    title: "It's A Sweet Day"
+    year: 2025
+    completed_at: "May 15, 2026 · 5:41 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/its-a-sweet-day/1859332878?i=1859332880&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=Winta+It%27s+A+Sweet+Day"
+  - artist: "BABYMONSTER"
+    title: "CHOOM"
+    year: 2026
+    completed_at: "May 15, 2026 · 5:39 PM PDT"
+    links:
+      - service: "apple_music"
+        url: "https://music.apple.com/us/album/choom/1895588322?i=6763988598&uo=4"
+      - service: "youtube_music"
+        url: "https://music.youtube.com/search?q=BABYMONSTER+CHOOM"
 ---
 
-## 67 tracks
-
-- **CAVS — *Paititi*** (2026)
-  [Apple Music](https://music.apple.com/us/album/paititi/1872395357?i=1872395688&uo=4) · [YouTube Music](https://music.youtube.com/search?q=CAVS+Paititi)
-
-- **CAVS — *Sojourn***
-  [Apple Music](https://music.apple.com/us/album/sojourn/1872395357?uo=4) · [YouTube Music](https://music.youtube.com/search?q=CAVS+Sojourn)
-
-- **Minako Ito — *Kinou Kara no Eshaku*** (1982)
-  [YouTube Music](https://music.youtube.com/search?q=Minako+Ito+Kinou+Kara+no+Eshaku)
-
-- **Makiko Imai — *Stormy Night*** (1988)
-  [YouTube Music](https://music.youtube.com/search?q=Makiko+Imai+Stormy+Night)
-
-- **Satomi Sawa — *Mirai Shoujo*** (1986)
-  [YouTube Music](https://music.youtube.com/search?q=Satomi+Sawa+Mirai+Shoujo)
-
-- **Rika Tatsumi — *Tokimeki Towairaito*** (1985)
-  [YouTube Music](https://music.youtube.com/search?q=Rika+Tatsumi+Tokimeki+Towairaito)
-
-- **Ruiko Kurahashi — *Sérénade***
-  [Apple Music](https://music.apple.com/us/album/serenade/720316359?i=720316461&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Ruiko+Kurahashi+S%C3%A9r%C3%A9nade)
-
-- **Spooki, Vylem, Domi Jones — *Let It Go***
-  [YouTube Music](https://music.youtube.com/search?q=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go)
-
-- **MGR Mike — *Fountains***
-  [Apple Music](https://music.apple.com/us/album/fountains/1871498420?i=1871498422&uo=4) · [YouTube Music](https://music.youtube.com/search?q=MGR+Mike+Fountains)
-
-- **Walt J — *Liquid Love*** (2026)
-  [Apple Music](https://music.apple.com/us/album/liquid-love-extended/1876005273?i=1876005456&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Walt+J+Liquid+Love)
-
-- **Milton Shadow — *On You***
-  [Apple Music](https://music.apple.com/us/album/on-you/1873350790?i=1873350791&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Milton+Shadow+On+You)
-
-- **Kotti Affair — *Why Don't You Love Me***
-  [Apple Music](https://music.apple.com/us/album/why-dont-you-love-me/1861995970?i=1861995971&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Kotti+Affair+Why+Don%27t+You+Love+Me)
-
-- **Nancy Wilson — *Something Wonderful*** (1960)
-  [Apple Music](https://music.apple.com/us/album/something-wonderful-remastered/716140167?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nancy+Wilson+Something+Wonderful)
-
-- **Blossom Dearie — *Blossom Dearie*** (1957)
-  [Apple Music](https://music.apple.com/us/album/blossom-dearie/1443275613?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Blossom+Dearie+Blossom+Dearie)
-
-- **Nu Genea — *Praja Magia*** (2022)
-  [Apple Music](https://music.apple.com/us/album/praja-magia/1628693795?i=1628694192&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nu+Genea+Praja+Magia)
-
-- **Nu Genea — *Bar Mediterraneo***
-  [Apple Music](https://music.apple.com/us/album/bar-mediterraneo/1628693795?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nu+Genea+Bar+Mediterraneo)
-
-- **Jamiroquai — *Music of the Mind***
-  [Apple Music](https://music.apple.com/us/album/music-of-the-mind/181572851?i=181573452&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Jamiroquai+Music+of+the+Mind)
-
-- **Jamiroquai — *Emergency On Planet Earth*** (1993)
-  [Apple Music](https://music.apple.com/us/album/emergency-on-planet-earth/181572851?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Jamiroquai+Emergency+On+Planet+Earth)
-
-- **Makoto Matsushita — *First Light***
-  [Apple Music](https://music.apple.com/us/album/first-light-2018-remaster/1447532396?i=1447532398&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Makoto+Matsushita+First+Light)
-
-- **Masaki Matsubara — *Tequila Toast***
-  [Apple Music](https://music.apple.com/us/album/tequila-toast/294774467?i=294774527&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masaki+Matsubara+Tequila+Toast)
-
-- **Masaki Matsubara — *Painted Woman***
-  [Apple Music](https://music.apple.com/us/album/painted-woman/294774467?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masaki+Matsubara+Painted+Woman)
-
-- **Nujabes — *World's End Rhapsody***
-  [Apple Music](https://music.apple.com/us/album/worlds-end-rhapsody/1078914477?i=1078915005&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nujabes+World%27s+End+Rhapsody)
-
-- **Nujabes — *Modal Soul***
-  [YouTube Music](https://music.youtube.com/search?q=Nujabes+Modal+Soul)
-
-- **Naomi Akimoto — *Bewitched***
-  [Apple Music](https://music.apple.com/us/album/bewitched-are-you-leaving-soon/1304258524?i=1304259942&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Naomi+Akimoto+Bewitched)
-
-- **Masayoshi Takanaka — *Brasilian Skies***
-  [Apple Music](https://music.apple.com/us/album/brasilian-skies/1444076539?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masayoshi+Takanaka+Brasilian+Skies)
-
-- **Masayoshi Takanaka — *All of Me***
-  [Apple Music](https://music.apple.com/us/album/all-of-me/1442920123?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masayoshi+Takanaka+All+of+Me)
-
-- **Masayoshi Takanaka — *Sayahellen***
-  [Apple Music](https://music.apple.com/us/album/seychelles/1443091653?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Masayoshi+Takanaka+Sayahellen)
-
-- **Anri — *Remember Summer Days*** (1983)
-  [Apple Music](https://music.apple.com/us/album/remember-summer-days-bonus-track/283306771?i=283306782&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Anri+Remember+Summer+Days)
-
-- **Mac DeMarco — *2*** (2012)
-  [Apple Music](https://music.apple.com/us/album/2/561048714?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Mac+DeMarco+2)
-
-- **Haruomi Hosono & Shigeru Suzuki — *Pacific***
-  [Apple Music](https://music.apple.com/us/album/pacific/1538790131?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific)
-
-- **Gustavo Cerati — *+ Bien***
-  [Apple Music](https://music.apple.com/us/album/crimen-single/1281724574?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Gustavo+Cerati+%2B+Bien)
-
-- **Duan Wasi — *Licious***
-  [Apple Music](https://music.apple.com/us/album/licious/1657533225?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Duan+Wasi+Licious)
-
-- **Joubert Singers — *Stand on the Word*** (1982)
-  [Apple Music](https://music.apple.com/us/album/stand-on-the-word-larry-levan-mix/289662261?i=289662310&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Joubert+Singers+Stand+on+the+Word)
-
-- **Trendformusic — *sidewalks and skeletons goth***
-  [YouTube Music](https://music.youtube.com/search?q=Trendformusic+sidewalks+and+skeletons+goth)
-
-- **Justine Skye — *Collide (sped up)***
-  [Apple Music](https://music.apple.com/us/album/collide-feat-tyga/1615681225?i=1615681226&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Justine+Skye+Collide+%28sped+up%29)
-
-- **Michael Jackson — *Beat It*** (2008)
-  [Apple Music](https://music.apple.com/us/album/beat-it/269572838?i=269573341&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Michael+Jackson+Beat+It)
-
-- **Earth N Days — *On The Ground***
-  [Apple Music](https://music.apple.com/us/album/on-the-ground/1892652993?i=1892652995&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Earth+N+Days+On+The+Ground)
-
-- **Definite Grooves — *Don't Do Disco***
-  [Apple Music](https://music.apple.com/us/album/dont-do-disco/1890014160?i=1890014166&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Definite+Grooves+Don%27t+Do+Disco)
-
-- **Boogietraxx & Dynamique — *The Games You Play***
-  [Apple Music](https://music.apple.com/us/album/the-games-you-play/1891478686?i=1891478700&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Boogietraxx+%26+Dynamique+The+Games+You+Play)
-
-- **Purple Disco Machine — *Disco Cherry*** (2026)
-  [Apple Music](https://music.apple.com/us/album/disco-cherry/1890195880?i=1890195881&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Purple+Disco+Machine+Disco+Cherry)
-
-- **Zsak — *I Like Deep***
-  [Apple Music](https://music.apple.com/us/album/i-like-deep/1895605507?i=6764031076&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Zsak+I+Like+Deep)
-
-- **Junko Ohashi — *テレフォン・ナンバー (電話号碼)***
-  [YouTube Music](https://music.youtube.com/search?q=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29)
-
-- **JADOES — *Stardust Night***
-  [Apple Music](https://music.apple.com/us/album/stardust-night/1527208045?i=1527208047&uo=4) · [YouTube Music](https://music.youtube.com/search?q=JADOES+Stardust+Night)
-
-- **Michiru Kojima — *Best Friend***
-  [Apple Music](https://music.apple.com/us/album/best-friend/1718499060?i=1718499065&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Michiru+Kojima+Best+Friend)
-
-- **Men I Trust — *Oncle Jazz***
-  [Apple Music](https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Men+I+Trust+Oncle+Jazz)
-
-- **Hermanos Gutiérrez — *El Bueno Y El Malo*** (2022)
-  [Apple Music](https://music.apple.com/us/album/el-bueno-y-el-malo/1632317760?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo)
-
-- **Arc De Soleil — *Arc De Soleil***
-  [Apple Music](https://music.apple.com/us/album/sunchaser-single/1780311281?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Arc+De+Soleil+Arc+De+Soleil)
-
-- **Savanna — *Never Let You Go***
-  [Apple Music](https://music.apple.com/us/album/never-let-you-go-onur-engin-edit/445626095?i=445626208&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Savanna+Never+Let+You+Go)
-
-- **Stylus — *We All Need One Another*** (2018)
-  [Apple Music](https://music.apple.com/us/album/we-all-need-one-another/969339635?i=969339661&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Stylus+We+All+Need+One+Another)
-
-- **Sunbear — *I Heard the Voice of Music Say*** (1977)
-  [Apple Music](https://music.apple.com/us/album/i-heard-the-voice-of-music-say/301950012?i=301950104&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Sunbear+I+Heard+the+Voice+of+Music+Say)
-
-- **Sunlightsquare — *Super People*** (2015)
-  [Apple Music](https://music.apple.com/us/album/super-people/1012308818?i=1012308819&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Sunlightsquare+Super+People)
-
-- **Smoke & Sonata — *The Night Forgives, But Never Forgets*** (2025)
-  [Apple Music](https://music.apple.com/us/album/the-night-forgives-but-never-forgets/1855958962?i=1855958970&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Smoke+%26+Sonata+The+Night+Forgives%2C+But+Never+Forgets)
-
-- **Johnny Hammond — *Gears***
-  [Apple Music](https://music.apple.com/us/album/gears/1535122521?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Johnny+Hammond+Gears)
-
-- **Hank Mobley — *Soul Station***
-  [Apple Music](https://music.apple.com/us/album/soul-station/1459439349?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Hank+Mobley+Soul+Station)
-
-- **Weather Report — *Heavy Weather***
-  [Apple Music](https://music.apple.com/us/album/heavy-weather/170409940?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Weather+Report+Heavy+Weather)
-
-- **Casiopea — *Casiopea***
-  [Apple Music](https://music.apple.com/us/album/casiopea/1535034715?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Casiopea+Casiopea)
-
-- **Butcher Brown — *Letters from the Atlantic***
-  [YouTube Music](https://music.youtube.com/search?q=Butcher+Brown+Letters+from+the+Atlantic)
-
-- **The Ted, Sam Donovan — *Big Don*** (2025)
-  [YouTube Music](https://music.youtube.com/search?q=The+Ted%2C+Sam+Donovan+Big+Don)
-
-- **Justin Timberlake — *The 20/20 Experience***
-  [Apple Music](https://music.apple.com/us/album/suit-tie-featuring-ja%C3%BF-z-radio-edit-single/598779346?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Justin+Timberlake+The+20%2F20+Experience)
-
-- **Tatsuro Yamashita — *For You*** (1982)
-  [Apple Music](https://music.apple.com/us/album/theme-of-mirai-music-train-ep/1411704527?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+For+You)
-
-- **Tatsuro Yamashita — *Sparkle*** (1982)
-  [Apple Music](https://music.apple.com/us/album/nostalgia-of-island/1538790131?i=1538790137&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Sparkle)
-
-- **Tatsuro Yamashita — *Music Book*** (1982)
-  [Apple Music](https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Music+Book)
-
-- **Tatsuro Yamashita — *Morning Glory*** (1982)
-  [Apple Music](https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Morning+Glory)
-
-- **Tatsuro Yamashita — *Love Talkin'*** (1982)
-  [Apple Music](https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Tatsuro+Yamashita+Love+Talkin%27)
-
-- **Parcels — *Tieduprightnow*** (2018)
-  [Apple Music](https://music.apple.com/us/album/tieduprightnow/1368544993?i=1368545238&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Parcels+Tieduprightnow)
-
-- **Winta — *It's A Sweet Day*** (2025)
-  [Apple Music](https://music.apple.com/us/album/its-a-sweet-day/1859332878?i=1859332880&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Winta+It%27s+A+Sweet+Day)
-
-- **BABYMONSTER — *CHOOM*** (2026)
-  [Apple Music](https://music.apple.com/us/album/choom/1895588322?i=6763988598&uo=4) · [YouTube Music](https://music.youtube.com/search?q=BABYMONSTER+CHOOM)
+{{< music_tracks >}}
