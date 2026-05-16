@@ -2,6 +2,48 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRSBFGB0QBG4WDKK2XQJM6DN"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DWjrMRpDel8/?igsh=NjZiM2M3MzIxNA=="
+    title: "Songs for Groovy Nights — 5 Funky Tracks"
+    completed_at: "May 16, 2026 · 2:37 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRSBFGB0QBG4WDKK2XQJM6DN.jpg"
+    items:
+      - artist: "Astels"
+        title: "On My Knees"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/on-my-knees/1774759714?i=1774759898&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Astels+On+My+Knees"
+      - artist: "Summer Vee, Kenny Sterling"
+        title: "Judas"
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Summer+Vee%2C+Kenny+Sterling+Judas"
+      - artist: "Antonio Barret, Nice Guys"
+        title: "2 AM"
+        year: 2023
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/2-am/1696310760?i=1696310773&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Antonio+Barret%2C+Nice+Guys+2+AM"
+      - artist: "Evil Genius, Isaac Waddington"
+        title: "Beggin' Man"
+        year: 2022
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/beggin-man/1650476600?i=1650476601&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Evil+Genius%2C+Isaac+Waddington+Beggin%27+Man"
+      - artist: "Lynda Dawn"
+        title: "Fonk Street"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/fonk-street/1769185390?i=1769185393&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lynda+Dawn+Fonk+Street"
   - id: "01KRS9KNGJ112HPG1MPM59ZHVQ"
     status: "completed"
     source_url: "https://www.tiktok.com/t/ZP8pmeb9j/"
