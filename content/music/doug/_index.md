@@ -3,7 +3,13 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 53 tracks
+## 55 tracks
+
+- **Nancy Wilson — *Something Wonderful*** (1960)
+  [Apple Music](https://music.apple.com/us/album/something-wonderful-remastered/716140167?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nancy+Wilson+Something+Wonderful)
+
+- **Blossom Dearie — *Blossom Dearie*** (1957)
+  [Apple Music](https://music.apple.com/us/album/blossom-dearie/1443275613?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Blossom+Dearie+Blossom+Dearie)
 
 - **Nu Genea — *Praja Magia*** (2022)
   [Apple Music](https://music.apple.com/us/album/praja-magia/1628693795?i=1628694192&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nu+Genea+Praja+Magia)
