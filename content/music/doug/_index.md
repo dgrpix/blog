@@ -3,7 +3,10 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 15 tracks
+## 16 tracks
+
+- **Smoke & Sonata — *The Night Forgives, But Never Forgets*** (2025)
+  [Apple Music](https://music.apple.com/us/album/the-night-forgives-but-never-forgets/1855958962?i=1855958970&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Smoke+%26+Sonata+The+Night+Forgives%2C+But+Never+Forgets)
 
 - **Johnny Hammond — *Gears***
   [Apple Music](https://music.apple.com/us/album/gears/1535122521?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Johnny+Hammond+Gears)
