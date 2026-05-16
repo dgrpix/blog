@@ -3,7 +3,19 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 20 tracks
+## 24 tracks
+
+- **Men I Trust — *Oncle Jazz***
+  [Apple Music](https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Men+I+Trust+Oncle+Jazz)
+
+- **Hermanos Gutiérrez — *El Bueno Y El Malo*** (2022)
+  [Apple Music](https://music.apple.com/us/album/el-bueno-y-el-malo/1632317760?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo)
+
+- **Nu Genea — *Bar Mediterraneo*** (2021)
+  [Apple Music](https://music.apple.com/us/album/bar-mediterraneo/1628693795?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Nu+Genea+Bar+Mediterraneo)
+
+- **Arc De Soleil — *Arc De Soleil***
+  [Apple Music](https://music.apple.com/us/album/sunchaser-single/1780311281?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Arc+De+Soleil+Arc+De+Soleil)
 
 - **Savanna — *Never Let You Go***
   [Apple Music](https://music.apple.com/us/album/never-let-you-go-onur-engin-edit/445626095?i=445626208&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Savanna+Never+Let+You+Go)
