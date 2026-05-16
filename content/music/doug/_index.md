@@ -3,7 +3,22 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 10 tracks
+## 15 tracks
+
+- **Johnny Hammond — *Gears***
+  [Apple Music](https://music.apple.com/us/album/gears/1535122521?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Johnny+Hammond+Gears)
+
+- **Hank Mobley — *Soul Station***
+  [Apple Music](https://music.apple.com/us/album/soul-station/1459439349?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Hank+Mobley+Soul+Station)
+
+- **Weather Report — *Heavy Weather***
+  [Apple Music](https://music.apple.com/us/album/heavy-weather/170409940?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Weather+Report+Heavy+Weather)
+
+- **Casiopea — *Casiopea***
+  [Apple Music](https://music.apple.com/us/album/casiopea/1535034715?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Casiopea+Casiopea)
+
+- **Butcher Brown — *Letters from the Atlantic***
+  [YouTube Music](https://music.youtube.com/search?q=Butcher+Brown+Letters+from+the+Atlantic)
 
 - **The Ted, Sam Donovan — *Big Don*** (2025)
   [YouTube Music](https://music.youtube.com/search?q=The+Ted%2C+Sam+Donovan+Big+Don)
