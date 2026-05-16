@@ -3,7 +3,19 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 24 tracks
+## 28 tracks
+
+- **Junko Ohashi — *テレフォン・ナンバー (電話号碼)***
+  [YouTube Music](https://music.youtube.com/search?q=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29)
+
+- **JADOES — *Stardust Night***
+  [Apple Music](https://music.apple.com/us/album/stardust-night/1527208045?i=1527208047&uo=4) · [YouTube Music](https://music.youtube.com/search?q=JADOES+Stardust+Night)
+
+- **Michiru Kojima — *Best Friend***
+  [Apple Music](https://music.apple.com/us/album/best-friend/1718499060?i=1718499065&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Michiru+Kojima+Best+Friend)
+
+- **ANRI — *Remember Summer Days***
+  [Apple Music](https://music.apple.com/us/album/remember-summer-days/1699358106?i=1699358107&uo=4) · [YouTube Music](https://music.youtube.com/search?q=ANRI+Remember+Summer+Days)
 
 - **Men I Trust — *Oncle Jazz***
   [Apple Music](https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4) · [YouTube Music](https://music.youtube.com/search?q=Men+I+Trust+Oncle+Jazz)
