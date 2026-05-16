@@ -2,6 +2,26 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRS679H64EDABREFVQJRMR32"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DXHPSZTkl4F/?igsh=NjZiM2M3MzIxNA=="
+    title: "Japanese Jazz Fusion Vinyl Picks"
+    completed_at: "May 16, 2026 · 1:04 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRS679H64EDABREFVQJRMR32.jpg"
+    items:
+      - artist: "Casiopea"
+        title: "Casiopea"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Casiopea+Casiopea"
+      - artist: "Yutaka Yokokura"
+        title: "Love Light"
+        year: 1978
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yutaka+Yokokura+Love+Light"
   - id: "01KRS43FYHVE34RC3YNVWB249D"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DXUyCEJgVw5/?igsh=NjZiM2M3MzIxNA=="
@@ -696,15 +716,6 @@ submissions:
             url: "https://music.apple.com/us/album/choom/1895588322?i=6763988598&uo=4"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=BABYMONSTER+CHOOM"
-  - id: "01KRQ3ARRZPF9A3A4EMFA4EZMC"
-    status: "failed"
-    source_url: "https://youtube.com/shorts/L2nPlTid6gA"
-    completed_at: "May 15, 2026 · 5:35 PM PDT"
-  - id: "01KRQ27ZEF55WWWK8QE468NNXY"
-    status: "failed"
-    source_url: "https://youtube.com/watch?v=jNQXAC9IVRw"
-    completed_at: "May 15, 2026 · 5:33 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ27ZEF55WWWK8QE468NNXY.jpg"
 ---
 
 {{< music_submissions >}}
