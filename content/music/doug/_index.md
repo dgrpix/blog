@@ -3,7 +3,22 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 60 tracks
+## 65 tracks
+
+- **Minako Ito — *Kinou Kara no Eshaku*** (1982)
+  [YouTube Music](https://music.youtube.com/search?q=Minako+Ito+Kinou+Kara+no+Eshaku)
+
+- **Makiko Imai — *Stormy Night*** (1988)
+  [YouTube Music](https://music.youtube.com/search?q=Makiko+Imai+Stormy+Night)
+
+- **Satomi Sawa — *Mirai Shoujo*** (1986)
+  [YouTube Music](https://music.youtube.com/search?q=Satomi+Sawa+Mirai+Shoujo)
+
+- **Rika Tatsumi — *Tokimeki Towairaito*** (1985)
+  [YouTube Music](https://music.youtube.com/search?q=Rika+Tatsumi+Tokimeki+Towairaito)
+
+- **Ruiko Kurahashi — *Sérénade***
+  [Apple Music](https://music.apple.com/us/album/serenade/720316359?i=720316461&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Ruiko+Kurahashi+S%C3%A9r%C3%A9nade)
 
 - **Spooki, Vylem, Domi Jones — *Let It Go***
   [YouTube Music](https://music.youtube.com/search?q=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go)
