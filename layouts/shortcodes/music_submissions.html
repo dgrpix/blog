@@ -35,7 +35,7 @@
         {{- range $sub.items }}
         <li class="music-track">
           <div class="music-track-text">
-            <div class="music-track-title"><strong>{{ .artist }} &mdash; <em>{{ .title }}</em></strong>{{ with .year }} ({{ . }}){{ end }}</div>
+            <div class="music-track-title"><strong>{{ .artist }} &mdash; <em>{{ .title }}</em></strong>{{ with .year }} ({{ . }}){{ end }}{{ if eq .kind "album" }} <span class="music-track-kind">(album)</span>{{ end }}</div>
           </div>
           {{- with .links }}
           <div class="music-track-links">

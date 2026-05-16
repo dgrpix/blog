@@ -29,6 +29,14 @@
   line-height: 1.35;
 }
 
+.music-track-kind {
+  font-size: 0.75em;
+  opacity: 0.55;
+  margin-left: 0.3em;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .music-track-links {
   flex: 0 0 auto;
   display: flex;
