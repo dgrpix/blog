@@ -3,7 +3,10 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 33 tracks
+## 34 tracks
+
+- **Michael Jackson — *Beat It*** (2008)
+  [Apple Music](https://music.apple.com/us/album/beat-it/269572838?i=269573341&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Michael+Jackson+Beat+It)
 
 - **Earth N Days — *On The Ground***
   [Apple Music](https://music.apple.com/us/album/on-the-ground/1892652993?i=1892652995&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Earth+N+Days+On+The+Ground)
