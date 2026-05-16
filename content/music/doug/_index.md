@@ -3,7 +3,10 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 35 tracks
+## 36 tracks
+
+- **Trendformusic — *sidewalks and skeletons goth***
+  [YouTube Music](https://music.youtube.com/search?q=Trendformusic+sidewalks+and+skeletons+goth)
 
 - **Justine Skye — *Collide (sped up)***
   [Apple Music](https://music.apple.com/us/album/collide-feat-tyga/1615681225?i=1615681226&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Justine+Skye+Collide+%28sped+up%29)
