@@ -3,7 +3,22 @@ title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 ---
 
-## 28 tracks
+## 33 tracks
+
+- **Earth N Days — *On The Ground***
+  [Apple Music](https://music.apple.com/us/album/on-the-ground/1892652993?i=1892652995&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Earth+N+Days+On+The+Ground)
+
+- **Definite Grooves — *Don't Do Disco***
+  [Apple Music](https://music.apple.com/us/album/dont-do-disco/1890014160?i=1890014166&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Definite+Grooves+Don%27t+Do+Disco)
+
+- **Boogietraxx & Dynamique — *The Games You Play***
+  [Apple Music](https://music.apple.com/us/album/the-games-you-play/1891478686?i=1891478700&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Boogietraxx+%26+Dynamique+The+Games+You+Play)
+
+- **Purple Disco Machine — *Disco Cherry*** (2026)
+  [Apple Music](https://music.apple.com/us/album/disco-cherry/1890195880?i=1890195881&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Purple+Disco+Machine+Disco+Cherry)
+
+- **Zsak — *I Like Deep***
+  [Apple Music](https://music.apple.com/us/album/i-like-deep/1895605507?i=6764031076&uo=4) · [YouTube Music](https://music.youtube.com/search?q=Zsak+I+Like+Deep)
 
 - **Junko Ohashi — *テレフォン・ナンバー (電話号碼)***
   [YouTube Music](https://music.youtube.com/search?q=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29)
