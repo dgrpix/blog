@@ -2,6 +2,35 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRVBK6Q99ZSB9D6HKAWJVVZ3"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DW1mdpriPb0/?igsh=NjZiM2M3MzIxNA=="
+    title: "Japanese Albums With No Skips"
+    completed_at: "May 17, 2026 · 9:17 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KRVBK6Q99ZSB9D6HKAWJVVZ3.jpg"
+    items:
+      - artist: "Masayoshi Takanaka"
+        title: "Seychelles"
+        year: 1976
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/seychelles/1443091653?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+Seychelles"
+      - artist: "Haruomi Hosono / Shigeru Suzuki"
+        title: "Pacific"
+        year: 1978
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Haruomi+Hosono+%2F+Shigeru+Suzuki+Pacific"
+      - artist: "コーコーヤ"
+        title: "Frevo!"
+        year: 2011
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=%E3%82%B3%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%A4+Frevo%21"
   - id: "01KRVBJ1HM7A5NK9CXRK3CMMKA"
     status: "completed"
     source_url: "https://www.instagram.com/p/DWDLf3QAOg_/?igsh=NjZiM2M3MzIxNA=="
