@@ -2,6 +2,35 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRTT93T2MZ8006F13YDQN5R5"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYNHZrxoYSs/?igsh=NjZiM2M3MzIxNA=="
+    title: "Underrated 90s Bands Picks"
+    completed_at: "May 17, 2026 · 4:14 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KRTT93T2MZ8006F13YDQN5R5.jpg"
+    items:
+      - artist: "The House Of Love"
+        title: "I Don't Know Why I Love You"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/i-dont-know-why-i-love-you/1444059151?i=1444059323&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+House+Of+Love+I+Don%27t+Know+Why+I+Love+You"
+      - artist: "Strangelove"
+        title: "Beautiful Alone"
+        year: 1996
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/beautiful-alone/1511493908?i=1511494486&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Strangelove+Beautiful+Alone"
+      - artist: "Teenage Fanclub"
+        title: "Sparky's Dreams"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/sparkys-dream/1443912606?i=1443912825&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Teenage+Fanclub+Sparky%27s+Dreams"
   - id: "01KRSVZD986CY883VD45NRPTQ5"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DW9x2GwEtO0/?igsh=NjZiM2M3MzIxNA=="
