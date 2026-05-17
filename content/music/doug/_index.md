@@ -2,6 +2,25 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRVBJ1HM7A5NK9CXRK3CMMKA"
+    status: "completed"
+    source_url: "https://www.instagram.com/p/DWDLf3QAOg_/?igsh=NjZiM2M3MzIxNA=="
+    title: "Vinyl Moon Indie Subscription — Featured Tracks"
+    completed_at: "May 17, 2026 · 9:16 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KRVBJ1HM7A5NK9CXRK3CMMKA.jpg"
+    items:
+      - artist: "Farmboy"
+        title: "GHOST"
+        year: 2025
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Farmboy+GHOST"
+      - artist: "Butterknife"
+        title: "mother nature"
+        year: 2024
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Butterknife+mother+nature"
   - id: "01KRTT9KPB53ZKWJ05M4MW05JY"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DVZQROeCPmu/?igsh=NjZiM2M3MzIxNA=="
