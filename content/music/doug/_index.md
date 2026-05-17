@@ -2,6 +2,50 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRVDWMZQ5GDAXXH4WGWZNSF3"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DXpzF69j5my/?igsh=NjZiM2M3MzIxNA=="
+    title: "Indie Summer Picks (5 Tracks)"
+    completed_at: "May 17, 2026 · 9:57 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KRVDWMZQ5GDAXXH4WGWZNSF3.jpg"
+    items:
+      - artist: "Ax and the Hatchetmen"
+        title: "Hotel Room"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/hotel-room/1815996514?i=1815996560&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Ax+and+the+Hatchetmen+Hotel+Room"
+      - artist: "The Rare Occasions"
+        title: "Origami"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/origami/1567092081?i=1567092082&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Rare+Occasions+Origami"
+      - artist: "Late Night Drive Home"
+        title: "Euphoria"
+        year: 2021
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/euphoria/1611037046?i=1611037054&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Late+Night+Drive+Home+Euphoria"
+      - artist: "High Sunn"
+        title: "Ramen Waitress"
+        year: 2017
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/ramen-waitress/1768785443?i=1768785452&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=High+Sunn+Ramen+Waitress"
+      - artist: "Post Modern Connection"
+        title: "If You Care"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/if-you-care/1705014353?i=1705014360&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Post+Modern+Connection+If+You+Care"
   - id: "01KRVDTH48TSJCY6A13PA08AHW"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWJ-DgLutMv/?igsh=NjZiM2M3MzIxNA=="
