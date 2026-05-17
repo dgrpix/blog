@@ -2,6 +2,42 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRTT9KPB53ZKWJ05M4MW05JY"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DVZQROeCPmu/?igsh=NjZiM2M3MzIxNA=="
+    title: "5 Albums Perfect for Hosting"
+    completed_at: "May 17, 2026 · 4:16 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KRTT9KPB53ZKWJ05M4MW05JY.jpg"
+    items:
+      - artist: "Mac DeMarco"
+        title: "2"
+        year: 2012
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/2/561048714?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mac+DeMarco+2"
+      - artist: "Haruomi Hosono & Shigeru Suzuki"
+        title: "Pacific"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
+      - artist: "Gustavo Cerati"
+        title: "+ Bien"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/crimen-single/1281724574?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Gustavo+Cerati+%2B+Bien"
+      - artist: "Duan Wasi"
+        title: "Licious"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/licious/1657533225?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Duan+Wasi+Licious"
   - id: "01KRTT93T2MZ8006F13YDQN5R5"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYNHZrxoYSs/?igsh=NjZiM2M3MzIxNA=="
