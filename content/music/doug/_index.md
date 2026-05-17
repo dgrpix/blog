@@ -2,6 +2,51 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRSVW7Y8QVEXS3REEHRKWPKE"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DXGYPTwAnPj/?igsh=NjZiM2M3MzIxNA=="
+    title: "Albums That Expanded My Music Taste"
+    completed_at: "May 16, 2026 · 7:23 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRSVW7Y8QVEXS3REEHRKWPKE.jpg"
+    items:
+      - artist: "Nujabes"
+        title: "Modal Soul"
+        year: 2005
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Nujabes+Modal+Soul"
+      - artist: "Massive Attack"
+        title: "Heligoland"
+        year: 2010
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/heligoland/721294955?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Massive+Attack+Heligoland"
+      - artist: "Björk"
+        title: "Homogenic"
+        year: 1997
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/homogenic-live/371572866?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bj%C3%B6rk+Homogenic"
+      - artist: "Mazzy Star"
+        title: "Among My Swan"
+        year: 1996
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/among-my-swan/724609718?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mazzy+Star+Among+My+Swan"
+      - artist: "Yo La Tengo"
+        title: "Nowhere Near"
+        year: 1993
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/nowhere-near/1589240889?i=1589240914&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yo+La+Tengo+Nowhere+Near"
   - id: "01KRSJCGWD511QKPACBYFC8P8F"
     status: "completed"
     source_url: "https://youtube.com/watch?v=oBUA10JjoNQ&si=0fjMIOYBz5mllN94"
