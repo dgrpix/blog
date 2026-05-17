@@ -2,6 +2,29 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRVDTH48TSJCY6A13PA08AHW"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DWJ-DgLutMv/?igsh=NjZiM2M3MzIxNA=="
+    title: "5 Classic Albums Every Parent Owes Their Kids (Part 3)"
+    completed_at: "May 17, 2026 · 9:56 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KRVDTH48TSJCY6A13PA08AHW.jpg"
+    items:
+      - artist: "Herbie Hancock"
+        title: "Monster"
+        year: 1980
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/monster/1120796406?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Herbie+Hancock+Monster"
+      - artist: "Oliver Cheatham"
+        title: "Saturday Night"
+        year: 1983
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/get-down-saturday-night/1646553916?i=1646553918&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Oliver+Cheatham+Saturday+Night"
   - id: "01KRVBK6Q99ZSB9D6HKAWJVVZ3"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DW1mdpriPb0/?igsh=NjZiM2M3MzIxNA=="
