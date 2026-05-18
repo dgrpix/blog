@@ -2,6 +2,42 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRY8Q1E8EXGBX0T3RGNRFWW2"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYVbI6nBQrY/?igsh=NjZiM2M3MzIxNA=="
+    title: "ANRI Pop-Up LA — Albums & Track Featured"
+    completed_at: "May 18, 2026 · 12:24 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRY8Q1E8EXGBX0T3RGNRFWW2.jpg"
+    items:
+      - artist: "ANRI"
+        title: "Heaven Beach"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/heaven-beach/834248212?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=ANRI+Heaven+Beach"
+      - artist: "ANRI"
+        title: "Bi·Ki·Ni"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/bi-ki-ni/283306315?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=ANRI+Bi%C2%B7Ki%C2%B7Ni"
+      - artist: "ANRI"
+        title: "TIMELY!!"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/timely/283306771?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=ANRI+TIMELY%21%21"
+      - artist: "ANRI"
+        title: "A Hope from Sad Street"
+        year: 1983
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/a-hope-from-sad-street/283306771?i=283306775&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=ANRI+A+Hope+from+Sad+Street"
   - id: "01KRY8K3BR6K2B8MKY2HWCM0GP"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DVWZw0tj317/?igsh=NjZiM2M3MzIxNA=="
