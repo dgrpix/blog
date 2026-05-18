@@ -2,6 +2,21 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRY9EAC9GV614QXEG7RQEXQR"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYNGpD7ifSa/?igsh=NjZiM2M3MzIxNA=="
+    title: "Hard To Handle — Radiohop"
+    completed_at: "May 18, 2026 · 12:37 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRY9EAC9GV614QXEG7RQEXQR.jpg"
+    items:
+      - artist: "Radiohop"
+        title: "Hard To Handle"
+        year: 2026
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/hard-to-handle/1874751963?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Radiohop+Hard+To+Handle"
   - id: "01KRY8XC7V165JEB006NJY6JNB"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYZ-1FcM0R1/?igsh=NjZiM2M3MzIxNA=="
