@@ -2,6 +2,29 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRY8VF0Z77SADGPN57GED2BN"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYGmaslgMs8/?igsh=NjZiM2M3MzIxNA=="
+    title: "Dracula — Tame Impala (Stone Groove Stillhouse)"
+    completed_at: "May 18, 2026 · 12:27 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRY8VF0Z77SADGPN57GED2BN.jpg"
+    items:
+      - artist: "Tame Impala"
+        title: "Dracula"
+        year: 2025
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/dracula/1842444456?i=1842444457&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tame+Impala+Dracula"
+      - artist: "Tame Impala / JENNIE"
+        title: "Dracula (JENNIE Remix)"
+        year: 2026
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/dracula-jennie-remix-instrumental/1895858156?i=6764633520&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tame+Impala+%2F+JENNIE+Dracula+%28JENNIE+Remix%29"
   - id: "01KRY8Q1E8EXGBX0T3RGNRFWW2"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYVbI6nBQrY/?igsh=NjZiM2M3MzIxNA=="
