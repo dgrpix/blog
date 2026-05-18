@@ -2,6 +2,20 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRY8XC7V165JEB006NJY6JNB"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYZ-1FcM0R1/?igsh=NjZiM2M3MzIxNA=="
+    title: "Golden Skies – Joshua Milo (Live)"
+    completed_at: "May 18, 2026 · 12:28 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRY8XC7V165JEB006NJY6JNB.jpg"
+    items:
+      - artist: "Joshua Milo"
+        title: "Golden Skies"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/golden-skies/1858052690?i=1858052691&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Joshua+Milo+Golden+Skies"
   - id: "01KRY8VF0Z77SADGPN57GED2BN"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYGmaslgMs8/?igsh=NjZiM2M3MzIxNA=="
