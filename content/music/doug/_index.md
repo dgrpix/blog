@@ -2,6 +2,29 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KRY8FNHMS2858EZCGPGTJYM5"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYfOJS9sbkL/?igsh=NjZiM2M3MzIxNA=="
+    title: "SMIL — 9ICK (2025 Modern Jazz Album)"
+    completed_at: "May 18, 2026 · 12:20 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KRY8FNHMS2858EZCGPGTJYM5.jpg"
+    items:
+      - artist: "9ICK"
+        title: "SMIL"
+        year: 2025
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/smil/1843243623?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=9ICK+SMIL"
+      - artist: "9ICK"
+        title: "Morning Bike Ride feat. Nico Harris"
+        year: 2025
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/morning-bike-ride-feat-nico-harris/1843243623?i=1843243625&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=9ICK+Morning+Bike+Ride+feat.+Nico+Harris"
   - id: "01KRVDWMZQ5GDAXXH4WGWZNSF3"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DXpzF69j5my/?igsh=NjZiM2M3MzIxNA=="
