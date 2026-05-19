@@ -2,6 +2,27 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS0VDDR5MZAMPBE8Q4Q63NPS"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYXFgKyK8ik/?igsh=NjZiM2M3MzIxNA=="
+    title: "4 Funk Fusion Tracks That Will Blow Your Mind"
+    completed_at: "May 19, 2026 · 2:34 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS0VDDR5MZAMPBE8Q4Q63NPS.jpg"
+    items:
+      - artist: "Yellowjackets"
+        title: "Imperial Strut"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/imperial-strut/358058553?i=358058572&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yellowjackets+Imperial+Strut"
+      - artist: "Tower Of Power"
+        title: "Soul With A Capital 'S'"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/soul-with-a-capital-s-the-best-of-tower-of-power/193876066?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tower+Of+Power+Soul+With+A+Capital+%27S%27"
   - id: "01KS0VD1VM1012M6BME81HMXSN"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYfUk0RAXHd/?igsh=NjZiM2M3MzIxNA=="
