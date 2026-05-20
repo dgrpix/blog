@@ -2,6 +2,35 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS1WT1VK9EA7V9Z4YNFS2KQ6"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYc0Jqdux9u/?igsh=NjZiM2M3MzIxNA=="
+    title: "Underrated 80s Bands Picks"
+    completed_at: "May 20, 2026 · 4:53 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS1WT1VK9EA7V9Z4YNFS2KQ6.jpg"
+    items:
+      - artist: "This Mortal Coil"
+        title: "Not Me"
+        year: 1986
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/not-me/545247463?i=545247960&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=This+Mortal+Coil+Not+Me"
+      - artist: "Felt"
+        title: "Primitive Painters"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/primitive-painters/1564994100?i=1564994825&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Felt+Primitive+Painters"
+      - artist: "The Cleaners From Venus"
+        title: "Only a Shadow"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/only-a-shadow/1479309415?i=1479309538&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Cleaners+From+Venus+Only+a+Shadow"
   - id: "01KS12HY3SQDHQK9K90GP5A2VF"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWhHyFAjt22/?igsh=NjZiM2M3MzIxNA=="
