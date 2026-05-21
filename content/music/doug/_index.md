@@ -2,6 +2,93 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS69QADH2S8A1B4S2JF7CN69"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYlDIyGCor-/"
+    title: "10 Perfect Pop Albums With No Skips"
+    completed_at: "May 21, 2026 · 3:16 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS69QADH2S8A1B4S2JF7CN69.jpg"
+    items:
+      - artist: "Björk"
+        title: "Vespertine"
+        kind: "album"
+        year: 2001
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/vespertine/20920260?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bj%C3%B6rk+Vespertine"
+      - artist: "Grimes"
+        title: "Art Angels"
+        kind: "album"
+        year: 2015
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Grimes+Art+Angels"
+      - artist: "Magdalena Bay"
+        title: "Mercurial World"
+        kind: "album"
+        year: 2021
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mercurial-world/1570541671?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Magdalena+Bay+Mercurial+World"
+      - artist: "Madonna"
+        title: "Erotica"
+        kind: "album"
+        year: 1992
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/erotica/80814958?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Madonna+Erotica"
+      - artist: "Carly Rae Jepsen"
+        title: "E·MO·TION"
+        kind: "album"
+        year: 2015
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/e-mo-tion/1442810070?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Carly+Rae+Jepsen+E%C2%B7MO%C2%B7TION"
+      - artist: "Lorde"
+        title: "Pure Heroine"
+        kind: "album"
+        year: 2013
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lorde+Pure+Heroine"
+      - artist: "Jessie Ware"
+        title: "What's Your Pleasure?"
+        kind: "album"
+        year: 2020
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/whats-your-pleasure/1498945382?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jessie+Ware+What%27s+Your+Pleasure%3F"
+      - artist: "Lana Del Rey"
+        title: "Honeymoon"
+        kind: "album"
+        year: 2015
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lana+Del+Rey+Honeymoon"
+      - artist: "Malcolm Todd"
+        title: "Sweet Boy"
+        kind: "album"
+        year: 2024
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Malcolm+Todd+Sweet+Boy"
+      - artist: "Rina Sawayama"
+        title: "SAWAYAMA"
+        kind: "album"
+        year: 2020
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Rina+Sawayama+SAWAYAMA"
   - id: "01KS65H0PR4G02Q8WV478XPEWT"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYcA-VlIYFN/"
