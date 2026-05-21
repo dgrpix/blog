@@ -2,6 +2,20 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS65H0PR4G02Q8WV478XPEWT"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYcA-VlIYFN/"
+    title: "My Silly Boy — Isabel van Gelder (Live)"
+    completed_at: "May 21, 2026 · 2:03 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS65H0PR4G02Q8WV478XPEWT.jpg"
+    items:
+      - artist: "Isabel van Gelder"
+        title: "my silly boy"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/my-silly-boy/1863375070?i=1863375075&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Isabel+van+Gelder+my+silly+boy"
   - id: "01KS65EGAYXDC8WJ9P3MD1P8PC"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYlDIyGCor-/"
