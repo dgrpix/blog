@@ -2,6 +2,23 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS40SH64MWGZAJCBHN4ZERTM"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DWYWQziiEEL/?igsh=NjZiM2M3MzIxNA=="
+    title: "Yumi Murata – Fushigi Okite (City Pop Pick)"
+    completed_at: "May 20, 2026 · 6:01 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS40SH64MWGZAJCBHN4ZERTM.jpg"
+    items:
+      - artist: "Yumi Murata"
+        title: "Fushigi Okite"
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yumi+Murata+Fushigi+Okite"
+      - artist: "Yumi Murata"
+        title: "Uterus Uterus"
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yumi+Murata+Uterus+Uterus"
   - id: "01KS40CGPZTDCRBFW3PMR4FDHQ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWe4QlhCIIK/?igsh=NjZiM2M3MzIxNA=="
