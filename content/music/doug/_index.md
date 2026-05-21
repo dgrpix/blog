@@ -2,6 +2,21 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS40CGPZTDCRBFW3PMR4FDHQ"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DWe4QlhCIIK/?igsh=NjZiM2M3MzIxNA=="
+    title: "It's Almost Like You're Here — Yndling"
+    completed_at: "May 20, 2026 · 5:54 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS40CGPZTDCRBFW3PMR4FDHQ.jpg"
+    items:
+      - artist: "Yndling"
+        title: "It's Almost Like You're Here"
+        year: 2025
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/its-almost-like-youre-here/1786163114?i=1786163115&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yndling+It%27s+Almost+Like+You%27re+Here"
   - id: "01KS1WT1VK9EA7V9Z4YNFS2KQ6"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYc0Jqdux9u/?igsh=NjZiM2M3MzIxNA=="
