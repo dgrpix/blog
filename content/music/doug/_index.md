@@ -2,6 +2,51 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS65EGAYXDC8WJ9P3MD1P8PC"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYlDIyGCor-/"
+    title: "10 Perfect Pop Albums With No Skips"
+    completed_at: "May 21, 2026 · 2:01 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS65EGAYXDC8WJ9P3MD1P8PC.jpg"
+    items:
+      - artist: "Björk"
+        title: "Vespertine"
+        year: 2001
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/vespertine/20920260?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bj%C3%B6rk+Vespertine"
+      - artist: "Grimes"
+        title: "Art Angels"
+        year: 2015
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Grimes+Art+Angels"
+      - artist: "Magdalena Bay"
+        title: "Mercurial World"
+        year: 2021
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mercurial-world/1570541671?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Magdalena+Bay+Mercurial+World"
+      - artist: "Madonna"
+        title: "Erotica"
+        year: 1992
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/erotica/80814958?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Madonna+Erotica"
+      - artist: "Carly Rae Jepsen"
+        title: "Run Away With Me"
+        year: 2015
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/run-away-with-me/1442810070?i=1442810074&uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Carly+Rae+Jepsen+Run+Away+With+Me"
   - id: "01KS40SH64MWGZAJCBHN4ZERTM"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWYWQziiEEL/?igsh=NjZiM2M3MzIxNA=="
@@ -11,13 +56,11 @@ submissions:
     items:
       - artist: "Yumi Murata"
         title: "Fushigi Okite"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Yumi+Murata+Fushigi+Okite"
       - artist: "Yumi Murata"
         title: "Uterus Uterus"
-        kind: "album"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Yumi+Murata+Uterus+Uterus"
@@ -30,7 +73,6 @@ submissions:
     items:
       - artist: "Yndling"
         title: "It's Almost Like You're Here"
-        kind: "track"
         year: 2025
         links:
           - service: "apple_music"
@@ -50,7 +92,6 @@ submissions:
     items:
       - artist: "This Mortal Coil"
         title: "Not Me"
-        kind: "track"
         year: 1986
         links:
           - service: "apple_music"
@@ -59,7 +100,6 @@ submissions:
             url: "https://music.youtube.com/search?q=This+Mortal+Coil+Not+Me"
       - artist: "Felt"
         title: "Primitive Painters"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/primitive-painters/1564994100?i=1564994825&uo=4"
@@ -67,7 +107,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Felt+Primitive+Painters"
       - artist: "The Cleaners From Venus"
         title: "Only a Shadow"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/only-a-shadow/1479309415?i=1479309538&uo=4"
@@ -82,19 +121,16 @@ submissions:
     items:
       - artist: "Soul Scream"
         title: "黒い月の夜"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Soul+Scream+%E9%BB%92%E3%81%84%E6%9C%88%E3%81%AE%E5%A4%9C"
       - artist: "Yakkle ft. Shing02"
         title: "I Miss You"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Yakkle+ft.+Shing02+I+Miss+You"
       - artist: "Coma-Chi"
         title: "Stand Alone"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/stand-alone/1875228886?i=1875228889&uo=4"
@@ -102,7 +138,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Coma-Chi+Stand+Alone"
       - artist: "Scha Dara Parr"
         title: "Summer Jam '95"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/summer-jam-95/1697539252?i=1697539475&uo=4"
@@ -110,7 +145,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Scha+Dara+Parr+Summer+Jam+%2795"
       - artist: "M-Flo"
         title: "Quantum Leap (DJ Watarai Remix)"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/quantum-leap-dj-watarai-remix/1156382691?i=1156382694&uo=4"
@@ -125,7 +159,6 @@ submissions:
     items:
       - artist: "Yellowjackets"
         title: "Imperial Strut"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/imperial-strut/358058553?i=358058572&uo=4"
@@ -133,7 +166,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Yellowjackets+Imperial+Strut"
       - artist: "Tower Of Power"
         title: "Soul With A Capital 'S'"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/soul-with-a-capital-s-the-best-of-tower-of-power/193876066?uo=4"
@@ -148,7 +180,6 @@ submissions:
     items:
       - artist: "Jeroboam"
         title: "Take Me to New York"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/take-me-to-new-york/1719166468?i=1719166475&uo=4"
@@ -156,7 +187,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Jeroboam+Take+Me+to+New+York"
       - artist: "Herbie Hancock"
         title: "I Thought It Was You"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/i-thought-it-was-you/278866052?i=278866130&uo=4"
@@ -164,7 +194,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Herbie+Hancock+I+Thought+It+Was+You"
       - artist: "Brass Construction"
         title: "Happy People"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/happy-people/1436727898?i=1436728156&uo=4"
@@ -172,7 +201,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Brass+Construction+Happy+People"
       - artist: "Haywoode"
         title: "Single Handed"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Haywoode+Single+Handed"
@@ -185,7 +213,6 @@ submissions:
     items:
       - artist: "Radiohop"
         title: "Hard To Handle"
-        kind: "album"
         year: 2026
         links:
           - service: "apple_music"
@@ -201,7 +228,6 @@ submissions:
     items:
       - artist: "Joshua Milo"
         title: "Golden Skies"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/golden-skies/1858052690?i=1858052691&uo=4"
@@ -216,7 +242,6 @@ submissions:
     items:
       - artist: "Tame Impala"
         title: "Dracula"
-        kind: "track"
         year: 2025
         links:
           - service: "apple_music"
@@ -225,7 +250,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Tame+Impala+Dracula"
       - artist: "Tame Impala / JENNIE"
         title: "Dracula (JENNIE Remix)"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
@@ -241,7 +265,6 @@ submissions:
     items:
       - artist: "ANRI"
         title: "Heaven Beach"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/heaven-beach/834248212?uo=4"
@@ -249,7 +272,6 @@ submissions:
             url: "https://music.youtube.com/search?q=ANRI+Heaven+Beach"
       - artist: "ANRI"
         title: "Bi·Ki·Ni"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/bi-ki-ni/283306315?uo=4"
@@ -257,7 +279,6 @@ submissions:
             url: "https://music.youtube.com/search?q=ANRI+Bi%C2%B7Ki%C2%B7Ni"
       - artist: "ANRI"
         title: "TIMELY!!"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/timely/283306771?uo=4"
@@ -265,7 +286,6 @@ submissions:
             url: "https://music.youtube.com/search?q=ANRI+TIMELY%21%21"
       - artist: "ANRI"
         title: "A Hope from Sad Street"
-        kind: "track"
         year: 1983
         links:
           - service: "apple_music"
@@ -281,7 +301,6 @@ submissions:
     items:
       - artist: "Miki Matsubara"
         title: "Mayonaka no Door / Stay with Me"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/mayonaka-no-door-stay-with-me/1562245335?i=1562245339&uo=4"
@@ -289,7 +308,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Miki+Matsubara+Mayonaka+no+Door+%2F+Stay+with+Me"
       - artist: "Makoto Matsushita"
         title: "This Is All I Have for You"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/this-is-all-i-have-for-you-2018-remaster/1447532396?i=1447532408&uo=4"
@@ -297,7 +315,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Makoto+Matsushita+This+Is+All+I+Have+for+You"
       - artist: "Kingo Hamada"
         title: "Midnight Cruisin'"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/midnight-cruisin-2002-version/1446781099?i=1446781117&uo=4"
@@ -305,7 +322,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Kingo+Hamada+Midnight+Cruisin%27"
       - artist: "Minako Yoshida"
         title: "Let's Do It"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/lets-do-it/1506827156?i=1506827159&uo=4"
@@ -313,7 +329,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Minako+Yoshida+Let%27s+Do+It"
       - artist: "Yurie Kokuba"
         title: "Tobashite Taxi Man"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/tobashite-taxi-man/1536777011?i=1536777016&uo=4"
@@ -321,7 +336,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Yurie+Kokuba+Tobashite+Taxi+Man"
       - artist: "Tatsuro Yamashita"
         title: "Kiska"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/kiska/1538790131?i=1538790141&uo=4"
@@ -336,7 +350,6 @@ submissions:
     items:
       - artist: "9ICK"
         title: "SMIL"
-        kind: "album"
         year: 2025
         links:
           - service: "apple_music"
@@ -345,7 +358,6 @@ submissions:
             url: "https://music.youtube.com/search?q=9ICK+SMIL"
       - artist: "9ICK"
         title: "Morning Bike Ride feat. Nico Harris"
-        kind: "track"
         year: 2025
         links:
           - service: "apple_music"
@@ -365,7 +377,6 @@ submissions:
     items:
       - artist: "Ax and the Hatchetmen"
         title: "Hotel Room"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/hotel-room/1815996514?i=1815996560&uo=4"
@@ -373,7 +384,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Ax+and+the+Hatchetmen+Hotel+Room"
       - artist: "The Rare Occasions"
         title: "Origami"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/origami/1567092081?i=1567092082&uo=4"
@@ -381,7 +391,6 @@ submissions:
             url: "https://music.youtube.com/search?q=The+Rare+Occasions+Origami"
       - artist: "Late Night Drive Home"
         title: "Euphoria"
-        kind: "track"
         year: 2021
         links:
           - service: "apple_music"
@@ -390,7 +399,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Late+Night+Drive+Home+Euphoria"
       - artist: "High Sunn"
         title: "Ramen Waitress"
-        kind: "track"
         year: 2017
         links:
           - service: "apple_music"
@@ -399,7 +407,6 @@ submissions:
             url: "https://music.youtube.com/search?q=High+Sunn+Ramen+Waitress"
       - artist: "Post Modern Connection"
         title: "If You Care"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/if-you-care/1705014353?i=1705014360&uo=4"
@@ -414,7 +421,6 @@ submissions:
     items:
       - artist: "Herbie Hancock"
         title: "Monster"
-        kind: "album"
         year: 1980
         links:
           - service: "apple_music"
@@ -423,7 +429,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Herbie+Hancock+Monster"
       - artist: "Oliver Cheatham"
         title: "Saturday Night"
-        kind: "track"
         year: 1983
         links:
           - service: "apple_music"
@@ -439,7 +444,6 @@ submissions:
     items:
       - artist: "Masayoshi Takanaka"
         title: "Seychelles"
-        kind: "album"
         year: 1976
         links:
           - service: "apple_music"
@@ -448,7 +452,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+Seychelles"
       - artist: "Haruomi Hosono / Shigeru Suzuki"
         title: "Pacific"
-        kind: "album"
         year: 1978
         links:
           - service: "apple_music"
@@ -457,7 +460,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Haruomi+Hosono+%2F+Shigeru+Suzuki+Pacific"
       - artist: "コーコーヤ"
         title: "Frevo!"
-        kind: "album"
         year: 2011
         links:
           - service: "youtube_music"
@@ -471,14 +473,12 @@ submissions:
     items:
       - artist: "Farmboy"
         title: "GHOST"
-        kind: "track"
         year: 2025
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Farmboy+GHOST"
       - artist: "Butterknife"
         title: "mother nature"
-        kind: "track"
         year: 2024
         links:
           - service: "youtube_music"
@@ -492,7 +492,6 @@ submissions:
     items:
       - artist: "Mac DeMarco"
         title: "2"
-        kind: "album"
         year: 2012
         links:
           - service: "apple_music"
@@ -501,7 +500,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Mac+DeMarco+2"
       - artist: "Haruomi Hosono & Shigeru Suzuki"
         title: "Pacific"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
@@ -509,7 +507,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
       - artist: "Gustavo Cerati"
         title: "+ Bien"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/crimen-single/1281724574?uo=4"
@@ -517,7 +514,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Gustavo+Cerati+%2B+Bien"
       - artist: "Duan Wasi"
         title: "Licious"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/licious/1657533225?uo=4"
@@ -532,7 +528,6 @@ submissions:
     items:
       - artist: "The House Of Love"
         title: "I Don't Know Why I Love You"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/i-dont-know-why-i-love-you/1444059151?i=1444059323&uo=4"
@@ -540,7 +535,6 @@ submissions:
             url: "https://music.youtube.com/search?q=The+House+Of+Love+I+Don%27t+Know+Why+I+Love+You"
       - artist: "Strangelove"
         title: "Beautiful Alone"
-        kind: "track"
         year: 1996
         links:
           - service: "apple_music"
@@ -549,7 +543,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Strangelove+Beautiful+Alone"
       - artist: "Teenage Fanclub"
         title: "Sparky's Dreams"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/sparkys-dream/1443912606?i=1443912825&uo=4"
@@ -564,7 +557,6 @@ submissions:
     items:
       - artist: "Risk Assessment"
         title: "2 People (Stereo:Type)"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/lets-do-it/1781803071?i=1781803080&uo=4"
@@ -572,7 +564,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Risk+Assessment+2+People+%28Stereo%3AType%29"
       - artist: "Mark Picchiotti & Javi Star"
         title: "Do You Wanna Funk"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/do-you-wanna-funk/1876961312?i=1876961313&uo=4"
@@ -580,7 +571,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Mark+Picchiotti+%26+Javi+Star+Do+You+Wanna+Funk"
       - artist: "Mark Knight & Wh0"
         title: "Clap Your Hands"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
@@ -589,7 +579,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Mark+Knight+%26+Wh0+Clap+Your+Hands"
       - artist: "Boogietraxx"
         title: "Love Power"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/love-power/1877810298?i=1877810449&uo=4"
@@ -597,7 +586,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Boogietraxx+Love+Power"
       - artist: "Rue Jay & DJ Rae"
         title: "Free My Would"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/free-my-soul-radio-edit/1880673068?i=1880673073&uo=4"
@@ -612,14 +600,12 @@ submissions:
     items:
       - artist: "Nujabes"
         title: "Modal Soul"
-        kind: "album"
         year: 2005
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Nujabes+Modal+Soul"
       - artist: "Massive Attack"
         title: "Heligoland"
-        kind: "album"
         year: 2010
         links:
           - service: "apple_music"
@@ -628,7 +614,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Massive+Attack+Heligoland"
       - artist: "Björk"
         title: "Homogenic"
-        kind: "album"
         year: 1997
         links:
           - service: "apple_music"
@@ -637,7 +622,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Bj%C3%B6rk+Homogenic"
       - artist: "Mazzy Star"
         title: "Among My Swan"
-        kind: "album"
         year: 1996
         links:
           - service: "apple_music"
@@ -646,7 +630,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Mazzy+Star+Among+My+Swan"
       - artist: "Yo La Tengo"
         title: "Nowhere Near"
-        kind: "track"
         year: 1993
         links:
           - service: "apple_music"
@@ -662,7 +645,6 @@ submissions:
     items:
       - artist: "Mid September"
         title: "As the Clock Rewinds"
-        kind: "track"
         year: 2024
         links:
           - service: "apple_music"
@@ -671,7 +653,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Mid+September+As+the+Clock+Rewinds"
       - artist: "Mid September"
         title: "Perpetuation"
-        kind: "album"
         year: 2024
         links:
           - service: "apple_music"
@@ -687,7 +668,6 @@ submissions:
     items:
       - artist: "Joe P"
         title: "Glass House - Stripped"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/glass-house-stripped/1817638510?i=1817638512&uo=4"
@@ -695,7 +675,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Joe+P+Glass+House+-+Stripped"
       - artist: "Amadeezy"
         title: "Bass Boss"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/bass-boss/1560349229?i=1560349230&uo=4"
@@ -703,7 +682,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Amadeezy+Bass+Boss"
       - artist: "Chet Faker"
         title: "It Could Be Nice"
-        kind: "track"
         year: 2023
         links:
           - service: "apple_music"
@@ -719,7 +697,6 @@ submissions:
     items:
       - artist: "Astels"
         title: "On My Knees"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/on-my-knees/1774759714?i=1774759898&uo=4"
@@ -727,13 +704,11 @@ submissions:
             url: "https://music.youtube.com/search?q=Astels+On+My+Knees"
       - artist: "Summer Vee, Kenny Sterling"
         title: "Judas"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Summer+Vee%2C+Kenny+Sterling+Judas"
       - artist: "Antonio Barret, Nice Guys"
         title: "2 AM"
-        kind: "track"
         year: 2023
         links:
           - service: "apple_music"
@@ -742,7 +717,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Antonio+Barret%2C+Nice+Guys+2+AM"
       - artist: "Evil Genius, Isaac Waddington"
         title: "Beggin' Man"
-        kind: "track"
         year: 2022
         links:
           - service: "apple_music"
@@ -751,7 +725,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Evil+Genius%2C+Isaac+Waddington+Beggin%27+Man"
       - artist: "Lynda Dawn"
         title: "Fonk Street"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/fonk-street/1769185390?i=1769185393&uo=4"
@@ -766,7 +739,6 @@ submissions:
     items:
       - artist: "NIKOLAI NITE"
         title: "Motion Less V2"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
@@ -782,7 +754,6 @@ submissions:
     items:
       - artist: "Lowtone Music"
         title: "Synthwave Dream"
-        kind: "track"
         year: 2024
         links:
           - service: "apple_music"
@@ -803,7 +774,6 @@ submissions:
     items:
       - artist: "Casiopea"
         title: "Casiopea"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
@@ -811,7 +781,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Casiopea+Casiopea"
       - artist: "Yutaka Yokokura"
         title: "Love Light"
-        kind: "album"
         year: 1978
         links:
           - service: "youtube_music"
@@ -825,7 +794,6 @@ submissions:
     items:
       - artist: "Max Sinál, KingCrowney, Liv East"
         title: "Intentions"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/intentions/1811653868?i=1811653869&uo=4"
@@ -833,7 +801,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Max+Sin%C3%A1l%2C+KingCrowney%2C+Liv+East+Intentions"
       - artist: "FÉLINÉ"
         title: "bisou"
-        kind: "track"
         year: 2025
         links:
           - service: "apple_music"
@@ -842,7 +809,6 @@ submissions:
             url: "https://music.youtube.com/search?q=F%C3%89LIN%C3%89+bisou"
       - artist: "Gabriel"
         title: "Energy"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
@@ -851,7 +817,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Gabriel+Energy"
       - artist: "Baylee Lefton"
         title: "you like jazz?"
-        kind: "album"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Baylee+Lefton+you+like+jazz%3F"
@@ -864,7 +829,6 @@ submissions:
     items:
       - artist: "CAVS"
         title: "Paititi"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
@@ -873,7 +837,6 @@ submissions:
             url: "https://music.youtube.com/search?q=CAVS+Paititi"
       - artist: "CAVS"
         title: "Sojourn"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/sojourn/1872395357?uo=4"
@@ -888,35 +851,30 @@ submissions:
     items:
       - artist: "Minako Ito"
         title: "Kinou Kara no Eshaku"
-        kind: "track"
         year: 1982
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Minako+Ito+Kinou+Kara+no+Eshaku"
       - artist: "Makiko Imai"
         title: "Stormy Night"
-        kind: "track"
         year: 1988
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Makiko+Imai+Stormy+Night"
       - artist: "Satomi Sawa"
         title: "Mirai Shoujo"
-        kind: "track"
         year: 1986
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Satomi+Sawa+Mirai+Shoujo"
       - artist: "Rika Tatsumi"
         title: "Tokimeki Towairaito"
-        kind: "track"
         year: 1985
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Rika+Tatsumi+Tokimeki+Towairaito"
       - artist: "Ruiko Kurahashi"
         title: "Sérénade"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/serenade/720316359?i=720316461&uo=4"
@@ -931,13 +889,11 @@ submissions:
     items:
       - artist: "Spooki, Vylem, Domi Jones"
         title: "Let It Go"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go"
       - artist: "MGR Mike"
         title: "Fountains"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/fountains/1871498420?i=1871498422&uo=4"
@@ -945,7 +901,6 @@ submissions:
             url: "https://music.youtube.com/search?q=MGR+Mike+Fountains"
       - artist: "Walt J"
         title: "Liquid Love"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
@@ -954,7 +909,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Walt+J+Liquid+Love"
       - artist: "Milton Shadow"
         title: "On You"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/on-you/1873350790?i=1873350791&uo=4"
@@ -962,7 +916,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Milton+Shadow+On+You"
       - artist: "Kotti Affair"
         title: "Why Don't You Love Me"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/why-dont-you-love-me/1861995970?i=1861995971&uo=4"
@@ -977,7 +930,6 @@ submissions:
     items:
       - artist: "Nancy Wilson"
         title: "Something Wonderful"
-        kind: "album"
         year: 1960
         links:
           - service: "apple_music"
@@ -986,7 +938,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Nancy+Wilson+Something+Wonderful"
       - artist: "Blossom Dearie"
         title: "Blossom Dearie"
-        kind: "album"
         year: 1957
         links:
           - service: "apple_music"
@@ -1002,7 +953,6 @@ submissions:
     items:
       - artist: "Nu Genea"
         title: "Praja Magia"
-        kind: "track"
         year: 2022
         links:
           - service: "apple_music"
@@ -1011,7 +961,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Nu+Genea+Praja+Magia"
       - artist: "Nu Genea"
         title: "Bar Mediterraneo"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/bar-mediterraneo/1628693795?uo=4"
@@ -1026,7 +975,6 @@ submissions:
     items:
       - artist: "Jamiroquai"
         title: "Music of the Mind"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/music-of-the-mind/181572851?i=181573452&uo=4"
@@ -1034,7 +982,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Jamiroquai+Music+of+the+Mind"
       - artist: "Jamiroquai"
         title: "Emergency On Planet Earth"
-        kind: "album"
         year: 1993
         links:
           - service: "apple_music"
@@ -1043,7 +990,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Jamiroquai+Emergency+On+Planet+Earth"
       - artist: "Makoto Matsushita"
         title: "First Light"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/first-light-2018-remaster/1447532396?i=1447532398&uo=4"
@@ -1051,7 +997,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Makoto+Matsushita+First+Light"
       - artist: "Masaki Matsubara"
         title: "Tequila Toast"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/tequila-toast/294774467?i=294774527&uo=4"
@@ -1059,7 +1004,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Masaki+Matsubara+Tequila+Toast"
       - artist: "Masaki Matsubara"
         title: "Painted Woman"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/painted-woman/294774467?uo=4"
@@ -1067,7 +1011,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Masaki+Matsubara+Painted+Woman"
       - artist: "Nujabes"
         title: "World's End Rhapsody"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/worlds-end-rhapsody/1078914477?i=1078915005&uo=4"
@@ -1075,13 +1018,11 @@ submissions:
             url: "https://music.youtube.com/search?q=Nujabes+World%27s+End+Rhapsody"
       - artist: "Nujabes"
         title: "Modal Soul"
-        kind: "album"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Nujabes+Modal+Soul"
       - artist: "Naomi Akimoto"
         title: "Bewitched"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/bewitched-are-you-leaving-soon/1304258524?i=1304259942&uo=4"
@@ -1089,7 +1030,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Naomi+Akimoto+Bewitched"
       - artist: "Masayoshi Takanaka"
         title: "Brasilian Skies"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/brasilian-skies/1444076539?uo=4"
@@ -1097,7 +1037,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+Brasilian+Skies"
       - artist: "Masayoshi Takanaka"
         title: "All of Me"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/all-of-me/1442920123?uo=4"
@@ -1105,7 +1044,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+All+of+Me"
       - artist: "Masayoshi Takanaka"
         title: "Sayahellen"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/seychelles/1443091653?uo=4"
@@ -1113,7 +1051,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Masayoshi+Takanaka+Sayahellen"
       - artist: "Anri"
         title: "Remember Summer Days"
-        kind: "track"
         year: 1983
         links:
           - service: "apple_music"
@@ -1129,7 +1066,6 @@ submissions:
     items:
       - artist: "Mac DeMarco"
         title: "2"
-        kind: "album"
         year: 2012
         links:
           - service: "apple_music"
@@ -1138,7 +1074,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Mac+DeMarco+2"
       - artist: "Haruomi Hosono & Shigeru Suzuki"
         title: "Pacific"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
@@ -1146,7 +1081,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
       - artist: "Gustavo Cerati"
         title: "+ Bien"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/crimen-single/1281724574?uo=4"
@@ -1154,7 +1088,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Gustavo+Cerati+%2B+Bien"
       - artist: "Duan Wasi"
         title: "Licious"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/licious/1657533225?uo=4"
@@ -1169,7 +1102,6 @@ submissions:
     items:
       - artist: "Joubert Singers"
         title: "Stand on the Word"
-        kind: "track"
         year: 1982
         links:
           - service: "apple_music"
@@ -1185,7 +1117,6 @@ submissions:
     items:
       - artist: "Trendformusic"
         title: "sidewalks and skeletons goth"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Trendformusic+sidewalks+and+skeletons+goth"
@@ -1198,7 +1129,6 @@ submissions:
     items:
       - artist: "Justine Skye"
         title: "Collide (sped up)"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/collide-feat-tyga/1615681225?i=1615681226&uo=4"
@@ -1213,7 +1143,6 @@ submissions:
     items:
       - artist: "Michael Jackson"
         title: "Beat It"
-        kind: "track"
         year: 2008
         links:
           - service: "apple_music"
@@ -1234,7 +1163,6 @@ submissions:
     items:
       - artist: "Earth N Days"
         title: "On The Ground"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/on-the-ground/1892652993?i=1892652995&uo=4"
@@ -1242,7 +1170,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Earth+N+Days+On+The+Ground"
       - artist: "Definite Grooves"
         title: "Don't Do Disco"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/dont-do-disco/1890014160?i=1890014166&uo=4"
@@ -1250,7 +1177,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Definite+Grooves+Don%27t+Do+Disco"
       - artist: "Boogietraxx & Dynamique"
         title: "The Games You Play"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/the-games-you-play/1891478686?i=1891478700&uo=4"
@@ -1258,7 +1184,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Boogietraxx+%26+Dynamique+The+Games+You+Play"
       - artist: "Purple Disco Machine"
         title: "Disco Cherry"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
@@ -1267,7 +1192,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Purple+Disco+Machine+Disco+Cherry"
       - artist: "Zsak"
         title: "I Like Deep"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/i-like-deep/1895605507?i=6764031076&uo=4"
@@ -1282,13 +1206,11 @@ submissions:
     items:
       - artist: "Junko Ohashi"
         title: "テレフォン・ナンバー (電話号碼)"
-        kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29"
       - artist: "JADOES"
         title: "Stardust Night"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/stardust-night/1527208045?i=1527208047&uo=4"
@@ -1296,7 +1218,6 @@ submissions:
             url: "https://music.youtube.com/search?q=JADOES+Stardust+Night"
       - artist: "Michiru Kojima"
         title: "Best Friend"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/best-friend/1718499060?i=1718499065&uo=4"
@@ -1304,7 +1225,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Michiru+Kojima+Best+Friend"
       - artist: "ANRI"
         title: "Remember Summer Days"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/remember-summer-days/1699358106?i=1699358107&uo=4"
@@ -1319,7 +1239,6 @@ submissions:
     items:
       - artist: "Men I Trust"
         title: "Oncle Jazz"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4"
@@ -1327,7 +1246,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Men+I+Trust+Oncle+Jazz"
       - artist: "Hermanos Gutiérrez"
         title: "El Bueno Y El Malo"
-        kind: "album"
         year: 2022
         links:
           - service: "apple_music"
@@ -1336,7 +1254,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo"
       - artist: "Nu Genea"
         title: "Bar Mediterraneo"
-        kind: "album"
         year: 2021
         links:
           - service: "apple_music"
@@ -1345,7 +1262,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Nu+Genea+Bar+Mediterraneo"
       - artist: "Arc De Soleil"
         title: "Arc De Soleil"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/sunchaser-single/1780311281?uo=4"
@@ -1360,7 +1276,6 @@ submissions:
     items:
       - artist: "Savanna"
         title: "Never Let You Go"
-        kind: "track"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/never-let-you-go-onur-engin-edit/445626095?i=445626208&uo=4"
@@ -1368,7 +1283,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Savanna+Never+Let+You+Go"
       - artist: "Stylus"
         title: "We All Need One Another"
-        kind: "track"
         year: 2018
         links:
           - service: "apple_music"
@@ -1377,7 +1291,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Stylus+We+All+Need+One+Another"
       - artist: "Sunbear"
         title: "I Heard the Voice of Music Say"
-        kind: "track"
         year: 1977
         links:
           - service: "apple_music"
@@ -1393,7 +1306,6 @@ submissions:
     items:
       - artist: "Sunlightsquare"
         title: "Super People"
-        kind: "track"
         year: 2015
         links:
           - service: "apple_music"
@@ -1409,7 +1321,6 @@ submissions:
     items:
       - artist: "Smoke & Sonata"
         title: "The Night Forgives, But Never Forgets"
-        kind: "track"
         year: 2025
         links:
           - service: "apple_music"
@@ -1425,7 +1336,6 @@ submissions:
     items:
       - artist: "Johnny Hammond"
         title: "Gears"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/gears/1535122521?uo=4"
@@ -1433,7 +1343,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Johnny+Hammond+Gears"
       - artist: "Hank Mobley"
         title: "Soul Station"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/soul-station/1459439349?uo=4"
@@ -1441,7 +1350,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Hank+Mobley+Soul+Station"
       - artist: "Weather Report"
         title: "Heavy Weather"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/heavy-weather/170409940?uo=4"
@@ -1449,7 +1357,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Weather+Report+Heavy+Weather"
       - artist: "Casiopea"
         title: "Casiopea"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
@@ -1457,7 +1364,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Casiopea+Casiopea"
       - artist: "Butcher Brown"
         title: "Letters from the Atlantic"
-        kind: "album"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Butcher+Brown+Letters+from+the+Atlantic"
@@ -1470,14 +1376,12 @@ submissions:
     items:
       - artist: "The Ted, Sam Donovan"
         title: "Big Don"
-        kind: "track"
         year: 2025
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=The+Ted%2C+Sam+Donovan+Big+Don"
       - artist: "Justin Timberlake"
         title: "The 20/20 Experience"
-        kind: "album"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/suit-tie-featuring-ja%C3%BF-z-radio-edit-single/598779346?uo=4"
@@ -1492,7 +1396,6 @@ submissions:
     items:
       - artist: "Tatsuro Yamashita"
         title: "For You"
-        kind: "album"
         year: 1982
         links:
           - service: "apple_music"
@@ -1501,7 +1404,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+For+You"
       - artist: "Tatsuro Yamashita"
         title: "Sparkle"
-        kind: "track"
         year: 1982
         links:
           - service: "apple_music"
@@ -1510,7 +1412,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+Sparkle"
       - artist: "Tatsuro Yamashita"
         title: "Music Book"
-        kind: "track"
         year: 1982
         links:
           - service: "apple_music"
@@ -1519,7 +1420,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+Music+Book"
       - artist: "Tatsuro Yamashita"
         title: "Morning Glory"
-        kind: "track"
         year: 1982
         links:
           - service: "apple_music"
@@ -1528,7 +1428,6 @@ submissions:
             url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+Morning+Glory"
       - artist: "Tatsuro Yamashita"
         title: "Love Talkin'"
-        kind: "track"
         year: 1982
         links:
           - service: "apple_music"
@@ -1544,7 +1443,6 @@ submissions:
     items:
       - artist: "Parcels"
         title: "Tieduprightnow"
-        kind: "track"
         year: 2018
         links:
           - service: "apple_music"
@@ -1560,7 +1458,6 @@ submissions:
     items:
       - artist: "Winta"
         title: "It's A Sweet Day"
-        kind: "track"
         year: 2025
         links:
           - service: "apple_music"
@@ -1576,7 +1473,6 @@ submissions:
     items:
       - artist: "BABYMONSTER"
         title: "CHOOM"
-        kind: "track"
         year: 2026
         links:
           - service: "apple_music"
