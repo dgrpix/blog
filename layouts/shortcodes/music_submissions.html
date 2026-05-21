@@ -28,7 +28,8 @@
     <div class="music-submission-body">
       <div class="music-submission-meta">
         {{- with $sub.completed_at }}<span class="music-submission-date">{{ . }}</span>{{ end }}
-        {{- with $sub.title }} <span class="music-submission-title">{{ . }}</span>{{ end }}
+        {{- $linkText := $sub.title -}}
+        {{- if not $linkText -}}{{- $linkText = "source video" -}}{{- end }} <a class="music-submission-title" href="{{ $sub.source_url }}" target="_blank" rel="noopener">{{ $linkText }}</a>
       </div>
       {{- if $sub.items }}
       <ul class="music-tracks">
