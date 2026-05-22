@@ -2,6 +2,46 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KS8GZ72XER6FRD3PVB5TTW8Z"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYnXFugBwp7/"
+    title: "90s–00s Club Lounge Music Starter Kit"
+    completed_at: "May 22, 2026 · 12:02 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KS8GZ72XER6FRD3PVB5TTW8Z.jpg"
+    items:
+      - artist: "AIR"
+        title: "Moon Safari"
+        kind: "album"
+        year: 1998
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/moon-safari/693063670?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=AIR+Moon+Safari"
+      - artist: "Zero 7"
+        title: "Simple Things"
+        kind: "album"
+        year: 2001
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/simple-things/1814436320?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Zero+7+Simple+Things"
+      - artist: "Thievery Corporation"
+        title: "The Richest Man in Babylon"
+        kind: "album"
+        year: 2002
+        links:
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Thievery+Corporation+The+Richest+Man+in+Babylon"
+      - artist: "Hôtel Costes"
+        title: "Best 50"
+        kind: "album"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/h%C3%B4tel-costes-5/314435494?uo=4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=H%C3%B4tel+Costes+Best+50"
   - id: "01KS6MJ7NG3YVN84Q6J0SF5Z0J"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYhmsoGuFYA/"
