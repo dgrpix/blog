@@ -40,10 +40,11 @@
 .music-track-links {
   flex: 0 0 auto;
   display: flex;
-  gap: 0.5em;
+  gap: 0.4em;
   align-items: center;
   justify-content: flex-end;
-  width: 60px;
+  flex-wrap: wrap;
+  max-width: 50%;
 }
 
 .music-track-links a {

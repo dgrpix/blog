@@ -8,9 +8,15 @@
 -}}
 {{- $appleSvg := safeHTML `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><linearGradient id="amg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fb2862"/><stop offset="1" stop-color="#fa2d48"/></linearGradient></defs><rect width="100" height="100" rx="22" fill="url(#amg)"/><path fill="#fff" d="M68 24c0-1.5-1-2.4-2.5-2.1L40 27c-1.7.4-2.5 1.6-2.5 3v33c0 .9-.6 1.6-1.5 1.8l-3 .6c-5.5 1-9 4-9 8.6s4 7.7 9.5 6.6 9-4.7 9-10V44.5c0-1.4.7-2.5 2-2.8L62 38.5c1.5-.3 2-.1 2 1.4v17c0 .9-.6 1.6-1.5 1.8l-3 .6c-5.5 1-9 4-9 8.6s4 7.7 9.5 6.6 9-4.7 9-10V24z"/></svg>` -}}
 {{- $ytSvg := safeHTML `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle cx="50" cy="50" r="48" fill="#ff0033"/><circle cx="50" cy="50" r="32" fill="none" stroke="#fff" stroke-width="4"/><polygon points="42,35 68,50 42,65" fill="#fff"/></svg>` -}}
+{{- $spotifySvg := safeHTML `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle cx="50" cy="50" r="48" fill="#1DB954"/><path d="M27 39 Q50 28 73 39" stroke="#000" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M30 53 Q50 44 70 53" stroke="#000" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M33 66 Q50 59 67 66" stroke="#000" stroke-width="5" fill="none" stroke-linecap="round"/></svg>` -}}
+{{- $tidalSvg := safeHTML `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><rect width="100" height="100" rx="22" fill="#000"/><polygon points="50,30 33,47 50,64 67,47" fill="#fff"/><polygon points="24,55 14,65 24,75 34,65" fill="#fff"/><polygon points="76,55 66,65 76,75 86,65" fill="#fff"/></svg>` -}}
+{{- $qobuzSvg := safeHTML `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><rect width="100" height="100" rx="22" fill="#172331"/><text x="50" y="76" font-family="Georgia,serif" font-weight="700" font-size="78" fill="#fff" text-anchor="middle">q</text></svg>` -}}
 {{- $serviceIcon := dict
     "apple_music" $appleSvg
     "youtube_music" $ytSvg
+    "spotify" $spotifySvg
+    "tidal" $tidalSvg
+    "qobuz" $qobuzSvg
 -}}
 {{- if not $subs -}}
 <p>No submissions yet.</p>
