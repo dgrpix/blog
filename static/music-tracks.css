@@ -55,6 +55,18 @@
   text-decoration: none;
   border-bottom: none;
   box-shadow: none;
+  transition: opacity 0.15s;
+}
+
+/* Search-URL fallbacks — resolver couldn't find a direct deep link, so
+   this link lands the user on the service's web search instead. Render
+   the icon faded so the visual difference is unmistakable. */
+.music-track-link-search {
+  opacity: 0.35;
+}
+
+.music-track-link-search:hover {
+  opacity: 0.8;
 }
 
 .music-track-links svg {

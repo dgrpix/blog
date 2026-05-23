@@ -49,7 +49,9 @@
             {{- range . -}}
               {{- $display := index $serviceDisplay .service | default (humanize .service) -}}
               {{- $icon := index $serviceIcon .service -}}
-              <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ $display }}" title="{{ $display }}">
+              {{- $suffix := "" -}}{{- $class := "music-track-link" -}}
+              {{- if .search_only -}}{{- $suffix = " (search)" -}}{{- $class = "music-track-link music-track-link-search" -}}{{- end -}}
+              <a class="{{ $class }}" href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ $display }}{{ $suffix }}" title="{{ $display }}{{ $suffix }}">
                 {{- if $icon -}}
                   {{ $icon }}
                 {{- else -}}
