@@ -34,6 +34,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Thievery+Corporation+The+Richest+Man+in+Babylon"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Thievery+Corporation+The+Richest+Man+in+Babylon"
       - artist: "Hôtel Costes"
         title: "Best 50"
         kind: "album"
@@ -42,6 +44,10 @@ submissions:
             url: "https://music.apple.com/us/album/h%C3%B4tel-costes-5/314435494?uo=4"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=H%C3%B4tel+Costes+Best+50"
+  - id: "01KS821QBVAJGST2TVHNFW7RCQ"
+    status: "failed"
+    source_url: "https://www.instagram.com/reel/DYlDgxskoKs/"
+    completed_at: "May 22, 2026 · 6:31 PM PDT"
   - id: "01KS6MJ7NG3YVN84Q6J0SF5Z0J"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYhmsoGuFYA/"
@@ -55,24 +61,32 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Slayyyter+DANCE..."
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Slayyyter+DANCE..."
       - artist: "Cannelle"
         title: "Fille"
         kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Cannelle+Fille"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Cannelle+Fille"
       - artist: "Cobrah"
         title: "Good Puss"
         kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Cobrah+Good+Puss"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Cobrah+Good+Puss"
       - artist: "Ninajirachi"
         title: "Fuck My Computer"
         kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Ninajirachi+Fuck+My+Computer"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Ninajirachi+Fuck+My+Computer"
       - artist: "Nia Archives"
         title: "Danger"
         kind: "track"
@@ -216,6 +230,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Grimes+Art+Angels"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Grimes+Art+Angels"
       - artist: "Magdalena Bay"
         title: "Mercurial World"
         kind: "album"
@@ -250,6 +266,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Lorde+Pure+Heroine"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Lorde+Pure+Heroine"
       - artist: "Jessie Ware"
         title: "What's Your Pleasure?"
         kind: "album"
@@ -266,6 +284,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Lana+Del+Rey+Honeymoon"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Lana+Del+Rey+Honeymoon"
       - artist: "Malcolm Todd"
         title: "Sweet Boy"
         kind: "album"
@@ -273,6 +293,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Malcolm+Todd+Sweet+Boy"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Malcolm+Todd+Sweet+Boy"
       - artist: "Rina Sawayama"
         title: "SAWAYAMA"
         kind: "album"
@@ -280,6 +302,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Rina+Sawayama+SAWAYAMA"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Rina+Sawayama+SAWAYAMA"
   - id: "01KS65H0PR4G02Q8WV478XPEWT"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYcA-VlIYFN/"
@@ -308,12 +332,16 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Yumi+Murata+Fushigi+Okite"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Yumi+Murata+Fushigi+Okite"
       - artist: "Yumi Murata"
         title: "Uterus Uterus"
         kind: "album"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Yumi+Murata+Uterus+Uterus"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Yumi+Murata+Uterus+Uterus"
   - id: "01KS40CGPZTDCRBFW3PMR4FDHQ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWe4QlhCIIK/?igsh=NjZiM2M3MzIxNA=="
@@ -375,12 +403,16 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Soul+Scream+%E9%BB%92%E3%81%84%E6%9C%88%E3%81%AE%E5%A4%9C"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Soul+Scream+%E9%BB%92%E3%81%84%E6%9C%88%E3%81%AE%E5%A4%9C"
       - artist: "Yakkle ft. Shing02"
         title: "I Miss You"
         kind: "track"
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Yakkle+ft.+Shing02+I+Miss+You"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Yakkle+ft.+Shing02+I+Miss+You"
       - artist: "Coma-Chi"
         title: "Stand Alone"
         kind: "track"
@@ -465,6 +497,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Haywoode+Single+Handed"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Haywoode+Single+Handed"
   - id: "01KRY9EAC9GV614QXEG7RQEXQR"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYNGpD7ifSa/?igsh=NjZiM2M3MzIxNA=="
@@ -747,6 +781,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=%E3%82%B3%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%A4+Frevo%21"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=%E3%82%B3%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%A4+Frevo%21"
   - id: "01KRVBJ1HM7A5NK9CXRK3CMMKA"
     status: "completed"
     source_url: "https://www.instagram.com/p/DWDLf3QAOg_/?igsh=NjZiM2M3MzIxNA=="
@@ -761,6 +797,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Farmboy+GHOST"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Farmboy+GHOST"
       - artist: "Butterknife"
         title: "mother nature"
         kind: "track"
@@ -768,6 +806,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Butterknife+mother+nature"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Butterknife+mother+nature"
   - id: "01KRTT9KPB53ZKWJ05M4MW05JY"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DVZQROeCPmu/?igsh=NjZiM2M3MzIxNA=="
@@ -902,6 +942,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Nujabes+Modal+Soul"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Nujabes+Modal+Soul"
       - artist: "Massive Attack"
         title: "Heligoland"
         kind: "album"
@@ -1016,6 +1058,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Summer+Vee%2C+Kenny+Sterling+Judas"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Summer+Vee%2C+Kenny+Sterling+Judas"
       - artist: "Antonio Barret, Nice Guys"
         title: "2 AM"
         kind: "track"
@@ -1101,6 +1145,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Yutaka+Yokokura+Love+Light"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Yutaka+Yokokura+Love+Light"
   - id: "01KRS43FYHVE34RC3YNVWB249D"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DXUyCEJgVw5/?igsh=NjZiM2M3MzIxNA=="
@@ -1140,6 +1186,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Baylee+Lefton+you+like+jazz%3F"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Baylee+Lefton+you+like+jazz%3F"
   - id: "01KRS3JZWDJPZTG0P5VABMFFZ8"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYAfscuSjMp/?igsh=NjZiM2M3MzIxNA=="
@@ -1178,6 +1226,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Minako+Ito+Kinou+Kara+no+Eshaku"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Minako+Ito+Kinou+Kara+no+Eshaku"
       - artist: "Makiko Imai"
         title: "Stormy Night"
         kind: "track"
@@ -1185,6 +1235,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Makiko+Imai+Stormy+Night"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Makiko+Imai+Stormy+Night"
       - artist: "Satomi Sawa"
         title: "Mirai Shoujo"
         kind: "track"
@@ -1192,6 +1244,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Satomi+Sawa+Mirai+Shoujo"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Satomi+Sawa+Mirai+Shoujo"
       - artist: "Rika Tatsumi"
         title: "Tokimeki Towairaito"
         kind: "track"
@@ -1199,6 +1253,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Rika+Tatsumi+Tokimeki+Towairaito"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Rika+Tatsumi+Tokimeki+Towairaito"
       - artist: "Ruiko Kurahashi"
         title: "Sérénade"
         kind: "track"
@@ -1220,6 +1276,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go"
       - artist: "MGR Mike"
         title: "Fountains"
         kind: "track"
@@ -1364,6 +1422,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Nujabes+Modal+Soul"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Nujabes+Modal+Soul"
       - artist: "Naomi Akimoto"
         title: "Bewitched"
         kind: "track"
@@ -1474,6 +1534,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Trendformusic+sidewalks+and+skeletons+goth"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Trendformusic+sidewalks+and+skeletons+goth"
   - id: "01KRQ87CD2CYQM3B5XMV4B6JSY"
     status: "completed"
     source_url: "https://www.tiktok.com/t/ZP8p5P3t3/"
@@ -1571,6 +1633,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29"
       - artist: "JADOES"
         title: "Stardust Night"
         kind: "track"
@@ -1746,6 +1810,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Butcher+Brown+Letters+from+the+Atlantic"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Butcher+Brown+Letters+from+the+Atlantic"
   - id: "01KRQ6KS5JG1ENW0C1XBTENJPQ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DXmBeCCzVlx/?igsh=NTc4MTIwNjQ2YQ=="
@@ -1760,6 +1826,8 @@ submissions:
         links:
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=The+Ted%2C+Sam+Donovan+Big+Don"
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=The+Ted%2C+Sam+Donovan+Big+Don"
       - artist: "Justin Timberlake"
         title: "The 20/20 Experience"
         kind: "album"
