@@ -890,45 +890,6 @@ submissions:
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=M-Flo+Quantum+Leap+%28DJ+Watarai+Remix%29"
             search_only: true
-  - id: "01KS0VDDR5MZAMPBE8Q4Q63NPS"
-    status: "completed"
-    source_url: "https://www.instagram.com/reel/DYXFgKyK8ik/?igsh=NjZiM2M3MzIxNA=="
-    title: "4 Funk Fusion Tracks That Will Blow Your Mind"
-    completed_at: "May 19, 2026 · 2:34 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS0VDDR5MZAMPBE8Q4Q63NPS.jpg"
-    items:
-      - artist: "Yellowjackets"
-        title: "Imperial Strut"
-        kind: "track"
-        links:
-          - service: "apple_music"
-            url: "https://music.apple.com/us/album/imperial-strut/358058553?i=358058572&uo=4"
-          - service: "spotify"
-            url: "https://open.spotify.com/track/14co4nH0wNOxps0NTkgTLP"
-          - service: "youtube_music"
-            url: "https://music.youtube.com/search?q=Yellowjackets+Imperial+Strut"
-            search_only: true
-          - service: "tidal"
-            url: "https://tidal.com/browse/track/3461511"
-          - service: "qobuz"
-            url: "https://www.qobuz.com/us-en/search?q=Yellowjackets+Imperial+Strut"
-            search_only: true
-      - artist: "Tower Of Power"
-        title: "Soul With A Capital 'S'"
-        kind: "album"
-        links:
-          - service: "apple_music"
-            url: "https://music.apple.com/us/album/soul-with-a-capital-s-the-best-of-tower-of-power/193876066?uo=4"
-          - service: "spotify"
-            url: "https://open.spotify.com/album/4wFasHBN4hHR6JQlIZFSbN"
-          - service: "youtube_music"
-            url: "https://music.youtube.com/search?q=Tower+Of+Power+Soul+With+A+Capital+%27S%27"
-            search_only: true
-          - service: "tidal"
-            url: "https://tidal.com/browse/album/1781666"
-          - service: "qobuz"
-            url: "https://www.qobuz.com/us-en/search?q=Tower+Of+Power+Soul+With+A+Capital+%27S%27"
-            search_only: true
   - id: "01KS0VD1VM1012M6BME81HMXSN"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYfUk0RAXHd/?igsh=NjZiM2M3MzIxNA=="
