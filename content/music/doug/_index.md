@@ -2,6 +2,78 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSBVV5XVR7PTWTS6EACY0PRS"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYXFgKyK8ik/"
+    title: "4 Funk Fusion Tracks That Will Blow Your Mind"
+    completed_at: "May 23, 2026 · 7:10 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSBVV5XVR7PTWTS6EACY0PRS.jpg"
+    items:
+      - artist: "Yellowjackets"
+        title: "Imperial Strut"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/imperial-strut/358058553?i=358058572&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/14co4nH0wNOxps0NTkgTLP"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yellowjackets+Imperial+Strut"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/3461511"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Yellowjackets+Imperial+Strut"
+            search_only: true
+      - artist: "Tower Of Power"
+        title: "Soul With A Capital 'S'"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/soul-with-a-capital-s/193876066?i=193876191&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2fEdBCtMRLHJ53fB7hQVpR"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tower+Of+Power+Soul+With+A+Capital+%27S%27"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/1781879"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Tower+Of+Power+Soul+With+A+Capital+%27S%27"
+            search_only: true
+      - artist: "Hiromi"
+        title: "Summer Rain"
+        kind: "track"
+        year: 2003
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/summer-rain/1391404218?i=1391404484&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3RhPxAdezCJ6ksDqKMJYiv"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Hiromi+Summer+Rain"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/89760345"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Hiromi+Summer+Rain"
+            search_only: true
+      - artist: "Fourplay"
+        title: "101 Eastbound"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/101-eastbound/1306463758?i=1306464892&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/44bwIGyn4u4e1ydT4Zm1B1"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Fourplay+101+Eastbound"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/80830191"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Fourplay+101+Eastbound"
+            search_only: true
   - id: "01KS8GZ72XER6FRD3PVB5TTW8Z"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYnXFugBwp7/"
