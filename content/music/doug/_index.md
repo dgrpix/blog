@@ -2,6 +2,95 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSC06R65AW6SZ87154ZMCKYM"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYfUk0RAXHd/?igsh=NjZiM2M3MzIxNA=="
+    title: "5 Funky Songs I'm Loving Right Now"
+    completed_at: "May 23, 2026 · 8:27 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSC06R65AW6SZ87154ZMCKYM.jpg"
+    items:
+      - artist: "Jéroboam"
+        title: "Take Me to New York"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/take-me-to-new-york/1719166468?i=1719166475&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/49aynpomBjHnftKef8geZp"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=J%C3%A9roboam+Take+Me+to+New+York"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/332177849"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=J%C3%A9roboam+Take+Me+to+New+York"
+            search_only: true
+      - artist: "Herbie Hancock"
+        title: "I Thought It Was You"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/i-thought-it-was-you/278866052?i=278866130&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0taRW8bPp2xW6ewm6PDMTZ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Herbie+Hancock+I+Thought+It+Was+You"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/2825131"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Herbie+Hancock+I+Thought+It+Was+You"
+            search_only: true
+      - artist: "Brass Construction"
+        title: "Happy People"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/happy-people/1436727898?i=1436728156&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/24eDZbkScLlDAqKr747Coh"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Brass+Construction+Happy+People"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/95436255"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Brass+Construction+Happy+People"
+            search_only: true
+      - artist: "Haywoode"
+        title: "Single Handed"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Haywoode+Single+Handed"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Haywoode+Single+Handed"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Haywoode+Single+Handed"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/356691021"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Haywoode+Single+Handed"
+            search_only: true
+      - artist: "The Manhattans"
+        title: "Crazy"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/crazy/1080488128?i=1080488130&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3TFOWJpcPUaKmVfRXM3uoK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Manhattans+Crazy"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/56827799"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Manhattans+Crazy"
+            search_only: true
   - id: "01KSBVV5XVR7PTWTS6EACY0PRS"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYXFgKyK8ik/"
