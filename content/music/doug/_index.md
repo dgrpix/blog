@@ -2,6 +2,98 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSFRJ7XN14JE7PCWPCNJDYSK"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYiHm0MSTtM/"
+    title: "Five Soul/Funk Under the Radar Bangers"
+    completed_at: "May 25, 2026 · 7:30 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KSFRJ7XN14JE7PCWPCNJDYSK.jpg"
+    items:
+      - artist: "O.V. Wright"
+        title: "Memphis Unlimited"
+        kind: "album"
+        year: 1973
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/memphis-unlimited/1443557946?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1OpjpdplHYoebZLao2C00q"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=O.V.+Wright+Memphis+Unlimited"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/35604513"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=O.V.+Wright+Memphis+Unlimited"
+            search_only: true
+      - artist: "Ann Peebles"
+        title: "I Can't Stand the Rain"
+        kind: "album"
+        year: 1974
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/i-cant-stand-the-rain/1074125635?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/67Sjm7EwrWbnnyojmhP4KL"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Ann+Peebles+I+Can%27t+Stand+the+Rain"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/67327873"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Ann+Peebles+I+Can%27t+Stand+the+Rain"
+            search_only: true
+      - artist: "Jim Ford"
+        title: "Harlan County"
+        kind: "album"
+        year: 1969
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/harlan-county/1442264875?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0IMnOYHqwO4SLT9Pe6U8PG"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jim+Ford+Harlan+County"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/35128271"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jim+Ford+Harlan+County"
+            search_only: true
+      - artist: "Betty Davis"
+        title: "Betty Davis"
+        kind: "album"
+        year: 1973
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/betty-davis/1790499728?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1AmhD6vxwL2B97No3JDPn2"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Betty+Davis+Betty+Davis"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/411609259"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Betty+Davis+Betty+Davis"
+            search_only: true
+      - artist: "Blue Mitchell"
+        title: "Graffiti Blues"
+        kind: "album"
+        year: 1973
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/graffiti-blues/464154065?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2VMkkuMcnmMO4SMP8EPs25"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Blue+Mitchell+Graffiti+Blues"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/63014047"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Blue+Mitchell+Graffiti+Blues"
+            search_only: true
   - id: "01KSEMAQ15PC5265DSM84TBE1G"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWo0G3KIW9V/"
