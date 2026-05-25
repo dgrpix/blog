@@ -2,6 +2,186 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSEMAQ15PC5265DSM84TBE1G"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DWo0G3KIW9V/"
+    title: "10 Modern Jazz Records (Vol. 3)"
+    completed_at: "May 24, 2026 · 8:57 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSEMAQ15PC5265DSM84TBE1G.jpg"
+    items:
+      - artist: "Mndsgn"
+        title: "Rare Pleasure"
+        kind: "album"
+        year: 2021
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/rare-pleasure/1544857326?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4ZwuqG7srOt86hMjF0o3No"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mndsgn+Rare+Pleasure"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/186419294"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Mndsgn+Rare+Pleasure"
+            search_only: true
+      - artist: "Alfa Mist"
+        title: "Variables"
+        kind: "album"
+        year: 2023
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Alfa+Mist+Variables"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0sW6bNCjzPlrJM100nIST6"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Alfa+Mist+Variables"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/269732906"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Alfa+Mist+Variables"
+            search_only: true
+      - artist: "Till Brönner & Bob James"
+        title: "On Vacation"
+        kind: "album"
+        year: 2021
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/on-vacation/1530968541?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Till+Br%C3%B6nner+%26+Bob+James+On+Vacation"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Till+Br%C3%B6nner+%26+Bob+James+On+Vacation"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/158554501"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Till+Br%C3%B6nner+%26+Bob+James+On+Vacation"
+            search_only: true
+      - artist: "Resavoir"
+        title: "Resavoir"
+        kind: "album"
+        year: 2023
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/resavoir/1461014665?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/6QRm9wKyda7mjHJxmYbLs2"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Resavoir+Resavoir"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/111704528"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Resavoir+Resavoir"
+            search_only: true
+      - artist: "Nubiyan Twist"
+        title: "Freedom Fables"
+        kind: "album"
+        year: 2021
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/freedom-fables/1529513007?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3HDaoy8TYaaLfKPKSVcsOq"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Nubiyan+Twist+Freedom+Fables"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/184811657"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Nubiyan+Twist+Freedom+Fables"
+            search_only: true
+      - artist: "Bardino"
+        title: "Memória Da Pedra Mãe"
+        kind: "album"
+        year: 2024
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mem%C3%B3ria-da-pedra-m%C3%A3e/1728735308?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1tBJitRLX7cKyAABYs7rz1"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bardino+Mem%C3%B3ria+Da+Pedra+M%C3%A3e"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/343228691"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Bardino+Mem%C3%B3ria+Da+Pedra+M%C3%A3e"
+            search_only: true
+      - artist: "Makaya McCraven"
+        title: "Deciphering The Message"
+        kind: "album"
+        year: 2021
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/deciphering-the-message/1581270929?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3yrDdyKK5WdYFAHUNmradZ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Makaya+McCraven+Deciphering+The+Message"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/204869029"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Makaya+McCraven+Deciphering+The+Message"
+            search_only: true
+      - artist: "Nala Sinephro"
+        title: "Endlessness"
+        kind: "album"
+        year: 2024
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/endlessness/1752836259?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/51CQQ3tQLRZlZJZ5jcpoGE"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Nala+Sinephro+Endlessness"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/370239857"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Nala+Sinephro+Endlessness"
+            search_only: true
+      - artist: "Camilla George"
+        title: "Ibio-Ibio"
+        kind: "album"
+        year: 2022
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/ibio-ibio/1625140043?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0qIUtII533DzbMMVXmvGuC"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Camilla+George+Ibio-Ibio"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/229961600"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Camilla+George+Ibio-Ibio"
+            search_only: true
+      - artist: "Chino Corvalán"
+        title: "Endless Era"
+        kind: "album"
+        year: 2022
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/endless-era/1651469454?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/48rFPcYpJ2EL3itMZ2N8y8"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Chino+Corval%C3%A1n+Endless+Era"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Chino+Corval%C3%A1n+Endless+Era"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Chino+Corval%C3%A1n+Endless+Era"
+            search_only: true
   - id: "01KSC06R65AW6SZ87154ZMCKYM"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYfUk0RAXHd/?igsh=NjZiM2M3MzIxNA=="
