@@ -2,6 +2,82 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSJFJX38SWDXT2C2EN1Z1552"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYxem9FB8dM/"
+    title: "Fun & Groovy Music Picks (4 Tracks)"
+    completed_at: "May 26, 2026 · 8:51 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KSJFJX38SWDXT2C2EN1Z1552.jpg"
+    items:
+      - artist: "Gareth Donkin"
+        title: "Please Don't Give Up!"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/please-dont-give-up/1862296629?i=1862296642&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1PyxMy4spAf1o3izbn0Wak"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Gareth+Donkin+Please+Don%27t+Give+Up%21"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/482796814"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Gareth+Donkin+Please+Don%27t+Give+Up%21"
+            search_only: true
+      - artist: "Video Age"
+        title: "Hold On (I Was Wrong)"
+        kind: "track"
+        year: 2018
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/hold-on-i-was-wrong/1826132167?i=1826132479&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0K736ck7Fs09dh3Goew4mX"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Video+Age+Hold+On+%28I+Was+Wrong%29"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/447517288"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Video+Age+Hold+On+%28I+Was+Wrong%29"
+            search_only: true
+      - artist: "Summer Vee, Kenny Sterling"
+        title: "Judas"
+        kind: "track"
+        year: 2022
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Summer+Vee%2C+Kenny+Sterling+Judas"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1XJIjkaQuzoUGXaR4lQQfj"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Summer+Vee%2C+Kenny+Sterling+Judas"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/242355127"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Summer+Vee%2C+Kenny+Sterling+Judas"
+            search_only: true
+      - artist: "Baylee Lefton"
+        title: "Groove Like This"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Baylee+Lefton+Groove+Like+This"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Baylee+Lefton+Groove+Like+This"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Baylee+Lefton+Groove+Like+This"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/23229724"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Baylee+Lefton+Groove+Like+This"
+            search_only: true
   - id: "01KSFRJ7XN14JE7PCWPCNJDYSK"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYiHm0MSTtM/"
