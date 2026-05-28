@@ -2,6 +2,62 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSR0FSA52CVV99CE1R2JBFEC"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DW9aGG7jZgd/?igsh=NjZiM2M3MzIxNA=="
+    title: "Indie for Late Nights — 3 Track Picks"
+    completed_at: "May 28, 2026 · 2:09 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSR0FSA52CVV99CE1R2JBFEC.jpg"
+    items:
+      - artist: "Inner Wave"
+        title: "SWEET"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/sweet/1831132135?i=1831132139&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1moKI3LjDpGPwzXv4c9s62"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Inner+Wave+SWEET"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/452192228"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Inner+Wave+SWEET"
+            search_only: true
+      - artist: "Twen"
+        title: "Allnighter"
+        kind: "track"
+        year: 2025
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/allnighter/1846632813?i=1846632823&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/01WETfiZg3SWMjC6mq8vyK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Twen+Allnighter"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/459469458"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Twen+Allnighter"
+            search_only: true
+      - artist: "tomy wyne"
+        title: "I'm in Luck"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/im-in-luck/1651149103?i=1651149104&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/12ULyTn46iDsQEMO0STOtk"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=tomy+wyne+I%27m+in+Luck"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/255864499"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=tomy+wyne+I%27m+in+Luck"
+            search_only: true
   - id: "01KSP421TBXEEEJ2PEFC00Q8HZ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DY2qErzh_Jh/"
