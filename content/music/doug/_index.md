@@ -2,6 +2,30 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSREWMZ8F02F5FHSDHNBG2KX"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DY1WyrZtnjI/"
+    title: "Goodbye, Horses (Q Lazzarus & Garvey)"
+    completed_at: "May 28, 2026 · 4:34 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSREWMZ8F02F5FHSDHNBG2KX.jpg"
+    items:
+      - artist: "Q Lazzarus & Garvey"
+        title: "Goodbye, Horses"
+        kind: "track"
+        year: 2010
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/goodbye-horses/405437519?i=405437691&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/71coiXrc4ti5HqZAh80vOC"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Q+Lazzarus+%26+Garvey+Goodbye%2C+Horses"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/13136510"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Q+Lazzarus+%26+Garvey+Goodbye%2C+Horses"
+            search_only: true
   - id: "01KSR5CEYYCD2VY9FPK660H8JA"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWkDumBklTb/"
