@@ -2,6 +2,122 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSP421TBXEEEJ2PEFC00Q8HZ"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DY2qErzh_Jh/"
+    title: "5 Japanese Jazz Fusion Tracks to Drive To"
+    completed_at: "May 27, 2026 · 6:46 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSP421TBXEEEJ2PEFC00Q8HZ.jpg"
+    items:
+      - artist: "Casiopea"
+        title: "Time Limit"
+        kind: "track"
+        year: 1979
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/time-limit/1535034715?i=1535034719&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Casiopea+Time+Limit"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Casiopea+Time+Limit"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/157658551"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Casiopea+Time+Limit"
+            search_only: true
+      - artist: "Casiopea"
+        title: "Casiopea"
+        kind: "album"
+        year: 1979
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3uFgYgCEvCSACjB8XHl3hb"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Casiopea+Casiopea"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/157658550"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Casiopea+Casiopea"
+            search_only: true
+      - artist: "Naniwa Express"
+        title: "Believin' / No Fuse"
+        kind: "track"
+        year: 1982
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/believin/1536954876?i=1536954877&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Naniwa+Express+Believin%27+%2F+No+Fuse"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Naniwa+Express+Believin%27+%2F+No+Fuse"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/144577396"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Naniwa+Express+Believin%27+%2F+No+Fuse"
+            search_only: true
+      - artist: "The Square"
+        title: "Celebration / Truth"
+        kind: "track"
+        year: 1987
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/celebration/1538800804?i=1538801196&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=The+Square+Celebration+%2F+Truth"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Square+Celebration+%2F+Truth"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/228868621"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Square+Celebration+%2F+Truth"
+            search_only: true
+      - artist: "Native Son"
+        title: "Baystreet Talking / Resort"
+        kind: "track"
+        year: 1983
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Native+Son+Baystreet+Talking+%2F+Resort"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Native+Son+Baystreet+Talking+%2F+Resort"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Native+Son+Baystreet+Talking+%2F+Resort"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Native+Son+Baystreet+Talking+%2F+Resort"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Native+Son+Baystreet+Talking+%2F+Resort"
+            search_only: true
+      - artist: "Kazumi Watanabe"
+        title: "Unicorn / To Chi Ka"
+        kind: "track"
+        year: 1980
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/unicorn-live/1087188215?i=1087188403&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Kazumi+Watanabe+Unicorn+%2F+To+Chi+Ka"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kazumi+Watanabe+Unicorn+%2F+To+Chi+Ka"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/57448055"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kazumi+Watanabe+Unicorn+%2F+To+Chi+Ka"
+            search_only: true
   - id: "01KSJFJX38SWDXT2C2EN1Z1552"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYxem9FB8dM/"
