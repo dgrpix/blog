@@ -170,6 +170,11 @@ submissions:
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Blue+Mitchell+Graffiti+Blues"
             search_only: true
+  - id: "01KSEMK123VP751X6PB247RVGC"
+    status: "failed"
+    source_url: "https://www.instagram.com/p/DYe0sVRDTIc/"
+    completed_at: "May 27, 2026 · 6:44 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSEMK123VP751X6PB247RVGC.jpg"
   - id: "01KSEMAQ15PC5265DSM84TBE1G"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWo0G3KIW9V/"
