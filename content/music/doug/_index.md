@@ -2,6 +2,84 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSR5CEYYCD2VY9FPK660H8JA"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DWkDumBklTb/"
+    title: "80s City Pop & Modern R&B — Anri + Jenevieve"
+    completed_at: "May 28, 2026 · 2:12 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSR5CEYYCD2VY9FPK660H8JA.jpg"
+    items:
+      - artist: "Anri"
+        title: "Last Summer Whisper"
+        kind: "track"
+        year: 1982
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/last-summer-whisper/834248212?i=834248226&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/38LUbz74v3nmP8x0efElw2"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Anri+Last+Summer+Whisper"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/220894429"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Anri+Last+Summer+Whisper"
+            search_only: true
+      - artist: "Anri"
+        title: "Heaven Beach"
+        kind: "album"
+        year: 1982
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/heaven-beach/834248212?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/74XLaVRIeHY51nuXcC5RuS"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Anri+Heaven+Beach"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Anri+Heaven+Beach"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Anri+Heaven+Beach"
+            search_only: true
+      - artist: "Jenevieve"
+        title: "Baby Powder"
+        kind: "track"
+        year: 2019
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/baby-powder/1578938206?i=1578938429&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4Nw7kywWurWS6ceinn1cHK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jenevieve+Baby+Powder"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/195413168"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jenevieve+Baby+Powder"
+            search_only: true
+      - artist: "Toshiki Kadomatsu"
+        title: "After 5 Clash"
+        kind: "album"
+        year: 1984
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/after-5-crash-tokyo-tower-%E5%88%9D%E6%81%8B-single/1683493947?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Toshiki+Kadomatsu+After+5+Clash"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Toshiki+Kadomatsu+After+5+Clash"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Toshiki+Kadomatsu+After+5+Clash"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Toshiki+Kadomatsu+After+5+Clash"
+            search_only: true
   - id: "01KSR0FSA52CVV99CE1R2JBFEC"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DW9aGG7jZgd/?igsh=NjZiM2M3MzIxNA=="
