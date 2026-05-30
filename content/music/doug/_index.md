@@ -2,6 +2,177 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSWSBVEKC595P4BW3QB91Q50"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DUHwMCNClwI/"
+    title: "New Music Picks – January 2026"
+    completed_at: "May 30, 2026 · 8:54 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KSWSBVEKC595P4BW3QB91Q50.jpg"
+    items:
+      - artist: "Joyce Manor"
+        title: "I Know Where Mark Chen Lives"
+        kind: "track"
+        year: 2026
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/i-know-where-mark-chen-lives/1839918836?i=1839918837&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7zvZ18HvFVsR9O9B0vn47c"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Joyce+Manor+I+Know+Where+Mark+Chen+Lives"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/465288564"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Joyce+Manor+I+Know+Where+Mark+Chen+Lives"
+            search_only: true
+      - artist: "Lime Garden"
+        title: "23"
+        kind: "track"
+        year: 2026
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/23/1858567363?i=1858567370&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7yBH2DRYZ5zsklX5nseXzK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lime+Garden+23"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/480053060"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Lime+Garden+23"
+            search_only: true
+      - artist: "Snail Mail"
+        title: "Dead End"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/c-et-al/1636341239?i=1636341254&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1dq6THBhiYAhLgbGxYVr3h"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Snail+Mail+Dead+End"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/485898011"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Snail+Mail+Dead+End"
+            search_only: true
+      - artist: "Gabriella Richardson"
+        title: "Mononoke"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Gabriella+Richardson+Mononoke"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Gabriella+Richardson+Mononoke"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Gabriella+Richardson+Mononoke"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/490049562"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Gabriella+Richardson+Mononoke"
+            search_only: true
+      - artist: "SAULT"
+        title: "Good Things Will Come After the Pressure"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/good-things-will-come-after-the-pressure/1867311494?i=1867311825&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1Q3UUPU4Pl4zVsmIDsQxDU"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=SAULT+Good+Things+Will+Come+After+the+Pressure"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/487911005"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=SAULT+Good+Things+Will+Come+After+the+Pressure"
+            search_only: true
+      - artist: "isobel"
+        title: "limn"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/limn/1862595645?i=1862595647&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/69oIIqwBPHmM8m81cW1H5O"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=isobel+limn"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/483116707"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=isobel+limn"
+            search_only: true
+      - artist: "Vienna Vienna"
+        title: "Molly"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/molly/1853893204?i=1853893515&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2fQdCY3Yoo9XLWSSGQGnmM"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Vienna+Vienna+Molly"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/488297968"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Vienna+Vienna+Molly"
+            search_only: true
+      - artist: "Ralph Castelli"
+        title: "Spinning Rooms"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/spinning-rooms/1866311474?i=1866311738&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2XJU0TP8vgVBpOfiO2Mpnu"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Ralph+Castelli+Spinning+Rooms"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/486844754"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Ralph+Castelli+Spinning+Rooms"
+            search_only: true
+      - artist: "Haute & Freddy"
+        title: "Dance The Pain Away"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/dance-the-pain-away/1862829699?i=1862829981&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2CDWWw0WuhGbWhTD348n8a"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Haute+%26+Freddy+Dance+The+Pain+Away"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/481042141"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Haute+%26+Freddy+Dance+The+Pain+Away"
+            search_only: true
+      - artist: "MARO"
+        title: "KISS ME"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/kiss-me/1866882504?i=1866882505&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3phYFzn8h6sjbUtWD8Nig3"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=MARO+KISS+ME"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/466313424"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=MARO+KISS+ME"
+            search_only: true
   - id: "01KSVMJ7KAGPREMBKP8K5MSPE5"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DSK0abDEQC6/"
