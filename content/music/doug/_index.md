@@ -2,6 +2,68 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSVD20WWXGEGNEQ6SAPCRJH1"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DXpWRjujwXT/"
+    title: "Late 90s City Pop Gem — Atsuko Hiyajo"
+    completed_at: "May 29, 2026 · 8:00 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSVD20WWXGEGNEQ6SAPCRJH1.jpg"
+    items:
+      - artist: "Atsuko Hiyajo"
+        title: "ささやかれた夢の話"
+        kind: "album"
+        year: 1999
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/%E3%81%95%E3%81%95%E3%82%84%E3%81%8B%E3%82%8C%E3%81%9F%E5%A4%A2%E3%81%AE%E8%A9%B1/1539275295?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4vvaXPl77ekeetmDhltVOr"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Atsuko+Hiyajo+%E3%81%95%E3%81%95%E3%82%84%E3%81%8B%E3%82%8C%E3%81%9F%E5%A4%A2%E3%81%AE%E8%A9%B1"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Atsuko+Hiyajo+%E3%81%95%E3%81%95%E3%82%84%E3%81%8B%E3%82%8C%E3%81%9F%E5%A4%A2%E3%81%AE%E8%A9%B1"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Atsuko+Hiyajo+%E3%81%95%E3%81%95%E3%82%84%E3%81%8B%E3%82%8C%E3%81%9F%E5%A4%A2%E3%81%AE%E8%A9%B1"
+            search_only: true
+      - artist: "Atsuko Hiyajo"
+        title: "まわれ まわれ"
+        kind: "track"
+        year: 1999
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Atsuko+Hiyajo+%E3%81%BE%E3%82%8F%E3%82%8C+%E3%81%BE%E3%82%8F%E3%82%8C"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7xlx0W7xtkgjIYQAdmF2x7"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Atsuko+Hiyajo+%E3%81%BE%E3%82%8F%E3%82%8C+%E3%81%BE%E3%82%8F%E3%82%8C"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Atsuko+Hiyajo+%E3%81%BE%E3%82%8F%E3%82%8C+%E3%81%BE%E3%82%8F%E3%82%8C"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Atsuko+Hiyajo+%E3%81%BE%E3%82%8F%E3%82%8C+%E3%81%BE%E3%82%8F%E3%82%8C"
+            search_only: true
+      - artist: "Atsuko Hiyajo"
+        title: "hikari no dance"
+        kind: "track"
+        year: 1999
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/hikari-no-dance/1539275295?i=1539275299&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Atsuko+Hiyajo+hikari+no+dance"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Atsuko+Hiyajo+hikari+no+dance"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/144991657"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Atsuko+Hiyajo+hikari+no+dance"
+            search_only: true
   - id: "01KSREWMZ8F02F5FHSDHNBG2KX"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DY1WyrZtnjI/"
