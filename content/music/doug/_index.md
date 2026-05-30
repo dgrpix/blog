@@ -2,6 +2,96 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KSVMJ7KAGPREMBKP8K5MSPE5"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DSK0abDEQC6/"
+    title: "Keep On Groovin — 5 Funky Vinyl Picks"
+    completed_at: "May 29, 2026 · 10:11 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KSVMJ7KAGPREMBKP8K5MSPE5.jpg"
+    items:
+      - artist: "Jamiroquai"
+        title: "Butterfly"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/butterfly/1583958639?i=1583958971&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4vevrGPaGIdakuoWhzSnwl"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jamiroquai+Butterfly"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/196076007"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jamiroquai+Butterfly"
+            search_only: true
+      - artist: "Makoto Matsushita"
+        title: "This Is All I Have for You"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/this-is-all-i-have-for-you-2018-remaster/1447532396?i=1447532408&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2JEgJc3qlzTr96IBqfeulB"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Makoto+Matsushita+This+Is+All+I+Have+for+You"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/101330230"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Makoto+Matsushita+This+Is+All+I+Have+for+You"
+            search_only: true
+      - artist: "Kimiko Kasai"
+        title: "Vibration"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Kimiko+Kasai+Vibration"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Kimiko+Kasai+Vibration"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kimiko+Kasai+Vibration"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/206102481"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kimiko+Kasai+Vibration"
+            search_only: true
+      - artist: "Himiko Kikuchi"
+        title: "Baby Talk"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/baby-talk/1770715818?i=1770716232&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Himiko+Kikuchi+Baby+Talk"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Himiko+Kikuchi+Baby+Talk"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/389704252"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Himiko+Kikuchi+Baby+Talk"
+            search_only: true
+      - artist: "Earth, Wind & Fire"
+        title: "Can't Let Go"
+        kind: "track"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/cant-let-go/523223720?i=523223722&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6a44RET0b0enJMb5PVQlr8"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Earth%2C+Wind+%26+Fire+Can%27t+Let+Go"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/15180966"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Earth%2C+Wind+%26+Fire+Can%27t+Let+Go"
+            search_only: true
   - id: "01KSVD20WWXGEGNEQ6SAPCRJH1"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DXpWRjujwXT/"
