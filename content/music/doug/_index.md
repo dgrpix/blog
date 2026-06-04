@@ -8,11 +8,14 @@ submissions:
     title: "Каспийский Груз — Ночь"
     completed_at: "Jun 4, 2026 · 10:52 AM PDT"
     thumbnail: "/music/doug/thumbs/01KT9S30NAB9MZ57DMFF2YCD3Y.jpg"
+    via_fallback: true
     items:
       - artist: "Каспийский Груз"
         title: "Ночь"
         kind: "track"
         year: 2023
+        confidence: 0.2800
+        source: "audd"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=%D0%9A%D0%B0%D1%81%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%93%D1%80%D1%83%D0%B7+%D0%9D%D0%BE%D1%87%D1%8C"
@@ -38,6 +41,8 @@ submissions:
       - artist: "Young Gun Silver Fox"
         title: "Ticket to Shangri-La"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/ticket-to-shangri-la/1633523152?uo=4"
@@ -54,6 +59,8 @@ submissions:
       - artist: "Neal Francis"
         title: "Return to Zero"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/return-to-zero/1785090097?uo=4"
@@ -70,6 +77,8 @@ submissions:
       - artist: "Drugdealer"
         title: "Hiding in Plain Sight"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/hiding-in-plain-sight/1775760631?uo=4"
@@ -86,6 +95,8 @@ submissions:
       - artist: "The Heavy Heavy"
         title: "One of a Kind"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/one-of-a-kind/1747978035?uo=4"
@@ -102,6 +113,8 @@ submissions:
       - artist: "Durand Jones & the Indications"
         title: "Flowers"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/flowers/1797634063?uo=4"
@@ -118,6 +131,8 @@ submissions:
       - artist: "Smith & Liddle"
         title: "Songs for the Desert"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/songs-for-the-desert/1840126609?uo=4"
@@ -142,6 +157,8 @@ submissions:
         title: "I Know Where Mark Chen Lives"
         kind: "track"
         year: 2026
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/i-know-where-mark-chen-lives/1839918836?i=1839918837&uo=4"
@@ -159,6 +176,8 @@ submissions:
         title: "23"
         kind: "track"
         year: 2026
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/23/1858567363?i=1858567370&uo=4"
@@ -175,6 +194,8 @@ submissions:
       - artist: "Snail Mail"
         title: "Dead End"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/c-et-al/1636341239?i=1636341254&uo=4"
@@ -191,6 +212,8 @@ submissions:
       - artist: "Gabriella Richardson"
         title: "Mononoke"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Gabriella+Richardson+Mononoke"
@@ -209,6 +232,8 @@ submissions:
       - artist: "SAULT"
         title: "Good Things Will Come After the Pressure"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/good-things-will-come-after-the-pressure/1867311494?i=1867311825&uo=4"
@@ -225,6 +250,8 @@ submissions:
       - artist: "isobel"
         title: "limn"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/limn/1862595645?i=1862595647&uo=4"
@@ -241,6 +268,8 @@ submissions:
       - artist: "Vienna Vienna"
         title: "Molly"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/molly/1853893204?i=1853893515&uo=4"
@@ -257,6 +286,8 @@ submissions:
       - artist: "Ralph Castelli"
         title: "Spinning Rooms"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/spinning-rooms/1866311474?i=1866311738&uo=4"
@@ -273,6 +304,8 @@ submissions:
       - artist: "Haute & Freddy"
         title: "Dance The Pain Away"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/dance-the-pain-away/1862829699?i=1862829981&uo=4"
@@ -289,6 +322,8 @@ submissions:
       - artist: "MARO"
         title: "KISS ME"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/kiss-me/1866882504?i=1866882505&uo=4"
@@ -312,6 +347,8 @@ submissions:
       - artist: "Jamiroquai"
         title: "Butterfly"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/butterfly/1583958639?i=1583958971&uo=4"
@@ -328,6 +365,8 @@ submissions:
       - artist: "Makoto Matsushita"
         title: "This Is All I Have for You"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/this-is-all-i-have-for-you-2018-remaster/1447532396?i=1447532408&uo=4"
@@ -344,6 +383,8 @@ submissions:
       - artist: "Kimiko Kasai"
         title: "Vibration"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Kimiko+Kasai+Vibration"
@@ -362,6 +403,8 @@ submissions:
       - artist: "Himiko Kikuchi"
         title: "Baby Talk"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/baby-talk/1770715818?i=1770716232&uo=4"
@@ -379,6 +422,8 @@ submissions:
       - artist: "Earth, Wind & Fire"
         title: "Can't Let Go"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/cant-let-go/523223720?i=523223722&uo=4"
@@ -403,6 +448,8 @@ submissions:
         title: "ささやかれた夢の話"
         kind: "album"
         year: 1999
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/%E3%81%95%E3%81%95%E3%82%84%E3%81%8B%E3%82%8C%E3%81%9F%E5%A4%A2%E3%81%AE%E8%A9%B1/1539275295?uo=4"
@@ -421,6 +468,8 @@ submissions:
         title: "まわれ まわれ"
         kind: "track"
         year: 1999
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Atsuko+Hiyajo+%E3%81%BE%E3%82%8F%E3%82%8C+%E3%81%BE%E3%82%8F%E3%82%8C"
@@ -440,6 +489,8 @@ submissions:
         title: "hikari no dance"
         kind: "track"
         year: 1999
+        confidence: 0.8800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/hikari-no-dance/1539275295?i=1539275299&uo=4"
@@ -465,6 +516,8 @@ submissions:
         title: "Goodbye, Horses"
         kind: "track"
         year: 2010
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/goodbye-horses/405437519?i=405437691&uo=4"
@@ -489,6 +542,8 @@ submissions:
         title: "Last Summer Whisper"
         kind: "track"
         year: 1982
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/last-summer-whisper/834248212?i=834248226&uo=4"
@@ -506,6 +561,8 @@ submissions:
         title: "Heaven Beach"
         kind: "album"
         year: 1982
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/heaven-beach/834248212?uo=4"
@@ -524,6 +581,8 @@ submissions:
         title: "Baby Powder"
         kind: "track"
         year: 2019
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/baby-powder/1578938206?i=1578938429&uo=4"
@@ -541,6 +600,8 @@ submissions:
         title: "After 5 Clash"
         kind: "album"
         year: 1984
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/after-5-crash-tokyo-tower-%E5%88%9D%E6%81%8B-single/1683493947?uo=4"
@@ -566,6 +627,8 @@ submissions:
       - artist: "Inner Wave"
         title: "SWEET"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/sweet/1831132135?i=1831132139&uo=4"
@@ -583,6 +646,8 @@ submissions:
         title: "Allnighter"
         kind: "track"
         year: 2025
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/allnighter/1846632813?i=1846632823&uo=4"
@@ -599,6 +664,8 @@ submissions:
       - artist: "tomy wyne"
         title: "I'm in Luck"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/im-in-luck/1651149103?i=1651149104&uo=4"
@@ -623,6 +690,8 @@ submissions:
         title: "Time Limit"
         kind: "track"
         year: 1979
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/time-limit/1535034715?i=1535034719&uo=4"
@@ -641,6 +710,8 @@ submissions:
         title: "Casiopea"
         kind: "album"
         year: 1979
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
@@ -658,6 +729,8 @@ submissions:
         title: "Believin' / No Fuse"
         kind: "track"
         year: 1982
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/believin/1536954876?i=1536954877&uo=4"
@@ -676,6 +749,8 @@ submissions:
         title: "Celebration / Truth"
         kind: "track"
         year: 1987
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/celebration/1538800804?i=1538801196&uo=4"
@@ -694,6 +769,8 @@ submissions:
         title: "Baystreet Talking / Resort"
         kind: "track"
         year: 1983
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Native+Son+Baystreet+Talking+%2F+Resort"
@@ -714,6 +791,8 @@ submissions:
         title: "Unicorn / To Chi Ka"
         kind: "track"
         year: 1980
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/unicorn-live/1087188215?i=1087188403&uo=4"
@@ -738,6 +817,8 @@ submissions:
       - artist: "Gareth Donkin"
         title: "Please Don't Give Up!"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/please-dont-give-up/1862296629?i=1862296642&uo=4"
@@ -755,6 +836,8 @@ submissions:
         title: "Hold On (I Was Wrong)"
         kind: "track"
         year: 2018
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/hold-on-i-was-wrong/1826132167?i=1826132479&uo=4"
@@ -772,6 +855,8 @@ submissions:
         title: "Judas"
         kind: "track"
         year: 2022
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Summer+Vee%2C+Kenny+Sterling+Judas"
@@ -789,6 +874,8 @@ submissions:
       - artist: "Baylee Lefton"
         title: "Groove Like This"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Baylee+Lefton+Groove+Like+This"
@@ -815,6 +902,8 @@ submissions:
         title: "Memphis Unlimited"
         kind: "album"
         year: 1973
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/memphis-unlimited/1443557946?uo=4"
@@ -832,6 +921,8 @@ submissions:
         title: "I Can't Stand the Rain"
         kind: "album"
         year: 1974
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/i-cant-stand-the-rain/1074125635?uo=4"
@@ -849,6 +940,8 @@ submissions:
         title: "Harlan County"
         kind: "album"
         year: 1969
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/harlan-county/1442264875?uo=4"
@@ -866,6 +959,8 @@ submissions:
         title: "Betty Davis"
         kind: "album"
         year: 1973
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/betty-davis/1790499728?uo=4"
@@ -883,6 +978,8 @@ submissions:
         title: "Graffiti Blues"
         kind: "album"
         year: 1973
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/graffiti-blues/464154065?uo=4"
@@ -912,6 +1009,8 @@ submissions:
         title: "Rare Pleasure"
         kind: "album"
         year: 2021
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/rare-pleasure/1544857326?uo=4"
@@ -929,6 +1028,8 @@ submissions:
         title: "Variables"
         kind: "album"
         year: 2023
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Alfa+Mist+Variables"
@@ -947,6 +1048,8 @@ submissions:
         title: "On Vacation"
         kind: "album"
         year: 2021
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/on-vacation/1530968541?uo=4"
@@ -965,6 +1068,8 @@ submissions:
         title: "Resavoir"
         kind: "album"
         year: 2023
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/resavoir/1461014665?uo=4"
@@ -982,6 +1087,8 @@ submissions:
         title: "Freedom Fables"
         kind: "album"
         year: 2021
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/freedom-fables/1529513007?uo=4"
@@ -999,6 +1106,8 @@ submissions:
         title: "Memória Da Pedra Mãe"
         kind: "album"
         year: 2024
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/mem%C3%B3ria-da-pedra-m%C3%A3e/1728735308?uo=4"
@@ -1016,6 +1125,8 @@ submissions:
         title: "Deciphering The Message"
         kind: "album"
         year: 2021
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/deciphering-the-message/1581270929?uo=4"
@@ -1033,6 +1144,8 @@ submissions:
         title: "Endlessness"
         kind: "album"
         year: 2024
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/endlessness/1752836259?uo=4"
@@ -1050,6 +1163,8 @@ submissions:
         title: "Ibio-Ibio"
         kind: "album"
         year: 2022
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/ibio-ibio/1625140043?uo=4"
@@ -1067,6 +1182,8 @@ submissions:
         title: "Endless Era"
         kind: "album"
         year: 2022
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/endless-era/1651469454?uo=4"
@@ -1091,6 +1208,8 @@ submissions:
       - artist: "Jéroboam"
         title: "Take Me to New York"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/take-me-to-new-york/1719166468?i=1719166475&uo=4"
@@ -1107,6 +1226,8 @@ submissions:
       - artist: "Herbie Hancock"
         title: "I Thought It Was You"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/i-thought-it-was-you/278866052?i=278866130&uo=4"
@@ -1123,6 +1244,8 @@ submissions:
       - artist: "Brass Construction"
         title: "Happy People"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/happy-people/1436727898?i=1436728156&uo=4"
@@ -1139,6 +1262,8 @@ submissions:
       - artist: "Haywoode"
         title: "Single Handed"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Haywoode+Single+Handed"
@@ -1157,6 +1282,8 @@ submissions:
       - artist: "The Manhattans"
         title: "Crazy"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/crazy/1080488128?i=1080488130&uo=4"
@@ -1180,6 +1307,8 @@ submissions:
       - artist: "Yellowjackets"
         title: "Imperial Strut"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/imperial-strut/358058553?i=358058572&uo=4"
@@ -1196,6 +1325,8 @@ submissions:
       - artist: "Tower Of Power"
         title: "Soul With A Capital 'S'"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/soul-with-a-capital-s/193876066?i=193876191&uo=4"
@@ -1213,6 +1344,8 @@ submissions:
         title: "Summer Rain"
         kind: "track"
         year: 2003
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/summer-rain/1391404218?i=1391404484&uo=4"
@@ -1229,6 +1362,8 @@ submissions:
       - artist: "Fourplay"
         title: "101 Eastbound"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/101-eastbound/1306463758?i=1306464892&uo=4"
@@ -1253,6 +1388,8 @@ submissions:
         title: "Moon Safari"
         kind: "album"
         year: 1998
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/moon-safari/693063670?uo=4"
@@ -1270,6 +1407,8 @@ submissions:
         title: "Simple Things"
         kind: "album"
         year: 2001
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/simple-things/1814436320?uo=4"
@@ -1287,6 +1426,8 @@ submissions:
         title: "The Richest Man in Babylon"
         kind: "album"
         year: 2002
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Thievery+Corporation+The+Richest+Man+in+Babylon"
@@ -1304,6 +1445,8 @@ submissions:
       - artist: "Hôtel Costes"
         title: "Best 50"
         kind: "album"
+        confidence: 0.7800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/h%C3%B4tel-costes-5/314435494?uo=4"
@@ -1329,6 +1472,8 @@ submissions:
       - artist: "Slayyyter"
         title: "DANCE..."
         kind: "track"
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Slayyyter+DANCE..."
@@ -1346,6 +1491,8 @@ submissions:
       - artist: "Cannelle"
         title: "Fille"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Cannelle+Fille"
@@ -1363,6 +1510,8 @@ submissions:
       - artist: "Cobrah"
         title: "Good Puss"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Cobrah+Good+Puss"
@@ -1380,6 +1529,8 @@ submissions:
       - artist: "Ninajirachi"
         title: "Fuck My Computer"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Ninajirachi+Fuck+My+Computer"
@@ -1397,6 +1548,8 @@ submissions:
       - artist: "Nia Archives"
         title: "Danger"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/danger/1885824150?i=1885824152&uo=4"
@@ -1413,6 +1566,8 @@ submissions:
       - artist: "Magdalena Bay ft. Grimes"
         title: "Image"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/image-grimes-special/1776091218?i=1776091519&uo=4"
@@ -1430,6 +1585,8 @@ submissions:
       - artist: "Charli XCX"
         title: "Anthems"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/anthems/1513162098?i=1513162749&uo=4"
@@ -1446,6 +1603,8 @@ submissions:
       - artist: "PinkPantheress & Danny L Harle"
         title: "Starlight"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/starlight/1820160483?i=1820160678&uo=4"
@@ -1462,6 +1621,8 @@ submissions:
       - artist: "Mura Masa & Yeule"
         title: "We Are Making Out"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/we-are-making-out/1750461518?i=1750461521&uo=4"
@@ -1478,6 +1639,8 @@ submissions:
       - artist: "SOPHIE"
         title: "Immaterial"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/immaterial/1709023350?i=1709023790&uo=4"
@@ -1494,6 +1657,8 @@ submissions:
       - artist: "Shy Girl & Empress Of"
         title: "4eva"
         kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/4eva/1725825321?i=1725825336&uo=4"
@@ -1510,6 +1675,8 @@ submissions:
       - artist: "Now Always Fades"
         title: "Into the Doldrums"
         kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/into-the-doldrums/1808046509?i=1808046510&uo=4"
@@ -1526,6 +1693,8 @@ submissions:
       - artist: "Otha"
         title: "Club 20"
         kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/club-20/1769332424?i=1769332425&uo=4"
@@ -1542,6 +1711,8 @@ submissions:
       - artist: "Cowgirl Clue"
         title: "Angel Off Duty"
         kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/angel-off-duty/1840623210?i=1840623353&uo=4"
@@ -1558,6 +1729,8 @@ submissions:
       - artist: "Contact Sports"
         title: "Hydroxyzine"
         kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/hydroxyzine/1793573731?i=1793573733&uo=4"
@@ -1574,6 +1747,8 @@ submissions:
       - artist: "Ms* Gloom"
         title: "Something to Hold Onto"
         kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/something-to-hold-onto-harder/1819096242?i=1819096245&uo=4"
@@ -1590,6 +1765,8 @@ submissions:
       - artist: "Scissor Sisters"
         title: "Filthy/Gorgeous"
         kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/filthy-gorgeous/1445879942?i=1445880105&uo=4"
@@ -1606,6 +1783,8 @@ submissions:
       - artist: "Fcukers"
         title: "Bon Bon"
         kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/bon-bon-mixed/1780895825?i=1780896177&uo=4"
@@ -1622,6 +1801,8 @@ submissions:
       - artist: "FKA Twigs"
         title: "Love Crimes"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/love-crimes/1842161727?i=1842161728&uo=4"
@@ -1646,6 +1827,8 @@ submissions:
         title: "Vespertine"
         kind: "album"
         year: 2001
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/vespertine/20920260?uo=4"
@@ -1663,6 +1846,8 @@ submissions:
         title: "Art Angels"
         kind: "album"
         year: 2015
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Grimes+Art+Angels"
@@ -1681,6 +1866,8 @@ submissions:
         title: "Mercurial World"
         kind: "album"
         year: 2021
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/mercurial-world/1570541671?uo=4"
@@ -1698,6 +1885,8 @@ submissions:
         title: "Erotica"
         kind: "album"
         year: 1992
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/erotica/80814958?uo=4"
@@ -1715,6 +1904,8 @@ submissions:
         title: "E·MO·TION"
         kind: "album"
         year: 2015
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/e-mo-tion/1442810070?uo=4"
@@ -1733,6 +1924,8 @@ submissions:
         title: "Pure Heroine"
         kind: "album"
         year: 2013
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Lorde+Pure+Heroine"
@@ -1751,6 +1944,8 @@ submissions:
         title: "What's Your Pleasure?"
         kind: "album"
         year: 2020
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/whats-your-pleasure/1498945382?uo=4"
@@ -1768,6 +1963,8 @@ submissions:
         title: "Honeymoon"
         kind: "album"
         year: 2015
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Lana+Del+Rey+Honeymoon"
@@ -1786,6 +1983,8 @@ submissions:
         title: "Sweet Boy"
         kind: "album"
         year: 2024
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Malcolm+Todd+Sweet+Boy"
@@ -1804,6 +2003,8 @@ submissions:
         title: "SAWAYAMA"
         kind: "album"
         year: 2020
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Rina+Sawayama+SAWAYAMA"
@@ -1828,6 +2029,8 @@ submissions:
       - artist: "Isabel van Gelder"
         title: "my silly boy"
         kind: "track"
+        confidence: 0.8700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/my-silly-boy/1828331656?i=1828331657&uo=4"
@@ -1851,6 +2054,8 @@ submissions:
       - artist: "Yumi Murata"
         title: "Fushigi Okite"
         kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Yumi+Murata+Fushigi+Okite"
@@ -1869,6 +2074,8 @@ submissions:
       - artist: "Yumi Murata"
         title: "Uterus Uterus"
         kind: "album"
+        confidence: 0.8800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Yumi+Murata+Uterus+Uterus"
@@ -1896,6 +2103,8 @@ submissions:
         title: "It's Almost Like You're Here"
         kind: "track"
         year: 2025
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/its-almost-like-youre-here/1786163114?i=1786163115&uo=4"
@@ -1920,6 +2129,8 @@ submissions:
         title: "Not Me"
         kind: "track"
         year: 1986
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/not-me/545247463?i=545247960&uo=4"
@@ -1936,6 +2147,8 @@ submissions:
       - artist: "Felt"
         title: "Primitive Painters"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/primitive-painters/1564994100?i=1564994825&uo=4"
@@ -1952,6 +2165,8 @@ submissions:
       - artist: "The Cleaners From Venus"
         title: "Only a Shadow"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/only-a-shadow/1479309415?i=1479309538&uo=4"
@@ -1975,6 +2190,8 @@ submissions:
       - artist: "Soul Scream"
         title: "黒い月の夜"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Soul+Scream+%E9%BB%92%E3%81%84%E6%9C%88%E3%81%AE%E5%A4%9C"
@@ -1993,6 +2210,8 @@ submissions:
       - artist: "Yakkle ft. Shing02"
         title: "I Miss You"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Yakkle+ft.+Shing02+I+Miss+You"
@@ -2011,6 +2230,8 @@ submissions:
       - artist: "Coma-Chi"
         title: "Stand Alone"
         kind: "track"
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/stand-alone/1875228886?i=1875228889&uo=4"
@@ -2027,6 +2248,8 @@ submissions:
       - artist: "Scha Dara Parr"
         title: "Summer Jam '95"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/summer-jam-95/1697539252?i=1697539475&uo=4"
@@ -2044,6 +2267,8 @@ submissions:
       - artist: "M-Flo"
         title: "Quantum Leap (DJ Watarai Remix)"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/quantum-leap-dj-watarai-remix/1156382691?i=1156382694&uo=4"
@@ -2069,6 +2294,8 @@ submissions:
         title: "Hard To Handle"
         kind: "album"
         year: 2026
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Radiohop+Hard+To+Handle"
@@ -2093,6 +2320,8 @@ submissions:
       - artist: "Joshua Milo"
         title: "Golden Skies"
         kind: "track"
+        confidence: 0.7500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/golden-skies/1858052690?i=1858052691&uo=4"
@@ -2117,6 +2346,8 @@ submissions:
         title: "Dracula"
         kind: "track"
         year: 2025
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Tame+Impala+Dracula"
@@ -2135,6 +2366,8 @@ submissions:
         title: "Dracula (JENNIE Remix)"
         kind: "track"
         year: 2026
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/dracula-jennie-remix-instrumental/1895858156?i=6764633520&uo=4"
@@ -2158,6 +2391,8 @@ submissions:
       - artist: "ANRI"
         title: "Heaven Beach"
         kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/heaven-beach/834248212?uo=4"
@@ -2175,6 +2410,8 @@ submissions:
       - artist: "ANRI"
         title: "Bi·Ki·Ni"
         kind: "album"
+        confidence: 0.9300
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=ANRI+Bi%C2%B7Ki%C2%B7Ni"
@@ -2193,6 +2430,8 @@ submissions:
       - artist: "ANRI"
         title: "TIMELY!!"
         kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=ANRI+TIMELY%21%21"
@@ -2212,6 +2451,8 @@ submissions:
         title: "A Hope from Sad Street"
         kind: "track"
         year: 1983
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/a-hope-from-sad-street/283306771?i=283306775&uo=4"
@@ -2236,6 +2477,8 @@ submissions:
       - artist: "Miki Matsubara"
         title: "Mayonaka no Door / Stay with Me"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/mayonaka-no-door-stay-with-me/1562245335?i=1562245339&uo=4"
@@ -2252,6 +2495,8 @@ submissions:
       - artist: "Makoto Matsushita"
         title: "This Is All I Have for You"
         kind: "track"
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Makoto+Matsushita+This+Is+All+I+Have+for+You"
@@ -2269,6 +2514,8 @@ submissions:
       - artist: "Kingo Hamada"
         title: "Midnight Cruisin'"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Kingo+Hamada+Midnight+Cruisin%27"
@@ -2286,6 +2533,8 @@ submissions:
       - artist: "Minako Yoshida"
         title: "Let's Do It"
         kind: "track"
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/lets-do-it/1506827156?i=1506827159&uo=4"
@@ -2303,6 +2552,8 @@ submissions:
       - artist: "Yurie Kokuba"
         title: "Tobashite Taxi Man"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Yurie+Kokuba+Tobashite+Taxi+Man"
@@ -2321,6 +2572,8 @@ submissions:
       - artist: "Tatsuro Yamashita"
         title: "Kiska"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Kiska"
@@ -2347,6 +2600,8 @@ submissions:
         title: "SMIL"
         kind: "album"
         year: 2025
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=9ICK+SMIL"
@@ -2365,6 +2620,8 @@ submissions:
         title: "Morning Bike Ride feat. Nico Harris"
         kind: "track"
         year: 2025
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=9ICK+Morning+Bike+Ride+feat.+Nico+Harris"
@@ -2391,6 +2648,8 @@ submissions:
       - artist: "Ax and the Hatchetmen"
         title: "Hotel Room"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Ax+and+the+Hatchetmen+Hotel+Room"
@@ -2408,6 +2667,8 @@ submissions:
       - artist: "The Rare Occasions"
         title: "Origami"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/origami/1567092081?i=1567092082&uo=4"
@@ -2425,6 +2686,8 @@ submissions:
         title: "Euphoria"
         kind: "track"
         year: 2021
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/euphoria/1611037046?i=1611037054&uo=4"
@@ -2442,6 +2705,8 @@ submissions:
         title: "Ramen Waitress"
         kind: "track"
         year: 2017
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=High+Sunn+Ramen+Waitress"
@@ -2459,6 +2724,8 @@ submissions:
       - artist: "Post Modern Connection"
         title: "If You Care"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Post+Modern+Connection+If+You+Care"
@@ -2484,6 +2751,8 @@ submissions:
         title: "Monster"
         kind: "album"
         year: 1980
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/monster/1120796406?uo=4"
@@ -2501,6 +2770,8 @@ submissions:
         title: "Saturday Night"
         kind: "track"
         year: 1983
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Oliver+Cheatham+Saturday+Night"
@@ -2526,6 +2797,8 @@ submissions:
         title: "Seychelles"
         kind: "album"
         year: 1976
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+Seychelles"
@@ -2544,6 +2817,8 @@ submissions:
         title: "Pacific"
         kind: "album"
         year: 1978
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Haruomi+Hosono+%2F+Shigeru+Suzuki+Pacific"
@@ -2563,6 +2838,8 @@ submissions:
         title: "Frevo!"
         kind: "album"
         year: 2011
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=%E3%82%B3%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%A4+Frevo%21"
@@ -2588,6 +2865,8 @@ submissions:
         title: "GHOST"
         kind: "track"
         year: 2025
+        confidence: 0.8800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Farmboy+GHOST"
@@ -2606,6 +2885,8 @@ submissions:
         title: "mother nature"
         kind: "track"
         year: 2024
+        confidence: 0.7500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Butterknife+mother+nature"
@@ -2631,6 +2912,8 @@ submissions:
         title: "2"
         kind: "album"
         year: 2012
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/2/561048714?uo=4"
@@ -2647,6 +2930,8 @@ submissions:
       - artist: "Haruomi Hosono & Shigeru Suzuki"
         title: "Pacific"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
@@ -2665,6 +2950,8 @@ submissions:
       - artist: "Gustavo Cerati"
         title: "+ Bien"
         kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Gustavo+Cerati+%2B+Bien"
@@ -2682,6 +2969,8 @@ submissions:
       - artist: "Duan Wasi"
         title: "Licious"
         kind: "album"
+        confidence: 0.8800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Duan+Wasi+Licious"
@@ -2706,6 +2995,8 @@ submissions:
       - artist: "The House Of Love"
         title: "I Don't Know Why I Love You"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=The+House+Of+Love+I+Don%27t+Know+Why+I+Love+You"
@@ -2724,6 +3015,8 @@ submissions:
         title: "Beautiful Alone"
         kind: "track"
         year: 1996
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Strangelove+Beautiful+Alone"
@@ -2741,6 +3034,8 @@ submissions:
       - artist: "Teenage Fanclub"
         title: "Sparky's Dreams"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/sparkys-dream/1443912606?i=1443912825&uo=4"
@@ -2765,6 +3060,8 @@ submissions:
       - artist: "Risk Assessment"
         title: "2 People (Stereo:Type)"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Risk+Assessment+2+People+%28Stereo%3AType%29"
@@ -2783,6 +3080,8 @@ submissions:
       - artist: "Mark Picchiotti & Javi Star"
         title: "Do You Wanna Funk"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/do-you-wanna-funk/1876961312?i=1876961313&uo=4"
@@ -2800,6 +3099,8 @@ submissions:
         title: "Clap Your Hands"
         kind: "track"
         year: 2026
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/clap-your-hands/1880159102?i=1880159103&uo=4"
@@ -2816,6 +3117,8 @@ submissions:
       - artist: "Boogietraxx"
         title: "Love Power"
         kind: "track"
+        confidence: 0.8200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/love-power/1877810298?i=1877810449&uo=4"
@@ -2832,6 +3135,8 @@ submissions:
       - artist: "Rue Jay & DJ Rae"
         title: "Free My Would"
         kind: "track"
+        confidence: 0.8200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Rue+Jay+%26+DJ+Rae+Free+My+Would"
@@ -2858,6 +3163,8 @@ submissions:
         title: "Modal Soul"
         kind: "album"
         year: 2005
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Nujabes+Modal+Soul"
@@ -2876,6 +3183,8 @@ submissions:
         title: "Heligoland"
         kind: "album"
         year: 2010
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Massive+Attack+Heligoland"
@@ -2894,6 +3203,8 @@ submissions:
         title: "Homogenic"
         kind: "album"
         year: 1997
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Bj%C3%B6rk+Homogenic"
@@ -2912,6 +3223,8 @@ submissions:
         title: "Among My Swan"
         kind: "album"
         year: 1996
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Mazzy+Star+Among+My+Swan"
@@ -2930,6 +3243,8 @@ submissions:
         title: "Nowhere Near"
         kind: "track"
         year: 1993
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Yo+La+Tengo+Nowhere+Near"
@@ -2955,6 +3270,8 @@ submissions:
         title: "As the Clock Rewinds"
         kind: "track"
         year: 2024
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Mid+September+As+the+Clock+Rewinds"
@@ -2973,6 +3290,8 @@ submissions:
         title: "Perpetuation"
         kind: "album"
         year: 2024
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Mid+September+Perpetuation"
@@ -2997,6 +3316,8 @@ submissions:
       - artist: "Joe P"
         title: "Glass House - Stripped"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Joe+P+Glass+House+-+Stripped"
@@ -3014,6 +3335,8 @@ submissions:
       - artist: "Amadeezy"
         title: "Bass Boss"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Amadeezy+Bass+Boss"
@@ -3032,6 +3355,8 @@ submissions:
         title: "It Could Be Nice"
         kind: "track"
         year: 2023
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Chet+Faker+It+Could+Be+Nice"
@@ -3056,6 +3381,8 @@ submissions:
       - artist: "Astels"
         title: "On My Knees"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Astels+On+My+Knees"
@@ -3073,6 +3400,8 @@ submissions:
       - artist: "Summer Vee, Kenny Sterling"
         title: "Judas"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Summer+Vee%2C+Kenny+Sterling+Judas"
@@ -3091,6 +3420,8 @@ submissions:
         title: "2 AM"
         kind: "track"
         year: 2023
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Antonio+Barret%2C+Nice+Guys+2+AM"
@@ -3109,6 +3440,8 @@ submissions:
         title: "Beggin' Man"
         kind: "track"
         year: 2022
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Evil+Genius%2C+Isaac+Waddington+Beggin%27+Man"
@@ -3126,6 +3459,8 @@ submissions:
       - artist: "Lynda Dawn"
         title: "Fonk Street"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Lynda+Dawn+Fonk+Street"
@@ -3151,6 +3486,8 @@ submissions:
         title: "Motion Less V2"
         kind: "track"
         year: 2026
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=NIKOLAI+NITE+Motion+Less+V2"
@@ -3176,6 +3513,8 @@ submissions:
         title: "Synthwave Dream"
         kind: "track"
         year: 2024
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Lowtone+Music+Synthwave+Dream"
@@ -3205,6 +3544,8 @@ submissions:
       - artist: "Casiopea"
         title: "Casiopea"
         kind: "album"
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Casiopea+Casiopea"
@@ -3223,6 +3564,8 @@ submissions:
         title: "Love Light"
         kind: "album"
         year: 1978
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Yutaka+Yokokura+Love+Light"
@@ -3249,6 +3592,8 @@ submissions:
       - artist: "Max Sinál, KingCrowney, Liv East"
         title: "Intentions"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Max+Sin%C3%A1l%2C+KingCrowney%2C+Liv+East+Intentions"
@@ -3267,6 +3612,8 @@ submissions:
         title: "bisou"
         kind: "track"
         year: 2025
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=F%C3%89LIN%C3%89+bisou"
@@ -3285,6 +3632,8 @@ submissions:
         title: "Energy"
         kind: "track"
         year: 2026
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Gabriel+Energy"
@@ -3302,6 +3651,8 @@ submissions:
       - artist: "Baylee Lefton"
         title: "you like jazz?"
         kind: "album"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Baylee+Lefton+you+like+jazz%3F"
@@ -3329,6 +3680,8 @@ submissions:
         title: "Paititi"
         kind: "track"
         year: 2026
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=CAVS+Paititi"
@@ -3347,6 +3700,8 @@ submissions:
       - artist: "CAVS"
         title: "Sojourn"
         kind: "album"
+        confidence: 0.9300
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=CAVS+Sojourn"
@@ -3373,6 +3728,8 @@ submissions:
         title: "Kinou Kara no Eshaku"
         kind: "track"
         year: 1982
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Minako+Ito+Kinou+Kara+no+Eshaku"
@@ -3392,6 +3749,8 @@ submissions:
         title: "Stormy Night"
         kind: "track"
         year: 1988
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Makiko+Imai+Stormy+Night"
@@ -3412,6 +3771,8 @@ submissions:
         title: "Mirai Shoujo"
         kind: "track"
         year: 1986
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Satomi+Sawa+Mirai+Shoujo"
@@ -3432,6 +3793,8 @@ submissions:
         title: "Tokimeki Towairaito"
         kind: "track"
         year: 1985
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Rika+Tatsumi+Tokimeki+Towairaito"
@@ -3451,6 +3814,8 @@ submissions:
       - artist: "Ruiko Kurahashi"
         title: "Sérénade"
         kind: "track"
+        confidence: 0.8800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Ruiko+Kurahashi+S%C3%A9r%C3%A9nade"
@@ -3475,6 +3840,8 @@ submissions:
       - artist: "Spooki, Vylem, Domi Jones"
         title: "Let It Go"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Spooki%2C+Vylem%2C+Domi+Jones+Let+It+Go"
@@ -3493,6 +3860,8 @@ submissions:
       - artist: "MGR Mike"
         title: "Fountains"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=MGR+Mike+Fountains"
@@ -3511,6 +3880,8 @@ submissions:
         title: "Liquid Love"
         kind: "track"
         year: 2026
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Walt+J+Liquid+Love"
@@ -3528,6 +3899,8 @@ submissions:
       - artist: "Milton Shadow"
         title: "On You"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Milton+Shadow+On+You"
@@ -3545,6 +3918,8 @@ submissions:
       - artist: "Kotti Affair"
         title: "Why Don't You Love Me"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Kotti+Affair+Why+Don%27t+You+Love+Me"
@@ -3570,6 +3945,8 @@ submissions:
         title: "Something Wonderful"
         kind: "album"
         year: 1960
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Nancy+Wilson+Something+Wonderful"
@@ -3588,6 +3965,8 @@ submissions:
         title: "Blossom Dearie"
         kind: "album"
         year: 1957
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Blossom+Dearie+Blossom+Dearie"
@@ -3613,6 +3992,8 @@ submissions:
         title: "Praja Magia"
         kind: "track"
         year: 2022
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Nu+Genea+Praja+Magia"
@@ -3630,6 +4011,8 @@ submissions:
       - artist: "Nu Genea"
         title: "Bar Mediterraneo"
         kind: "album"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Nu+Genea+Bar+Mediterraneo"
@@ -3654,6 +4037,8 @@ submissions:
       - artist: "Jamiroquai"
         title: "Music of the Mind"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Jamiroquai+Music+of+the+Mind"
@@ -3672,6 +4057,8 @@ submissions:
         title: "Emergency On Planet Earth"
         kind: "album"
         year: 1993
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Jamiroquai+Emergency+On+Planet+Earth"
@@ -3689,6 +4076,8 @@ submissions:
       - artist: "Makoto Matsushita"
         title: "First Light"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Makoto+Matsushita+First+Light"
@@ -3706,6 +4095,8 @@ submissions:
       - artist: "Masaki Matsubara"
         title: "Tequila Toast"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Masaki+Matsubara+Tequila+Toast"
@@ -3724,6 +4115,8 @@ submissions:
       - artist: "Masaki Matsubara"
         title: "Painted Woman"
         kind: "album"
+        confidence: 0.9300
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Masaki+Matsubara+Painted+Woman"
@@ -3742,6 +4135,8 @@ submissions:
       - artist: "Nujabes"
         title: "World's End Rhapsody"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Nujabes+World%27s+End+Rhapsody"
@@ -3759,6 +4154,8 @@ submissions:
       - artist: "Nujabes"
         title: "Modal Soul"
         kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Nujabes+Modal+Soul"
@@ -3776,6 +4173,8 @@ submissions:
       - artist: "Naomi Akimoto"
         title: "Bewitched"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Naomi+Akimoto+Bewitched"
@@ -3793,6 +4192,8 @@ submissions:
       - artist: "Masayoshi Takanaka"
         title: "Brasilian Skies"
         kind: "album"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+Brasilian+Skies"
@@ -3810,6 +4211,8 @@ submissions:
       - artist: "Masayoshi Takanaka"
         title: "All of Me"
         kind: "album"
+        confidence: 0.8200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+All+of+Me"
@@ -3827,6 +4230,8 @@ submissions:
       - artist: "Masayoshi Takanaka"
         title: "Sayahellen"
         kind: "album"
+        confidence: 0.7500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+Sayahellen"
@@ -3846,6 +4251,8 @@ submissions:
         title: "Remember Summer Days"
         kind: "track"
         year: 1983
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Anri+Remember+Summer+Days"
@@ -3871,6 +4278,8 @@ submissions:
         title: "2"
         kind: "album"
         year: 2012
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/2/561048714?uo=4"
@@ -3887,6 +4296,8 @@ submissions:
       - artist: "Haruomi Hosono & Shigeru Suzuki"
         title: "Pacific"
         kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
@@ -3905,6 +4316,8 @@ submissions:
       - artist: "Gustavo Cerati"
         title: "+ Bien"
         kind: "album"
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Gustavo+Cerati+%2B+Bien"
@@ -3922,6 +4335,8 @@ submissions:
       - artist: "Duan Wasi"
         title: "Licious"
         kind: "album"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Duan+Wasi+Licious"
@@ -3947,6 +4362,8 @@ submissions:
         title: "Stand on the Word"
         kind: "track"
         year: 1982
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Joubert+Singers+Stand+on+the+Word"
@@ -3971,6 +4388,8 @@ submissions:
       - artist: "Trendformusic"
         title: "sidewalks and skeletons goth"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Trendformusic+sidewalks+and+skeletons+goth"
@@ -3997,6 +4416,8 @@ submissions:
       - artist: "Justine Skye"
         title: "Collide (sped up)"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Justine+Skye+Collide+%28sped+up%29"
@@ -4023,6 +4444,8 @@ submissions:
         title: "Beat It"
         kind: "track"
         year: 2008
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Michael+Jackson+Beat+It"
@@ -4052,6 +4475,8 @@ submissions:
       - artist: "Earth N Days"
         title: "On The Ground"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Earth+N+Days+On+The+Ground"
@@ -4069,6 +4494,8 @@ submissions:
       - artist: "Definite Grooves"
         title: "Don't Do Disco"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Definite+Grooves+Don%27t+Do+Disco"
@@ -4086,6 +4513,8 @@ submissions:
       - artist: "Boogietraxx & Dynamique"
         title: "The Games You Play"
         kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Boogietraxx+%26+Dynamique+The+Games+You+Play"
@@ -4104,6 +4533,8 @@ submissions:
         title: "Disco Cherry"
         kind: "track"
         year: 2026
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Purple+Disco+Machine+Disco+Cherry"
@@ -4121,6 +4552,8 @@ submissions:
       - artist: "Zsak"
         title: "I Like Deep"
         kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Zsak+I+Like+Deep"
@@ -4145,6 +4578,8 @@ submissions:
       - artist: "Junko Ohashi"
         title: "テレフォン・ナンバー (電話号碼)"
         kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Junko+Ohashi+%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC+%28%E9%9B%BB%E8%A9%B1%E5%8F%B7%E7%A2%BC%29"
@@ -4164,6 +4599,8 @@ submissions:
       - artist: "JADOES"
         title: "Stardust Night"
         kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=JADOES+Stardust+Night"
@@ -4182,6 +4619,8 @@ submissions:
       - artist: "Michiru Kojima"
         title: "Best Friend"
         kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Michiru+Kojima+Best+Friend"
@@ -4200,6 +4639,8 @@ submissions:
       - artist: "ANRI"
         title: "Remember Summer Days"
         kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=ANRI+Remember+Summer+Days"
@@ -4224,6 +4665,8 @@ submissions:
       - artist: "Men I Trust"
         title: "Oncle Jazz"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Men+I+Trust+Oncle+Jazz"
@@ -4242,6 +4685,8 @@ submissions:
         title: "El Bueno Y El Malo"
         kind: "album"
         year: 2022
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo"
@@ -4260,6 +4705,8 @@ submissions:
         title: "Bar Mediterraneo"
         kind: "album"
         year: 2021
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Nu+Genea+Bar+Mediterraneo"
@@ -4277,6 +4724,8 @@ submissions:
       - artist: "Arc De Soleil"
         title: "Arc De Soleil"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Arc+De+Soleil+Arc+De+Soleil"
@@ -4302,6 +4751,8 @@ submissions:
       - artist: "Savanna"
         title: "Never Let You Go"
         kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Savanna+Never+Let+You+Go"
@@ -4320,6 +4771,8 @@ submissions:
         title: "We All Need One Another"
         kind: "track"
         year: 2018
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Stylus+We+All+Need+One+Another"
@@ -4338,6 +4791,8 @@ submissions:
         title: "I Heard the Voice of Music Say"
         kind: "track"
         year: 1977
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Sunbear+I+Heard+the+Voice+of+Music+Say"
@@ -4363,6 +4818,8 @@ submissions:
         title: "Super People"
         kind: "track"
         year: 2015
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Sunlightsquare+Super+People"
@@ -4388,6 +4845,8 @@ submissions:
         title: "The Night Forgives, But Never Forgets"
         kind: "track"
         year: 2025
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Smoke+%26+Sonata+The+Night+Forgives%2C+But+Never+Forgets"
@@ -4412,6 +4871,8 @@ submissions:
       - artist: "Johnny Hammond"
         title: "Gears"
         kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Johnny+Hammond+Gears"
@@ -4429,6 +4890,8 @@ submissions:
       - artist: "Hank Mobley"
         title: "Soul Station"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Hank+Mobley+Soul+Station"
@@ -4446,6 +4909,8 @@ submissions:
       - artist: "Weather Report"
         title: "Heavy Weather"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Weather+Report+Heavy+Weather"
@@ -4463,6 +4928,8 @@ submissions:
       - artist: "Casiopea"
         title: "Casiopea"
         kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Casiopea+Casiopea"
@@ -4480,6 +4947,8 @@ submissions:
       - artist: "Butcher Brown"
         title: "Letters from the Atlantic"
         kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Butcher+Brown+Letters+from+the+Atlantic"
@@ -4505,6 +4974,8 @@ submissions:
         title: "Big Don"
         kind: "track"
         year: 2025
+        confidence: 0.9000
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=The+Ted%2C+Sam+Donovan+Big+Don"
@@ -4524,6 +4995,8 @@ submissions:
       - artist: "Justin Timberlake"
         title: "The 20/20 Experience"
         kind: "album"
+        confidence: 0.7200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Justin+Timberlake+The+20%2F20+Experience"
@@ -4549,6 +5022,8 @@ submissions:
         title: "For You"
         kind: "album"
         year: 1982
+        confidence: 0.9900
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+For+You"
@@ -4568,6 +5043,8 @@ submissions:
         title: "Sparkle"
         kind: "track"
         year: 1982
+        confidence: 0.9700
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Sparkle"
@@ -4587,6 +5064,8 @@ submissions:
         title: "Music Book"
         kind: "track"
         year: 1982
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Music+Book"
@@ -4606,6 +5085,8 @@ submissions:
         title: "Morning Glory"
         kind: "track"
         year: 1982
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Morning+Glory"
@@ -4625,6 +5106,8 @@ submissions:
         title: "Love Talkin'"
         kind: "track"
         year: 1982
+        confidence: 0.9200
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Love+Talkin%27"
@@ -4651,6 +5134,8 @@ submissions:
         title: "Tieduprightnow"
         kind: "track"
         year: 2018
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Parcels+Tieduprightnow"
@@ -4676,6 +5161,8 @@ submissions:
         title: "It's A Sweet Day"
         kind: "track"
         year: 2025
+        confidence: 0.8500
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=Winta+It%27s+A+Sweet+Day"
@@ -4702,6 +5189,8 @@ submissions:
         title: "CHOOM"
         kind: "track"
         year: 2026
+        confidence: 0.9800
+        source: "synthesis"
         links:
           - service: "apple_music"
             url: "https://music.apple.com/us/search?term=BABYMONSTER+CHOOM"
