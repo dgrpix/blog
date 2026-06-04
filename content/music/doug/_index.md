@@ -2,6 +2,32 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KT9S30NAB9MZ57DMFF2YCD3Y"
+    status: "completed"
+    source_url: "https://youtube.com/shorts/b9qASD3gTzk?si=eIkQEmP29jUsIekX"
+    title: "Каспийский Груз — Ночь"
+    completed_at: "Jun 4, 2026 · 10:52 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KT9S30NAB9MZ57DMFF2YCD3Y.jpg"
+    items:
+      - artist: "Каспийский Груз"
+        title: "Ночь"
+        kind: "track"
+        year: 2023
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=%D0%9A%D0%B0%D1%81%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%93%D1%80%D1%83%D0%B7+%D0%9D%D0%BE%D1%87%D1%8C"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=%D0%9A%D0%B0%D1%81%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%93%D1%80%D1%83%D0%B7+%D0%9D%D0%BE%D1%87%D1%8C"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=%D0%9A%D0%B0%D1%81%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%93%D1%80%D1%83%D0%B7+%D0%9D%D0%BE%D1%87%D1%8C"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/273713263"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=%D0%9A%D0%B0%D1%81%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%93%D1%80%D1%83%D0%B7+%D0%9D%D0%BE%D1%87%D1%8C"
+            search_only: true
   - id: "01KT584MNTH1B2DAAQE1VSKTE0"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZDIUyGxz_c/"
