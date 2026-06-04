@@ -40,9 +40,13 @@
       {{- if $sub.items }}
       <ul class="music-tracks">
         {{- range $sub.items }}
+        {{- $pct := "" -}}
+        {{- if and $sub.via_fallback .confidence -}}
+          {{- $pct = printf "%.0f%%" (mul .confidence 100.0) -}}
+        {{- end }}
         <li class="music-track">
           <div class="music-track-text">
-            <div class="music-track-title"><strong>{{ .artist }} &mdash; <em>{{ .title }}</em></strong>{{ with .year }} ({{ . }}){{ end }}{{ if eq .kind "album" }} <span class="music-track-kind">(album)</span>{{ end }}</div>
+            <div class="music-track-title"><strong>{{ .artist }} &mdash; <em>{{ .title }}</em></strong>{{ with .year }} ({{ . }}){{ end }}{{ if eq .kind "album" }} <span class="music-track-kind">(album)</span>{{ end }}{{ with $pct }} <span class="music-track-fallback" title="Identified via AudD fallback — confidence {{ . }}">({{ . }})</span>{{ end }}</div>
           </div>
           {{- with .links }}
           <div class="music-track-links">
