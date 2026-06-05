@@ -2,6 +2,110 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KTCE2QAZFY6ZE0GCWGKPSP10"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DVrfDE4iPFx/"
+    title: "5 Classic Change Tracks"
+    completed_at: "Jun 5, 2026 · 10:45 AM PDT"
+    thumbnail: "/music/doug/thumbs/01KTCE2QAZFY6ZE0GCWGKPSP10.jpg"
+    items:
+      - artist: "Change"
+        title: "Hold Tight"
+        kind: "track"
+        year: 1981
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/hold-tight-lp-version/76022266?i=76022083&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4bh0r5EmhGg8bPmoy4KjUK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Change+Hold+Tight"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/381009"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Change+Hold+Tight"
+            search_only: true
+      - artist: "Change"
+        title: "Heaven of My Life"
+        kind: "track"
+        year: 1981
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/heaven-of-my-life-mixed/1693184439?i=1693184541&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Change+Heaven+of+My+Life"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Change+Heaven+of+My+Life"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Change+Heaven+of+My+Life"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Change+Heaven+of+My+Life"
+            search_only: true
+      - artist: "Change"
+        title: "On Top"
+        kind: "track"
+        year: 1981
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/on-top-lp-version/74222951?i=74222926&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5OLlacfcKS7fFQf9Hp3awU"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Change+On+Top"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/381001"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Change+On+Top"
+            search_only: true
+      - artist: "Change"
+        title: "Angel In My Pocket"
+        kind: "track"
+        year: 1980
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/angel-in-my-pocket-mixed/1636732967?i=1636733103&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4vIptTfxHllazeXUmp3J1Y"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Change+Angel+In+My+Pocket"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/62260037"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Change+Angel+In+My+Pocket"
+            search_only: true
+      - artist: "Change"
+        title: "Change of Heart"
+        kind: "track"
+        year: 1984
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/change-of-heart-lp-version/74222772?i=74222237&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6owwCN8xHO9DSHC0ec5454"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Change+Change+of+Heart"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/87549626"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Change+Change+of+Heart"
+            search_only: true
   - id: "01KT9S30NAB9MZ57DMFF2YCD3Y"
     status: "completed"
     source_url: "https://youtube.com/shorts/b9qASD3gTzk?si=eIkQEmP29jUsIekX"
