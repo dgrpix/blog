@@ -5,4 +5,4 @@ description: "Music identified from short videos."
 
 ## People
 
-- [Doug](/music/doug/)
+- [dgrpix](/music/dgrpix/)

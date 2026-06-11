@@ -1,5 +1,5 @@
 ---
-title: "Doug’s music finds"
+title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
   - id: "01KTT14RC5DHK761YC0WGSKK5S"
@@ -7,7 +7,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DZaFtBqunPm/"
     title: "Ice-T meets RUN-DMC (DJ Mashup)"
     completed_at: "Jun 10, 2026 · 5:28 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KTT14RC5DHK761YC0WGSKK5S.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KTT14RC5DHK761YC0WGSKK5S.jpg"
     items:
       - artist: "RUN-DMC"
         title: "My Adidas"
@@ -54,7 +54,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVrfDE4iPFx/"
     title: "5 Classic Change Tracks"
     completed_at: "Jun 5, 2026 · 10:45 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KTCE2QAZFY6ZE0GCWGKPSP10.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KTCE2QAZFY6ZE0GCWGKPSP10.jpg"
     items:
       - artist: "Change"
         title: "Hold Tight"
@@ -158,7 +158,7 @@ submissions:
     source_url: "https://youtube.com/shorts/b9qASD3gTzk?si=eIkQEmP29jUsIekX"
     title: "Каспийский Груз — Ночь"
     completed_at: "Jun 4, 2026 · 10:52 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KT9S30NAB9MZ57DMFF2YCD3Y.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KT9S30NAB9MZ57DMFF2YCD3Y.jpg"
     via_fallback: true
     items:
       - artist: "Каспийский Груз"
@@ -187,7 +187,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DZDIUyGxz_c/"
     title: "6 Modern Albums That Sound Like the 60s/70s"
     completed_at: "Jun 2, 2026 · 3:46 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KT584MNTH1B2DAAQE1VSKTE0.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KT584MNTH1B2DAAQE1VSKTE0.jpg"
     items:
       - artist: "Young Gun Silver Fox"
         title: "Ticket to Shangri-La"
@@ -302,7 +302,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DUHwMCNClwI/"
     title: "New Music Picks – January 2026"
     completed_at: "May 30, 2026 · 8:54 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KSWSBVEKC595P4BW3QB91Q50.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSWSBVEKC595P4BW3QB91Q50.jpg"
     items:
       - artist: "Joyce Manor"
         title: "I Know Where Mark Chen Lives"
@@ -493,7 +493,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DSK0abDEQC6/"
     title: "Keep On Groovin — 5 Funky Vinyl Picks"
     completed_at: "May 29, 2026 · 10:11 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSVMJ7KAGPREMBKP8K5MSPE5.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSVMJ7KAGPREMBKP8K5MSPE5.jpg"
     items:
       - artist: "Jamiroquai"
         title: "Butterfly"
@@ -593,7 +593,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXpWRjujwXT/"
     title: "Late 90s City Pop Gem — Atsuko Hiyajo"
     completed_at: "May 29, 2026 · 8:00 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSVD20WWXGEGNEQ6SAPCRJH1.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSVD20WWXGEGNEQ6SAPCRJH1.jpg"
     items:
       - artist: "Atsuko Hiyajo"
         title: "ささやかれた夢の話"
@@ -661,7 +661,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DY1WyrZtnjI/"
     title: "Goodbye, Horses (Q Lazzarus & Garvey)"
     completed_at: "May 28, 2026 · 4:34 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSREWMZ8F02F5FHSDHNBG2KX.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSREWMZ8F02F5FHSDHNBG2KX.jpg"
     items:
       - artist: "Q Lazzarus & Garvey"
         title: "Goodbye, Horses"
@@ -687,7 +687,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWkDumBklTb/"
     title: "80s City Pop & Modern R&B — Anri + Jenevieve"
     completed_at: "May 28, 2026 · 2:12 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSR5CEYYCD2VY9FPK660H8JA.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSR5CEYYCD2VY9FPK660H8JA.jpg"
     items:
       - artist: "Anri"
         title: "Last Summer Whisper"
@@ -773,7 +773,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DW9aGG7jZgd/?igsh=NjZiM2M3MzIxNA=="
     title: "Indie for Late Nights — 3 Track Picks"
     completed_at: "May 28, 2026 · 2:09 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSR0FSA52CVV99CE1R2JBFEC.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSR0FSA52CVV99CE1R2JBFEC.jpg"
     items:
       - artist: "Inner Wave"
         title: "SWEET"
@@ -835,7 +835,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DY2qErzh_Jh/"
     title: "5 Japanese Jazz Fusion Tracks to Drive To"
     completed_at: "May 27, 2026 · 6:46 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSP421TBXEEEJ2PEFC00Q8HZ.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSP421TBXEEEJ2PEFC00Q8HZ.jpg"
     items:
       - artist: "Casiopea"
         title: "Time Limit"
@@ -963,7 +963,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYxem9FB8dM/"
     title: "Fun & Groovy Music Picks (4 Tracks)"
     completed_at: "May 26, 2026 · 8:51 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KSJFJX38SWDXT2C2EN1Z1552.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSJFJX38SWDXT2C2EN1Z1552.jpg"
     items:
       - artist: "Gareth Donkin"
         title: "Please Don't Give Up!"
@@ -1047,7 +1047,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYiHm0MSTtM/"
     title: "Five Soul/Funk Under the Radar Bangers"
     completed_at: "May 25, 2026 · 7:30 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KSFRJ7XN14JE7PCWPCNJDYSK.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSFRJ7XN14JE7PCWPCNJDYSK.jpg"
     items:
       - artist: "O.V. Wright"
         title: "Memphis Unlimited"
@@ -1148,13 +1148,13 @@ submissions:
     status: "failed"
     source_url: "https://www.instagram.com/p/DYe0sVRDTIc/"
     completed_at: "May 27, 2026 · 6:44 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSEMK123VP751X6PB247RVGC.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSEMK123VP751X6PB247RVGC.jpg"
   - id: "01KSEMAQ15PC5265DSM84TBE1G"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DWo0G3KIW9V/"
     title: "10 Modern Jazz Records (Vol. 3)"
     completed_at: "May 24, 2026 · 8:57 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSEMAQ15PC5265DSM84TBE1G.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSEMAQ15PC5265DSM84TBE1G.jpg"
     items:
       - artist: "Mndsgn"
         title: "Rare Pleasure"
@@ -1354,7 +1354,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYfUk0RAXHd/?igsh=NjZiM2M3MzIxNA=="
     title: "5 Funky Songs I'm Loving Right Now"
     completed_at: "May 23, 2026 · 8:27 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSC06R65AW6SZ87154ZMCKYM.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSC06R65AW6SZ87154ZMCKYM.jpg"
     items:
       - artist: "Jéroboam"
         title: "Take Me to New York"
@@ -1453,7 +1453,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYXFgKyK8ik/"
     title: "4 Funk Fusion Tracks That Will Blow Your Mind"
     completed_at: "May 23, 2026 · 7:10 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KSBVV5XVR7PTWTS6EACY0PRS.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KSBVV5XVR7PTWTS6EACY0PRS.jpg"
     items:
       - artist: "Yellowjackets"
         title: "Imperial Strut"
@@ -1533,7 +1533,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYnXFugBwp7/"
     title: "90s–00s Club Lounge Music Starter Kit"
     completed_at: "May 22, 2026 · 12:02 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS8GZ72XER6FRD3PVB5TTW8Z.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS8GZ72XER6FRD3PVB5TTW8Z.jpg"
     items:
       - artist: "AIR"
         title: "Moon Safari"
@@ -1618,7 +1618,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYhmsoGuFYA/"
     title: "Songs for Hot Girls Who Wanna Dance — Playlist"
     completed_at: "May 21, 2026 · 6:59 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS6MJ7NG3YVN84Q6J0SF5Z0J.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS6MJ7NG3YVN84Q6J0SF5Z0J.jpg"
     items:
       - artist: "Slayyyter"
         title: "DANCE..."
@@ -1972,7 +1972,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYlDIyGCor-/"
     title: "10 Perfect Pop Albums With No Skips"
     completed_at: "May 21, 2026 · 3:16 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS69QADH2S8A1B4S2JF7CN69.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS69QADH2S8A1B4S2JF7CN69.jpg"
     items:
       - artist: "Björk"
         title: "Vespertine"
@@ -2175,7 +2175,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYcA-VlIYFN/"
     title: "My Silly Boy — Isabel van Gelder (Live)"
     completed_at: "May 21, 2026 · 2:03 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS65H0PR4G02Q8WV478XPEWT.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS65H0PR4G02Q8WV478XPEWT.jpg"
     items:
       - artist: "Isabel van Gelder"
         title: "my silly boy"
@@ -2200,7 +2200,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWYWQziiEEL/?igsh=NjZiM2M3MzIxNA=="
     title: "Yumi Murata – Fushigi Okite (City Pop Pick)"
     completed_at: "May 20, 2026 · 6:01 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS40SH64MWGZAJCBHN4ZERTM.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS40SH64MWGZAJCBHN4ZERTM.jpg"
     items:
       - artist: "Yumi Murata"
         title: "Fushigi Okite"
@@ -2248,7 +2248,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWe4QlhCIIK/?igsh=NjZiM2M3MzIxNA=="
     title: "It's Almost Like You're Here — Yndling"
     completed_at: "May 20, 2026 · 5:54 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS40CGPZTDCRBFW3PMR4FDHQ.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS40CGPZTDCRBFW3PMR4FDHQ.jpg"
     items:
       - artist: "Yndling"
         title: "It's Almost Like You're Here"
@@ -2274,7 +2274,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYc0Jqdux9u/?igsh=NjZiM2M3MzIxNA=="
     title: "Underrated 80s Bands Picks"
     completed_at: "May 20, 2026 · 4:53 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS1WT1VK9EA7V9Z4YNFS2KQ6.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS1WT1VK9EA7V9Z4YNFS2KQ6.jpg"
     items:
       - artist: "This Mortal Coil"
         title: "Not Me"
@@ -2336,7 +2336,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWhHyFAjt22/?igsh=NjZiM2M3MzIxNA=="
     title: "5 Japanese Hip-Hop Cuts Worth Knowing"
     completed_at: "May 19, 2026 · 10:13 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KS12HY3SQDHQK9K90GP5A2VF.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KS12HY3SQDHQK9K90GP5A2VF.jpg"
     items:
       - artist: "Soul Scream"
         title: "黒い月の夜"
@@ -2439,7 +2439,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYNGpD7ifSa/?igsh=NjZiM2M3MzIxNA=="
     title: "Hard To Handle — Radiohop"
     completed_at: "May 18, 2026 · 12:37 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRY9EAC9GV614QXEG7RQEXQR.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRY9EAC9GV614QXEG7RQEXQR.jpg"
     items:
       - artist: "Radiohop"
         title: "Hard To Handle"
@@ -2466,7 +2466,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYZ-1FcM0R1/?igsh=NjZiM2M3MzIxNA=="
     title: "Golden Skies – Joshua Milo (Live)"
     completed_at: "May 18, 2026 · 12:28 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRY8XC7V165JEB006NJY6JNB.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRY8XC7V165JEB006NJY6JNB.jpg"
     items:
       - artist: "Joshua Milo"
         title: "Golden Skies"
@@ -2491,7 +2491,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYGmaslgMs8/?igsh=NjZiM2M3MzIxNA=="
     title: "Dracula — Tame Impala (Stone Groove Stillhouse)"
     completed_at: "May 18, 2026 · 12:27 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRY8VF0Z77SADGPN57GED2BN.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRY8VF0Z77SADGPN57GED2BN.jpg"
     items:
       - artist: "Tame Impala"
         title: "Dracula"
@@ -2537,7 +2537,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYVbI6nBQrY/?igsh=NjZiM2M3MzIxNA=="
     title: "ANRI Pop-Up LA — Albums & Track Featured"
     completed_at: "May 18, 2026 · 12:24 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRY8Q1E8EXGBX0T3RGNRFWW2.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRY8Q1E8EXGBX0T3RGNRFWW2.jpg"
     items:
       - artist: "ANRI"
         title: "Heaven Beach"
@@ -2623,7 +2623,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVWZw0tj317/?igsh=NjZiM2M3MzIxNA=="
     title: "Japanese City Pop Picks (6 Tracks)"
     completed_at: "May 18, 2026 · 12:22 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRY8K3BR6K2B8MKY2HWCM0GP.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRY8K3BR6K2B8MKY2HWCM0GP.jpg"
     items:
       - artist: "Miki Matsubara"
         title: "Mayonaka no Door / Stay with Me"
@@ -2745,7 +2745,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYfOJS9sbkL/?igsh=NjZiM2M3MzIxNA=="
     title: "SMIL — 9ICK (2025 Modern Jazz Album)"
     completed_at: "May 18, 2026 · 12:20 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRY8FNHMS2858EZCGPGTJYM5.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRY8FNHMS2858EZCGPGTJYM5.jpg"
     items:
       - artist: "9ICK"
         title: "SMIL"
@@ -2794,7 +2794,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXpzF69j5my/?igsh=NjZiM2M3MzIxNA=="
     title: "Indie Summer Picks (5 Tracks)"
     completed_at: "May 17, 2026 · 9:57 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRVDWMZQ5GDAXXH4WGWZNSF3.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRVDWMZQ5GDAXXH4WGWZNSF3.jpg"
     items:
       - artist: "Ax and the Hatchetmen"
         title: "Hotel Room"
@@ -2896,7 +2896,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWJ-DgLutMv/?igsh=NjZiM2M3MzIxNA=="
     title: "5 Classic Albums Every Parent Owes Their Kids (Part 3)"
     completed_at: "May 17, 2026 · 9:56 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRVDTH48TSJCY6A13PA08AHW.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRVDTH48TSJCY6A13PA08AHW.jpg"
     items:
       - artist: "Herbie Hancock"
         title: "Monster"
@@ -2942,7 +2942,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DW1mdpriPb0/?igsh=NjZiM2M3MzIxNA=="
     title: "Japanese Albums With No Skips"
     completed_at: "May 17, 2026 · 9:17 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRVBK6Q99ZSB9D6HKAWJVVZ3.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRVBK6Q99ZSB9D6HKAWJVVZ3.jpg"
     items:
       - artist: "Masayoshi Takanaka"
         title: "Seychelles"
@@ -3010,7 +3010,7 @@ submissions:
     source_url: "https://www.instagram.com/p/DWDLf3QAOg_/?igsh=NjZiM2M3MzIxNA=="
     title: "Vinyl Moon Indie Subscription — Featured Tracks"
     completed_at: "May 17, 2026 · 9:16 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRVBJ1HM7A5NK9CXRK3CMMKA.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRVBJ1HM7A5NK9CXRK3CMMKA.jpg"
     items:
       - artist: "Farmboy"
         title: "GHOST"
@@ -3057,7 +3057,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVZQROeCPmu/?igsh=NjZiM2M3MzIxNA=="
     title: "5 Albums Perfect for Hosting"
     completed_at: "May 17, 2026 · 4:16 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRTT9KPB53ZKWJ05M4MW05JY.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRTT9KPB53ZKWJ05M4MW05JY.jpg"
     items:
       - artist: "Mac DeMarco"
         title: "2"
@@ -3141,7 +3141,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYNHZrxoYSs/?igsh=NjZiM2M3MzIxNA=="
     title: "Underrated 90s Bands Picks"
     completed_at: "May 17, 2026 · 4:14 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRTT93T2MZ8006F13YDQN5R5.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRTT93T2MZ8006F13YDQN5R5.jpg"
     items:
       - artist: "The House Of Love"
         title: "I Don't Know Why I Love You"
@@ -3206,7 +3206,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DW9x2GwEtO0/?igsh=NjZiM2M3MzIxNA=="
     title: "Disco House Heaters — 5 Picks of the Week"
     completed_at: "May 16, 2026 · 7:25 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRSVZD986CY883VD45NRPTQ5.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRSVZD986CY883VD45NRPTQ5.jpg"
     items:
       - artist: "Risk Assessment"
         title: "2 People (Stereo:Type)"
@@ -3308,7 +3308,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXGYPTwAnPj/?igsh=NjZiM2M3MzIxNA=="
     title: "Albums That Expanded My Music Taste"
     completed_at: "May 16, 2026 · 7:23 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRSVW7Y8QVEXS3REEHRKWPKE.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRSVW7Y8QVEXS3REEHRKWPKE.jpg"
     items:
       - artist: "Nujabes"
         title: "Modal Soul"
@@ -3415,7 +3415,7 @@ submissions:
     source_url: "https://youtube.com/watch?v=oBUA10JjoNQ&si=0fjMIOYBz5mllN94"
     title: "As the Clock Rewinds — Mid September"
     completed_at: "May 16, 2026 · 4:37 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRSJCGWD511QKPACBYFC8P8F.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRSJCGWD511QKPACBYFC8P8F.jpg"
     items:
       - artist: "Mid September"
         title: "As the Clock Rewinds"
@@ -3462,7 +3462,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DSJB950EgwD/?igsh=NjZiM2M3MzIxNA=="
     title: "Groovy Year Music Picks"
     completed_at: "May 16, 2026 · 2:38 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRSBK482JERPHYHP1J554059.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRSBK482JERPHYHP1J554059.jpg"
     items:
       - artist: "Joe P"
         title: "Glass House - Stripped"
@@ -3527,7 +3527,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWjrMRpDel8/?igsh=NjZiM2M3MzIxNA=="
     title: "Songs for Groovy Nights — 5 Funky Tracks"
     completed_at: "May 16, 2026 · 2:37 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRSBFGB0QBG4WDKK2XQJM6DN.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRSBFGB0QBG4WDKK2XQJM6DN.jpg"
     items:
       - artist: "Astels"
         title: "On My Knees"
@@ -3631,7 +3631,7 @@ submissions:
     source_url: "https://www.tiktok.com/t/ZP8pmeb9j/"
     title: "Motion Less V2 — NIKOLAI NITE"
     completed_at: "May 16, 2026 · 2:03 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS9KNGJ112HPG1MPM59ZHVQ.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS9KNGJ112HPG1MPM59ZHVQ.jpg"
     items:
       - artist: "NIKOLAI NITE"
         title: "Motion Less V2"
@@ -3658,7 +3658,7 @@ submissions:
     source_url: "https://www.tiktok.com/t/ZP8pa3kRx/"
     title: "Synthwave Dream — Night Drive through Downtown LA"
     completed_at: "May 16, 2026 · 2:02 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS9GCBF580E3SBMF6G6YJMK.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS9GCBF580E3SBMF6G6YJMK.jpg"
     items:
       - artist: "Lowtone Music"
         title: "Synthwave Dream"
@@ -3684,13 +3684,13 @@ submissions:
     status: "failed"
     source_url: "https://www.instagram.com/p/DWRNKB3gGwi/?igsh=NjZiM2M3MzIxNA=="
     completed_at: "May 16, 2026 · 2:36 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS6ABC09CAP37FZ2WEPYN8Z.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS6ABC09CAP37FZ2WEPYN8Z.jpg"
   - id: "01KRS679H64EDABREFVQJRMR32"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DXHPSZTkl4F/?igsh=NjZiM2M3MzIxNA=="
     title: "Japanese Jazz Fusion Vinyl Picks"
     completed_at: "May 16, 2026 · 1:04 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS679H64EDABREFVQJRMR32.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS679H64EDABREFVQJRMR32.jpg"
     items:
       - artist: "Casiopea"
         title: "Casiopea"
@@ -3738,7 +3738,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXUyCEJgVw5/?igsh=NjZiM2M3MzIxNA=="
     title: "Jazzy City Stroll — 3 Jazz/House Picks"
     completed_at: "May 16, 2026 · 12:27 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS43FYHVE34RC3YNVWB249D.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS43FYHVE34RC3YNVWB249D.jpg"
     items:
       - artist: "Max Sinál, KingCrowney, Liv East"
         title: "Intentions"
@@ -3825,7 +3825,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DYAfscuSjMp/?igsh=NjZiM2M3MzIxNA=="
     title: "\"Paititi\" by CAVS (from Sojourn)"
     completed_at: "May 16, 2026 · 12:19 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS3JZWDJPZTG0P5VABMFFZ8.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS3JZWDJPZTG0P5VABMFFZ8.jpg"
     items:
       - artist: "CAVS"
         title: "Paititi"
@@ -3873,7 +3873,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DX97tQpvmX-/?igsh=NjZiM2M3MzIxNA=="
     title: "5 Obscure City Pop Songs on Vinyl"
     completed_at: "May 16, 2026 · 12:18 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS3JCAX6ZMZHSRFK2WXPVKT.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS3JCAX6ZMZHSRFK2WXPVKT.jpg"
     items:
       - artist: "Minako Ito"
         title: "Kinou Kara no Eshaku"
@@ -3986,7 +3986,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVRk-eckvEm/?igsh=NjZiM2M3MzIxNA=="
     title: "Disco House Heaters of the Week — 5 Tracks"
     completed_at: "May 16, 2026 · 12:04 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS2SBMKAFFNW3SGF9F28HJP.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS2SBMKAFFNW3SGF9F28HJP.jpg"
     items:
       - artist: "Spooki, Vylem, Domi Jones"
         title: "Let It Go"
@@ -4090,7 +4090,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWsCDXkkcZG/?igsh=NjZiM2M3MzIxNA=="
     title: "2 Jazz Albums to Impress Your Date"
     completed_at: "May 16, 2026 · 11:54 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS22NRFHRMGVVRNJHHB9A3B.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS22NRFHRMGVVRNJHHB9A3B.jpg"
     items:
       - artist: "Nancy Wilson"
         title: "Something Wonderful"
@@ -4137,7 +4137,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVMYqPfgdC4/?igsh=NjZiM2M3MzIxNA=="
     title: "\"Praja Magia\" by Nu Genea"
     completed_at: "May 16, 2026 · 11:53 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS203C9YF071V5N9RV356WN.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS203C9YF071V5N9RV356WN.jpg"
     items:
       - artist: "Nu Genea"
         title: "Praja Magia"
@@ -4183,7 +4183,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVc1jS9jmhu/?igsh=NjZiM2M3MzIxNA=="
     title: "City Pop & Jazz Fusion Vinyl Picks"
     completed_at: "May 16, 2026 · 11:52 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRS1ZH8DWN65BWADFYMTN0RT.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRS1ZH8DWN65BWADFYMTN0RT.jpg"
     items:
       - artist: "Jamiroquai"
         title: "Music of the Mind"
@@ -4423,7 +4423,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVZQROeCPmu/?igsh=NjZiM2M3MzIxNA=="
     title: "5 Albums Perfect for Hosting"
     completed_at: "May 16, 2026 · 11:50 AM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQDKPM7SQXJYDJZDWQ9BYMH.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQDKPM7SQXJYDJZDWQ9BYMH.jpg"
     items:
       - artist: "Mac DeMarco"
         title: "2"
@@ -4507,7 +4507,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DRUI_z0jKux/?igsh=NjZiM2M3MzIxNA=="
     title: "Stand on the Word — Joubert Singers (1982)"
     completed_at: "May 15, 2026 · 8:35 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ8CBXZKX1FSYVXVJKK2PV3.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ8CBXZKX1FSYVXVJKK2PV3.jpg"
     items:
       - artist: "Joubert Singers"
         title: "Stand on the Word"
@@ -4534,7 +4534,7 @@ submissions:
     source_url: "https://www.tiktok.com/t/ZP8p5x86U/"
     title: "The Cliffs Hotel, Pismo Beach"
     completed_at: "May 15, 2026 · 7:03 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ8BFYPTM5GJE13D34J1KRM.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ8BFYPTM5GJE13D34J1KRM.jpg"
     items:
       - artist: "Trendformusic"
         title: "sidewalks and skeletons goth"
@@ -4562,7 +4562,7 @@ submissions:
     source_url: "https://www.tiktok.com/t/ZP8p5P3t3/"
     title: "Collide (sped up) — Justine Skye"
     completed_at: "May 15, 2026 · 7:01 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ87CD2CYQM3B5XMV4B6JSY.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ87CD2CYQM3B5XMV4B6JSY.jpg"
     items:
       - artist: "Justine Skye"
         title: "Collide (sped up)"
@@ -4589,7 +4589,7 @@ submissions:
     source_url: "https://www.tiktok.com/t/ZP8p5gsnB/"
     title: "Beat It — Beach Calisthenics Clip"
     completed_at: "May 15, 2026 · 6:51 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ7MCN6W906NJ0M8HRWXQQ3.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ7MCN6W906NJ0M8HRWXQQ3.jpg"
     items:
       - artist: "Michael Jackson"
         title: "Beat It"
@@ -4615,13 +4615,13 @@ submissions:
     status: "failed"
     source_url: "https://www.instagram.com/p/DYUMIxZDLo-/?igsh=NjZiM2M3MzIxNA=="
     completed_at: "May 15, 2026 · 7:03 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ79EXQWVPPFWDQ47XCG7VH.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ79EXQWVPPFWDQ47XCG7VH.jpg"
   - id: "01KRQ75TB7DBRT8SGNTV63AVX5"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYXFeRfi-to/?igsh=NjZiM2M3MzIxNA=="
     title: "Disco House Never Dies — 5 Track Playlist"
     completed_at: "May 15, 2026 · 6:44 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ75TB7DBRT8SGNTV63AVX5.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ75TB7DBRT8SGNTV63AVX5.jpg"
     items:
       - artist: "Earth N Days"
         title: "On The Ground"
@@ -4724,7 +4724,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXPBnMtDeHU/?igsh=NjZiM2M3MzIxNA=="
     title: "4 City Pop Tracks — Summer Night DJ Set"
     completed_at: "May 15, 2026 · 6:42 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ6ZK5H9C03JP47KN4A99A9.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ6ZK5H9C03JP47KN4A99A9.jpg"
     items:
       - artist: "Junko Ohashi"
         title: "テレフォン・ナンバー (電話号碼)"
@@ -4811,7 +4811,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWCIP6wCH2o/?igsh=NjZiM2M3MzIxNA=="
     title: "4 Albums for Your Dinner Party"
     completed_at: "May 15, 2026 · 6:41 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ6Z1HFHQM4M015JG0V8JJA.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ6Z1HFHQM4M015JG0V8JJA.jpg"
     items:
       - artist: "Men I Trust"
         title: "Oncle Jazz"
@@ -4897,7 +4897,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVgqM1qDeox/?igsh=NjZiM2M3MzIxNA=="
     title: "70s/80s Soul & Funk Picks"
     completed_at: "May 15, 2026 · 6:39 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ6SDG64X831970BZHB4HXJ.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ6SDG64X831970BZHB4HXJ.jpg"
     items:
       - artist: "Savanna"
         title: "Never Let You Go"
@@ -4963,7 +4963,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DVEqTwckjOx/?igsh=NjZiM2M3MzIxNA=="
     title: "Super People — Sunlightsquare"
     completed_at: "May 15, 2026 · 6:36 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ6RX5QSV5ZQE1H4K7GD2GM.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ6RX5QSV5ZQE1H4K7GD2GM.jpg"
     items:
       - artist: "Sunlightsquare"
         title: "Super People"
@@ -4990,7 +4990,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXHA9dNjfA-/?igsh=NjZiM2M3MzIxNA=="
     title: "The Night Forgives, But Never Forgets"
     completed_at: "May 15, 2026 · 6:35 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ6R6C3J048C7XDAMP5NY35.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ6R6C3J048C7XDAMP5NY35.jpg"
     items:
       - artist: "Smoke & Sonata"
         title: "The Night Forgives, But Never Forgets"
@@ -5017,7 +5017,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXxN_3Ch5Yl/?igsh=NTc4MTIwNjQ2YQ=="
     title: "5 Diverse Jazz Albums to Explore"
     completed_at: "May 15, 2026 · 6:35 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ6Q0C5RHDDGGFHBAN4KFS6.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ6Q0C5RHDDGGFHBAN4KFS6.jpg"
     items:
       - artist: "Johnny Hammond"
         title: "Gears"
@@ -5119,7 +5119,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DXmBeCCzVlx/?igsh=NTc4MTIwNjQ2YQ=="
     title: "Bar Hop in Shibuya — Big Don (The Ted, Sam Donovan)"
     completed_at: "May 15, 2026 · 6:32 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ6KS5JG1ENW0C1XBTENJPQ.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ6KS5JG1ENW0C1XBTENJPQ.jpg"
     items:
       - artist: "The Ted, Sam Donovan"
         title: "Big Don"
@@ -5167,7 +5167,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DWUkcFaDPgQ/?igsh=NTc4MTIwNjQ2YQ=="
     title: "Tatsuro Yamashita – For You"
     completed_at: "May 15, 2026 · 5:48 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ40YWZ1348PJMDWX1SR5DY.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ40YWZ1348PJMDWX1SR5DY.jpg"
     items:
       - artist: "Tatsuro Yamashita"
         title: "For You"
@@ -5279,7 +5279,7 @@ submissions:
     source_url: "https://youtube.com/shorts/L2nPlTid6gA"
     title: "Tieduprightnow (Parcels)"
     completed_at: "May 15, 2026 · 5:51 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ3VGEK829K2YC3JT2WXAK8.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ3VGEK829K2YC3JT2WXAK8.jpg"
     items:
       - artist: "Parcels"
         title: "Tieduprightnow"
@@ -5306,7 +5306,7 @@ submissions:
     source_url: "https://www.instagram.com/reel/DU5fbOuCsTt/?igsh=NjZiM2M3MzIxNA=="
     title: "Tokyo LP Café Ambience (Epulor)"
     completed_at: "May 15, 2026 · 5:41 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ3PE161DA541KH1P6KYY5E.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ3PE161DA541KH1P6KYY5E.jpg"
     items:
       - artist: "Winta"
         title: "It's A Sweet Day"
@@ -5334,7 +5334,7 @@ submissions:
     source_url: "https://www.youtube.com/shorts/aolVkOwNFH0"
     title: "CHOOM — BABYMONSTER (English Ver. Cover)"
     completed_at: "May 15, 2026 · 5:39 PM PDT"
-    thumbnail: "/music/doug/thumbs/01KRQ3F328K089BRY9A2C42E6R.jpg"
+    thumbnail: "/music/dgrpix/thumbs/01KRQ3F328K089BRY9A2C42E6R.jpg"
     items:
       - artist: "BABYMONSTER"
         title: "CHOOM"
