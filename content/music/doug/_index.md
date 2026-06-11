@@ -2,6 +2,53 @@
 title: "Doug’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KTT14RC5DHK761YC0WGSKK5S"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZaFtBqunPm/"
+    title: "Ice-T meets RUN-DMC (DJ Mashup)"
+    completed_at: "Jun 10, 2026 · 5:28 PM PDT"
+    thumbnail: "/music/doug/thumbs/01KTT14RC5DHK761YC0WGSKK5S.jpg"
+    items:
+      - artist: "RUN-DMC"
+        title: "My Adidas"
+        kind: "track"
+        year: 1986
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/my-adidas/1498287735?i=1498287747&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6LdpVTJzigyi2vbKe8mZAr"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=RUN-DMC+My+Adidas"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/515491"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=RUN-DMC+My+Adidas"
+            search_only: true
+      - artist: "Ice-T"
+        title: "6 in the Mornin'"
+        kind: "track"
+        year: 1986
+        confidence: 0.7800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Ice-T+6+in+the+Mornin%27"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Ice-T+6+in+the+Mornin%27"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Ice-T+6+in+the+Mornin%27"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/10906657"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Ice-T+6+in+the+Mornin%27"
+            search_only: true
   - id: "01KTCE2QAZFY6ZE0GCWGKPSP10"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DVrfDE4iPFx/"
