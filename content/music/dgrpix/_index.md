@@ -2,6 +2,321 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KTVW952TF2WDC1KX4JS41VTS"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYscynby36z/"
+    title: "Porch Playlist: 17 Songs for a Glass of Wine"
+    completed_at: "Jun 11, 2026 · 10:42 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KTVW952TF2WDC1KX4JS41VTS.jpg"
+    items:
+      - artist: "Jill Scott"
+        title: "Liftin' Me Up"
+        kind: "track"
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/liftin-me-up/1861385995?i=1861386312&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2VQQfH4ZSvlmgTYw3sGWrH"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jill+Scott+Liftin%27+Me+Up"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/498227698"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jill+Scott+Liftin%27+Me+Up"
+            search_only: true
+      - artist: "Clairo"
+        title: "Juna"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/juna/1742301413?i=1742301428&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2mWfVxEo4xZYDaz0v7hYrN"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Clairo+Juna"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/358466311"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Clairo+Juna"
+            search_only: true
+      - artist: "The Internet"
+        title: "Come Together"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/come-together/1388571796?i=1388572389&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1l32mo5oW5oIRRjNnVJBNR"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Internet+Come+Together"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/91971803"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Internet+Come+Together"
+            search_only: true
+      - artist: "Amber Mark"
+        title: "Comin' Around Again"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/comin-around-again/1738388400?i=1738388791&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6If1Aw9BpAtmnP1GByGjfr"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Amber+Mark+Comin%27+Around+Again"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/354227961"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Amber+Mark+Comin%27+Around+Again"
+            search_only: true
+      - artist: "Real Estate"
+        title: "The Bend"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/the-bend/784925483?i=784925488&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2R0hHt9nSvb91nfcstO5wG"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Real+Estate+The+Bend"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/26640849"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Real+Estate+The+Bend"
+            search_only: true
+      - artist: "The Velvet Underground"
+        title: "Into The Sun"
+        kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/ride-into-the-sun-2014-mix/1469586553?i=1469587231&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7qJreNMHmeV7Ezs4y9eddQ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Velvet+Underground+Into+The+Sun"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/121568874"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Velvet+Underground+Into+The+Sun"
+            search_only: true
+      - artist: "Daryl Hall & John Oates"
+        title: "She's Gone"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/shes-gone/332663733?i=332663881&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5dFoWIiJ2814hRwMYDcFiU"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Daryl+Hall+%26+John+Oates+She%27s+Gone"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/3120903"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Daryl+Hall+%26+John+Oates+She%27s+Gone"
+            search_only: true
+      - artist: "Donny Hathaway"
+        title: "Sugar Lee"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/sugar-lee/1018383581?i=1018383897&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4rMY23yxmYRoOAhEgGyEKG"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Donny+Hathaway+Sugar+Lee"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/4616718"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Donny+Hathaway+Sugar+Lee"
+            search_only: true
+      - artist: "Dirty Projectors, Deradoorian"
+        title: "Two Doves"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Dirty+Projectors%2C+Deradoorian+Two+Doves"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/66VLscP5FZHPeMmtWaopbJ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Dirty+Projectors%2C+Deradoorian+Two+Doves"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/14830940"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Dirty+Projectors%2C+Deradoorian+Two+Doves"
+            search_only: true
+      - artist: "Weldon Irvine"
+        title: "Morning Sunrise"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/morning-sunrise/1184737032?i=1184737051&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5Fse8BFC410yZ4kpVqBCHt"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Weldon+Irvine+Morning+Sunrise"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/90880418"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Weldon+Irvine+Morning+Sunrise"
+            search_only: true
+      - artist: "Wings"
+        title: "Let 'Em In"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/let-em-in/1507830072?i=1507830577&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5KZpeVAA2m8MzrlvEqw7FS"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Wings+Let+%27Em+In"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/77701757"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Wings+Let+%27Em+In"
+            search_only: true
+      - artist: "Noname, Raury, Cam O'bi"
+        title: "Diddy Bop"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Noname%2C+Raury%2C+Cam+O%27bi+Diddy+Bop"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7CRPXJt3IVC7V0VcM0PSQi"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Noname%2C+Raury%2C+Cam+O%27bi+Diddy+Bop"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/136256590"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Noname%2C+Raury%2C+Cam+O%27bi+Diddy+Bop"
+            search_only: true
+      - artist: "Hiatus Kaiyote"
+        title: "Fingerprints"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/fingerprints/972218237?i=972218246&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3c7N2fCFB4JVKGF8cWfteh"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Hiatus+Kaiyote+Fingerprints"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/42879803"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Hiatus+Kaiyote+Fingerprints"
+            search_only: true
+      - artist: "Lucinda Williams"
+        title: "Car Wheels On A Gravel Road"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/car-wheels-on-a-gravel-road/1440915686?i=1440915696&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5rUqENE7bmNffBbZDhVBty"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lucinda+Williams+Car+Wheels+On+A+Gravel+Road"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/630126"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Lucinda+Williams+Car+Wheels+On+A+Gravel+Road"
+            search_only: true
+      - artist: "Norah Jones"
+        title: "What Am I To You?"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/what-am-i-to-you/721258539?i=721258702&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0AMKZWRgdFfGYYTxiWrwwH"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Norah+Jones+What+Am+I+To+You%3F"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/156231"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Norah+Jones+What+Am+I+To+You%3F"
+            search_only: true
+      - artist: "Nick Drake"
+        title: "Day Is Done"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/day-is-done/1443930816?i=1443931105&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/66790TBuwlIrGxWWTVc6yl"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Nick+Drake+Day+Is+Done"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/77611150"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Nick+Drake+Day+Is+Done"
+            search_only: true
+      - artist: "Jefferson Airplane"
+        title: "Embryonic Journey"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/embryonic-journey/281811707?i=281811769&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2zbGXr2XCcRR40R7ymEENc"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jefferson+Airplane+Embryonic+Journey"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/42722"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jefferson+Airplane+Embryonic+Journey"
+            search_only: true
   - id: "01KTT14RC5DHK761YC0WGSKK5S"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZaFtBqunPm/"
