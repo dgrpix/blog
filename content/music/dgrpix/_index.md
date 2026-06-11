@@ -2,6 +2,32 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KTVWCGY56Z3RC6P0H1A3T03Q"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DYXvKQts0Lm/"
+    title: "Stayin' Alive — Bee Gees (VW Bus Drive)"
+    completed_at: "Jun 11, 2026 · 10:44 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KTVWCGY56Z3RC6P0H1A3T03Q.jpg"
+    items:
+      - artist: "Bee Gees"
+        title: "Stayin' Alive"
+        kind: "track"
+        year: 1977
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/stayin-alive/1440899890?i=1440900114&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5ubvP9oKmxLUVq506fgLhk"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bee+Gees+Stayin%27+Alive"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/78700076"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Bee+Gees+Stayin%27+Alive"
+            search_only: true
   - id: "01KTVW952TF2WDC1KX4JS41VTS"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYscynby36z/"
