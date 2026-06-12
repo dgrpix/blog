@@ -591,9 +591,9 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/album/one-of-a-kind/1747978035?uo=4"
+            url: "https://music.apple.com/us/album/one-of-a-kind/1747767680?uo=4"
           - service: "spotify"
-            url: "https://open.spotify.com/album/1rdV0B9e4uKhmc55KDHfXZ"
+            url: "https://open.spotify.com/album/5ZXi2Auvq8KqRq1kfHr8RR"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=The+Heavy+Heavy+One+of+a+Kind"
             search_only: true
@@ -818,14 +818,14 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/album/kiss-me/1866882504?i=1866882505&uo=4"
+            url: "https://music.apple.com/us/album/kiss-me/1845564649?i=1845564652&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/3phYFzn8h6sjbUtWD8Nig3"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=MARO+KISS+ME"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/browse/track/466313424"
+            url: "https://tidal.com/browse/track/487550815"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=MARO+KISS+ME"
             search_only: true
@@ -1045,7 +1045,7 @@ submissions:
             url: "https://music.youtube.com/search?q=Anri+Last+Summer+Whisper"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/browse/track/220894429"
+            url: "https://tidal.com/browse/track/529599564"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Anri+Last+Summer+Whisper"
             search_only: true
@@ -1253,7 +1253,8 @@ submissions:
             url: "https://music.youtube.com/search?q=The+Square+Celebration+%2F+Truth"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/browse/track/228868621"
+            url: "https://tidal.com/search?q=The+Square+Celebration+%2F+Truth"
+            search_only: true
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=The+Square+Celebration+%2F+Truth"
             search_only: true
@@ -1295,7 +1296,7 @@ submissions:
             url: "https://music.youtube.com/search?q=Kazumi+Watanabe+Unicorn+%2F+To+Chi+Ka"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/browse/track/57448055"
+            url: "https://tidal.com/browse/track/126972845"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Kazumi+Watanabe+Unicorn+%2F+To+Chi+Ka"
             search_only: true
@@ -1685,8 +1686,7 @@ submissions:
             url: "https://music.youtube.com/search?q=Chino+Corval%C3%A1n+Endless+Era"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/search?q=Chino+Corval%C3%A1n+Endless+Era"
-            search_only: true
+            url: "https://tidal.com/browse/album/256338061"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Chino+Corval%C3%A1n+Endless+Era"
             search_only: true
@@ -1968,8 +1968,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Slayyyter+DANCE..."
-            search_only: true
+            url: "https://music.apple.com/us/album/miss-belladonna/1895051592?i=6762870901&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5rfOARz6QO73wPATyMtQQZ"
           - service: "youtube_music"
@@ -2482,7 +2481,7 @@ submissions:
             url: "https://music.apple.com/us/search?term=Malcolm+Todd+Sweet+Boy"
             search_only: true
           - service: "spotify"
-            url: "https://open.spotify.com/album/30bswn7xJacx7UtrjhRhmu"
+            url: "https://open.spotify.com/album/2jX6yKrWw9bY7JAYHhhtqZ"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Malcolm+Todd+Sweet+Boy"
             search_only: true
@@ -2790,8 +2789,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Radiohop+Hard+To+Handle"
-            search_only: true
+            url: "https://music.apple.com/us/album/hard-to-handle/1874751963?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/6Avi4sOVOpnI7nPV3aRQLx"
           - service: "youtube_music"
@@ -2816,14 +2814,14 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/album/golden-skies/1858052690?i=1858052691&uo=4"
+            url: "https://music.apple.com/us/album/golden-skies/1857827627?i=1857827630&uo=4"
           - service: "spotify"
-            url: "https://open.spotify.com/track/2oCyQuZtFxvjHjD7gooDHL"
+            url: "https://open.spotify.com/track/28oV8d8jBdfAdFVw8CLwVV"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Joshua+Milo+Golden+Skies"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/browse/track/478435456"
+            url: "https://tidal.com/browse/track/478228872"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Joshua+Milo+Golden+Skies"
             search_only: true
@@ -2842,8 +2840,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Tame+Impala+Dracula"
-            search_only: true
+            url: "https://music.apple.com/us/album/dracula/1842444456?i=1842444457&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/709ZIqPHyFOpx2QdjmeWAM"
           - service: "youtube_music"
@@ -2906,16 +2903,14 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=ANRI+Bi%C2%B7Ki%C2%B7Ni"
-            search_only: true
+            url: "https://music.apple.com/us/album/bi-ki-ni/283306315?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/2ygK2uxtgO5sTZFs3ye1GT"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=ANRI+Bi%C2%B7Ki%C2%B7Ni"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/search?q=ANRI+Bi%C2%B7Ki%C2%B7Ni"
-            search_only: true
+            url: "https://tidal.com/browse/album/188408639"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=ANRI+Bi%C2%B7Ki%C2%B7Ni"
             search_only: true
@@ -2926,8 +2921,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=ANRI+TIMELY%21%21"
-            search_only: true
+            url: "https://music.apple.com/us/album/timely/283306771?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/3OvZYx7AAGplmJjwD29JiV"
           - service: "youtube_music"
@@ -2991,8 +2985,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Makoto+Matsushita+This+Is+All+I+Have+for+You"
-            search_only: true
+            url: "https://music.apple.com/us/album/this-is-all-i-have-for-you-2018-remaster/1447532396?i=1447532408&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/2JEgJc3qlzTr96IBqfeulB"
           - service: "youtube_music"
@@ -3010,8 +3003,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Kingo+Hamada+Midnight+Cruisin%27"
-            search_only: true
+            url: "https://music.apple.com/us/album/midnight-cruisin-2002-version/1446781099?i=1446781117&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/37NPLfEZQQ0rZTa9SRqWBL"
           - service: "youtube_music"
@@ -3048,8 +3040,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Yurie+Kokuba+Tobashite+Taxi+Man"
-            search_only: true
+            url: "https://music.apple.com/us/album/tobashite-taxi-man/1536777011?i=1536777016&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Yurie+Kokuba+Tobashite+Taxi+Man"
             search_only: true
@@ -3068,8 +3059,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Kiska"
-            search_only: true
+            url: "https://music.apple.com/us/album/kiska/1538790131?i=1538790141&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Tatsuro+Yamashita+Kiska"
             search_only: true
@@ -3096,8 +3086,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=9ICK+SMIL"
-            search_only: true
+            url: "https://music.apple.com/us/album/smil/1843243623?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/2v2b2Oo1pGF9Qxzi6AplbD"
           - service: "youtube_music"
@@ -3144,8 +3133,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Ax+and+the+Hatchetmen+Hotel+Room"
-            search_only: true
+            url: "https://music.apple.com/us/album/hotel-room/1815996514?i=1815996560&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5p5bK3qF9ttryVxpxJvZYF"
           - service: "youtube_music"
@@ -3201,8 +3189,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=High+Sunn+Ramen+Waitress"
-            search_only: true
+            url: "https://music.apple.com/us/album/ramen-waitress/1768785443?i=1768785452&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/57AJcQLggXstJlxSV7SJJj"
           - service: "youtube_music"
@@ -3220,8 +3207,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Post+Modern+Connection+If+You+Care"
-            search_only: true
+            url: "https://music.apple.com/us/album/if-you-care/1705014353?i=1705014360&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/4JLawGydVg1WQ2m9Z3XaUz"
           - service: "youtube_music"
@@ -3249,7 +3235,7 @@ submissions:
           - service: "apple_music"
             url: "https://music.apple.com/us/album/monster/1120796406?uo=4"
           - service: "spotify"
-            url: "https://open.spotify.com/album/42qcX8LprsyIPdjzlQyZ8e"
+            url: "https://open.spotify.com/album/1EE8dP3St4w48JrDddFMz1"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Herbie+Hancock+Monster"
             search_only: true
@@ -3266,10 +3252,9 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Oliver+Cheatham+Saturday+Night"
-            search_only: true
+            url: "https://music.apple.com/us/album/get-down-saturday-night/1646553916?i=1646553918&uo=4"
           - service: "spotify"
-            url: "https://open.spotify.com/track/1MvIzSyxQjMIIBKrkGpN3K"
+            url: "https://open.spotify.com/track/4kTS0Ioxdm6uSGmFNvhnGQ"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Oliver+Cheatham+Saturday+Night"
             search_only: true
@@ -3293,8 +3278,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+Seychelles"
-            search_only: true
+            url: "https://music.apple.com/us/album/seychelles/1443091653?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/7BQPfd39YTObQGamGhDF7g"
           - service: "youtube_music"
@@ -3313,8 +3297,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Haruomi+Hosono+%2F+Shigeru+Suzuki+Pacific"
-            search_only: true
+            url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Haruomi+Hosono+%2F+Shigeru+Suzuki+Pacific"
             search_only: true
@@ -3426,8 +3409,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
-            search_only: true
+            url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
             search_only: true
@@ -3446,8 +3428,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Gustavo+Cerati+%2B+Bien"
-            search_only: true
+            url: "https://music.apple.com/us/album/crimen-single/1281724574?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/6Hfm9k5H74TN25V2cYLFiu"
           - service: "youtube_music"
@@ -3465,8 +3446,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Duan+Wasi+Licious"
-            search_only: true
+            url: "https://music.apple.com/us/album/licious/1657533225?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/0OiY4E01FdNSKkpmmWmjqP"
           - service: "youtube_music"
@@ -3491,8 +3471,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=The+House+Of+Love+I+Don%27t+Know+Why+I+Love+You"
-            search_only: true
+            url: "https://music.apple.com/us/album/i-dont-know-why-i-love-you/1444059151?i=1444059323&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1jhLdcLxciVhLh4pQHPLa3"
           - service: "youtube_music"
@@ -3511,8 +3490,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Strangelove+Beautiful+Alone"
-            search_only: true
+            url: "https://music.apple.com/us/album/beautiful-alone/1511493908?i=1511494486&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/4SBBZwfIiSO255hiAJ22I4"
           - service: "youtube_music"
@@ -3556,8 +3534,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Risk+Assessment+2+People+%28Stereo%3AType%29"
-            search_only: true
+            url: "https://music.apple.com/us/album/lets-do-it/1781803071?i=1781803080&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Risk+Assessment+2+People+%28Stereo%3AType%29"
             search_only: true
@@ -3631,8 +3608,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Rue+Jay+%26+DJ+Rae+Free+My+Would"
-            search_only: true
+            url: "https://music.apple.com/us/album/free-my-soul-radio-edit/1880673068?i=1880673073&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Rue+Jay+%26+DJ+Rae+Free+My+Would"
             search_only: true
@@ -3679,8 +3655,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Massive+Attack+Heligoland"
-            search_only: true
+            url: "https://music.apple.com/us/album/heligoland/721294955?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/1F8y2bg9V9nRoy8zuxo3Jt"
           - service: "youtube_music"
@@ -3699,8 +3674,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Bj%C3%B6rk+Homogenic"
-            search_only: true
+            url: "https://music.apple.com/us/album/homogenic-live/371572866?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/0HMsmYvoT1h2x1C4di5faf"
           - service: "youtube_music"
@@ -3719,8 +3693,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Mazzy+Star+Among+My+Swan"
-            search_only: true
+            url: "https://music.apple.com/us/album/among-my-swan/724609718?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/4mhpbf7jYc0L1nBceoebIE"
           - service: "youtube_music"
@@ -3739,8 +3712,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Yo+La+Tengo+Nowhere+Near"
-            search_only: true
+            url: "https://music.apple.com/us/album/nowhere-near/1589240889?i=1589240914&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5L2STOBiS00u7q4aLtRjKK"
           - service: "youtube_music"
@@ -3766,8 +3738,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Mid+September+As+the+Clock+Rewinds"
-            search_only: true
+            url: "https://music.apple.com/us/album/as-the-clock-rewinds/1768068587?i=1768068982&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/22xnIi906jxsSMlX2yTcqq"
           - service: "youtube_music"
@@ -3786,8 +3757,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Mid+September+Perpetuation"
-            search_only: true
+            url: "https://music.apple.com/us/album/perpetuation/1768068587?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/7g8eUxDBkWyLEbwblF76Ez"
           - service: "youtube_music"
@@ -3812,8 +3782,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Joe+P+Glass+House+-+Stripped"
-            search_only: true
+            url: "https://music.apple.com/us/album/glass-house-stripped/1817638510?i=1817638512&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/4LkakklOZ2t02I5MOrNsP5"
           - service: "youtube_music"
@@ -3831,8 +3800,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Amadeezy+Bass+Boss"
-            search_only: true
+            url: "https://music.apple.com/us/album/bass-boss/1560349229?i=1560349230&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/2bjHuxmOgiTrzNZaZxGD4y"
           - service: "youtube_music"
@@ -3851,8 +3819,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Chet+Faker+It+Could+Be+Nice"
-            search_only: true
+            url: "https://music.apple.com/us/album/it-could-be-nice/1636785891?i=1636785892&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1q4L3WSZSygxR2GjuFswAF"
           - service: "youtube_music"
@@ -3877,8 +3844,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Astels+On+My+Knees"
-            search_only: true
+            url: "https://music.apple.com/us/album/on-my-knees/1774759714?i=1774759898&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/0BzRPCtWbpPXGQEbT5iDjO"
           - service: "youtube_music"
@@ -3916,8 +3882,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Antonio+Barret%2C+Nice+Guys+2+AM"
-            search_only: true
+            url: "https://music.apple.com/us/album/2-am/1696310760?i=1696310773&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/06nXt6ESO6FzbvD5QQ1Eqj"
           - service: "youtube_music"
@@ -3936,8 +3901,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Evil+Genius%2C+Isaac+Waddington+Beggin%27+Man"
-            search_only: true
+            url: "https://music.apple.com/us/album/beggin-man/1650476600?i=1650476601&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5xb5LmpDzZqvthEfwX7uwU"
           - service: "youtube_music"
@@ -3955,8 +3919,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Lynda+Dawn+Fonk+Street"
-            search_only: true
+            url: "https://music.apple.com/us/album/fonk-street/1769185390?i=1769185393&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1rUOPxEvUW4lWUn2BeW0C1"
           - service: "youtube_music"
@@ -3982,8 +3945,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=NIKOLAI+NITE+Motion+Less+V2"
-            search_only: true
+            url: "https://music.apple.com/us/album/motion-less-v2/1890985701?i=1890985702&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/0PR5sTnLoixpl6rskEmrRM"
           - service: "youtube_music"
@@ -4009,8 +3971,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Lowtone+Music+Synthwave+Dream"
-            search_only: true
+            url: "https://music.apple.com/us/album/synthwave-dream/1768033301?i=1768033307&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/64FzOdcOzvhNvGHQ1jidm7"
           - service: "youtube_music"
@@ -4040,8 +4001,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Casiopea+Casiopea"
-            search_only: true
+            url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/3uFgYgCEvCSACjB8XHl3hb"
           - service: "youtube_music"
@@ -4108,8 +4068,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=F%C3%89LIN%C3%89+bisou"
-            search_only: true
+            url: "https://music.apple.com/us/album/bisou/1815153918?i=1815153921&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1kO1mS5kvXyJRbTnT9OSDm"
           - service: "youtube_music"
@@ -4128,8 +4087,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Gabriel+Energy"
-            search_only: true
+            url: "https://music.apple.com/us/album/energy/1852761182?i=1852761183&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/7mlUXgeLNbqTB2qRzBNeJp"
           - service: "youtube_music"
@@ -4176,8 +4134,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=CAVS+Paititi"
-            search_only: true
+            url: "https://music.apple.com/us/album/paititi/1872395357?i=1872395688&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=CAVS+Paititi"
             search_only: true
@@ -4196,8 +4153,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=CAVS+Sojourn"
-            search_only: true
+            url: "https://music.apple.com/us/album/sojourn/1872395357?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=CAVS+Sojourn"
             search_only: true
@@ -4310,8 +4266,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Ruiko+Kurahashi+S%C3%A9r%C3%A9nade"
-            search_only: true
+            url: "https://music.apple.com/us/album/serenade/720316359?i=720316461&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/7LVNY7WZxV3QcSB5uWmWav"
           - service: "youtube_music"
@@ -4356,8 +4311,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=MGR+Mike+Fountains"
-            search_only: true
+            url: "https://music.apple.com/us/album/fountains/1871498420?i=1871498422&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/6MnA5h24s0IyyWM9L7XPTy"
           - service: "youtube_music"
@@ -4376,8 +4330,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Walt+J+Liquid+Love"
-            search_only: true
+            url: "https://music.apple.com/us/album/liquid-love-extended/1876005273?i=1876005456&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5sjP58U2N265u9hHoYiKp7"
           - service: "youtube_music"
@@ -4395,8 +4348,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Milton+Shadow+On+You"
-            search_only: true
+            url: "https://music.apple.com/us/album/on-you/1873350790?i=1873350791&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5G0fXUcVd7YKOL93C9luJj"
           - service: "youtube_music"
@@ -4414,8 +4366,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Kotti+Affair+Why+Don%27t+You+Love+Me"
-            search_only: true
+            url: "https://music.apple.com/us/album/why-dont-you-love-me/1861995970?i=1861995971&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/7sfqhOU04aOcql3s5ltkhm"
           - service: "youtube_music"
@@ -4441,8 +4392,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Nancy+Wilson+Something+Wonderful"
-            search_only: true
+            url: "https://music.apple.com/us/album/something-wonderful-remastered/716140167?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/7HtSgNU7pzv4zeMldVdHav"
           - service: "youtube_music"
@@ -4461,8 +4411,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Blossom+Dearie+Blossom+Dearie"
-            search_only: true
+            url: "https://music.apple.com/us/album/blossom-dearie/1443275613?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/6Qmn8cqmmJIjuwjXiUF4n6"
           - service: "youtube_music"
@@ -4488,8 +4437,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Nu+Genea+Praja+Magia"
-            search_only: true
+            url: "https://music.apple.com/us/album/praja-magia/1628693795?i=1628694192&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1E0DgbwpT4sfkrbulNpxi4"
           - service: "youtube_music"
@@ -4507,8 +4455,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Nu+Genea+Bar+Mediterraneo"
-            search_only: true
+            url: "https://music.apple.com/us/album/bar-mediterraneo/1621918389?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/2OeKJLLD5jcYMgJAExURqS"
           - service: "youtube_music"
@@ -4533,8 +4480,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Jamiroquai+Music+of+the+Mind"
-            search_only: true
+            url: "https://music.apple.com/us/album/music-of-the-mind/181572851?i=181573452&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/29uQW0hQQLU39lTYoB9YMo"
           - service: "youtube_music"
@@ -4553,8 +4499,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Jamiroquai+Emergency+On+Planet+Earth"
-            search_only: true
+            url: "https://music.apple.com/us/album/emergency-on-planet-earth/181572851?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/0SeTonJJPjy57LqiCDmeEM"
           - service: "youtube_music"
@@ -4572,8 +4517,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Makoto+Matsushita+First+Light"
-            search_only: true
+            url: "https://music.apple.com/us/album/first-light-2018-remaster/1447532396?i=1447532398&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5Dra6dW1mc7BOh833TDowz"
           - service: "youtube_music"
@@ -4591,8 +4535,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Masaki+Matsubara+Tequila+Toast"
-            search_only: true
+            url: "https://music.apple.com/us/album/tequila-toast/294774467?i=294774527&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/4dyKhk3l6xJN6nGrN89aJL"
           - service: "youtube_music"
@@ -4611,8 +4554,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Masaki+Matsubara+Painted+Woman"
-            search_only: true
+            url: "https://music.apple.com/us/album/painted-woman/294774467?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/0mZOYr5JOK30XDTzaYSQFw"
           - service: "youtube_music"
@@ -4631,8 +4573,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Nujabes+World%27s+End+Rhapsody"
-            search_only: true
+            url: "https://music.apple.com/us/album/worlds-end-rhapsody/1078914477?i=1078915005&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/2jHjD4TByFyRpouBrCbqzN"
           - service: "youtube_music"
@@ -4669,8 +4610,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Naomi+Akimoto+Bewitched"
-            search_only: true
+            url: "https://music.apple.com/us/album/bewitched-are-you-leaving-soon/1304258524?i=1304259942&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/2GWrllGqXji3zboRZZItyy"
           - service: "youtube_music"
@@ -4688,8 +4628,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+Brasilian+Skies"
-            search_only: true
+            url: "https://music.apple.com/us/album/brasilian-skies/1444076539?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/0zXeZw0oFC2Db99RqlfHur"
           - service: "youtube_music"
@@ -4707,8 +4646,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+All+of+Me"
-            search_only: true
+            url: "https://music.apple.com/us/album/all-of-me/1442920123?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/3sjIDWWnYzzS7PF3vjZmcB"
           - service: "youtube_music"
@@ -4726,8 +4664,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Masayoshi+Takanaka+Sayahellen"
-            search_only: true
+            url: "https://music.apple.com/us/album/seychelles/1443091653?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Masayoshi+Takanaka+Sayahellen"
             search_only: true
@@ -4747,8 +4684,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Anri+Remember+Summer+Days"
-            search_only: true
+            url: "https://music.apple.com/us/album/remember-summer-days/1699358106?i=1699358107&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1qUo7d5lAOclNVbTUY0A2R"
           - service: "youtube_music"
@@ -4792,8 +4728,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
-            search_only: true
+            url: "https://music.apple.com/us/album/pacific/1538790131?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Haruomi+Hosono+%26+Shigeru+Suzuki+Pacific"
             search_only: true
@@ -4812,8 +4747,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Gustavo+Cerati+%2B+Bien"
-            search_only: true
+            url: "https://music.apple.com/us/album/crimen-single/1281724574?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/6Hfm9k5H74TN25V2cYLFiu"
           - service: "youtube_music"
@@ -4831,8 +4765,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Duan+Wasi+Licious"
-            search_only: true
+            url: "https://music.apple.com/us/album/licious/1657533225?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/0OiY4E01FdNSKkpmmWmjqP"
           - service: "youtube_music"
@@ -4858,8 +4791,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Joubert+Singers+Stand+on+the+Word"
-            search_only: true
+            url: "https://music.apple.com/us/album/stand-on-the-word-a-clapella-mix/289662261?i=289662527&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/6TOhXLevQUI4fjrxLL1nJE"
           - service: "youtube_music"
@@ -4912,16 +4844,14 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Justine+Skye+Collide+%28sped+up%29"
-            search_only: true
+            url: "https://music.apple.com/us/album/collide-feat-tyga/1615681225?i=1615681226&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1r6qzxz77Tvbrvqd1Q1MIN"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Justine+Skye+Collide+%28sped+up%29"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/search?q=Justine+Skye+Collide+%28sped+up%29"
-            search_only: true
+            url: "https://tidal.com/browse/track/225508327"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Justine+Skye+Collide+%28sped+up%29"
             search_only: true
@@ -4940,8 +4870,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Michael+Jackson+Beat+It"
-            search_only: true
+            url: "https://music.apple.com/us/album/beat-it/269572838?i=269573341&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/3BovdzfaX4jb5KFQwoPfAw"
           - service: "youtube_music"
@@ -4971,8 +4900,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Earth+N+Days+On+The+Ground"
-            search_only: true
+            url: "https://music.apple.com/us/album/on-the-ground/1892652993?i=1892652995&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/24rF6JQ2xU9YfxA3l7tCn3"
           - service: "youtube_music"
@@ -4990,8 +4918,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Definite+Grooves+Don%27t+Do+Disco"
-            search_only: true
+            url: "https://music.apple.com/us/album/dont-do-disco/1890014160?i=1890014166&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5PdlyM9Vr3ViAPxtp15eU3"
           - service: "youtube_music"
@@ -5009,8 +4936,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Boogietraxx+%26+Dynamique+The+Games+You+Play"
-            search_only: true
+            url: "https://music.apple.com/us/album/the-games-you-play/1891478686?i=1891478700&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1Iibi4C6B2iVoeVFBo7hA5"
           - service: "youtube_music"
@@ -5029,8 +4955,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Purple+Disco+Machine+Disco+Cherry"
-            search_only: true
+            url: "https://music.apple.com/us/album/disco-cherry/1890195880?i=1890195881&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/0C0kbvI8BJEWejMb3b2d4t"
           - service: "youtube_music"
@@ -5048,8 +4973,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Zsak+I+Like+Deep"
-            search_only: true
+            url: "https://music.apple.com/us/album/i-like-deep/1895605507?i=6764031076&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/7sGrnF3pOxI908Qg2cvxnr"
           - service: "youtube_music"
@@ -5095,8 +5019,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=JADOES+Stardust+Night"
-            search_only: true
+            url: "https://music.apple.com/us/album/stardust-night/1527208045?i=1527208047&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/5JbFzhsNpOQLqDS5y8pWu9"
           - service: "youtube_music"
@@ -5115,8 +5038,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Michiru+Kojima+Best+Friend"
-            search_only: true
+            url: "https://music.apple.com/us/album/best-friend/1718499060?i=1718499065&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Michiru+Kojima+Best+Friend"
             search_only: true
@@ -5135,8 +5057,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=ANRI+Remember+Summer+Days"
-            search_only: true
+            url: "https://music.apple.com/us/album/remember-summer-days/1699358106?i=1699358107&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1qUo7d5lAOclNVbTUY0A2R"
           - service: "youtube_music"
@@ -5161,8 +5082,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Men+I+Trust+Oncle+Jazz"
-            search_only: true
+            url: "https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/4W4gNYa4tt3t8V6FmONWEK"
           - service: "youtube_music"
@@ -5181,8 +5101,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo"
-            search_only: true
+            url: "https://music.apple.com/us/album/el-bueno-y-el-malo/1632317760?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/1amdsOYtz60qOm5EiWq8Qb"
           - service: "youtube_music"
@@ -5201,8 +5120,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Nu+Genea+Bar+Mediterraneo"
-            search_only: true
+            url: "https://music.apple.com/us/album/bar-mediterraneo/1621918389?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/2OeKJLLD5jcYMgJAExURqS"
           - service: "youtube_music"
@@ -5220,8 +5138,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Arc+De+Soleil+Arc+De+Soleil"
-            search_only: true
+            url: "https://music.apple.com/us/album/sunchaser-single/1780311281?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Arc+De+Soleil+Arc+De+Soleil"
             search_only: true
@@ -5247,8 +5164,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Savanna+Never+Let+You+Go"
-            search_only: true
+            url: "https://music.apple.com/us/album/never-let-you-go-onur-engin-edit/445626095?i=445626208&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1QK3tugIJuOB2JpSBrF1Zd"
           - service: "youtube_music"
@@ -5267,8 +5183,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Stylus+We+All+Need+One+Another"
-            search_only: true
+            url: "https://music.apple.com/us/album/we-all-need-one-another/969339635?i=969339661&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/2HsRSiAFubcJaeQJ9pttC9"
           - service: "youtube_music"
@@ -5287,8 +5202,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Sunbear+I+Heard+the+Voice+of+Music+Say"
-            search_only: true
+            url: "https://music.apple.com/us/album/i-heard-the-voice-of-music-say/301950012?i=301950104&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/16eL3Zw084d3CjDTaP8Xdf"
           - service: "youtube_music"
@@ -5314,8 +5228,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Sunlightsquare+Super+People"
-            search_only: true
+            url: "https://music.apple.com/us/album/super-people/1012308818?i=1012308819&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/468C9SvUsVc5o0rFvWJiVD"
           - service: "youtube_music"
@@ -5341,8 +5254,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Smoke+%26+Sonata+The+Night+Forgives%2C+But+Never+Forgets"
-            search_only: true
+            url: "https://music.apple.com/us/album/the-night-forgives-but-never-forgets/1855958962?i=1855958970&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/6rwS4yJ2NSaNcZ1J4spe4q"
           - service: "youtube_music"
@@ -5367,8 +5279,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Johnny+Hammond+Gears"
-            search_only: true
+            url: "https://music.apple.com/us/album/gears/1535122521?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/5rZFpmGxIAERAoqLsAlbfH"
           - service: "youtube_music"
@@ -5386,15 +5297,14 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Hank+Mobley+Soul+Station"
-            search_only: true
+            url: "https://music.apple.com/us/album/soul-station/1459439349?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/731OW49heGHCMrMOREHYlY"
           - service: "youtube_music"
             url: "https://music.youtube.com/search?q=Hank+Mobley+Soul+Station"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/browse/album/1381021"
+            url: "https://tidal.com/browse/album/77691392"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Hank+Mobley+Soul+Station"
             search_only: true
@@ -5405,8 +5315,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Weather+Report+Heavy+Weather"
-            search_only: true
+            url: "https://music.apple.com/us/album/heavy-weather/170409940?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/2M9F2yYsUvqiBPwUGeNvn1"
           - service: "youtube_music"
@@ -5424,8 +5333,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Casiopea+Casiopea"
-            search_only: true
+            url: "https://music.apple.com/us/album/casiopea/1535034715?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/3uFgYgCEvCSACjB8XHl3hb"
           - service: "youtube_music"
@@ -5491,8 +5399,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Justin+Timberlake+The+20%2F20+Experience"
-            search_only: true
+            url: "https://music.apple.com/us/album/suit-tie-featuring-ja%C3%BF-z-radio-edit-single/598779346?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/album/5lYzReGzcSNF0Gx47wm6qU"
           - service: "youtube_music"
@@ -5518,8 +5425,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+For+You"
-            search_only: true
+            url: "https://music.apple.com/us/album/theme-of-mirai-music-train-ep/1411704527?uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Tatsuro+Yamashita+For+You"
             search_only: true
@@ -5527,7 +5433,7 @@ submissions:
             url: "https://music.youtube.com/search?q=Tatsuro+Yamashita+For+You"
             search_only: true
           - service: "tidal"
-            url: "https://tidal.com/browse/album/21599652"
+            url: "https://tidal.com/browse/album/411756361"
           - service: "qobuz"
             url: "https://www.qobuz.com/us-en/search?q=Tatsuro+Yamashita+For+You"
             search_only: true
@@ -5539,8 +5445,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Sparkle"
-            search_only: true
+            url: "https://music.apple.com/us/album/nostalgia-of-island/1538790131?i=1538790137&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Tatsuro+Yamashita+Sparkle"
             search_only: true
@@ -5560,8 +5465,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Music+Book"
-            search_only: true
+            url: "https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Tatsuro+Yamashita+Music+Book"
             search_only: true
@@ -5581,8 +5485,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Morning+Glory"
-            search_only: true
+            url: "https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Tatsuro+Yamashita+Morning+Glory"
             search_only: true
@@ -5602,8 +5505,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Tatsuro+Yamashita+Love+Talkin%27"
-            search_only: true
+            url: "https://music.apple.com/us/album/music-train/1411704527?i=1411704530&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/search?q=Tatsuro+Yamashita+Love+Talkin%27"
             search_only: true
@@ -5630,8 +5532,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Parcels+Tieduprightnow"
-            search_only: true
+            url: "https://music.apple.com/us/album/tieduprightnow/1368544993?i=1368545238&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/66tkDkPsznE5zIHNt4QkXB"
           - service: "youtube_music"
@@ -5657,8 +5558,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=Winta+It%27s+A+Sweet+Day"
-            search_only: true
+            url: "https://music.apple.com/us/album/its-a-sweet-day/1859332878?i=1859332880&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/1WnetgE20LtNTfhcYMZmbt"
           - service: "youtube_music"
@@ -5685,8 +5585,7 @@ submissions:
         source: "synthesis"
         links:
           - service: "apple_music"
-            url: "https://music.apple.com/us/search?term=BABYMONSTER+CHOOM"
-            search_only: true
+            url: "https://music.apple.com/us/album/choom/1895588322?i=6763988598&uo=4"
           - service: "spotify"
             url: "https://open.spotify.com/track/4cox7ONwuCwUvfZ9fsGDVu"
           - service: "youtube_music"
