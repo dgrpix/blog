@@ -2,6 +2,10 @@
 title: "Katie’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KTZMK4901KTF2T8SE58AAC2G"
+    status: "failed"
+    source_url: "https://www.instagram.com/stories/bethanyvinton/3918146219352946080?utm_source=ig_story_item_share"
+    completed_at: "Jun 12, 2026 · 9:49 PM PDT"
   - id: "01KTYDH1N4T0MJTPQJ4ZBTBX20"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZfdZPtpq8q/"
