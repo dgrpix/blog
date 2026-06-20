@@ -2,6 +2,104 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KVK9P48HTB46GBF3C6G4H906"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DQ9tXE2D25K/"
+    title: "New Alt R&B & Neo Soul Picks"
+    completed_at: "Jun 20, 2026 · 12:58 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KVK9P48HTB46GBF3C6G4H906.jpg"
+    items:
+      - artist: "Exp., Meron T, Samwyse, Kamae"
+        title: "This Ain't Really"
+        kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/this-aint-really-feat-kamae/1846784779?i=1846785024&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5t7aPGDwPw0uKaYZq3HN2w"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Exp.%2C+Meron+T%2C+Samwyse%2C+Kamae+This+Ain%27t+Really"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/467232160"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Exp.%2C+Meron+T%2C+Samwyse%2C+Kamae+This+Ain%27t+Really"
+            search_only: true
+      - artist: "Kareen Lomax"
+        title: "apartment"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/apartment/1842047243?i=1842047244&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1dBUz37qaUHAbl0SuWcJ9p"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kareen+Lomax+apartment"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/462859619"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kareen+Lomax+apartment"
+            search_only: true
+      - artist: "Felix Ames"
+        title: "Less Is More"
+        kind: "track"
+        year: 2025
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/less-is-more/1884235329?i=1884235331&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/36nPlPW0msP3KdkiXSaLgi"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Felix+Ames+Less+Is+More"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/510525194"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Felix+Ames+Less+Is+More"
+            search_only: true
+      - artist: "Felix Ames"
+        title: "JENA"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/jena/1714674003?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2FpBj92pSFehoa23LolojW"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Felix+Ames+JENA"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/359774374"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Felix+Ames+JENA"
+            search_only: true
+      - artist: "Joya Mooi"
+        title: "Pay Day"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/pay-day/1842892569?i=1842892572&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/58TQZqfL0jKekC40I6pVPu"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Joya+Mooi+Pay+Day"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/463137231"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Joya+Mooi+Pay+Day"
+            search_only: true
   - id: "01KVK8WP5Y4FXREWFMM2QYH1D5"
     status: "completed"
     source_url: "https://www.instagram.com/reel/C_lJaq7Kh2Q/?igsh=NjZiM2M3MzIxNA=="
