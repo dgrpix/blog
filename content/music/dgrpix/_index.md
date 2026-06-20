@@ -2,6 +2,197 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KVK8WP5Y4FXREWFMM2QYH1D5"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/C_lJaq7Kh2Q/?igsh=NjZiM2M3MzIxNA=="
+    title: "Best New Music Friday — 10 Fresh Picks"
+    completed_at: "Jun 20, 2026 · 12:45 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KVK8WP5Y4FXREWFMM2QYH1D5.jpg"
+    items:
+      - artist: "Pale Jay"
+        title: "Quadris De Ouro"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/quadris-de-ouro/1747957257?i=1747957273&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3BB5k0EArimPyCD1VYcFzR"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Pale+Jay+Quadris+De+Ouro"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/365046199"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Pale+Jay+Quadris+De+Ouro"
+            search_only: true
+      - artist: "Jaubi"
+        title: "Reflections of God"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/reflections-of-god/1748150545?i=1748150555&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/49NdrUjxqnLUajnQS4KzTO"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jaubi+Reflections+of+God"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/365268197"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jaubi+Reflections+of+God"
+            search_only: true
+      - artist: "Thandii"
+        title: "Nayland Rock"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/nayland-rock/1744537003?i=1744537347&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3byixom9BxvapRSIQJkFxK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Thandii+Nayland+Rock"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/361063833"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Thandii+Nayland+Rock"
+            search_only: true
+      - artist: "Bex Burch, Danalogue, Tamar Osborn"
+        title: "Capillary Waves"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Bex+Burch%2C+Danalogue%2C+Tamar+Osborn+Capillary+Waves"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6TjyU83aOzedrpHNBayulE"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bex+Burch%2C+Danalogue%2C+Tamar+Osborn+Capillary+Waves"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/374674944"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Bex+Burch%2C+Danalogue%2C+Tamar+Osborn+Capillary+Waves"
+            search_only: true
+      - artist: "Şatellites"
+        title: "Zülüf Dökülmüs Yüze"
+        kind: "track"
+        year: 2024
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/z-%C3%BC-l-%C3%BC-f-d-%C3%B6-k-%C3%BC-lm-%C3%BC-s-y-%C3%BC-ze/1779810913?i=1779811342&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2pNk0exRArW0FWxoWJ5JuK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=%C5%9Eatellites+Z%C3%BCl%C3%BCf+D%C3%B6k%C3%BClm%C3%BCs+Y%C3%BCze"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/271407550"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=%C5%9Eatellites+Z%C3%BCl%C3%BCf+D%C3%B6k%C3%BClm%C3%BCs+Y%C3%BCze"
+            search_only: true
+      - artist: "Błoto"
+        title: "Shiitake"
+        kind: "track"
+        year: 2024
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/shiitake/1752691269?i=1752691700&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5zkooz0mdoY4e85OVR8A52"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=B%C5%82oto+Shiitake"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/370097088"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=B%C5%82oto+Shiitake"
+            search_only: true
+      - artist: "Mulatu Astatke & Hoodna Orchestra"
+        title: "Tension"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/tension/1760532585?i=1760532586&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6elOKmr4055wAIH5Cr2L1m"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mulatu+Astatke+%26+Hoodna+Orchestra+Tension"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/378736380"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Mulatu+Astatke+%26+Hoodna+Orchestra+Tension"
+            search_only: true
+      - artist: "Nala Sinephro"
+        title: "Continuum 5"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/continuum-5/1752836259?i=1752836265&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1osH3uL7bpaqqihI6DtirD"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Nala+Sinephro+Continuum+5"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/370239862"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Nala+Sinephro+Continuum+5"
+            search_only: true
+      - artist: "CHERISE & Frida Touray"
+        title: "Hello"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/hello/1760323456?i=1760323733&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1DjnDLJK0ybp82vKKM5e7r"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=CHERISE+%26+Frida+Touray+Hello"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/378702645"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=CHERISE+%26+Frida+Touray+Hello"
+            search_only: true
+      - artist: "Matt Wilde ft. Aaron Wood"
+        title: "Good Things Happen"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/good-things-happen/1752661149?i=1752662211&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Matt+Wilde+ft.+Aaron+Wood+Good+Things+Happen"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Matt+Wilde+ft.+Aaron+Wood+Good+Things+Happen"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/370040953"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Matt+Wilde+ft.+Aaron+Wood+Good+Things+Happen"
+            search_only: true
   - id: "01KTVWCGY56Z3RC6P0H1A3T03Q"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DYXvKQts0Lm/"
