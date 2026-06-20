@@ -2,6 +2,123 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KVKDA8CFV5MRYVEXVSM7RRSC"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZzX-NfBMEN/"
+    title: "6 New Releases to Listen to This Week"
+    completed_at: "Jun 20, 2026 · 2:02 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KVKDA8CFV5MRYVEXVSM7RRSC.jpg"
+    items:
+      - artist: "Owelu Dreamhouse"
+        title: "Owelu Dreamhouse"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/stutter-single/1838872784?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0einVbMQUTfMYo4BQnlBil"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Owelu+Dreamhouse+Owelu+Dreamhouse"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/488183687"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Owelu+Dreamhouse+Owelu+Dreamhouse"
+            search_only: true
+      - artist: "Nat Pavlovic"
+        title: "Big Heart"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Nat+Pavlovic+Big+Heart"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/6kvGhinEYxdDkQzk3PBDG6"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Nat+Pavlovic+Big+Heart"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/470602479"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Nat+Pavlovic+Big+Heart"
+            search_only: true
+      - artist: "Eaves Wilder"
+        title: "Little Miss Sunshine"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Eaves+Wilder+Little+Miss+Sunshine"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/5HfhKhEHJiRv1UknjlocfF"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Eaves+Wilder+Little+Miss+Sunshine"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/482679335"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Eaves+Wilder+Little+Miss+Sunshine"
+            search_only: true
+      - artist: "Esha Tewari"
+        title: "What Makes A Girl A Girl"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/what-makes-a-girl-a-girl-ep/1860075999?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4QqoZQ9YV7TOTrkohQQ5pQ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Esha+Tewari+What+Makes+A+Girl+A+Girl"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/480471310"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Esha+Tewari+What+Makes+A+Girl+A+Girl"
+            search_only: true
+      - artist: "Hannah Lew"
+        title: "Hannah Lew"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/hannah-lew/1866634174?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3VS2ynZeyCbzkM4N616Jkw"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Hannah+Lew+Hannah+Lew"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/497736708"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Hannah+Lew+Hannah+Lew"
+            search_only: true
+      - artist: "Milly Strange"
+        title: "Milly Strange"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/milly-strange/1811880705?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/5XVJJmJ25rra49m0B02dWz"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Milly+Strange+Milly+Strange"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/451874328"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Milly+Strange+Milly+Strange"
+            search_only: true
   - id: "01KVK9P48HTB46GBF3C6G4H906"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DQ9tXE2D25K/"
