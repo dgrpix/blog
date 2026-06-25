@@ -2,6 +2,149 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KVZWYB0SEQ4B4ZJGFKB7H1W1"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZrtHnHow6R/"
+    title: "6 Bummer Summer Vinyl Picks"
+    completed_at: "Jun 25, 2026 · 10:26 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KVZWYB0SEQ4B4ZJGFKB7H1W1.jpg"
+    items:
+      - artist: "Arctic Monkeys"
+        title: "Whatever People Say I Am, That's What I'm Not"
+        kind: "album"
+        year: 2006
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Arctic+Monkeys+Whatever+People+Say+I+Am%2C+That%27s+What+I%27m+Not"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Arctic+Monkeys+Whatever+People+Say+I+Am%2C+That%27s+What+I%27m+Not"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Arctic+Monkeys+Whatever+People+Say+I+Am%2C+That%27s+What+I%27m+Not"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/13456784"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Arctic+Monkeys+Whatever+People+Say+I+Am%2C+That%27s+What+I%27m+Not"
+            search_only: true
+      - artist: "Slowdive"
+        title: "Slowdive"
+        kind: "album"
+        year: 2017
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/slowdive/1210172617?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1qDA0jVhj4ZTjGHmpbmmwa"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Slowdive+Slowdive"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/72486104"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Slowdive+Slowdive"
+            search_only: true
+      - artist: "Tame Impala"
+        title: "Lonerism"
+        kind: "album"
+        year: 2012
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/lonerism/1440825369?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3C2MFZ2iHotUQOSBzdSvM7"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tame+Impala+Lonerism"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/28098315"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Tame+Impala+Lonerism"
+            search_only: true
+      - artist: "King Krule"
+        title: "Space Heavy"
+        kind: "album"
+        year: 2023
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=King+Krule+Space+Heavy"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/31UtR7w5vJtg8AmBvWAwL5"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=King+Krule+Space+Heavy"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/295548706"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=King+Krule+Space+Heavy"
+            search_only: true
+      - artist: "Juniore"
+        title: "Ouh La La"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Juniore+Ouh+La+La"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/49WwwkiBXIWnIMZn5R17gS"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Juniore+Ouh+La+La"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/480785401"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Juniore+Ouh+La+La"
+            search_only: true
+      - artist: "Lana Del Rey"
+        title: "Born to Die"
+        kind: "album"
+        year: 2012
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/born-to-die/1779781213?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4X8hAqIWpQyQks2yRhyqs4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lana+Del+Rey+Born+to+Die"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/13152058"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Lana+Del+Rey+Born+to+Die"
+            search_only: true
+      - artist: "Tame Impala"
+        title: "Feels Like We Only Go Backwards"
+        kind: "track"
+        year: 2012
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/feels-like-we-only-go-backwards/1440825369?i=1440826088&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0LtOwyZoSNZKJWHqjzADpW"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tame+Impala+Feels+Like+We+Only+Go+Backwards"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/28098322"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Tame+Impala+Feels+Like+We+Only+Go+Backwards"
+            search_only: true
   - id: "01KVZWNM31NG91FGWVNXD3WYFJ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZ2FyCdIOuf/"
