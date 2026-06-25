@@ -2,6 +2,69 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KVZWNM31NG91FGWVNXD3WYFJ"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZ2FyCdIOuf/"
+    title: "Sunday Listening Club: 3 Album Picks"
+    completed_at: "Jun 25, 2026 · 10:21 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KVZWNM31NG91FGWVNXD3WYFJ.jpg"
+    items:
+      - artist: "Zero 7"
+        title: "Simple Things"
+        kind: "album"
+        year: 2001
+        confidence: 0.8500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/simple-things/1814436320?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/291IqGpnrkekWf8hn0xB3x"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Zero+7+Simple+Things"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/435937047"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Zero+7+Simple+Things"
+            search_only: true
+      - artist: "Black Pumas"
+        title: "Black Pumas"
+        kind: "album"
+        year: 2019
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/black-pumas/1459935143?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4KJGypBUe7ANibtri1msUe"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Black+Pumas+Black+Pumas"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/122486456"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Black+Pumas+Black+Pumas"
+            search_only: true
+      - artist: "Gina Ete"
+        title: "Erased By Thought"
+        kind: "album"
+        confidence: 0.8800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/erased-by-thought/1553031440?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3C4dDT2XKNCLPKa3HyYCmx"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Gina+Ete+Erased+By+Thought"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/173023828"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Gina+Ete+Erased+By+Thought"
+            search_only: true
   - id: "01KVZW915G7PPG4DPYEHE9XPHD"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZ-SarTyZhf/"
