@@ -2,6 +2,311 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KVZW915G7PPG4DPYEHE9XPHD"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZ-SarTyZhf/"
+    title: "15 Favorite Albums of 2026 So Far"
+    completed_at: "Jun 25, 2026 · 10:14 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KVZW915G7PPG4DPYEHE9XPHD.jpg"
+    items:
+      - artist: "Tom Misch"
+        title: "Full Circle"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Tom+Misch+Full+Circle"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3y9ho86K2n12FPdMV4pU7U"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tom+Misch+Full+Circle"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/489115988"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Tom+Misch+Full+Circle"
+            search_only: true
+      - artist: "Flea"
+        title: "Honora"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Flea+Honora"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4RsSlnwkUAvEtg0Tk86HnM"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Flea+Honora"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/504977267"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Flea+Honora"
+            search_only: true
+      - artist: "Dry Cleaning"
+        title: "Secret Love"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Dry+Cleaning+Secret+Love"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/79o6ZvFsXaAkL9MHCE6ts4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Dry+Cleaning+Secret+Love"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/482925845"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Dry+Cleaning+Secret+Love"
+            search_only: true
+      - artist: "Kevin Morby"
+        title: "Little Wide Open"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Kevin+Morby+Little+Wide+Open"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4SE1kVQva7akjFCMxFiP7U"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kevin+Morby+Little+Wide+Open"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/491243836"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kevin+Morby+Little+Wide+Open"
+            search_only: true
+      - artist: "Fcukers"
+        title: "Ö"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Fcukers+%C3%96"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4RrsgnUbZIFTw42Apa8lXO"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Fcukers+%C3%96"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/489408952"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Fcukers+%C3%96"
+            search_only: true
+      - artist: "Yaya Bey"
+        title: "Fidelity"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Yaya+Bey+Fidelity"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4gT5itNBVYzC9jcgMvvOUa"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yaya+Bey+Fidelity"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/494374160"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Yaya+Bey+Fidelity"
+            search_only: true
+      - artist: "Kelsey Lu"
+        title: "So Help Me God"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Kelsey+Lu+So+Help+Me+God"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1NRIhAmDSsF25lFAwv4pDt"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kelsey+Lu+So+Help+Me+God"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/498119643"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kelsey+Lu+So+Help+Me+God"
+            search_only: true
+      - artist: "Aldous Harding"
+        title: "Train on the Island"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/train-on-the-island/1876846303?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Aldous+Harding+Train+on+the+Island"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Aldous+Harding+Train+on+the+Island"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/516381572"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Aldous+Harding+Train+on+the+Island"
+            search_only: true
+      - artist: "The Lemon Twigs"
+        title: "Look for Your Mind!"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/look-for-your-mind/1876938155?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2wKJGzZd7wQFRi8oK3Gatg"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Lemon+Twigs+Look+for+Your+Mind%21"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/498548519"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Lemon+Twigs+Look+for+Your+Mind%21"
+            search_only: true
+      - artist: "Vince Staples"
+        title: "Cry Baby"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Vince+Staples+Cry+Baby"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/5Asm8hPfn7pAlxpoir4ljs"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Vince+Staples+Cry+Baby"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/528878821"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Vince+Staples+Cry+Baby"
+            search_only: true
+      - artist: "Cola"
+        title: "Cost of Living Adjustment"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Cola+Cost+of+Living+Adjustment"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/33qjdHHhpYlh1GcXoI5knH"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Cola+Cost+of+Living+Adjustment"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/492748486"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Cola+Cost+of+Living+Adjustment"
+            search_only: true
+      - artist: "Shabaka"
+        title: "Of the Earth"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/of-the-earth/1859609542?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1WLCmU6lTy0OqC1ALX4wfJ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Shabaka+Of+the+Earth"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/480061751"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Shabaka+Of+the+Earth"
+            search_only: true
+      - artist: "Bill Callahan"
+        title: "My Days of 58"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/my-days-of-58/1846471021?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/497p1j3P9Xzlb7vXay7tNl"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bill+Callahan+My+Days+of+58"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/468933161"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Bill+Callahan+My+Days+of+58"
+            search_only: true
+      - artist: "Thundercat"
+        title: "Distracted"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Thundercat+Distracted"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4DkVTJfU9qyNWKbjLoTENL"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Thundercat+Distracted"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Thundercat+Distracted"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Thundercat+Distracted"
+            search_only: true
+      - artist: "Jill Scott"
+        title: "To Whom This May Concern"
+        kind: "album"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/to-whom-this-may-concern/1876937000?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/7mwyiTViOEtAtOeoilQ3QG"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jill+Scott+To+Whom+This+May+Concern"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Jill+Scott+To+Whom+This+May+Concern"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jill+Scott+To+Whom+This+May+Concern"
+            search_only: true
   - id: "01KVKDA8CFV5MRYVEXVSM7RRSC"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZzX-NfBMEN/"
