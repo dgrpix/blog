@@ -2,6 +2,111 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KW0K7S3NA568EKN6N02ZSEFR"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZuKHY6vnef/"
+    title: "5 Albums to Lose Your Mind To"
+    completed_at: "Jun 25, 2026 · 4:55 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KW0K7S3NA568EKN6N02ZSEFR.jpg"
+    items:
+      - artist: "American Football"
+        title: "American Football"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/american-football/1651333864?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/70OkRXiiwdTCtZ9YiPBzPp"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=American+Football+American+Football"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/256102277"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=American+Football+American+Football"
+            search_only: true
+      - artist: "Tame Impala"
+        title: "The Slow Rush"
+        kind: "album"
+        year: 2020
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/the-slow-rush/1497230760?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tame+Impala+The+Slow+Rush"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/130691516"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Tame+Impala+The+Slow+Rush"
+            search_only: true
+      - artist: "Mac DeMarco"
+        title: "Salad Days"
+        kind: "album"
+        year: 2014
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/salad-days/799685692?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2sij95QgjmgrhNv33achzn"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mac+DeMarco+Salad+Days"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/27132220"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Mac+DeMarco+Salad+Days"
+            search_only: true
+      - artist: "Have A Nice Life"
+        title: "Deathconsciousness"
+        kind: "album"
+        year: 2008
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Have+A+Nice+Life+Deathconsciousness"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/6MH3CAXp8AN8ELrbex18dM"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Have+A+Nice+Life+Deathconsciousness"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/65229357"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Have+A+Nice+Life+Deathconsciousness"
+            search_only: true
+      - artist: "Adrienne Lenker"
+        title: "Capacity"
+        kind: "album"
+        year: 2017
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Adrienne+Lenker+Capacity"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Adrienne+Lenker+Capacity"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Adrienne+Lenker+Capacity"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Adrienne+Lenker+Capacity"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Adrienne+Lenker+Capacity"
+            search_only: true
   - id: "01KW0JX3MNDAK5MCE3N2K49CR6"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZ8NHqCo0fQ/"
