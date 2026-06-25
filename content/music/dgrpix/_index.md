@@ -2,6 +2,107 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KW0JX3MNDAK5MCE3N2K49CR6"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZ8NHqCo0fQ/"
+    title: "5 Albums for When the Sun's Out"
+    completed_at: "Jun 25, 2026 · 4:49 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KW0JX3MNDAK5MCE3N2K49CR6.jpg"
+    items:
+      - artist: "Air"
+        title: "Moon Safari"
+        kind: "album"
+        year: 1998
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/moon-safari/693063670?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/206GTDefY2qRMQxYXmfb0a"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Air+Moon+Safari"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/43710473"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Air+Moon+Safari"
+            search_only: true
+      - artist: "Rodrigo y Gabriela"
+        title: "Rodrigo y Gabriela"
+        kind: "album"
+        year: 2006
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/rodrigo-y-gabriela/432825225?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3iqyQHFVWrmx4rjWRJXCNg"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Rodrigo+y+Gabriela+Rodrigo+y+Gabriela"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/122573459"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Rodrigo+y+Gabriela+Rodrigo+y+Gabriela"
+            search_only: true
+      - artist: "Buena Vista Social Club"
+        title: "Buena Vista Social Club"
+        kind: "album"
+        year: 1997
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/buena-vista-social-club/1716598034?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/5qcOy8sMqROZ0VEfK8LJZt"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Buena+Vista+Social+Club+Buena+Vista+Social+Club"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/486366660"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Buena+Vista+Social+Club+Buena+Vista+Social+Club"
+            search_only: true
+      - artist: "Pomplamoose"
+        title: "Photogénique"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/photog%C3%A9nique/1816181341?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2KbBJRk9tztlwbrMnrfFcN"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Pomplamoose+Photog%C3%A9nique"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/437645072"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Pomplamoose+Photog%C3%A9nique"
+            search_only: true
+      - artist: "Zero 7"
+        title: "Simple Things"
+        kind: "album"
+        year: 2001
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/simple-things/1814436320?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/291IqGpnrkekWf8hn0xB3x"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Zero+7+Simple+Things"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/435937047"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Zero+7+Simple+Things"
+            search_only: true
   - id: "01KVZWYB0SEQ4B4ZJGFKB7H1W1"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZrtHnHow6R/"
