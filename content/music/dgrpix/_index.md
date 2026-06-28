@@ -2,6 +2,69 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KW6A77VJK63WTNAK0J79MSFV"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DaDdMKRu3s4/"
+    title: "Songs That F*** — Trip Hop Picks"
+    completed_at: "Jun 27, 2026 · 10:13 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KW6A77VJK63WTNAK0J79MSFV.jpg"
+    items:
+      - artist: "Sneaker Pimps"
+        title: "Half Life"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/half-life/1726645374?i=1726645375&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6Xs5RQhdHaSPGOB5wkUohn"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Sneaker+Pimps+Half+Life"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/117628172"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Sneaker+Pimps+Half+Life"
+            search_only: true
+      - artist: "a.s.o., Alias Error"
+        title: "My Baby's Got It Out For Me"
+        kind: "track"
+        year: 2023
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=a.s.o.%2C+Alias+Error+My+Baby%27s+Got+It+Out+For+Me"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5tS3Weg9TqWOx6Uv0K6MkL"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=a.s.o.%2C+Alias+Error+My+Baby%27s+Got+It+Out+For+Me"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/290602260"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=a.s.o.%2C+Alias+Error+My+Baby%27s+Got+It+Out+For+Me"
+            search_only: true
+      - artist: "hoodie, james K"
+        title: "Scorpio"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/scorpio/6766482388?i=6766482390&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2hlOYEAWO4aW9zuf1hWoxQ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=hoodie%2C+james+K+Scorpio"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/521717992"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=hoodie%2C+james+K+Scorpio"
+            search_only: true
   - id: "01KW68NGSSTYYBXQB66GR9QDEC"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZLD3r6omxC/"
