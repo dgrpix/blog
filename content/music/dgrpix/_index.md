@@ -2,6 +2,109 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KW68NGSSTYYBXQB66GR9QDEC"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZLD3r6omxC/"
+    title: "5 Perfect Albums from the 90s"
+    completed_at: "Jun 27, 2026 · 9:46 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KW68NGSSTYYBXQB66GR9QDEC.jpg"
+    items:
+      - artist: "Massive Attack"
+        title: "Mezzanine"
+        kind: "album"
+        year: 1998
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mezzanine/724466069?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Massive+Attack+Mezzanine"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/161314"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Massive+Attack+Mezzanine"
+            search_only: true
+      - artist: "Air"
+        title: "Moon Safari"
+        kind: "album"
+        year: 1998
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/moon-safari/693063670?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/206GTDefY2qRMQxYXmfb0a"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Air+Moon+Safari"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/43710473"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Air+Moon+Safari"
+            search_only: true
+      - artist: "Portishead"
+        title: "Dummy"
+        kind: "album"
+        year: 1994
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/dummy/1440653096?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Portishead+Dummy"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/1765476"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Portishead+Dummy"
+            search_only: true
+      - artist: "DJ Shadow"
+        title: "Endtroducing....."
+        kind: "album"
+        year: 1996
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/rocket-fuel-feat-de-la-soul-single/1569898039?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4tUVkNYSFrrEqqrxBQW9PN"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=DJ+Shadow+Endtroducing....."
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/269088401"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=DJ+Shadow+Endtroducing....."
+            search_only: true
+      - artist: "Morcheeba"
+        title: "Big Calm"
+        kind: "album"
+        year: 1998
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Morcheeba+Big+Calm"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/7rjjFxMFZjPzQzBMj6mXr2"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Morcheeba+Big+Calm"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/34466266"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Morcheeba+Big+Calm"
+            search_only: true
   - id: "01KW0K7S3NA568EKN6N02ZSEFR"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZuKHY6vnef/"
