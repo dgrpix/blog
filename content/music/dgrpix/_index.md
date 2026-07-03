@@ -2,6 +2,32 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KWJZH62K9R096FZ1505G07PT"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DaSv-g-ik0x/?igsh=NjZiM2M3MzIxNA=="
+    title: "Deuce — Manu Delago & Max ZT"
+    completed_at: "Jul 2, 2026 · 8:16 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KWJZH62K9R096FZ1505G07PT.jpg"
+    items:
+      - artist: "Manu Delago & Max ZT"
+        title: "Deuce"
+        kind: "album"
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/deuce/1868563738?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Manu+Delago+%26+Max+ZT+Deuce"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Manu+Delago+%26+Max+ZT+Deuce"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/489186394"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Manu+Delago+%26+Max+ZT+Deuce"
+            search_only: true
   - id: "01KW6A77VJK63WTNAK0J79MSFV"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DaDdMKRu3s4/"
