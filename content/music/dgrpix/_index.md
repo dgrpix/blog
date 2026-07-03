@@ -2,6 +2,289 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KWME69ET3RC8PSMN051690CN"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DaU5irSu3WT/"
+    title: "15 Songs Where the Singer Instructs Their Band"
+    completed_at: "Jul 3, 2026 · 9:52 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KWME69ET3RC8PSMN051690CN.jpg"
+    items:
+      - artist: "Bright Eyes"
+        title: "Let's Not Shit Ourselves (To Love and Be Loved)"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/lets-not-shit-ourselves-to-love-and-to-be-loved/1565218167?i=1565218895&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0lwDCEpiCPi5Gs9WvDVTCj"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Bright+Eyes+Let%27s+Not+Shit+Ourselves+%28To+Love+and+Be+Loved%29"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/182262186"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Bright+Eyes+Let%27s+Not+Shit+Ourselves+%28To+Love+and+Be+Loved%29"
+            search_only: true
+      - artist: "Prince, The New Power Generation"
+        title: "Sexy M.F."
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Prince%2C+The+New+Power+Generation+Sexy+M.F."
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4JUgmt3hxaO5gLXq4puZKK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Prince%2C+The+New+Power+Generation+Sexy+M.F."
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/165646931"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Prince%2C+The+New+Power+Generation+Sexy+M.F."
+            search_only: true
+      - artist: "King Curtis"
+        title: "Memphis Soul Stew"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/memphis-soul-stew/1421184209?i=1421184215&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6MqfTP3OwngywVTOS5OAFt"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=King+Curtis+Memphis+Soul+Stew"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/297830"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=King+Curtis+Memphis+Soul+Stew"
+            search_only: true
+      - artist: "Janelle Monáe"
+        title: "Django Jane"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/django-jane/1349993533?i=1349993542&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/56RfNBJGUgL1ZFCB1KEJrQ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Janelle+Mon%C3%A1e+Django+Jane"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/88028451"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Janelle+Mon%C3%A1e+Django+Jane"
+            search_only: true
+      - artist: "Silk Sonic"
+        title: "Fly As Me"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/fly-as-me/1611637679?i=1611637863&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7suB6D6uKX5DfPukdGaz0W"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Silk+Sonic+Fly+As+Me"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/218163983"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Silk+Sonic+Fly+As+Me"
+            search_only: true
+      - artist: "Vulfpeck, Antwaun Stanley"
+        title: "New Guru"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Vulfpeck%2C+Antwaun+Stanley+New+Guru"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Vulfpeck%2C+Antwaun+Stanley+New+Guru"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Vulfpeck%2C+Antwaun+Stanley+New+Guru"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/498933363"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Vulfpeck%2C+Antwaun+Stanley+New+Guru"
+            search_only: true
+      - artist: "Labelle"
+        title: "Moon Shadow"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/moon-shadow/285632852?i=285633101&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/20R3ZTMnWI1AZ6F5lcCm8O"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Labelle+Moon+Shadow"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/34986022"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Labelle+Moon+Shadow"
+            search_only: true
+      - artist: "The Strokes"
+        title: "Ode to the Mets"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/ode-to-the-mets/1641811978?i=1641811981&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1BLOVHYYlH4JUHQGcpt75R"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Strokes+Ode+to+the+Mets"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/136685787"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Strokes+Ode+to+the+Mets"
+            search_only: true
+      - artist: "Kendrick Lamar"
+        title: "The Heart Part 5"
+        kind: "track"
+        year: 2022
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/the-heart-part-5/1623073960?i=1623073963&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5qbhVL3vB7HwWvb0042B7y"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kendrick+Lamar+The+Heart+Part+5"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/227992834"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kendrick+Lamar+The+Heart+Part+5"
+            search_only: true
+      - artist: "The Isley Brothers"
+        title: "Shout, Pts. 1 & 2"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/shout-pts-1-2/1030461597?i=1030462242&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2ZNTPtYmAhN9vCwnAgqKn1"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Isley+Brothers+Shout%2C+Pts.+1+%26+2"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/50052227"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Isley+Brothers+Shout%2C+Pts.+1+%26+2"
+            search_only: true
+      - artist: "The Capitols"
+        title: "Cool Jerk"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/cool-jerk/40459708?i=40459712&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1CQHMHRCDs1qioeseVTbaR"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Capitols+Cool+Jerk"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/216366"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Capitols+Cool+Jerk"
+            search_only: true
+      - artist: "LCD Soundsystem"
+        title: "Us V Them"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/us-v-them/742432549?i=742434955&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6shyEhv7EqbnL2ZGcMdaHo"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=LCD+Soundsystem+Us+V+Them"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/141260"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=LCD+Soundsystem+Us+V+Them"
+            search_only: true
+      - artist: "Archie Bell & The Drells"
+        title: "Tighten Up, Pt. 1"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/tighten-up-pt-1/1268558686?i=1268558700&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6IIcvtmuGpWIasqOpyGlyY"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Archie+Bell+%26+The+Drells+Tighten+Up%2C+Pt.+1"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/277748"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Archie+Bell+%26+The+Drells+Tighten+Up%2C+Pt.+1"
+            search_only: true
+      - artist: "Toots & The Maytals"
+        title: "54-46 Was My Number"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/54-46-was-my-number/1442876860?i=1442877127&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1q8gelFgFYUwoWpQV7WNCe"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Toots+%26+The+Maytals+54-46+Was+My+Number"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Toots+%26+The+Maytals+54-46+Was+My+Number"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Toots+%26+The+Maytals+54-46+Was+My+Number"
+            search_only: true
+      - artist: "James Brown, The J.B.'s"
+        title: "Doing It to Death"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/doing-it-to-death/166995407?i=166995510&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=James+Brown%2C+The+J.B.%27s+Doing+It+to+Death"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=James+Brown%2C+The+J.B.%27s+Doing+It+to+Death"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/13100503"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=James+Brown%2C+The+J.B.%27s+Doing+It+to+Death"
+            search_only: true
   - id: "01KWJZH62K9R096FZ1505G07PT"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DaSv-g-ik0x/?igsh=NjZiM2M3MzIxNA=="
