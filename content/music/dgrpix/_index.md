@@ -2,6 +2,225 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KWY7775W0EGH2T7PCTSWEFHX"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZWCCtaxRne/"
+    title: "Top 10 Albums of 2026 So Far"
+    completed_at: "Jul 7, 2026 · 5:03 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KWY7775W0EGH2T7PCTSWEFHX.jpg"
+    items:
+      - artist: "Slavyyyter"
+        title: "Worst Girl in America"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Slavyyyter+Worst+Girl+in+America"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Slavyyyter+Worst+Girl+in+America"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Slavyyyter+Worst+Girl+in+America"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/509438072"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Slavyyyter+Worst+Girl+in+America"
+            search_only: true
+      - artist: "Kiss Facility"
+        title: "KHAZNA"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/khazna/1868656276?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1e6TOfQPLEkZG03XHkY3s3"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kiss+Facility+KHAZNA"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/489326985"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kiss+Facility+KHAZNA"
+            search_only: true
+      - artist: "Lip Critic"
+        title: "Theft World"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Lip+Critic+Theft+World"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/6UQvKJID9tTP81IIFRt9Dk"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lip+Critic+Theft+World"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/473731142"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Lip+Critic+Theft+World"
+            search_only: true
+      - artist: "The Field"
+        title: "Now You Exist"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/now-you-exist/1866648865?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1QUpfka9EwmCunVeIy1y3I"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Field+Now+You+Exist"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/487212480"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Field+Now+You+Exist"
+            search_only: true
+      - artist: "Jill Scott"
+        title: "To Whom This May Concern"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/to-whom-this-may-concern/1876937000?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/7mwyiTViOEtAtOeoilQ3QG"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Jill+Scott+To+Whom+This+May+Concern"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/498227685"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Jill+Scott+To+Whom+This+May+Concern"
+            search_only: true
+      - artist: "Dagmar Zuniga"
+        title: "in filth your mystery..."
+        kind: "album"
+        year: 2026
+        confidence: 0.9200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/in-filth-your-mystery-is-kingdom-far-smile-peasant/1879872567?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/5x7MhNPVEZeicFl5I8u1OO"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Dagmar+Zuniga+in+filth+your+mystery..."
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/501997148"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Dagmar+Zuniga+in+filth+your+mystery..."
+            search_only: true
+      - artist: "Aldous Harding"
+        title: "Train on the Island"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/train-on-the-island/1876846303?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0AePRMHymMl4oHBb5EuGiV"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Aldous+Harding+Train+on+the+Island"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/516381572"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Aldous+Harding+Train+on+the+Island"
+            search_only: true
+      - artist: "Ana Roxanne"
+        title: "Poem 1"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/poem-1/1876977313?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4eLf3APm1Cb4vqmJUnDLpr"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Ana+Roxanne+Poem+1"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/498603469"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Ana+Roxanne+Poem+1"
+            search_only: true
+      - artist: "Mandy, Indiana"
+        title: "URGH"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/urgh/1846434012?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2W2pytiTdjR0VArgmbQD3M"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Mandy%2C+Indiana+URGH"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/467195541"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Mandy%2C+Indiana+URGH"
+            search_only: true
+      - artist: "Wendy Eisenberg"
+        title: "Wendy Eisenberg"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/wendy-eisenberg/1865963435?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/461pbwQf3k7oOQ43DZjzf5"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Wendy+Eisenberg+Wendy+Eisenberg"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/486535739"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Wendy+Eisenberg+Wendy+Eisenberg"
+            search_only: true
+      - artist: "Boards of Canada"
+        title: "INFERNO"
+        kind: "album"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/inferno/1890015523?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0mu3EvWYfNwBfISSg0q03p"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Boards+of+Canada+INFERNO"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/528351285"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Boards+of+Canada+INFERNO"
+            search_only: true
   - id: "01KWME69ET3RC8PSMN051690CN"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DaU5irSu3WT/"
