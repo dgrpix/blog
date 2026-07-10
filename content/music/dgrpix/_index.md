@@ -2,6 +2,165 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KX589EN45EQKQS853XC10DR6"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DaiezJWoL-7/"
+    title: "Steely Dan Vibes from Around the World"
+    completed_at: "Jul 9, 2026 · 10:36 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KX589EN45EQKQS853XC10DR6.jpg"
+    items:
+      - artist: "Makoto Matsushita"
+        title: "Lazy Night"
+        kind: "track"
+        year: 1982
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/lazy-night-2018-remaster/1447532396?i=1447532406&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5P539VzoDTFEpCCYlWC2Ii"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Makoto+Matsushita+Lazy+Night"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/101330229"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Makoto+Matsushita+Lazy+Night"
+            search_only: true
+      - artist: "Ed Motta"
+        title: "Simple Guy"
+        kind: "track"
+        year: 2013
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/simple-guy/902023865?i=902025931&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/53ThfU5od95toILOYMEGTj"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Ed+Motta+Simple+Guy"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/58653276"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Ed+Motta+Simple+Guy"
+            search_only: true
+      - artist: "Dawn Patrol"
+        title: "Bring on the Good Times"
+        kind: "track"
+        year: 2022
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/bring-on-the-good-times/1613927677?i=1613928007&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1VG1Z9yuNvd92B5fdLfrUA"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Dawn+Patrol+Bring+on+the+Good+Times"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/220408494"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Dawn+Patrol+Bring+on+the+Good+Times"
+            search_only: true
+      - artist: "Joel Sarakula"
+        title: "Microdosing"
+        kind: "track"
+        year: 2024
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/microdosing/1770357142?i=1770357436&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/16oL8EluiVJiT5qVkUvaVG"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Joel+Sarakula+Microdosing"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/389318624"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Joel+Sarakula+Microdosing"
+            search_only: true
+      - artist: "Rapallo"
+        title: "Play to Lose"
+        kind: "track"
+        year: 2024
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/play-to-lose/1756337462?i=1756337476&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6omojoKV4GqJT5CexQnfGM"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Rapallo+Play+to+Lose"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/373615561"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Rapallo+Play+to+Lose"
+            search_only: true
+      - artist: "Prep"
+        title: "Pictures of You"
+        kind: "track"
+        year: 2020
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/pictures-of-you/1532402103?i=1532402655&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3LhUSxQQt9KklO4EgEwbHV"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Prep+Pictures+of+You"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/246626827"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Prep+Pictures+of+You"
+            search_only: true
+      - artist: "The Norwegian Fords"
+        title: "I'll Be Dining Here Again"
+        kind: "track"
+        year: 2011
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/ill-be-dining-here-again/428358884?i=428358943&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3GUs64A3qs0yk2bDDuEcLm"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Norwegian+Fords+I%27ll+Be+Dining+Here+Again"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/6101075"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Norwegian+Fords+I%27ll+Be+Dining+Here+Again"
+            search_only: true
+      - artist: "State Cows"
+        title: "Come to the Point"
+        kind: "track"
+        year: 2010
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/come-to-the-point/459623646?i=459624039&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1ktP7j7NZU2YjzExV1zAG4"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=State+Cows+Come+to+the+Point"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/27507522"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=State+Cows+Come+to+the+Point"
+            search_only: true
   - id: "01KWY7775W0EGH2T7PCTSWEFHX"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZWCCtaxRne/"
