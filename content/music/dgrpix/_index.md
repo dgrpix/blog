@@ -2,6 +2,69 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KX9HDNNXV71MPWPNB16Q8ZF9"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DadJmNDIVn7/"
+    title: "70s Soft Rock Picks"
+    completed_at: "Jul 11, 2026 · 2:32 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KX9HDNNXV71MPWPNB16Q8ZF9.jpg"
+    items:
+      - artist: "The Doobie Brothers"
+        title: "I Cheat the Hangman"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/i-cheat-the-hangman/267549098?i=267551281&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7llKPF9kvwmwiwyX6Vm0FX"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Doobie+Brothers+I+Cheat+the+Hangman"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/273996"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Doobie+Brothers+I+Cheat+the+Hangman"
+            search_only: true
+      - artist: "Steely Dan"
+        title: "Pretzel Logic"
+        kind: "track"
+        year: 2007
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/pretzel-logic/1696215205?i=1696215958&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4I87004AuztqZ2YEV1vVP9"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Steely+Dan+Pretzel+Logic"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/306142858"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Steely+Dan+Pretzel+Logic"
+            search_only: true
+      - artist: "Robert Palmer"
+        title: "Every Kinda People"
+        kind: "track"
+        year: 2010
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/every-kinda-people/1425289735?i=1425290697&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/38E7U60ipLSTVDcPIuVzZw"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Robert+Palmer+Every+Kinda+People"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/570108"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Robert+Palmer+Every+Kinda+People"
+            search_only: true
   - id: "01KX589EN45EQKQS853XC10DR6"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DaiezJWoL-7/"
