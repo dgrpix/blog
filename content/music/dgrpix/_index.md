@@ -2,6 +2,91 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KZ1PSVP6020SPHQPY46D4MWA"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/Dax4DuKoYlr/"
+    title: "4 Albums for a Midnight Drive"
+    completed_at: "Aug 2, 2026 · 10:04 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KZ1PSVP6020SPHQPY46D4MWA.jpg"
+    items:
+      - artist: "Kavinsky"
+        title: "Outrun"
+        kind: "album"
+        year: 2013
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Kavinsky+Outrun"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3euRfc09m6LRXwplFPYtqh"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Kavinsky+Outrun"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/18825451"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Kavinsky+Outrun"
+            search_only: true
+      - artist: "Deftones"
+        title: "Around the Fur"
+        kind: "album"
+        year: 1997
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Deftones+Around+the+Fur"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/7o4UsmV37Sg5It2Eb7vHzu"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Deftones+Around+the+Fur"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/392562"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Deftones+Around+the+Fur"
+            search_only: true
+      - artist: "Carpenter Brut"
+        title: "Leather Teeth"
+        kind: "album"
+        year: 2018
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/leather-teeth/1440910081?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/7fy6Wpnn5NZllJzUXDeDpS"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Carpenter+Brut+Leather+Teeth"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/84684965"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Carpenter+Brut+Leather+Teeth"
+            search_only: true
+      - artist: "Tycho"
+        title: "Awake"
+        kind: "album"
+        year: 2014
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/awake/1660316080?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0GjrPTT00KWsalUi8jnpR9"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tycho+Awake"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/26632872"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Tycho+Awake"
+            search_only: true
   - id: "01KZ1PFJQWX7YD1DY5BENC32SA"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DbhO_g5MW_X/"
