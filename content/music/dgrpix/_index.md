@@ -2,6 +2,204 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KZ1NTT36X3S8WNYB56VQ1SXZ"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DbezBn_OLEx/"
+    title: "Most Perfect 10/10 Songs That Exist"
+    completed_at: "Aug 2, 2026 · 9:47 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KZ1NTT36X3S8WNYB56VQ1SXZ.jpg"
+    items:
+      - artist: "The Brian Jonestown Massacre"
+        title: "Anenome"
+        kind: "track"
+        year: 2008
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/anenome/1480764971?i=1480765186&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5sHEmVAiepdGCj0rHtLYFO"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Brian+Jonestown+Massacre+Anenome"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/118355080"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Brian+Jonestown+Massacre+Anenome"
+            search_only: true
+      - artist: "Hum"
+        title: "Stars"
+        kind: "track"
+        year: 1995
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/stars/298512389?i=298512608&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6lQE6LF3MU63Z6VyhPxaV3"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Hum+Stars"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/668539"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Hum+Stars"
+            search_only: true
+      - artist: "Sweet Trip"
+        title: "KKMJ"
+        kind: "track"
+        year: 2022
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Sweet+Trip+KKMJ"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/15VdjtCwcVZmVZHRy63Zgj"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Sweet+Trip+KKMJ"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/220809134"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Sweet+Trip+KKMJ"
+            search_only: true
+      - artist: "Rei Harakami"
+        title: "triple flat"
+        kind: "track"
+        year: 1999
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/triple-flat/1882641072?i=1882641077&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0QDh9KF614U2les2oQTFe2"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Rei+Harakami+triple+flat"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/523884754"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Rei+Harakami+triple+flat"
+            search_only: true
+      - artist: "Yo La Tengo"
+        title: "Nowhere Near"
+        kind: "track"
+        year: 1993
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/nowhere-near/1589240889?i=1589240914&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5L2STOBiS00u7q4aLtRjKK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Yo+La+Tengo+Nowhere+Near"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/38030927"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Yo+La+Tengo+Nowhere+Near"
+            search_only: true
+      - artist: "Slowdive"
+        title: "Slomo"
+        kind: "track"
+        year: 2017
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/slomo/1210172617?i=1210172771&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0KYOthr76o5GlmYLEfp9OX"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Slowdive+Slomo"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/72486105"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Slowdive+Slomo"
+            search_only: true
+      - artist: "King Krule"
+        title: "Rock Bottom"
+        kind: "track"
+        year: 2013
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/rock-bottom/1871165475?i=1871165476&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5rR0boyci6yCfnXFBzXlKY"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=King+Krule+Rock+Bottom"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/192950976"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=King+Krule+Rock+Bottom"
+            search_only: true
+      - artist: "LCD Soundsystem"
+        title: "Someone Great"
+        kind: "track"
+        year: 2007
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/someone-great/742432549?i=742434939&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2VGDntFPvgvqSiUf9ITEfW"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=LCD+Soundsystem+Someone+Great"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/141258"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=LCD+Soundsystem+Someone+Great"
+            search_only: true
+      - artist: "Alice In Chains"
+        title: "Down In A Hole"
+        kind: "track"
+        year: 1992
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/down-in-a-hole/157316517?i=157316706&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/48zAaZoXJxURbEHzxDDHXy"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Alice+In+Chains+Down+In+A+Hole"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/5120085"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Alice+In+Chains+Down+In+A+Hole"
+            search_only: true
+      - artist: "Masaki Matsubara"
+        title: "Busted"
+        kind: "track"
+        year: 1983
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/busted/294773963?i=294773972&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6Rh0U2nz67ClJudIRJ5p9d"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Masaki+Matsubara+Busted"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/446882071"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Masaki+Matsubara+Busted"
+            search_only: true
   - id: "01KZ0ERTBX6C2T3F56ZWDB6EA6"
     status: "failed"
     source_url: "https://www.instagram.com/reel/DbfrZ0yKhRN/"
