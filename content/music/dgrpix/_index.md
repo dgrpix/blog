@@ -2,6 +2,87 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KZ1QHBZ37HGEWPF17FCTS6JR"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DaZ_Xh1oC_0/"
+    title: "4 Records for a Slow Sunday (Part 5)"
+    completed_at: "Aug 2, 2026 · 10:17 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KZ1QHBZ37HGEWPF17FCTS6JR.jpg"
+    items:
+      - artist: "Men I Trust"
+        title: "Oncle Jazz"
+        kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4W4gNYa4tt3t8V6FmONWEK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Men+I+Trust+Oncle+Jazz"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/113866499"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Men+I+Trust+Oncle+Jazz"
+            search_only: true
+      - artist: "Explosions in the Sky"
+        title: "The Earth Is Not a Cold Dead Place"
+        kind: "album"
+        year: 2003
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/the-earth-is-not-a-cold-dead-place/318951781?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/49buCcKCJwxvdl0R2dMoIU"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Explosions+in+the+Sky+The+Earth+Is+Not+a+Cold+Dead+Place"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/19327723"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Explosions+in+the+Sky+The+Earth+Is+Not+a+Cold+Dead+Place"
+            search_only: true
+      - artist: "Surprise Chef"
+        title: "All News Is Good News"
+        kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/all-news-is-good-news/1862792613?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3IGV9lu6Bj2uy4PAXQiNcs"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Surprise+Chef+All+News+Is+Good+News"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/505884535"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Surprise+Chef+All+News+Is+Good+News"
+            search_only: true
+      - artist: "Makaya McCraven"
+        title: "Universal Beings"
+        kind: "album"
+        year: 2018
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/universal-beings/1410969638?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3cFJZIeJK3Tdkkq4iuvsBS"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Makaya+McCraven+Universal+Beings"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/111708937"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Makaya+McCraven+Universal+Beings"
+            search_only: true
   - id: "01KZ1PSVP6020SPHQPY46D4MWA"
     status: "completed"
     source_url: "https://www.instagram.com/reel/Dax4DuKoYlr/"
