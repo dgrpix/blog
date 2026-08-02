@@ -2,6 +2,32 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KZ1PFJQWX7YD1DY5BENC32SA"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DbhO_g5MW_X/"
+    title: "Glamour Girl (Louie Austen) — Monaco Luxury Picks"
+    completed_at: "Aug 2, 2026 · 9:58 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KZ1PFJQWX7YD1DY5BENC32SA.jpg"
+    items:
+      - artist: "Louie Austen"
+        title: "Glamour Girl"
+        kind: "track"
+        year: 2006
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/glamour-girl/202482372?i=202482500&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4pJ9shfcBs2BCpbD6IwzeC"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Louie+Austen+Glamour+Girl"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/track/88040001"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Louie+Austen+Glamour+Girl"
+            search_only: true
   - id: "01KZ1P2YZP02Q543TV5GBMHRP3"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DbiIvU-Icyd/"
