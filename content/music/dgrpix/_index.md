@@ -2,6 +2,70 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KZ1P2YZP02Q543TV5GBMHRP3"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DbiIvU-Icyd/"
+    title: "3 Records for a Perfect Lazy Sunday"
+    completed_at: "Aug 2, 2026 · 9:51 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KZ1P2YZP02Q543TV5GBMHRP3.jpg"
+    items:
+      - artist: "AIR"
+        title: "Moon Safari"
+        kind: "album"
+        year: 1998
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/moon-safari/693063670?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/206GTDefY2qRMQxYXmfb0a"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=AIR+Moon+Safari"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/43710473"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=AIR+Moon+Safari"
+            search_only: true
+      - artist: "Sade"
+        title: "Diamond Life"
+        kind: "album"
+        year: 1984
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/diamond-life/1524651063?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3JcNnjMVSKiNpqhErZarW0"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Sade+Diamond+Life"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/149573789"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Sade+Diamond+Life"
+            search_only: true
+      - artist: "Hermanos Gutiérrez"
+        title: "El Bueno Y El Malo"
+        kind: "album"
+        year: 2021
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/el-bueno-y-el-malo/1632317760?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1amdsOYtz60qOm5EiWq8Qb"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/255449917"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Hermanos+Guti%C3%A9rrez+El+Bueno+Y+El+Malo"
+            search_only: true
   - id: "01KZ1NTT36X3S8WNYB56VQ1SXZ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DbezBn_OLEx/"
