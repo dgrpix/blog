@@ -2,6 +2,69 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01KZKNPANH8TQV6H2NSA34RA5R"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DaffrALp0eY/"
+    title: "3 No-Skip Albums: 70s, 80s & 90s Picks"
+    completed_at: "Aug 9, 2026 · 9:31 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01KZKNPANH8TQV6H2NSA34RA5R.jpg"
+    items:
+      - artist: "Dead Boys"
+        title: "Young, Loud and Snotty"
+        kind: "album"
+        year: 1977
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/young-loud-and-snotty/268497356?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/6SiRxD9eeJELm4TR8C6MDJ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Dead+Boys+Young%2C+Loud+and+Snotty"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/1297932"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Dead+Boys+Young%2C+Loud+and+Snotty"
+            search_only: true
+      - artist: "The Wake"
+        title: "Here Comes Everybody"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/here-comes-everybody-singles/305300206?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1RD5PJpSa2wCcp8cy99iNF"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Wake+Here+Comes+Everybody"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/43696702"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Wake+Here+Comes+Everybody"
+            search_only: true
+      - artist: "Digable Planets"
+        title: "Blowout Comb"
+        kind: "album"
+        year: 1994
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/blowout-comb/724050563?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/5gvlpKnnINq8Z1YICdtiBt"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Digable+Planets+Blowout+Comb"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/browse/album/1408942"
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Digable+Planets+Blowout+Comb"
+            search_only: true
   - id: "01KZ1QHBZ37HGEWPF17FCTS6JR"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DaZ_Xh1oC_0/"
