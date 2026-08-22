@@ -2,6 +2,90 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M0KQ71W1SF9K9TMRDZN3Z9XB"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DcTpA4BomST/?igsi=NjZiM2M3MzIxNA=="
+    title: "Toast Club – \"Lift\" EP & Tracks"
+    completed_at: "Aug 21, 2026 · 8:13 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01M0KQ71W1SF9K9TMRDZN3Z9XB.jpg"
+    items:
+      - artist: "Toast Club"
+        title: "Lift"
+        kind: "album"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/lift-explained-single/1873360799?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2Xl617uwCUcTDU7lEsloqK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Toast+Club+Lift"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Toast+Club+Lift"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Toast+Club+Lift"
+            search_only: true
+      - artist: "Toast Club"
+        title: "Café Pacific"
+        kind: "track"
+        year: 2025
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/caaalifornia/1890177353?i=1890177538&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5XZQ4aIsrTZGuTqsuWZpOK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Toast+Club+Caf%C3%A9+Pacific"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Toast+Club+Caf%C3%A9+Pacific"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Toast+Club+Caf%C3%A9+Pacific"
+            search_only: true
+      - artist: "Toast Club"
+        title: "Alexandria"
+        kind: "track"
+        confidence: 0.9100
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/alexandria/1890177353?i=1890177540&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2WmWpdjuLPxjZ02jZ187qY"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Toast+Club+Alexandria"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Toast+Club+Alexandria"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Toast+Club+Alexandria"
+            search_only: true
+      - artist: "Toast Club"
+        title: "Mean Girl"
+        kind: "track"
+        confidence: 0.9100
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mean-girl/1887558214?i=1887558585&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3OhpAo5NR4cuqo4hXVDLOD"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Toast+Club+Mean+Girl"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Toast+Club+Mean+Girl"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Toast+Club+Mean+Girl"
+            search_only: true
   - id: "01KZKNPANH8TQV6H2NSA34RA5R"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DaffrALp0eY/"
