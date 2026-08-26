@@ -2,6 +2,110 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M106ZYNK1HAS3XPYF4FKDZED"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DaSFHGmh239/"
+    title: "Sam's Best New Finds of 2026 (So Far)"
+    completed_at: "Aug 26, 2026 · 4:40 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01M106ZYNK1HAS3XPYF4FKDZED.jpg"
+    items:
+      - artist: "Karmanjakah"
+        title: "Dove"
+        kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/dove/1880531748?i=1880531749&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2qI81FIePMJo8ed8a4kkU8"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Karmanjakah+Dove"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Karmanjakah+Dove"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Karmanjakah+Dove"
+            search_only: true
+      - artist: "Static Dress"
+        title: "Human Props"
+        kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/human-props/1860096661?i=1860096662&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2gViiDfjDK3lCScuq3B6aw"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Static+Dress+Human+Props"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Static+Dress+Human+Props"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Static+Dress+Human+Props"
+            search_only: true
+      - artist: "Vinted Vineer"
+        title: "Pretty"
+        kind: "track"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/pretty/1885532576?i=1885532738&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6hGl1RMAwlWBtbAon261Nk"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Vinted+Vineer+Pretty"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Vinted+Vineer+Pretty"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Vinted+Vineer+Pretty"
+            search_only: true
+      - artist: "SACE6"
+        title: "Perfidy"
+        kind: "track"
+        year: 2026
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/perfidy/1875393962?i=1875394474&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2TGBq8L3nkgm0hBnLGItKw"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=SACE6+Perfidy"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=SACE6+Perfidy"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=SACE6+Perfidy"
+            search_only: true
+      - artist: "The Missing Piece"
+        title: "The Infinite Shore"
+        kind: "track"
+        confidence: 0.8500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/the-infinite-shore/6771544553?i=6771544794&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2CMf9FPw8Jgq6qNpQMA3it"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Missing+Piece+The+Infinite+Shore"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=The+Missing+Piece+The+Infinite+Shore"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Missing+Piece+The+Infinite+Shore"
+            search_only: true
   - id: "01M1056FFJ7N9DMAM9RRZP0KWY"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DZb43TpRogi/"
