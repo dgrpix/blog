@@ -2,6 +2,266 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M1056FFJ7N9DMAM9RRZP0KWY"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DZb43TpRogi/"
+    title: "Triple j: Album of the Year So Far — Staff Picks"
+    completed_at: "Aug 26, 2026 · 4:09 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01M1056FFJ7N9DMAM9RRZP0KWY.jpg"
+    items:
+      - artist: "Robyn"
+        title: "Talk To Me"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/talk-to-me/1852752613?i=1852752952&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6rY4CO2ko4iWpSIm93fWJv"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Robyn+Talk+To+Me"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Robyn+Talk+To+Me"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Robyn+Talk+To+Me"
+            search_only: true
+      - artist: "Robyn"
+        title: "Sexistential"
+        kind: "album"
+        confidence: 0.9200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Robyn+Sexistential"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/6RYCig4T2bEZu2gnM0OxRL"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Robyn+Sexistential"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Robyn+Sexistential"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Robyn+Sexistential"
+            search_only: true
+      - artist: "underscores"
+        title: "Do It"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/tell-me-u-want-it/1878382378?i=1878382383&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4BBL8YQ1SUhSbcsEguX8kL"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=underscores+Do+It"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=underscores+Do+It"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=underscores+Do+It"
+            search_only: true
+      - artist: "underscores"
+        title: "u"
+        kind: "album"
+        confidence: 0.8500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=underscores+u"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/1qSS0T6Ffrb3rFVpizzOuk"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=underscores+u"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=underscores+u"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=underscores+u"
+            search_only: true
+      - artist: "Genesis Owusu"
+        title: "LIFE KEEPS GOING"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/same-thing/1726986126?i=1726986515&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4ep8mJAaommVNyQ7q0dDpa"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Genesis+Owusu+LIFE+KEEPS+GOING"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Genesis+Owusu+LIFE+KEEPS+GOING"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Genesis+Owusu+LIFE+KEEPS+GOING"
+            search_only: true
+      - artist: "Genesis Owusu"
+        title: "Redstar Wu & The Worldwide Scourge"
+        kind: "album"
+        confidence: 0.9200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Genesis+Owusu+Redstar+Wu+%26+The+Worldwide+Scourge"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/0nhxoQOhijxQPzPBv6OK9V"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Genesis+Owusu+Redstar+Wu+%26+The+Worldwide+Scourge"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Genesis+Owusu+Redstar+Wu+%26+The+Worldwide+Scourge"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Genesis+Owusu+Redstar+Wu+%26+The+Worldwide+Scourge"
+            search_only: true
+      - artist: "RAYE"
+        title: "Click Clack Symphony (feat. Hans Zimmer)"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/click-clack-symphony-feat-hans-zimmer/1871085677?i=1871085694&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5PspYmmQ8nKESNTcBY2LlX"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=RAYE+Click+Clack+Symphony+%28feat.+Hans+Zimmer%29"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=RAYE+Click+Clack+Symphony+%28feat.+Hans+Zimmer%29"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=RAYE+Click+Clack+Symphony+%28feat.+Hans+Zimmer%29"
+            search_only: true
+      - artist: "J. Cole"
+        title: "Two Six"
+        kind: "track"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/two-six/1876341626?i=1876341629&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/57ENogEkvFsU7Wmt3lvQMG"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=J.+Cole+Two+Six"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=J.+Cole+Two+Six"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=J.+Cole+Two+Six"
+            search_only: true
+      - artist: "J. Cole"
+        title: "The Fall-Off"
+        kind: "album"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/the-fall-off/1876341626?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/4jI9SU1GmpIVhHMuYZuvX7"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=J.+Cole+The+Fall-Off"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=J.+Cole+The+Fall-Off"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=J.+Cole+The+Fall-Off"
+            search_only: true
+      - artist: "Ecca Vandal"
+        title: "VERTICAL WORLDS"
+        kind: "track"
+        year: 2026
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/cold-of-the-world/1443777557?i=1443778321&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0vpUOgjK7BmMv6YE2bnpQA"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Ecca+Vandal+VERTICAL+WORLDS"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Ecca+Vandal+VERTICAL+WORLDS"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Ecca+Vandal+VERTICAL+WORLDS"
+            search_only: true
+      - artist: "Maden Lane"
+        title: "Tell Me"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/tell-me/1867252565?i=1867252573&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3AuEbScnrjiJne0Yxf8U1J"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Maden+Lane+Tell+Me"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Maden+Lane+Tell+Me"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Maden+Lane+Tell+Me"
+            search_only: true
+      - artist: "Vinted Vineer"
+        title: "blocksplitter"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/blocksplitter/1885532576?i=1885532590&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1d5B5P6TMlXBHikmQnZiOA"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Vinted+Vineer+blocksplitter"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Vinted+Vineer+blocksplitter"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Vinted+Vineer+blocksplitter"
+            search_only: true
+      - artist: "Vinted Vineer"
+        title: "Lament"
+        kind: "album"
+        confidence: 0.9200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Vinted+Vineer+Lament"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/album/2OQC52Q1qKpVJDMwvBHSAp"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Vinted+Vineer+Lament"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Vinted+Vineer+Lament"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Vinted+Vineer+Lament"
+            search_only: true
   - id: "01M0KQ71W1SF9K9TMRDZN3Z9XB"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DcTpA4BomST/?igsi=NjZiM2M3MzIxNA=="
