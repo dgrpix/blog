@@ -2,6 +2,55 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M127ZF025XYK8Z2YMJ6JQDFZ"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DciLxGDBbg7/"
+    title: "Sade – Nothing Can Come Between Us / Make Some Room"
+    completed_at: "Aug 27, 2026 · 11:36 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01M127ZF025XYK8Z2YMJ6JQDFZ.jpg"
+    items:
+      - artist: "Sade"
+        title: "Nothing Can Come Between Us"
+        kind: "track"
+        year: 1988
+        confidence: 0.8500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/nothing-can-come-between-us/604770232?i=604770781&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0qU806xTLhuZ5kCrex2x4r"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Sade+Nothing+Can+Come+Between+Us"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Sade+Nothing+Can+Come+Between+Us"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Sade+Nothing+Can+Come+Between+Us"
+            search_only: true
+      - artist: "Sade"
+        title: "Make Some Room"
+        kind: "track"
+        year: 1988
+        confidence: 0.8200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Sade+Make+Some+Room"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/search?q=Sade+Make+Some+Room"
+            search_only: true
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Sade+Make+Some+Room"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Sade+Make+Some+Room"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Sade+Make+Some+Room"
+            search_only: true
   - id: "01M106ZYNK1HAS3XPYF4FKDZED"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DaSFHGmh239/"
