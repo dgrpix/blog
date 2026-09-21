@@ -2,6 +2,70 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M33602WKCJ0PDEEHQSE9PTCR"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DdhebdasKj3/?stkn=NjZiM2M3MzIxNA=="
+    title: "3 Obscure Sexy Songs for a James Bond Vibe"
+    completed_at: "Sep 21, 2026 · 4:51 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01M33602WKCJ0PDEEHQSE9PTCR.jpg"
+    items:
+      - artist: "S-Tone Inc"
+        title: "Samba Noir - The Soundtrack"
+        kind: "track"
+        confidence: 0.9000
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/samba-noir-the-soundtrack/1308221924?i=1308221987&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3pOWt3oKTUUPpSOrANinzH"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=S-Tone+Inc+Samba+Noir+-+The+Soundtrack"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=S-Tone+Inc+Samba+Noir+-+The+Soundtrack"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=S-Tone+Inc+Samba+Noir+-+The+Soundtrack"
+            search_only: true
+      - artist: "Pretz"
+        title: "Chapel Stile"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/chapel-stile/1677809955?i=1677810077&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2RQBR44iaGpNZh66VkQLqZ"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Pretz+Chapel+Stile"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Pretz+Chapel+Stile"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Pretz+Chapel+Stile"
+            search_only: true
+      - artist: "St Germain"
+        title: "What You Think About..."
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/what-you-think-about/717406560?i=717406866&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6Sw5aOSeKrUBxenDEzuta7"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=St+Germain+What+You+Think+About..."
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=St+Germain+What+You+Think+About..."
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=St+Germain+What+You+Think+About..."
+            search_only: true
   - id: "01M127ZF025XYK8Z2YMJ6JQDFZ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DciLxGDBbg7/"
