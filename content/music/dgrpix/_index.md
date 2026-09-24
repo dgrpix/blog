@@ -2,6 +2,261 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M38GSTM2SNRSS0G9DWCDQRCZ"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DdoPJBPAzLN/?stkn=NjZiM2M3MzIxNA=="
+    title: "Songs Shazammed at a NYC Speakeasy Vinyl Cafe"
+    completed_at: "Sep 23, 2026 · 6:37 PM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01M38GSTM2SNRSS0G9DWCDQRCZ.jpg"
+    items:
+      - artist: "Tonga Conga & MULA"
+        title: "Mira Bien"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mira-bien/1605010282?i=1605010286&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2zuX3OXs5UlPTLiFkbQr0P"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Tonga+Conga+%26+MULA+Mira+Bien"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Tonga+Conga+%26+MULA+Mira+Bien"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Tonga+Conga+%26+MULA+Mira+Bien"
+            search_only: true
+      - artist: "KAROL G & Kali Uchis"
+        title: "ME TENGO QUE IR"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/me-tengo-que-ir/1699662660?i=1699662801&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/1Uvl2i3MlsoqGConBaKi7G"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=KAROL+G+%26+Kali+Uchis+ME+TENGO+QUE+IR"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=KAROL+G+%26+Kali+Uchis+ME+TENGO+QUE+IR"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=KAROL+G+%26+Kali+Uchis+ME+TENGO+QUE+IR"
+            search_only: true
+      - artist: "Judeline"
+        title: "mangata"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mangata/1774589372?i=1774589609&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3QtESLVdHryjd2Lr54180O"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Judeline+mangata"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Judeline+mangata"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Judeline+mangata"
+            search_only: true
+      - artist: "Qendresa"
+        title: "Besitos"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/search?term=Qendresa+Besitos"
+            search_only: true
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3D1zuCEEuruT48Y51VsHZq"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Qendresa+Besitos"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Qendresa+Besitos"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Qendresa+Besitos"
+            search_only: true
+      - artist: "PANTERA BLUE"
+        title: "Ese Aura"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/ese-aura/1798712178?i=1798712184&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6yXlOkoJxbl0orUevPa4wH"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=PANTERA+BLUE+Ese+Aura"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=PANTERA+BLUE+Ese+Aura"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=PANTERA+BLUE+Ese+Aura"
+            search_only: true
+      - artist: "LuliBono"
+        title: "YA NO TE KIERO"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/ya-no-te-kiero/1744118111?i=1744118374&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/66PxuEuljM9ct638huPF4i"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=LuliBono+YA+NO+TE+KIERO"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=LuliBono+YA+NO+TE+KIERO"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=LuliBono+YA+NO+TE+KIERO"
+            search_only: true
+      - artist: "Lorea"
+        title: "Se me va la cabeza"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/se-me-va-la-cabeza/1877696208?i=1877696419&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/13EH3kAXsKW4JsV0VXUqHP"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Lorea+Se+me+va+la+cabeza"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Lorea+Se+me+va+la+cabeza"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Lorea+Se+me+va+la+cabeza"
+            search_only: true
+      - artist: "KAROL G, Judeline & rusowsky"
+        title: "BbY WOW"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3h5T5JypYU7huFiVYhv1dr"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=KAROL+G%2C+Judeline+%26+rusowsky+BbY+WOW"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=KAROL+G%2C+Judeline+%26+rusowsky+BbY+WOW"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=KAROL+G%2C+Judeline+%26+rusowsky+BbY+WOW"
+            search_only: true
+      - artist: "Judeline & Pa Salieu"
+        title: "mi breve juventud"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mi-breve-juventud/1858409270?i=1858409272&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0UmdLpEcA5PGxEPQH4wln3"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Judeline+%26+Pa+Salieu+mi+breve+juventud"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Judeline+%26+Pa+Salieu+mi+breve+juventud"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Judeline+%26+Pa+Salieu+mi+breve+juventud"
+            search_only: true
+      - artist: "Dinamarca & AMORE"
+        title: "favorita"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/favorita/1667079083?i=1667079087&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/39vRGXdvet70hqNfxVQO0L"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Dinamarca+%26+AMORE+favorita"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Dinamarca+%26+AMORE+favorita"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Dinamarca+%26+AMORE+favorita"
+            search_only: true
+      - artist: "Natalia Doco"
+        title: "Respira (Rafa Barrios Remix)"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/respira-rafa-barrios-remix/1847978221?i=1847978222&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/7mI5SBOCSEWO8WJzKvv7NW"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Natalia+Doco+Respira+%28Rafa+Barrios+Remix%29"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Natalia+Doco+Respira+%28Rafa+Barrios+Remix%29"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Natalia+Doco+Respira+%28Rafa+Barrios+Remix%29"
+            search_only: true
+      - artist: "Desta French"
+        title: "Señor (El Búho Remix)"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/se%C3%B1or-el-b%C3%B9ho-remix/1765767965?i=1765767967&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/6BiaJT2dlk3jVW0fCDTALK"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Desta+French+Se%C3%B1or+%28El+B%C3%BAho+Remix%29"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Desta+French+Se%C3%B1or+%28El+B%C3%BAho+Remix%29"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Desta+French+Se%C3%B1or+%28El+B%C3%BAho+Remix%29"
+            search_only: true
+      - artist: "Los Eclipses, Eva de Marce & Dan Solo"
+        title: "Es La Hora"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/es-la-hora/1782247331?i=1782247332&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/5Lod0kLIEoPw6PuHi3LnDk"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Los+Eclipses%2C+Eva+de+Marce+%26+Dan+Solo+Es+La+Hora"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Los+Eclipses%2C+Eva+de+Marce+%26+Dan+Solo+Es+La+Hora"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Los+Eclipses%2C+Eva+de+Marce+%26+Dan+Solo+Es+La+Hora"
+            search_only: true
   - id: "01M33602WKCJ0PDEEHQSE9PTCR"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DdhebdasKj3/?stkn=NjZiM2M3MzIxNA=="
