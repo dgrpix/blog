@@ -2,6 +2,71 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M3SAX3CW8BBMMEWXFMY8BQ49"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DdwnZC_orX_/?stkn=NjZiM2M3MzIxNA=="
+    title: "If You Like Daft Punk — 3 Recommendations"
+    completed_at: "Sep 30, 2026 · 7:22 AM PDT"
+    thumbnail: "/music/dgrpix/thumbs/01M3SAX3CW8BBMMEWXFMY8BQ49.jpg"
+    items:
+      - artist: "L'Impératrice"
+        title: "Cosmogonie"
+        kind: "track"
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/cosmogonie/1736766809?i=1736766821&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4jc5rsFpWTMRE8VvcxwL9a"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=L%27Imp%C3%A9ratrice+Cosmogonie"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=L%27Imp%C3%A9ratrice+Cosmogonie"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=L%27Imp%C3%A9ratrice+Cosmogonie"
+            search_only: true
+      - artist: "Dax Riders"
+        title: "You Are the Sunshine of My Life"
+        kind: "track"
+        year: 2001
+        confidence: 0.9900
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/you-are-the-sunshine-of-my-life/1736795583?i=1736796324&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/3UZf9jVwXpfZrbudgZmjkB"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Dax+Riders+You+Are+the+Sunshine+of+My+Life"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Dax+Riders+You+Are+the+Sunshine+of+My+Life"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Dax+Riders+You+Are+the+Sunshine+of+My+Life"
+            search_only: true
+      - artist: "The Maneken"
+        title: "Interlude"
+        kind: "track"
+        confidence: 0.9500
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/interlude/1650333355?i=1650333841&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/2vbQiDI1VYIUadUPd3Gjgw"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=The+Maneken+Interlude"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=The+Maneken+Interlude"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=The+Maneken+Interlude"
+            search_only: true
   - id: "01M38GSTM2SNRSS0G9DWCDQRCZ"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DdoPJBPAzLN/?stkn=NjZiM2M3MzIxNA=="
