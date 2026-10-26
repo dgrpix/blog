@@ -18,7 +18,7 @@ const TRIP_CONFIG = {
         { day: 11, date: '2026-10-21', location: 'Saguenay (La Baie), Québec',       short: 'Saguenay',      lat: 48.3333, lon: -70.8667, arrival: null,       departure: null,      type: 'port',   note: 'Saguenay Fjord' },
         { day: 12, date: '2026-10-22', location: 'Québec City, Québec',              short: 'Québec City',   lat: 46.8139, lon: -71.2080, arrival: null,       departure: null,      type: 'port',   note: 'Overnight in port' },
         { day: 13, date: '2026-10-23', location: 'Québec City → home',          short: 'Québec City',   lat: 46.8139, lon: -71.2080, arrival: null,       departure: '12:45 PM', type: 'travel', flight: 'UA 3568 / UA 1690', note: 'Disembark 6:00 AM; YQB → Newark → SNA, lands 8:03 PM. JW Marriott Anaheim' },
-        { day: 14, date: '2026-10-24', location: 'Anaheim, California',              short: 'Anaheim',       lat: 33.8366, lon: -117.9143, arrival: null,      departure: null,      type: 'hotel'  },
+        { day: 14, date: '2026-10-24', location: 'Anaheim, California',              short: 'Anaheim',       lat: 33.8366, lon: -117.9143, arrival: null,      departure: null,      type: 'hotel',  note: 'Disney California Adventure, then Pokémon Night Out in Inglewood' },
         { day: 15, date: '2026-10-25', location: 'Anaheim, California',              short: 'Anaheim',       lat: 33.8366, lon: -117.9143, arrival: null,      departure: '11:00 AM', type: 'travel', note: 'Check out, drive home to Temecula' }
     ]
 };
