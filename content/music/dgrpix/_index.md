@@ -2,6 +2,10 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M6ENPZNY8HFE7431TNV3JRWE"
+    status: "failed"
+    source_url: "https://www.instagram.com/p/DfOmfNGIgMq/?cplk=aGQwNzhyM2tobXdx"
+    completed_at: "Nov 2, 2026 · 9:50 AM PST"
   - id: "01M6ENGZYJFHXB9WNQ2Q4QKPZQ"
     status: "failed"
     source_url: "https://www.instagram.com/p/DfMHQSCIiYj/?vrfl=cmhoc3Y2cXRhaW1n"
