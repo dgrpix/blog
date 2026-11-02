@@ -2,6 +2,73 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M6ETD1MPR7C1EGWX7MBMZA7W"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/DfH5GOmonuM/?mdxt=ZzBiaHk4aWNjYXZs"
+    title: "For Fans of Mezzanine & Dummy: Pinhdar Rec"
+    completed_at: "Nov 2, 2026 · 11:07 AM PST"
+    thumbnail: "/music/dgrpix/thumbs/01M6ETD1MPR7C1EGWX7MBMZA7W.jpg"
+    items:
+      - artist: "Pinhdar"
+        title: "A Sparkle on the Dark Water"
+        kind: "album"
+        year: 2024
+        confidence: 0.9800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/a-sparkle-on-the-dark-water/1734689999?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/6zSEQr02DPxpxZLHsYnrX8"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Pinhdar+A+Sparkle+on+the+Dark+Water"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Pinhdar+A+Sparkle+on+the+Dark+Water"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Pinhdar+A+Sparkle+on+the+Dark+Water"
+            search_only: true
+      - artist: "Massive Attack"
+        title: "Mezzanine"
+        kind: "album"
+        year: 1998
+        confidence: 0.9700
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/mezzanine/724466069?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Massive+Attack+Mezzanine"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Massive+Attack+Mezzanine"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Massive+Attack+Mezzanine"
+            search_only: true
+      - artist: "Portishead"
+        title: "Dummy"
+        kind: "album"
+        year: 1994
+        confidence: 0.9200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/dummy/1440653096?uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Portishead+Dummy"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Portishead+Dummy"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Portishead+Dummy"
+            search_only: true
   - id: "01M6ENPZNY8HFE7431TNV3JRWE"
     status: "failed"
     source_url: "https://www.instagram.com/p/DfOmfNGIgMq/?cplk=aGQwNzhyM2tobXdx"
