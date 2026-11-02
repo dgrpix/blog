@@ -2,6 +2,70 @@
 title: "dgrpix’s music finds"
 description: "Tracks and albums identified from short videos."
 submissions:
+  - id: "01M6ETKP2898K0SAQ8EHCJWQZY"
+    status: "completed"
+    source_url: "https://www.instagram.com/reel/De2vQ7ZBrh_/?obrf=MWpwbjc1dWdkenB1NA=="
+    title: "3 Obscure Late Night Lounging Songs"
+    completed_at: "Nov 2, 2026 · 11:10 AM PST"
+    thumbnail: "/music/dgrpix/thumbs/01M6ETKP2898K0SAQ8EHCJWQZY.jpg"
+    items:
+      - artist: "DJ Shadow"
+        title: "What Does Your Soul Look Like"
+        kind: "track"
+        confidence: 0.8800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/what-does-your-soul-look-like-pt-4/1660485817?i=1660485825&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0GLer8jmxlhDOtKPuRQhMz"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=DJ+Shadow+What+Does+Your+Soul+Look+Like"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=DJ+Shadow+What+Does+Your+Soul+Look+Like"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=DJ+Shadow+What+Does+Your+Soul+Look+Like"
+            search_only: true
+      - artist: "Fragile State"
+        title: "600 Bliss"
+        kind: "track"
+        confidence: 0.8800
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/600-bliss/1617459683?i=1617459973&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/0UqlURlRuL2DTrtVrLkafv"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Fragile+State+600+Bliss"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Fragile+State+600+Bliss"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Fragile+State+600+Bliss"
+            search_only: true
+      - artist: "Groove Armada"
+        title: "Inside My Mind (Blue Skies)"
+        kind: "track"
+        confidence: 0.9200
+        source: "synthesis"
+        links:
+          - service: "apple_music"
+            url: "https://music.apple.com/us/album/inside-my-mind-blue-skies/304756740?i=304756753&uo=4"
+          - service: "spotify"
+            url: "https://open.spotify.com/track/4K0QpmPPibcLNYKy7cyO3Z"
+          - service: "youtube_music"
+            url: "https://music.youtube.com/search?q=Groove+Armada+Inside+My+Mind+%28Blue+Skies%29"
+            search_only: true
+          - service: "tidal"
+            url: "https://tidal.com/search?q=Groove+Armada+Inside+My+Mind+%28Blue+Skies%29"
+            search_only: true
+          - service: "qobuz"
+            url: "https://www.qobuz.com/us-en/search?q=Groove+Armada+Inside+My+Mind+%28Blue+Skies%29"
+            search_only: true
   - id: "01M6ETD1MPR7C1EGWX7MBMZA7W"
     status: "completed"
     source_url: "https://www.instagram.com/reel/DfH5GOmonuM/?mdxt=ZzBiaHk4aWNjYXZs"
